@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Product;
+use App\Service\ProductService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
@@ -32,21 +33,11 @@ class ProductController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(Request $request,ProductService $productService)
     {
         try {
             DB::beginTransaction();
-            $data = $request->all();
-            $data['slug'] = Str::slug($request->name);
-            $data['product_code'] = 'p-'.Random::generate(4);
-            if ($image = $request->file('image')) {
-                $logo = time() . '-' . uniqid() . '.' . $image->getClientOriginalExtension();
-                $image->move('product', $logo);
-                $data['image'] = 'product/' . $logo;
-            }
-
-            $store = Product::query()->create($data);
-
+            $product = $productService->store();
             DB::commit();
             return redirect()->back()->with('success','Product successfully inserted');
         }catch (\Throwable $e) {

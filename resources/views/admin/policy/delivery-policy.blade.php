@@ -10,7 +10,8 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{ route('delivery-policy.index') }}">Home</a></li>
-                        <li class="breadcrumb-item active"> <a href="{{ route('delivery-policy.create') }}">add new Delivery-policy</a>
+                        <li class="breadcrumb-item active"> <a href="{{ route('delivery-policy.create') }}">add new
+                                Delivery-policy</a>
                         </li>
                     </ol>
                 </div>
@@ -27,24 +28,25 @@
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
-                        @if(isset($policy) && !empty($policy->id))
-                            {!! Form::model($policy,['route' => ['delivery-policy.update',$policy->id],'files'=>true]) !!}
+                        @if (isset($policy) && !empty($policy->id))
+                            {!! Form::model($policy, ['route' => ['delivery-policy.update', $policy->id], 'files' => true]) !!}
                             @method('PUT')
                         @else
-                            {!! Form::open(['route' => 'delivery-policy.store','files'=>true]) !!}
+                            {!! Form::open(['route' => 'delivery-policy.store', 'files' => true]) !!}
                         @endif
 
-                        {{Form::label('InSide Dhaka',null,['class'=>'form-label'])}}
-                        {{Form::number('inside_dhaka',null,['class'=>'form-control','placeholder'=>'Ex: 70tk'])}}
+                        {{ Form::label('InSide Dhaka', null, ['class' => 'form-label']) }}
+                        {{ Form::number('inside_dhaka', null, ['class' => 'form-control', 'placeholder' => 'Ex: 70tk']) }}
 
-                        {{Form::label('Outside Dhaka',null,['class'=>'form-label'])}}
-                        {{Form::number('outside_dhaka',null,['class'=>'form-control','placeholder'=>'Ex: 70tk'])}}
+                        {{ Form::label('Outside Dhaka', null, ['class' => 'form-label']) }}
+                        {{ Form::number('outside_dhaka', null, ['class' => 'form-control', 'placeholder' => 'Ex: 70tk']) }}
 
 
-                        {{Form::label('Details',null,['class'=>'form-label'])}}
-                        {{Form::textarea('details',null,['rows'=>4,'class'=>'form-control','id'=>'summernote'])}}
+                        {{ Form::label('Details', null, ['class' => 'form-label']) }}
+                        {{ Form::textarea('details', null, ['rows' => 4, 'class' => 'form-control', 'id' => 'summernote']) }}
 
-                        {{Form::submit('submit',['class'=>'btn btn-success mt-4'])}}
+
+                        {{ Form::submit('submit', ['class' => 'btn btn-success mt-4']) }}
 
                         {!! Form::close() !!}
 
@@ -70,9 +72,9 @@
                             </tr>
 
                             <tr>
-                                <td>{{ $policy->id ?? '-'}}</td>
+                                <td>{{ $policy->id ?? '-' }}</td>
                                 <td>{{ $policy->inside_dhaka ?? '-' }}</td>
-                                <td>{{ $policy->outside_dhaka ?? '-'}}</td>
+                                <td>{{ $policy->outside_dhaka ?? '-' }}</td>
                                 <td>{!! $policy->details ?? '-' !!}</td>
                             </tr>
                         </table>
@@ -86,4 +88,4 @@
     <!-- /.card -->
     </div>
     <div>
-@endsection
+    @endsection
