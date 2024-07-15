@@ -7,7 +7,7 @@
                     <h1 class="m-0">return Policy</h1>
                 </div><!-- /.col -->
 
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{ route('return-policy.index') }}">Home</a></li>
                         <li class="breadcrumb-item active"> <a href="{{ route('return-policy.create') }}">add new return-policy</a>
@@ -20,7 +20,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Add return-policy</h3>
@@ -35,7 +35,7 @@
                         @endif
 
                         {{Form::label('Details',null,['class'=>'form-label'])}}
-                        {{Form::textarea('details',null,['rows'=>4,'class'=>'form-control'])}}
+                        {{Form::textarea('details',null,['rows'=>4,'class'=>'form-control','id'=>'summernote'])}}
 
                         {{Form::submit('submit',['class'=>'btn btn-success mt-4'])}}
 
@@ -46,7 +46,7 @@
                 </div>
 
             </div>
-            <div class="col-md-7 col-lg-7">
+            <div class="col-md-12 col-lg-12">
                 <div class="card">
                     <!-- /.card-header -->
                     <div class="card-header">
@@ -58,11 +58,8 @@
                             <tr>
                                 <th>Details</th>
                             </tr>
-
-
                             <tr>
-                                <td>{{ $policy->details ?? '-'}}</td>
-
+                                <td>{!! $policy->details ?? '-' !!}</td>
                         </table>
                     </div>
                     <!-- /.card-body -->

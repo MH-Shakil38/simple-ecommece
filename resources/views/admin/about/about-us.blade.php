@@ -19,7 +19,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Add About</h3>
@@ -34,7 +34,7 @@
                         @endif
 
                         {{Form::label('Details',null,['class'=>'form-label'])}}
-                        {{Form::textarea('details',null,['rows'=>4,'class'=>'form-control'])}}
+                        {{Form::textarea('details',null,['rows'=>4,'class'=>'form-control summernote','id'=>'summernote'])}}
                             <input type="hidden" name="id" value="{{$about->id ?? ''}}">
 
                         {{Form::submit('submit',['class'=>'btn btn-success mt-4'])}}
@@ -45,7 +45,7 @@
                 </div>
 
             </div>
-            <div class="col-md-8 col-lg-8">
+            <div class="col-md-12 col-lg-12">
                 <div class="card">
                     <!-- /.card-header -->
                     <div class="card-header">
@@ -54,7 +54,7 @@
                     <div class="card-body">
                        <h3>Details</h3>
                         <hr>
-                        <p>{{$about->details ?? '-'}}</p>
+                        <p{!! $about->details ?? '-' !!}</p>
                     </div>
                     <!-- /.card-body -->
                 </div>

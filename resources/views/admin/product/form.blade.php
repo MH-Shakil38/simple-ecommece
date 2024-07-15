@@ -52,7 +52,7 @@
                                 {{Form::label('Category',null,['class'=>'form-label'])}}
                                 {{Form::select('category_id',$categories,isset($product)?$product->category_id : null,['class'=>'form-control','required','placeholder'=>'Select Category'])}}
                             </div>
-
+                          
                             <div class="col-md-12">
                                 {{Form::label('Description',null,['class'=>'form-label'])}}
                                 {{Form::textarea('description',null,['rows'=>4,'class'=>'form-control summernote','id'=>'summernote','required'])}}

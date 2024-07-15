@@ -20,7 +20,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Add Delivery-policy</h3>
@@ -42,7 +42,7 @@
 
 
                         {{Form::label('Details',null,['class'=>'form-label'])}}
-                        {{Form::textarea('details',null,['rows'=>4,'class'=>'form-control'])}}
+                        {{Form::textarea('details',null,['rows'=>4,'class'=>'form-control','id'=>'summernote'])}}
 
                         {{Form::submit('submit',['class'=>'btn btn-success mt-4'])}}
 
@@ -53,7 +53,7 @@
                 </div>
 
             </div>
-            <div class="col-md-8 col-lg-8">
+            <div class="col-md-12 col-lg-12">
                 <div class="card">
                     <!-- /.card-header -->
                     <div class="card-header">
@@ -69,13 +69,12 @@
                                 <th>Details</th>
                             </tr>
 
-
-                                <tr>
-                                    <td>{{ $policy->id ?? '-'}}</td>
-                                    <td>{{ $policy->inside_dhaka ?? '-' }}</td>
-                                    <td>{{ $policy->outside_dhaka ?? '-'}}</td>
-                                    <td>{{ $policy->details ?? '-'}}</td>
-
+                            <tr>
+                                <td>{{ $policy->id ?? '-'}}</td>
+                                <td>{{ $policy->inside_dhaka ?? '-' }}</td>
+                                <td>{{ $policy->outside_dhaka ?? '-'}}</td>
+                                <td>{!! $policy->details ?? '-' !!}</td>
+                            </tr>
                         </table>
                     </div>
                     <!-- /.card-body -->
