@@ -2,8 +2,8 @@
     <div class="slider">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div id="home_slider" class="carousel slide" data-ride="carousel">
+                <div class="col-md-12" >
+                    <div id="home_slider" class="carousel slide" data-ride="carousel" style="box-shadow:0px 32px 49px -4px #75a565">
                         <ol class="carousel-indicators">
                             <li data-target="#home_slider" data-slide-to="0"  class="active" ></li>
                             <li data-target="#home_slider" data-slide-to="1" ></li>
@@ -13,8 +13,7 @@
 
                             @forelse($slider as $info)
                             <div class="carousel-item {{$loop->iteration ==1 ?'active' : ''}}">
-                                <img src="{{$info->image}}" class="d-block w-100"
-                                     alt="">
+                                <img src="{{$info->image}}" class="d-block w-100"alt="">
                             </div>
                             @empty
                             @endforelse

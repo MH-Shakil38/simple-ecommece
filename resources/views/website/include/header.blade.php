@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-4 col-7">
                     <div class="header-left">
-                        <p>Welcome to {{$site->name}}</p>
+                        <p>Welcome to {{$site->name ?? 'E-commerce'}}</p>
                     </div>
                 </div>
 
@@ -106,14 +106,21 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3 col-7 logo-m">
+                <div class="col-md-4 col-7 logo-m">
                     <div class="logo">
-                        <a href="{{url('/')}}"><img
-                                src="{{asset($site->logo)}}" alt=""></a>
+                        <a href="{{url('/')}}">
+                            <div class="row">
+                                <di class="col-md-3">
+                                    <img src="{{asset($site->logo ?? '')}}" alt=""><span style="">
+                                </di>
+                                <di class="col-md-9 mt-2" style="margin-left:-10px">
+                                   <h4>{{ $site->name }}</h4>
+                                </di>
+                            </div></a>
                     </div>
                 </div>
 
-                <div class="col-md-6 py-md-3 d-none d-md-block">
+                <div class="col-md-5 py-md-3 d-none d-md-block">
                     <div class="search">
                         <form action="https://citystorebd.com/search" method="get">
                             <select name="category" id="category" class="search-select">
@@ -139,14 +146,28 @@
                 </div>
 
                 <div class="col-md-3 text-md-right text-center py-3 cart-m">
-                    <span class="cart-number d-none d-md-inline-block"><i class="fa fa-phone"></i> {{$site->phone1}}</span>
-                    <div class="cart d-inline-block position-relative">
+                    <span class="cart-number d-none d-md-inline-block"><i class="fa fa-phone"></i> {{$site->phone1 ?? ''}}</span>
+                    <div class="cart d-inline-block position-relative checkout">
                         <span class="badge badge-danger rounded-circle">{{ count((array) session('cart')) }}</span>
-                        <a href="{{route('checkout')}}"><i style="color: #000" class="fa fa-2x fa-shopping-cart"></i></a>
+                        <a href="{{route('checkout')}}"><i style="color: #fff6f6" class="fa fa-2x fa-shopping-cart"></i></a>
                     </div>
                 </div>
             </div>
         </div>
+        <style>
+            .checkout {
+                /* position: relative !important; */
+                position: fixed !important;
+                right: 18px;
+                background: rgb(8, 170, 30);
+                width: 53px;
+                color: green !important;
+                padding: 11px;
+                top: 30%;
+                border-radius: 12% 62% 9% 35%;
+                z-index: 99999999999;
+            }
+        </style>
 
         <div class="cat_menu_m">
             <ul>

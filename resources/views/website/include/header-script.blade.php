@@ -2,20 +2,17 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>City Store BD -     Home
+<title>{{ setting()->name ?? 'Home Page' }}
 </title>
-<meta name="description"
-      content="">
+<meta name="description" content="">
 <meta property="og:site_name" content="City Store BD">
 <meta property="og:image" content="uploads/63b2a9f407e01.png">
 <meta property="og:title" content="City Store BD">
-<meta property="og:description"
-      content="">
+<meta property="og:description" content="">
 <meta property="og:url" content="index.html">
 <meta property="og:type" content="e-commerce">
 <meta name="twitter:title" content="City Store BD">
-<meta name="twitter:description"
-      content="">
+<meta name="twitter:description" content="">
 
 <link rel="shortcut icon" href="{{asset('/')}}frontEnd/images/no_image.png">
 
@@ -24,7 +21,7 @@
 <link href="{{asset('/')}}frontEnd/plugins/font-awesome/font-awesome.css" rel="stylesheet">
 
 <link rel="stylesheet" href="{{asset('frontEnd/')}}/css/bootstrap.min.css">
-<link rel="stylesheet" href="{{asset('frontEnd/')}}/css/style.css">
+<link rel="stylesheet" href="{{asset('frontEnd/')}}/css/style.css?key={{ now() }}">
 
 <link rel="stylesheet" href="{{asset('frontEnd/')}}/plugins/owl-carousel/owl.carousel.min.css">
 <link rel="stylesheet" href="{{asset('frontEnd/')}}/plugins/owl-carousel/owl.theme.default.min.css">
@@ -33,6 +30,38 @@
 
 
 <meta name="facebook-domain-verification" content="1ikl8jd5t5y087j86kc7hs8efnvnkf" />
+
+<style>
+    .section-title {
+        color: green !important;
+        font-family:SolaimanLipi;
+        font-size:30px !important;
+    }
+    .original-price{
+        text-decoration: line-through;
+        color: #000000
+    }
+    .main-product-inner-wrapper .selling-price{
+        color: rgb(2, 104, 2) !important;
+        font-size: 30px;
+    }
+    .main-product .main-product-inner-wrapper:hover{
+        input{
+            background-color: #000;
+        }
+        }
+    @media (min-width: 800px) {
+        .main-product .main-product-inner-wrapper img{
+            min-height: 260px;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .main-product .main-product-inner-wrapper img{
+            min-height: 200px;
+        }
+    }
+</style>
 
 
 <!-- Meta Pixel Code -->

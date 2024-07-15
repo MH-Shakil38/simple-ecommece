@@ -16,9 +16,9 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug');
             $table->longText('description')->nullable();
-            $table->tinyInteger('status')->nullable();
-            $table->tinyInteger('popular')->nullable();
-            $table->string('show_menu')->nullable();
+            $table->tinyInteger('status')->default(1);
+            $table->tinyInteger('popular')->default(1);
+            $table->string('show_menu')->default(1);
             $table->timestamps();
         });
     }

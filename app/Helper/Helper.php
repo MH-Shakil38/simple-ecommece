@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Setting;
 
 if (!function_exists('siteInfo')){
     function siteInfo(){
@@ -72,6 +73,26 @@ if (!function_exists('about_us')){
     function about_us(){
         return \App\Models\AboutUs::query()->first();
 
+    }
+}
+
+if (!function_exists('thumbnail')){
+    function thumbnail($image){
+        $placeholder = asset('thumbnail.webp');
+        if ($image == "" || $image == null){
+            return $placeholder;
+        }
+
+        $headers = @get_headers($placeholder);
+        $isImageAvailable = $headers && strpos($headers[0], '200');
+        return $isImageAvailable ? $image : $placeholder;
+
+    }
+}
+
+if (!function_exists('setting')){
+    function setting(){
+       return Setting::query()->first();
     }
 }
 
