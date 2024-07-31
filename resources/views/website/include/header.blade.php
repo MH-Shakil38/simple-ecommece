@@ -14,7 +14,7 @@
                             <li>
                                 <i class="fa fa-home"></i>
                                 <a href="{{url('/')}}">
-                                    <span>Home</span>
+                                    <span>হোম</span>
                                 </a>
                             </li>
 
@@ -66,15 +66,15 @@
                                     <ul>
                                         <li>
                                             <span class="fa fa-home"></span>
-                                            <a href="index.html">
-                                                <span>Home</span>
+                                            <a href="{{ route('/') }}">
+                                                <span>হোম</span>
                                             </a>
                                         </li>
 
 
                                         <li>
                                             <span class="fa fa-shopping-cart"></span>
-                                            <a href="checkout.html">
+                                            <a href="{{ route('checkout') }}">
                                                 <span>Checkout</span>
                                             </a>
                                         </li>
@@ -165,7 +165,7 @@
         <div class="cat_menu_m">
             <ul>
                 <li>
-                    <a href="{{url('/')}}">Home</a>
+                    <a href="{{url('/')}}">হোম</a>
                 </li>
                 @forelse($menu_categories as $info)
                     <li>
@@ -223,7 +223,7 @@
                     <div class="cat_menu">
                         <ul>
                             <li>
-                                <a href="{{url('/')}}">Home</a>
+                                <a href="{{url('/')}}">হোম</a>
                             </li>
                             @forelse($menu_categories as $info)
                             <li>
