@@ -106,7 +106,7 @@
                             <input type="submit" class="btn px-4 order_now_btn order_now_btn_m" name="order_now"value="অর্ডার করুন">
                             <span class="mt-md-4 mt-2">
                                 <a class="btn px-4 order_now_btn  add_to_card_btn bg-danger pt-2"
-                                    data-id="{{ $info->id }}">কার্ডে যুক্ত করুন </a>
+                                    data-id="{{ $info->id }}">কার্টে যুক্ত করুন</a>
                             </span>
                         </form>
 
