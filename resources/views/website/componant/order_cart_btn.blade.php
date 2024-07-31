@@ -2,7 +2,7 @@
     <input type="hidden" class="qty" value="1">
     <input type="hidden" class="product_id" value="{{ $product_id }}">
     <input type="hidden" class="stock_id" value="{{ $stock_id }}">
-    <button class="btn btn-sm w-100 mb-2 add_to_card_button"> Add To Card </button>
+    <button class="btn btn-sm w-100 mb-2 add_to_card_button"> কার্ডে যুক্ত করুন </button>
 @endif
 
 @if ($type == 'order_btn')
