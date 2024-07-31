@@ -57,11 +57,11 @@
                                     <td>{{ $item->category->name ?? '--' }}</td>
 
                                     <td class="">
-                                        <table class="table-bordered m-0 p-0">
+                                        <table class="table-bordered border-2 m-0 p-0" >
 
                                             @forelse ($item->sizePrice as $info)
-                                                <tr class="">
-                                                    <td>{{ $info->size }}</td>
+                                                <tr class="border-2" style="border: 2px solid rgb(30, 5, 131);min-width:500px">
+                                                    <td class="border-2">{{ $info->size }}</td>
                                                     <td>{{ $info->price }}-tk</td>
                                                     <td>{{ $info->offer }}%</td>
                                                     <td> <span class="badge {{ $info->in_stock == 1 ? 'badge-success' : 'badge-danger' }} ">{{ $info->in_stock == 1 ? 'In-stock' : 'Out of stock' }}</span>

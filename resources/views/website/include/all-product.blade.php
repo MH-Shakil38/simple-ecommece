@@ -10,8 +10,8 @@
                 @forelse($products as $info)
                     <div class="col-md-3 col-lg-3 col-6 main-product">
                         @if ($info->sizePrice[0]->offer)
-                            <div class="discount mt-2 mr-2">
-                                <div class="discount-wrapper">
+                            <div class="discount mt-2 mr-2" style="background: #b6beb6 !important">
+                                <div class="discount-wrapper" style="background: #b6beb6 !important">
                                     <img src="frontEnd/images/flash-deal-percentage.png" alt=""
                                         class="rounded-circle">
                                     <span>{{ $info->sizePrice[0]->offer }}%</span>
