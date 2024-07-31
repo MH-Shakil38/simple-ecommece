@@ -33,12 +33,16 @@
                                 <th>image</th>
                                 <th>Name</th>
                                 <th>Category</th>
-                                <th>stock</th>
-                                <th>Size/Price</th>
-                                <th>Quantity</th>
-                                <th>Original Price</th>
-                                <th>Selling Price</th>
-                                <th>Offer Price</th>
+                                <th class="p-0 m-0">
+                                    <table class="p-0 m-0 ml-2 bg-green">
+                                        <tr class="table-bordered">
+                                            <th>Size</th>
+                                            <th>Price</th>
+                                            <th>Offer</th>
+                                            <th>in Stock</th>
+                                        </tr>
+                                    </table>
+                                </th>
                                 <th>Action</th>
                             </tr>
                             @forelse($products as $item)
@@ -51,25 +55,23 @@
                                     </td>
                                     <td>{{ $item->name }}</td>
                                     <td>{{ $item->category->name ?? '--' }}</td>
-                                    <td> <span
-                                            class="badge {{ $item->stock == 1 ? 'badge-success' : 'badge-danger' }} ">{{ $item->stock == 1 ? 'In-stock' : 'Out of stock' }}</span>
-                                    </td>
-                                    <td>
-                                        <table class="table-bordered">
+
+                                    <td class="">
+                                        <table class="table-bordered m-0 p-0">
+
                                             @forelse ($item->sizePrice as $info)
-                                                <tr>
+                                                <tr class="">
                                                     <td>{{ $info->size }}</td>
                                                     <td>{{ $info->price }}-tk</td>
+                                                    <td>{{ $info->offer }}%</td>
+                                                    <td> <span class="badge {{ $info->in_stock == 1 ? 'badge-success' : 'badge-danger' }} ">{{ $info->in_stock == 1 ? 'In-stock' : 'Out of stock' }}</span>
+                                                </td>
                                                 </tr>
                                             @empty
                                             @endforelse
 
                                         </table>
                                     </td>
-                                    <td>{{ $item->quantity }}</td>
-                                    <td>{{ $item->original_price }}</td>
-                                    <td>{{ $item->selling_price }}</td>
-                                    <td>{{ $item->offer_price }}</td>
                                     <td class="d-flex">
                                         <a href="{{ route('products.edit', [$item->id]) }}"
                                             class="btn btn-sm btn-primary mr-1"><i class="fas fa-edit"></i></a>

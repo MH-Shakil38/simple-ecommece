@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->tinyInteger('customer_id');
-            $table->tinyInteger('product_id');
+            $table->unsignedBigInteger('customer_id');
+            $table->unsignedBigInteger('product_id');
+            $table->unsignedBigInteger('stock_id');
             $table->integer('qty');
             $table->integer('selling_price');
             $table->integer('total');

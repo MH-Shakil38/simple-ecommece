@@ -39,11 +39,9 @@ if (!function_exists('products')){
 }
 
 if (!function_exists('discount_calculate')){
-    function discount_calculate($original_price,$selling_price){
-        $discount = $original_price - $selling_price;
-        $result =  $discount/$original_price * 100;
-        return round($result);
-
+    function discount_calculate($price,$offer){
+        $result =  $offer / 100 * $price;
+        return round($price - $result);
     }
 }
 

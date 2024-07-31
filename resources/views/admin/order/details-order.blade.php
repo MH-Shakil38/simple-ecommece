@@ -23,24 +23,30 @@
                                 <th>Sl</th>
                                 <th>Name</th>
                                 <th>image</th>
-                                <th>Selling Price</th>
+                                <th>Price</th>
+                                <th>Size</th>
                                 <th>Quantity</th>
+                                <th>Total</th>
                             </tr>
                             @forelse($orders as $info)
-
                                 <tr>
                                     <td>{{$loop->iteration}}</td>
                                     <td>{{$info->product->name}}</td>
                                     <td><img src="{{asset($info->product->image)}}" height="80px" width="80px" alt=""></td>
-                                    <td class="text-center">{{$info->product->selling_price}}</td>
-                                    <td class="text-center">{{$info->qty}}</td>
-
+                                    <td class="">{{$info->selling_price}}</td>
+                                    <td class="">{{$info->stock->size}}</td>
+                                    <td class="">{{$info->qty}}</td>
+                                    <td class="">{{$info->qty * $info->selling_price}}</td>
                                 </tr>
                             @empty
                             @endforelse
                             <tr>
-                                <td colspan="3" class="text-right">Total</td>
-                                <td class="text-center">{{$product = \App\Models\TmpOrder::query()->where('customer_id',$customer->id)->sum('selling_price')}}</td>
+                                <td colspan="6" class="text-right">Shipping Cost:</td>
+                                <td class="">{{ $customer->delivery_cost}}</td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" class="text-right">Total:</td>
+                                <td class="">{{$total ?? 0}}</td>
                             </tr>
 
                         </table>

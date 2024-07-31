@@ -14,19 +14,21 @@
 <meta name="twitter:title" content="City Store BD">
 <meta name="twitter:description" content="">
 
-<link rel="shortcut icon" href="{{asset('/')}}frontEnd/images/no_image.png">
+<link rel="shortcut icon" href="{{ asset('/') }}frontEnd/images/no_image.png">
 
-<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap"
+    rel="stylesheet">
 
-<link href="{{asset('/')}}frontEnd/plugins/font-awesome/font-awesome.css" rel="stylesheet">
+<link href="{{ asset('/') }}frontEnd/plugins/font-awesome/font-awesome.css" rel="stylesheet">
 
-<link rel="stylesheet" href="{{asset('frontEnd/')}}/css/bootstrap.min.css">
-<link rel="stylesheet" href="{{asset('frontEnd/')}}/css/style.css?key={{ now() }}">
+<link rel="stylesheet" href="{{ asset('frontEnd/') }}/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ asset('frontEnd/') }}/css/style.css?key={{ now() }}">
 
-<link rel="stylesheet" href="{{asset('frontEnd/')}}/plugins/owl-carousel/owl.carousel.min.css">
-<link rel="stylesheet" href="{{asset('frontEnd/')}}/plugins/owl-carousel/owl.theme.default.min.css">
+<link rel="stylesheet" href="{{ asset('frontEnd/') }}/plugins/owl-carousel/owl.carousel.min.css">
+<link rel="stylesheet" href="{{ asset('frontEnd/') }}/plugins/owl-carousel/owl.theme.default.min.css">
 
-<link rel="stylesheet" type="text/css" href="{{asset('/')}}backEnd/assets/vendor/toastr/toastr.min.css">
+<link rel="stylesheet" type="text/css" href="{{ asset('/') }}backEnd/assets/vendor/toastr/toastr.min.css">
 
 
 <meta name="facebook-domain-verification" content="1ikl8jd5t5y087j86kc7hs8efnvnkf" />
@@ -34,30 +36,50 @@
 <style>
     .section-title {
         color: green !important;
-        font-family:SolaimanLipi;
-        font-size:30px !important;
+        font-family: SolaimanLipi;
+        font-size: 30px !important;
     }
-    .original-price{
+
+    .original-price {
         text-decoration: line-through;
         color: #000000
     }
-    .main-product-inner-wrapper .selling-price{
+
+    .main-product-inner-wrapper .selling-price {
         color: rgb(2, 104, 2) !important;
         font-size: 30px;
     }
-    .main-product .main-product-inner-wrapper:hover{
-        input{
-            background-color: #000;
-        }
-        }
+
+    .order_now_btn:hover {
+        background-color: #05acdf;
+        box-shadow: 0px 0px 28px -3px #058d3b;
+    }
+
+    .add_to_card_button:hover {
+        background-color: #0332cc;
+        box-shadow: 0px 0px 28px -3px #991d1d;
+        color: #ffffff;
+    }
+
+    .add_to_card_button {
+        background-color: #991d1d;
+        height: 45px;
+        color: #ffffff;
+    }
+
+    /* .main-product .main-product-inner-wrapper:hover{
+        input
+        } */
+
+
     @media (min-width: 800px) {
-        .main-product .main-product-inner-wrapper img{
+        .main-product .main-product-inner-wrapper img {
             min-height: 260px;
         }
     }
 
     @media (max-width: 800px) {
-        .main-product .main-product-inner-wrapper img{
+        .main-product .main-product-inner-wrapper img {
             min-height: 200px;
         }
     }
@@ -66,37 +88,55 @@
 
 <!-- Meta Pixel Code -->
 <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
         '../connect.facebook.net/en_US/fbevents.js');
     fbq('init', '937907057380776');
     fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-               src="https://www.facebook.com/tr?id=937907057380776&amp;ev=PageView&amp;noscript=1"
-    /></noscript>
+        src="https://www.facebook.com/tr?id=937907057380776&amp;ev=PageView&amp;noscript=1" /></noscript>
 <!-- End Meta Pixel Code -->
 
 
 <!-- Meta Pixel Code -->
 <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
         '../connect.facebook.net/en_US/fbevents.js');
     fbq('init', '1324527251732363');
     fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-               src="https://www.facebook.com/tr?id=1324527251732363&amp;ev=PageView&amp;noscript=1"
-    /></noscript>
+        src="https://www.facebook.com/tr?id=1324527251732363&amp;ev=PageView&amp;noscript=1" /></noscript>
 <!-- End Meta Pixel Code -->

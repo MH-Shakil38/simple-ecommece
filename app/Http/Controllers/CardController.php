@@ -3,35 +3,33 @@
 namespace App\Http\Controllers;
 
 use App\Models\Card;
+use App\Models\DeliveryPolicy;
 use App\Models\Product;
+use App\Models\Stock;
+use App\Service\CartService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
 
 class CardController extends Controller
 {
-    public function add_card(Request $request)
+    public function add_card(Request $request,CartService $cartService)
     {
-        $id = $request->id;
-        $product = Product::findOrFail($id);
-
-        $cart = session()->get('cart', []);
-
-        if(isset($cart[$id])) {
-            $cart[$id]['qty']++;
-        } else {
-            $cart[$id] = [
-                "name" => $product->name,
-                "qty" => 1,
-                "price" => $product->selling_price,
-                "image" => $product->image,
-                "id"    => $product->id
-            ];
+        $cart = $cartService->addProductToCart();
+        if($request->ajax()){
+            return response()->json(['success' => 'Product Added into Cart','cart'=>$cart]);
+        }else{
+            return redirect()->route('checkout')->with('success', 'Product added to cart successfully!');
         }
+    }
 
-        session()->put('cart', $cart);
-        return redirect()->route('checkout')->with('success', 'Product added to cart successfully!');
-
+    public function sizePrice(Request $request)
+    {
+        $sizePrice = Stock::query()->findOrFail($request->sizeId);
+        $price = discount_calculate($sizePrice->price,$sizePrice->offer);
+        if($request->ajax()){
+            return response()->json(['success' => 'Product Added into Cart','size'=>$sizePrice,'price'=>$price]);
+        }
     }
 
     public function minus_card(Request $request)
@@ -39,29 +37,39 @@ class CardController extends Controller
 
         if ($request->ajax()){
             if ($request->has('delivery_cost')){
-                Session::forget('shipping_cost');
-                session()->put('shipping_cost',$request->delivery_cost);
-                return response()->json(['data'=>$request->delivery_cost]);
+
+                $cost = DeliveryPolicy::query()->first();
+                if(Session::get('shipping_cost') == 70){
+                    Session::forget('shipping_cost');
+                    $delivery_cost = $cost->outside_dhaka;
+                    Session::put('shipping_cost',$cost->outside_dhaka);
+                }else{
+                    Session::forget('shipping_cost');
+                    $delivery_cost = $cost->inside_dhaka;
+                    Session::put('shipping_cost',$cost->inside_dhaka);
+                }
+                session()->put('shipping_cost',$delivery_cost);
+                return response()->json(['data'=>$delivery_cost]);
             }
         }
-        $id = $request->id;
-        $product = Product::findOrFail($id);
+        // $id = $request->id;
+        // $product = Product::findOrFail($id);
 
-        $cart = session()->get('cart', []);
+        // $cart = session()->get('cart', []);
 
-        if(isset($cart[$id]) && $cart[$id]['qty'] >= 1 ) {
-            $cart[$id]['qty']--;
-        } else {
-            $cart[$id] = [
-                "name" => $product->name,
-                "qty" => 1,
-                "price" => $product->selling_price,
-                "image" => $product->image,
-                "id"    => $product->id
-            ];
-        }
+        // if(isset($cart[$id]) && $cart[$id]['qty'] >= 1 ) {
+        //     $cart[$id]['qty']--;
+        // } else {
+        //     $cart[$id] = [
+        //         "name" => $product->name,
+        //         "qty" => 1,
+        //         "price" => $product->selling_price,
+        //         "image" => $product->image,
+        //         "id"    => $product->id
+        //     ];
+        // }
 
-        session()->put('cart', $cart);
+        // session()->put('cart', $cart);
         return redirect()->back()->with('success', 'Product added to cart successfully!');
 
     }
@@ -76,12 +84,13 @@ class CardController extends Controller
         }
     }
 
-    public function remove(Request $request)
+    public function remove($id,$stock_id)
     {
-        if($request->id) {
+
+        if(isset($id) && isset($stock_id)) {
             $cart = session()->get('cart');
-            if(isset($cart[$request->id])) {
-                unset($cart[$request->id]);
+            if(isset($cart[$id.'stock'.$stock_id])) {
+                unset($cart[$id.'stock'.$stock_id]);
                 session()->put('cart', $cart);
             }
             session()->flash('success', 'Product removed successfully');

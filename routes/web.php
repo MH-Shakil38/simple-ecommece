@@ -25,11 +25,12 @@ Route::get('/About-us',[\App\Http\Controllers\WebsiteController::class,'about'])
 Route::get('/Return-policy',[\App\Http\Controllers\WebsiteController::class,'return_policy'])->name('website.return.policy');
 Route::get('/Delivery-policy',[\App\Http\Controllers\WebsiteController::class,'delivery_policy'])->name('website.delivery.policy');
 Route::post('/add-card',[\App\Http\Controllers\CardController::class,'add_card'])->name('add.card');
+Route::post('/size-price',[\App\Http\Controllers\CardController::class,'sizePrice'])->name('sizePrice');
 Route::post('/minus-card',[\App\Http\Controllers\CardController::class,'minus_card'])->name('minus.card');
 Route::post('/update-card',[\App\Http\Controllers\CardController::class,'add_card'])->name('update.card');
 Route::get('/checkout',[\App\Http\Controllers\CheckoutController::class,'checkout'])->name('checkout');
 Route::get('/card-clear',[\App\Http\Controllers\CardController::class,'card_clear'])->name('card.clear');
-Route::get('/card-remove/{id}',[\App\Http\Controllers\CardController::class,'remove'])->name('card.remove');
+Route::get('/card-remove/{id}/{stock_id}',[\App\Http\Controllers\CardController::class,'remove'])->name('card.remove');
 Route::post('/place-order',[\App\Http\Controllers\OrderController::class,'place_order'])->name('place.order');
 
 Auth::routes();

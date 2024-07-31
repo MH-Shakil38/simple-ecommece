@@ -72,7 +72,7 @@
                             <th>Name</th>
                             <th>Phone</th>
                             <th>Address</th>
-                            <th>Date</th>
+                            <th>Order Date</th>
                             <th>Action</th>
                         </tr>
                         @forelse($orders as $info)
@@ -81,8 +81,7 @@
                                 <td>{{$info->customer->customer_name}}</td>
                                 <td>{{$info->customer->customer_phone}}</td>
                                 <td>{{$info->customer->customer_address}}</td>
-                                <td>{{$info->customer->created_at}}</td>
-                                <td>{{$info->created_at}}</td>
+                                <td>{{Carbon\Carbon::parse($info->created_at)->format('d M y')}}</td>
                                 <td>
                                     <a class="btn btn-info"  href="{{route('order.details',['receive'=>false,'id'=>$info->customer->id])}}">Details</a>
                                     <a class="btn btn-success" href="{{route('store.order',$info->customer->id)}}">Received</a>

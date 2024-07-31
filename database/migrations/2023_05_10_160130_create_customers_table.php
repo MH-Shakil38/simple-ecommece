@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('customer_name');
             $table->string('customer_phone');
             $table->string('customer_address');
+            $table->tinyInteger('delivery_cost')->default(0);
             $table->timestamps();
         });
     }

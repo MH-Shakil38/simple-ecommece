@@ -43,26 +43,23 @@
                         @endif
                         <div class="row">
 
-                            <div class="col-md-6">
+                            <div class="col-md-9">
                                 {{ Form::label('Name', null, ['class' => 'form-label']) }}
                                 {{ Form::text('name', null, ['class' => 'form-control', 'required']) }}
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 {{ Form::label('Category', null, ['class' => 'form-label']) }}
                                 {{ Form::select('category_id', $categories, isset($product) ? $product->category_id : null, ['class' => 'form-control', 'required', 'placeholder' => 'Select Category']) }}
                             </div>
 
-                            <div class="col-md-12">
-                                {{ Form::label('Description', null, ['class' => 'form-label']) }}
-                                {{ Form::textarea('description', null, ['rows' => 4, 'class' => 'form-control', 'id' => 'summernote']) }}
-                            </div>
+
                             {{--                            <div class="col-md-12"> --}}
                             {{--                                <label for="" class="form-label">Description</label> --}}
                             {{--                                <textarea type="text" class="summernote form-control" id="summernote" name="description" placeholder="Select Product description"></textarea> --}}
                             {{--                            </div> --}}
 
-                            <div class="col-md-4">
+                            {{-- <div class="col-md-4">
                                 {{ Form::label('Original Price', null, ['class' => 'form-label']) }}
                                 {{ Form::number('original_price', null, ['class' => 'form-control', 'required']) }}
                             </div>
@@ -75,45 +72,51 @@
                             <div class="col-md-4">
                                 {{ Form::label('Offer Price', null, ['class' => 'form-label']) }}
                                 {{ Form::number('offer_price', null, ['class' => 'form-control']) }}
-                            </div>
+                            </div> --}}
 
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 {{ Form::label('Quantity', null, ['class' => 'form-label']) }}
                                 {{ Form::text('quantity', null, ['class' => 'form-control', 'required']) }}
                             </div>
 
 
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 {{ Form::label('Show Hot Deal', null, ['class' => 'form-label']) }}
                                 {{ Form::select('show_hot_deal', [1 => 'show', 0 => 'hide'], null, ['class' => 'form-control']) }}
                             </div>
 
 
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 {{ Form::label('Image', null, ['class' => 'form-label']) }}
                                 {{ Form::file('image', ['class' => 'form-control']) }}
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 {{ Form::label('Status', null, ['class' => 'form-label']) }}
                                 {{ Form::select('status', [1 => 'Active', 0 => 'inActive'], null, ['class' => 'form-control']) }}
                             </div>
 
-                            <div class="col-md-4">
-                                {{ Form::label('Stock', null, ['class' => 'form-label']) }}
-                                {{ Form::select('stock', [1 => 'In Stock', 0 => 'Out of Stock'], null, ['class' => 'form-control']) }}
-                            </div>
+
 
                             <div class="col-md-12">
                                 @isset($product)
                                     @forelse ($product->sizePrice as $key=>$info )
                                     <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-md-2">
                                             {{ Form::label('Size', null, ['class' => 'form-label']) }}
                                             {{ Form::text('size[]', $info->size, ['class' => 'form-control']) }}
                                         </div>
-                                        <div class="col-md-3">
+                                        <input type="hidden" name="stock_id[]" value="{{ $info->id }}">
+                                        <div class="col-md-2">
                                             {{ Form::label('price', null, ['class' => 'form-label']) }}
                                             {{ Form::text('price[]', $info->price, ['class' => 'form-control']) }}
+                                        </div>
+                                        <div class="col-md-2">
+                                            {{ Form::label('Offer', null, ['class' => 'form-label']) }}
+                                            {{ Form::text('offer[]', $info->offer, ['class' => 'form-control']) }}
+                                        </div>
+                                        <div class="col-md-2">
+                                            {{ Form::label('Stock', null, ['class' => 'form-label']) }}
+                                            {{ Form::select('stock[]', [1 => 'In Stock', 0 => 'Out of Stock'], $info->stock, ['class' => 'form-control']) }}
                                         </div>
                                         <div class="col-md-3 mt-2"><br/><a class="btn btn-danger deleteBtn"><i class="fa fa-trash"></i></a></div>
                                     </div>
@@ -121,20 +124,37 @@
 
                                     @endforelse
                                 @endisset
+
                                 <div class="row coloneRow">
-                                    <div class="col-md-3">
+                                    <div class="col-md-2">
                                         {{ Form::label('Size', null, ['class' => 'form-label']) }}
                                         {{ Form::text('size[]', null, ['class' => 'form-control']) }}
                                     </div>
-                                    <div class="col-md-3">
+
+                                    <div class="col-md-2">
                                         {{ Form::label('price', null, ['class' => 'form-label']) }}
                                         {{ Form::text('price[]', null, ['class' => 'form-control']) }}
                                     </div>
+
+                                    <div class="col-md-2">
+                                        {{ Form::label('Offer', null, ['class' => 'form-label']) }}
+                                        {{ Form::text('offer[]', null, ['class' => 'form-control']) }}
+                                    </div>
+                                    <div class="col-md-2">
+                                        {{ Form::label('Stock', null, ['class' => 'form-label']) }}
+                                        {{ Form::select('stock[]', [1 => 'In Stock', 0 => 'Out of Stock'], null, ['class' => 'form-control']) }}
+                                    </div>
+
                                 </div>
                                 <div class="appendRow"></div>
                                 <div class="col-md-3">
                                     {{ Form::label('', null, ['class' => 'form-label']) }} <br />
                                     <a class="btn btn-info addBtn"> <i class="fa fa-plus-circle"> Add More</i> </a>
+                                </div>
+
+                                <div class="col-md-12">
+                                    {{ Form::label('Description', null, ['class' => 'form-label']) }}
+                                    {{ Form::textarea('description', null, ['rows' => 4, 'class' => 'form-control', 'id' => 'summernote']) }}
                                 </div>
                             </div>
                             <div class="col-md-4">

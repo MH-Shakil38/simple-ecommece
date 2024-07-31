@@ -114,7 +114,7 @@
                                     <img src="{{asset($site->logo ?? '')}}" alt=""><span style="">
                                 </di>
                                 <di class="col-md-9 mt-2" style="margin-left:-10px">
-                                   <h4>{{ $site->name }}</h4>
+                                   <h4>{{ $site->name ?? 'E-Commerce' }}</h4>
                                 </di>
                             </div></a>
                     </div>
@@ -130,17 +130,9 @@
                                 @empty
                                     <option value="">Category Not found</option>
                                 @endforelse
-                                <option value="1">Gadgets</option>
-{{--                                <option value="2">Health &amp; Beauty</option>--}}
-{{--                                <option value="3">Hot Offer</option>--}}
-{{--                                <option value="4">Kitchen Gadgets</option>--}}
-{{--                                <option value="5">Security</option>--}}
-{{--                                <option value="6">All Kinds Of Rack</option>--}}
-{{--                                <option value="7">Fashion &amp; Jewelry</option>--}}
-{{--                                <option value="8">Magic Book</option>--}}
                             </select>
                             <input type="text" name="query" class="search-input" placeholder="সার্চ করুন">
-                            <button type="submit" class="search-btn"></button>
+                            <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
                         </form>
                     </div>
                 </div>
@@ -148,25 +140,26 @@
                 <div class="col-md-3 text-md-right text-center py-3 cart-m">
                     <span class="cart-number d-none d-md-inline-block"><i class="fa fa-phone"></i> {{$site->phone1 ?? ''}}</span>
                     <div class="cart d-inline-block position-relative checkout">
-                        <span class="badge badge-danger rounded-circle">{{ count((array) session('cart')) }}</span>
-                        <a href="{{route('checkout')}}"><i style="color: #fff6f6" class="fa fa-2x fa-shopping-cart"></i></a>
+                        <span class="badge badge-danger rounded-circle cartTotal">{{ count((array) session('cart')) }}</span>
+                        <a href="{{route('checkout')}}"><i style="" class="fa fa-2x fa-shopping-cart"></i></a>
                     </div>
                 </div>
             </div>
         </div>
         <style>
+            @media only screen and (min-width: 600px) {
             .checkout {
                 /* position: relative !important; */
                 position: fixed !important;
                 right: 18px;
-                background: rgb(8, 170, 30);
                 width: 53px;
                 color: green !important;
                 padding: 11px;
-                top: 30%;
-                border-radius: 12% 62% 9% 35%;
+                top: 5%;
+                border-radius: 122% 50% 116% 119%;
                 z-index: 99999999999;
             }
+        }
         </style>
 
         <div class="cat_menu_m">

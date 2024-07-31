@@ -13,6 +13,7 @@ class Customer extends Model
         'customer_name',
         'customer_phone',
         'customer_address',
+        'delivery_cost',
     ];
 
     public function tmp_orders(){

@@ -13,7 +13,10 @@ class Stock extends Model
         'product_id',
         'quantity',
         'price',
+        'offer',
         'size',
+        'stock',
+        'in_stock',
         'created_by',
         'updated_by',
     ];

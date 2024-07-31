@@ -14,7 +14,8 @@ class Order extends Model
       'product_id',
       'qty',
       'selling_price',
-      'total'
+      'total',
+      'stock_id'
     ];
 
     public function customer(){
@@ -23,5 +24,9 @@ class Order extends Model
 
     public function product(){
         return $this->belongsTo(Product::class,'product_id');
+    }
+
+    public function stock(){
+        return $this->belongsTo(Stock::class,'stock_id');
     }
 }

@@ -12,35 +12,44 @@
                             </div>
                             <div class="col-md-6 col-6">
                                 <div class="all-hot-deals-btn text-right mt-2">
-                                    <a href="{{route('all.hot.deal')}}" class="section-title">সকল হট ডিল <i class="fa fa-angle-right"></i></a>
+                                    <a href="{{ route('all.hot.deal') }}" class="section-title">সকল হট ডিল <i
+                                            class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
 
                         @php
-                            $total  = hot_deal()->count();
-                            $show   = $total / 2;
+                            $total = hot_deal()->count();
+                            $show = $total / 2;
                         @endphp
                         <div class="owl-carousel mb-3">
                             @forelse($hot_deal as $info)
-                                @if($loop->iteration <= $show)
+                                @if ($loop->iteration <= $show)
                                     <div class="hot-deals-product">
-                                        <a href="{{route('single.product',$info->id)}}">
+                                        <a href="{{ route('single.product', $info->id) }}">
                                             <div class="discount">
                                                 <div class="discount-wrapper">
-                                                    <img src="frontEnd/images/flash-deal-percentage.png" alt="" class="rounded-circle">
-                                                    <span>{{discount_calculate($info->original_price, $info->selling_price)}}%</span>
+                                                    <img src="frontEnd/images/flash-deal-percentage.png" alt=""
+                                                        class="rounded-circle">
+                                                    <span>{{ $info->sizePrice[0]->offer }}%</span>
                                                     <br>
                                                     <span>ছাড়</span>
                                                 </div>
                                             </div>
                                             <div>
-                                                <p class="float_price">৳ {{$info->selling_price}}</p>
+                                                <p class="float_price">
+                                                    @if ($info->sizePrice[0]->offer)
+                                                        <del>৳ {{ $info->sizePrice[0]->price }}</del> | 
+                                                    @endif
+                                                    ৳
+                                                    {{ discount_calculate($info->sizePrice[0]->price, $info->sizePrice[0]->offer) }}
+                                                </p>
                                             </div>
                                             <div>
-                                                <p class="float_product">{{$info->name}}</p>
+                                                <p class="float_product">{{ $info->name }}</p>
                                             </div>
-                                            <img src="{{ $info->image }}" alt="{{$info->title}}" style="height: 380px !important">
+                                            <img src="{{ $info->image }}" alt="{{ $info->title }}"
+                                                style="height: 380px !important">
                                         </a>
                                     </div>
                                 @endif
@@ -50,7 +59,7 @@
 
                         {{-- <div class="owl-carousel">
                             @forelse($hot_deal as $info)
-                                @if($loop->iteration > $show)
+                                @if ($loop->iteration > $show)
                                     <div class="hot-deals-product">
                                         <a href="{{route('single.product',$info->id)}}">
                                             <div class="discount">

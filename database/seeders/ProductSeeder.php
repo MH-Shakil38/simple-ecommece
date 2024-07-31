@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Product;
+use App\Models\Stock;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -17,14 +19,11 @@ class ProductSeeder extends Seeder
         $faker = Faker::create();
 
         foreach (range(1, 300) as $index) {
-            DB::table('products')->insert([
+            $product = Product::query()->create([
                 'category_id' => $faker->numberBetween(1, 10),
                 'name' => $faker->word,
                 'slug' => $faker->slug,
                 'description' => $faker->paragraph,
-                'original_price' => $faker->randomFloat(2, 10, 100),
-                'selling_price' => $faker->randomFloat(2, 5, 50),
-                'offer_price' => $faker->randomFloat(2, 3, 30),
                 'image' => $faker->imageUrl(640, 480, 'products', true),
                 'quantity' => $faker->numberBetween(1, 100),
                 'product_code' => $faker->uuid,
@@ -34,6 +33,23 @@ class ProductSeeder extends Seeder
                 'stock_out' => $faker->word,
                 'created_at' => now(),
                 'updated_at' => now(),
+            ]);
+
+
+            Stock::query()->insert([
+                'product_id' => $product['id'],
+                'quantity' => random_int(1,100),
+                'price' => random_int(100,500),
+                'offer' => random_int(0,10),
+                'size' => random_int(50,100).'ml',
+            ]);
+
+            Stock::query()->insert([
+                'product_id' => $product['id'],
+                'quantity' => random_int(1,100),
+                'price' => random_int(100,500),
+                'offer' => random_int(0,10),
+                'size' => random_int(50,100).'ml',
             ]);
         }
     }

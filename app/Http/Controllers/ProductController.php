@@ -71,21 +71,11 @@ class ProductController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Product $product)
+    public function update(Request $request, Product $product,ProductService $productService)
     {
         try {
             DB::beginTransaction();
-            $data = $request->all();
-            $data['slug'] = Str::slug($request->name);
-            $data['product_code'] = 'p-'.Random::generate(4);
-            if ($image = $request->file('image')) {
-                $logo = time() . '-' . uniqid() . '.' . $image->getClientOriginalExtension();
-                $image->move('product', $logo);
-                $data['image'] = 'product/' . $logo;
-            }
-
-            $product->update($data);
-
+            $product = $productService->update($product);
             DB::commit();
             return redirect()->route('products.index')->with('success','Product successfully Updated');
         }catch (\Throwable $e) {
