@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="copyright_text">
-                        <p><i class="fa fa-copyright"></i> 2023 <a href="{{url('/')}}" target="_blank">{{$site->name ?? ''}}</a> All Right Reserved.</p>
+                        <p><i class="fa fa-copyright"></i> 2024 <a href="{{url('/')}}" target="_blank">{{$site->name ?? ''}}</a> All Right Reserved.</p>
                     </div>
                 </div>
             </div>
