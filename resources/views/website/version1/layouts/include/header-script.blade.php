@@ -28,124 +28,7 @@
     <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Feed" href="feed/index.html" />
     <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Comments Feed"
         href="comments/feed/index.html" />
-    <script type="text/javascript">
-        /* <![CDATA[ */
-        window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
-            "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
-            "svgExt": ".svg",
-            "source": {
-                "concatemoji": "https:\/\/chuijhal.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=a091ed573bab13050d805822863c35a1"
-            }
-        };
-        /*! This file is auto-generated */
-        ! function(i, n) {
-            var o, s, e;
 
-            function c(e) {
-                try {
-                    var t = {
-                        supportTests: e,
-                        timestamp: (new Date).valueOf()
-                    };
-                    sessionStorage.setItem(o, JSON.stringify(t))
-                } catch (e) {}
-            }
-
-            function p(e, t, n) {
-                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
-                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
-                    r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
-                        .getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-                return t.every(function(e, t) {
-                    return e === r[t]
-                })
-            }
-
-            function u(e, t, n) {
-                switch (t) {
-                    case "flag":
-                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !
-                            n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
-                                "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-                                "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                                );
-                    case "emoji":
-                        return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
-                }
-                return !1
-            }
-
-            function f(e, t, n) {
-                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
-                        300, 150) : i.createElement("canvas"),
-                    a = r.getContext("2d", {
-                        willReadFrequently: !0
-                    }),
-                    o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
-                return e.forEach(function(e) {
-                    o[e] = t(a, e, n)
-                }), o
-            }
-
-            function t(e) {
-                var t = i.createElement("script");
-                t.src = e, t.defer = !0, i.head.appendChild(t)
-            }
-            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
-                everything: !0,
-                everythingExceptFlag: !0
-            }, e = new Promise(function(e) {
-                i.addEventListener("DOMContentLoaded", e, {
-                    once: !0
-                })
-            }), new Promise(function(t) {
-                var n = function() {
-                    try {
-                        var e = JSON.parse(sessionStorage.getItem(o));
-                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() <
-                            e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
-                    } catch (e) {}
-                    return null
-                }();
-                if (!n) {
-                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
-                        typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
-                        var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p
-                                .toString()
-                            ].join(",") + "));",
-                            r = new Blob([e], {
-                                type: "text/javascript"
-                            }),
-                            a = new Worker(URL.createObjectURL(r), {
-                                name: "wpTestEmojiSupports"
-                            });
-                        return void(a.onmessage = function(e) {
-                            c(n = e.data), a.terminate(), t(n)
-                        })
-                    } catch (e) {}
-                    c(n = f(s, u, p))
-                }
-                t(n)
-            }).then(function(e) {
-                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
-                    .supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
-                        .everythingExceptFlag && n.supports[t]);
-                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
-                    .DOMReady = !1, n.readyCallback = function() {
-                        n.DOMReady = !0
-                    }
-            }).then(function() {
-                return e
-            }).then(function() {
-                var e;
-                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e
-                    .concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
-            }))
-        }((window, document), window._wpemojiSettings);
-        /* ]]> */
-    </script>
     <link rel="stylesheet" id="epico_icomoon-style-css"
         href="{{asset('version1/')}}/wp-content/themes/vitrine/assets/css/icomoon.minbc19.css?ver=4.2" type="text/css" media="all" />
     <link rel="stylesheet" id="epico_fonts-css"
@@ -1552,7 +1435,7 @@
     <script type="text/javascript"
         src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min4ebd.js?ver=2.7.0-wc.9.0.2"
         id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
-    <script type="text/javascript" id="wc-add-to-cart-js-extra">
+    {{-- <script type="text/javascript" id="wc-add-to-cart-js-extra">
         /* <![CDATA[ */
         var wc_add_to_cart_params = {
             "ajax_url": "\/wp-admin\/admin-ajax.php",
@@ -1563,7 +1446,7 @@
             "cart_redirect_after_add": "no"
         };
         /* ]]> */
-    </script>
+    </script> --}}
     <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min9e2b.js?ver=9.0.2"
         id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript"
@@ -1571,19 +1454,19 @@
         defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="woocommerce-js-extra">
         /* <![CDATA[ */
-        var woocommerce_params = {
-            "ajax_url": "\/wp-admin\/admin-ajax.php",
-            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
-        };
+        // var woocommerce_params = {
+        //     "ajax_url": "\/wp-admin\/admin-ajax.php",
+        //     "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+        // };
         /* ]]> */
     </script>
     <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min9e2b.js?ver=9.0.2"
         id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="ajax-script-js-extra">
         /* <![CDATA[ */
-        var ajax_object = {
-            "ajaxurl": "https:\/\/chuijhal.com\/wp-json\/wpsms\/v1\/newsletter"
-        };
+        // var ajax_object = {
+        //     "ajaxurl": "https:\/\/chuijhal.com\/wp-json\/wpsms\/v1\/newsletter"
+        // };
         /* ]]> */
     </script>
     <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/greenwebsms/assets/js/scriptdbc1.js?ver=75.0.0"
@@ -1606,9 +1489,6 @@
         content="Elementor 3.22.3; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 
     <script type="application/ld+json" class="saswp-schema-markup-output">
-[{"@context":"https://schema.org/","@graph":[{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#298 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"শপ","url":"https://chuijhal.com/shop/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Organic Tea","url":"http://epicomedia.com/vitrine-demo37/product-category/organic-tea/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Vegetables","url":"http://epicomedia.com/vitrine-demo37/product-category/vegetables/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"BLOG","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Masonry - Blog","url":"https://chuijhal.com/blog/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"GALLERY","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"PORTFOLIO","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"PAGES","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Creative","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11895 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11899 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Simple","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11901 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"যোগাযোগ","url":"https://chuijhal.com/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Minimal","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11907 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"About us","url":"https://chuijhal.com/about-us/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11913 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Modern","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11915 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11921 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Coming soon - fullwidth","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Coming soon - split","url":""}]},
-
-{"@context":"https://schema.org/","@type":"Organization","@id":"https://chuijhal.com#Organization","name":"চুইঝাল","url":"https://chuijhal.com","sameAs":["https://www.facebook.com/chuijhal.cooking","https://www.instagram.com/chuijhal.cooking/"],"legalName":"Chuijhal","logo":{"@type":"ImageObject","url":"https://chuijhal.com/wp-content/uploads/2023/06/Logo-Chuijhal-.jpg","width":"160","height":"50"},"contactPoint":{"@type":"ContactPoint","contactType":"sales","telephone":"+8801711305889","url":"https://chuijhal.com/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97/"}}]
 </script>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <link rel="icon" href="{{asset('version1/')}}/wp-content/uploads/2019/03/cropped-chuijhal-favicon-32x32.png" sizes="32x32" />

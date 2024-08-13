@@ -3,7 +3,7 @@
     <div class="productwrap">
         <span class="onsale percentage-sale">-9%</span>
         <div class="add_to_cart_btn_wrap lazy-load-hover-container">
-            <a href="product/tok-jhal-misti-tetul-rorun-alubookhara-achar/index.html" class="product-link"></a>
+            <a href="{{ route('single.product', $info->id) }}" class="product-link"></a>
             <div class="imageswrap productthumbnail lazy-load lazy-load-on-load" style="padding-top: 100%;">
                 <img decoding="async" src="{{ asset($info->image) }}" width="600" height="600"
                     data-src="{{ asset($info->image) }}" alt="3 Pcs Pickle Combo" />
