@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-    return view('website.website');
+    session()->put('theme','version1');
+    return view('website.'.session('theme').'.home');
 })->name('/');
 Route::get('/category/{id}',[\App\Http\Controllers\WebsiteController::class,'category_ways_product'])->name('product.category');
 Route::get('/all-hot-deal',[\App\Http\Controllers\WebsiteController::class,'all_hot_deal'])->name('all.hot.deal');

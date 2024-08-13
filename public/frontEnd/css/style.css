@@ -55,6 +55,18 @@ span, h1, h2, h3, h4, h5, h6, p, a {
     padding: 5px 0;
 }
 
+@media (max-width:600px) {
+    .header{
+        background: #454656;
+    }
+    .logo img {
+        width: 35px !important;
+        border-radius: 2px;
+    }
+}
+
+
+
 .logo {
     padding-top: 6px;
 }
@@ -699,7 +711,9 @@ span, h1, h2, h3, h4, h5, h6, p, a {
     .header-right {
         display: none;
     }
-
+    .header{
+        background: #454656;
+    }
     .header-right-m {
         display: block;
         float: right;
