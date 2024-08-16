@@ -1426,43 +1426,43 @@
         href="{{asset('version1/')}}/wp-content/themes/vitrine/assets/css/responsive.minbc19.css?ver=4.2" type="text/css" media="all" />
     <link rel="stylesheet" id="epico_libs-css" href="{{asset('version1/')}}/wp-content/themes/vitrine/assets/css/libs.minbc19.css?ver=4.2"
         type="text/css" media="screen" />
-    <link rel="stylesheet" id="mediaelement-css"
-        href="{{asset('version1/')}}/wp-includes/js/mediaelement/mediaelementplayer-legacy.min1f61.css?ver=4.2.17" type="text/css"
-        media="all" />
+        <link rel="stylesheet" id="mediaelement-css"
+            href="{{asset('version1/')}}/wp-includes/js/mediaelement/mediaelementplayer-legacy.min1f61.css?ver=4.2.17" type="text/css"
+            media="all" />
     <script type="text/javascript" src="{{asset('version1/')}}/wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
-    <script type="text/javascript" src="{{asset('version1/')}}/wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js">
+     <script type="text/javascript" src="{{asset('version1/')}}/wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
-    <script type="text/javascript"
+     <script type="text/javascript"
         src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min4ebd.js?ver=2.7.0-wc.9.0.2"
         id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
-    {{-- <script type="text/javascript" id="wc-add-to-cart-js-extra">
+     <script type="text/javascript" id="wc-add-to-cart-js-extra">
         /* <![CDATA[ */
-        var wc_add_to_cart_params = {
-            "ajax_url": "\/wp-admin\/admin-ajax.php",
-            "wc_ajax_url": "\/?aaaaaaaaaaaaaaaawc-ajax=%%endpoint%%",
-            "i18n_view_cart": "View cart",
-            "cart_url": "https:\/\/chuijhal.com\/cart\/",
-            "is_cart": "",
-            "cart_redirect_after_add": "no"
-        };
-        /* ]]> */
-    </script> --}}
-    <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min9e2b.js?ver=9.0.2"
+        // var wc_add_to_cart_params = {
+        //     "ajax_url": "\/wp-admin\/admin-ajax.php",
+        //     "wc_ajax_url": "\/?aaaaaaaaaaaaaaaawc-ajax=%%endpoint%%",
+        //     "i18n_view_cart": "View cart",
+        //     "cart_url": "https:\/\/chuijhal.com\/cart\/",
+        //     "is_cart": "",
+        //     "cart_redirect_after_add": "no"
+        // };
+        // /* ]]> */
+    </script>
+     <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min9e2b.js?ver=9.0.2"
         id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript"
         src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.minf01e.js?ver=2.1.4-wc.9.0.2" id="js-cookie-js"
         defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="woocommerce-js-extra">
-        /* <![CDATA[ */
+         /* <![CDATA[ */
         // var woocommerce_params = {
         //     "ajax_url": "\/wp-admin\/admin-ajax.php",
         //     "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
         // };
         /* ]]> */
     </script>
-    <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min9e2b.js?ver=9.0.2"
+     <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min9e2b.js?ver=9.0.2"
         id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
-    <script type="text/javascript" id="ajax-script-js-extra">
+     <script type="text/javascript" id="ajax-script-js-extra">
         /* <![CDATA[ */
         // var ajax_object = {
         //     "ajaxurl": "https:\/\/chuijhal.com\/wp-json\/wpsms\/v1\/newsletter"

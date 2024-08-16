@@ -32,23 +32,8 @@
 <script type="text/javascript" id="epico_custom-js-extra">
     /* <![CDATA[ */
     var epico_theme_vars = {
-        "url": "https:\/\/chuijhal.com",
-        "home_url": "https:\/\/chuijhal.com\/",
-        "img": "https:\/\/chuijhal.com\/wp-content\/themes\/vitrine\/assets\/img",
-        "ajax_url": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
-        "nonce": "3f309553af",
-        "zoomLevel": "1",
-        "iconMap": "https:\/\/chuijhal.com\/wp-content\/themes\/vitrine\/assets\/img\/marker.png",
-        "customMap": "1",
-        "cityMapCenterLat": "",
-        "cityMapCenterLng": "",
-        "customApiKey": "",
-        "ApiKey": "0",
-        "scrolling_speed": "1005",
-        "scrolling_easing": "easeInOutQuart",
-        "additionaljs": ""
     };
-   
+
     /* ]]> */
 </script>
 <script type="text/javascript" src="{{asset('version1/')}}/wp-content/themes/vitrine/assets/js/custom.minbc19.js?ver=4.2" id="epico_custom-js">

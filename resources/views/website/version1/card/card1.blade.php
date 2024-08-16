@@ -8,11 +8,12 @@
                 <img decoding="async" src="{{ asset($info->image) }}" width="600" height="600"
                     data-src="{{ asset($info->image) }}" alt="3 Pcs Pickle Combo" />
             </div>
-            <div class="product-buttons">
-                <span class="product-button product_type_simple"><a href="#"
-                        rel="nofollow" data-product_id="36170" data-product_sku data-quantity="1"
-                        class="button add_to_cart_button product_type_simple ajax_add_to_cart"><span
-                            class="icon"></span>
+            <div class="product-buttons button{{ $info->sizePrice[0]->id }}">
+                <span class="{{ cartCheck($info->id,$info->sizePrice[0]->id) ? 'added_to_cart wc-forward' : 'product-button product_type_simple' }}"><a href="#"
+                        rel="nofollow" data-product_id="{{ $info->id }}"  data-stock_id="{{ $info->sizePrice[0]->id }}" data-qty="1"
+                        class="{{ cartCheck($info->id,$info->sizePrice[0]->id) ? 'added_to_cart wc-forward' : 'button add_to_cart_button product_type_simple ajax_add_to_cart' }}"><span
+                            class="icon">
+                        </span>
                             <span class="txt" data-hover="Add to cart">Add to cart</span>
                         </a>
                     </span>

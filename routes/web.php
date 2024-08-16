@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
+   
     session()->put('theme','version1');
     return view('website.'.session('theme').'.home');
 })->name('/');

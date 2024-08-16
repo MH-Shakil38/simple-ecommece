@@ -95,5 +95,16 @@ if (!function_exists('setting')){
 }
 
 
+if (!function_exists('cartCheck')){
+    function cartCheck($product_id,$stock_id){
+        $key = $product_id . 'stock' . $stock_id;
+        if (isset(session()->get('cart')[$key])) {
+            return true;
+        }
+        return false;
+    }
+}
+
+
 
 ?>

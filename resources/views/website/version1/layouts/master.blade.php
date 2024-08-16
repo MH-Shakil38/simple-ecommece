@@ -27,13 +27,43 @@
         <span id="sidebar-open-overlay"></span>
 
         @include('website.version1.componant.search-popup')
+        <div class="toggleSidebarContainer">
+            <div id="main-content" class="main-content pageTopSpace  type1  ">
+                <div id="main">
+                    <div id="home" class="hidehome"></div>
+                    <style>
+                        #header h1,
+                        #header .subtitle,
+                        #header ul li a,
+                        .page-breadcrumb .woocommerce-breadcrumb,
+                        .page-breadcrumb .woocommerce-breadcrumb a,
+                        .page-breadcrumb .woocommerce-breadcrumb span.delimiter {
+                            color: rgba(0, 0, 0, 1);
+                        }
 
+                        #header ul li a:before {
+                            background-color: rgba(0, 0, 0, 1);
+                        }
+                    </style>
+
+                    <div class="wrap" id="pageHeight">
+
+                        @yield('content')
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
         @include('website.version1.layouts.include.footer')
 
     </div>
-    
+
     @include('website.version1.layouts.include.footer-script')
+    @include('website.version1.custom-js')
+    @include('website.version1.componant.show-cart')
+
+
 </body>
 
 <!-- Mirrored from chuijhal.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Aug 2024 11:21:06 GMT -->

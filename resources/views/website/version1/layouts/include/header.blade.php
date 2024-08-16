@@ -17,7 +17,7 @@
                         <div class="cartSidebarbtn widget widget_woocommerce-dropdown-cart responsive-cart light">
                             <a href="cart/index.html"></a>
                             <div class="cart-contents">
-                                <div class="cartContentsCount">0</div>
+                                <div class="cartContentsCount cartTotal">{{ count((array) session('cart')) }}</div>
                             </div>
                             <span class="icon icon-bag"></span>
                         </div>

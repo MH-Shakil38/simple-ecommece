@@ -16,8 +16,10 @@ class CardController extends Controller
     public function add_card(Request $request,CartService $cartService)
     {
         $cart = $cartService->addProductToCart();
+        $carts = session()->get('cart');
+        $html_cart = view('website.version1.componant.ajax-cart',compact('carts'))->render();
         if($request->ajax()){
-            return response()->json(['success' => 'Product Added into Cart','cart'=>$cart]);
+            return response()->json(['success' => 'Product Added into Cart','cart'=>$cart,'html_cart'=>$html_cart]);
         }else{
             return redirect()->route('checkout')->with('success', 'Product added to cart successfully!');
         }

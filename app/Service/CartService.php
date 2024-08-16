@@ -10,6 +10,8 @@ use Nette\Utils\Random;
 class CartService
 {
     public function addProductToCart(){
+    // added_to_cart wc-forward
+
         $request = request();
         $id = $request->product_id;
         $stock_id = $request->stock_id;
