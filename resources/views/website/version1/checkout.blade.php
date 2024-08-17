@@ -66,7 +66,7 @@
                             n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
                                 "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                                 "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                                );
+                            );
                     case "emoji":
                         return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
                 }
@@ -1986,10 +1986,12 @@
                     <ul class="product-categories">
                         <li class="cat-item cat-item-254"><a
                                 href="https://chuijhal.com/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/">আচার</a>
-                            <span class="count">(34)</span></li>
+                            <span class="count">(34)</span>
+                        </li>
                         <li class="cat-item cat-item-248"><a
                                 href="https://chuijhal.com/product-category/%e0%a6%a1%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%87-%e0%a6%ab%e0%a7%8d%e0%a6%b0%e0%a7%81%e0%a6%9f/">ড্রাই-ফ্রুট</a>
-                            <span class="count">(1)</span></li>
+                            <span class="count">(1)</span>
+                        </li>
                         <li class="cat-item cat-item-245"><a
                                 href="https://chuijhal.com/product-category/%e0%a6%ad%e0%a7%87%e0%a6%b7%e0%a6%9c-%e0%a6%ac%e0%a6%be%e0%a6%a8%e0%a6%bf%e0%a7%9f%e0%a6%be%e0%a6%a4%e0%a7%80/">ভেষজ
                                 বানিয়াতী</a> <span class="count">(3)</span></li>
@@ -1998,7 +2000,8 @@
                                 ও তেল</a> <span class="count">(5)</span></li>
                         <li class="cat-item cat-item-247"><a
                                 href="https://chuijhal.com/product-category/%e0%a6%ae%e0%a6%b8%e0%a6%b2%e0%a6%be/">মসলা</a>
-                            <span class="count">(12)</span></li>
+                            <span class="count">(12)</span>
+                        </li>
                         <li class="cat-item cat-item-249"><a
                                 href="https://chuijhal.com/product-category/%e0%a6%ae%e0%a6%be%e0%a6%b9%e0%a7%87%e0%a6%b0%e0%a6%ae%e0%a6%9c%e0%a6%be%e0%a6%a8-%e0%a6%b8%e0%a7%8d%e0%a6%aa%e0%a7%87%e0%a6%b6%e0%a6%be%e0%a6%b2/">মাহেরমজান
                                 স্পেশাল</a> <span class="count">(3)</span></li>
@@ -2191,7 +2194,7 @@
             </div>
         </div>
 
-       @include('website.version1.layouts.include.header')
+        @include('website.version1.layouts.include.header')
 
         <span id="sidebar-open-overlay"></span>
         <div id="search-form">
@@ -2289,8 +2292,9 @@
                                                                     <div class="woocommerce-notices-wrapper"></div>
                                                                     <form name="checkout" method="post"
                                                                         class="checkout woocommerce-checkout"
-                                                                        action="https://chuijhal.com/checkout/"
+                                                                        action="{{ route('place.order') }}"
                                                                         enctype="multipart/form-data">
+                                                                        @csrf
                                                                         <div class="span8" id="customer_details">
                                                                             <wc-order-attribution-inputs></wc-order-attribution-inputs>
                                                                             <div class="woocommerce-billing-fields">
@@ -2313,7 +2317,7 @@
                                                                                                     class="woocommerce-input-wrapper"><input
                                                                                                         type="text"
                                                                                                         class="input-text "
-                                                                                                        name="billing_first_name"
+                                                                                                        name="customer_name"
                                                                                                         id="billing_first_name"
                                                                                                         placeholder="নাম লিখুন"
                                                                                                         value
@@ -2349,7 +2353,7 @@
                                                                                                     class="woocommerce-input-wrapper"><input
                                                                                                         type="text"
                                                                                                         class="input-text "
-                                                                                                        name="billing_address_1"
+                                                                                                        name="customer_address"
                                                                                                         id="billing_address_1"
                                                                                                         placeholder="বাড়ি, রোড, ব্লক, এরিয়া, থানা, জেলা"
                                                                                                         value
@@ -2367,7 +2371,7 @@
                                                                                                     class="woocommerce-input-wrapper"><input
                                                                                                         type="tel"
                                                                                                         class="input-text "
-                                                                                                        name="billing_phone"
+                                                                                                        name="customer_phone"
                                                                                                         id="billing_phone"
                                                                                                         placeholder="আপনার ১১ ডিজিটের মোবাইল নম্বর ইংরেজিতে"
                                                                                                         value
@@ -2431,75 +2435,61 @@
                                                                                         </tr>
                                                                                     </thead>
                                                                                     <tbody>
-                                                                                        <tr class="cart_item">
-                                                                                            <td class="product-name">
-                                                                                                Pickle Combo Offer
-                                                                                                01&nbsp; <strong
-                                                                                                    class="product-quantity">&times;&nbsp;16</strong>
-                                                                                            </td>
-                                                                                            <td class="product-total">
-                                                                                                <span
-                                                                                                    class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>21,600.00</bdi></span>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                        <tr class="cart_item">
-                                                                                            <td class="product-name">
-                                                                                                Combo ৩ বিভাগের ৩ টা ঝাল
-                                                                                                মরিচের অফার&nbsp;
-                                                                                                <strong
-                                                                                                    class="product-quantity">&times;&nbsp;1</strong>
-                                                                                            </td>
-                                                                                            <td class="product-total">
-                                                                                                <span
-                                                                                                    class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>1,350.00</bdi></span>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                        <tr class="cart_item">
-                                                                                            <td class="product-name">
-                                                                                                টক ঝাল মিষ্টি আচার
-                                                                                                তেঁতুল, রসুন,
-                                                                                                আলুবোখারা&nbsp; <strong
-                                                                                                    class="product-quantity">&times;&nbsp;1</strong>
-                                                                                            </td>
-                                                                                            <td class="product-total">
-                                                                                                <span
-                                                                                                    class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>1,350.00</bdi></span>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                        <tr class="cart_item">
-                                                                                            <td class="product-name">
-                                                                                                Chuijhal (চুইঝাল) 1
-                                                                                                কেজি&nbsp; <strong
-                                                                                                    class="product-quantity">&times;&nbsp;1</strong>
-                                                                                            </td>
-                                                                                            <td class="product-total">
-                                                                                                <span
-                                                                                                    class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>1,200.00</bdi></span>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                        <tr class="cart_item">
-                                                                                            <td class="product-name">
-                                                                                                দেশি রসুন এর আচার ৪২০
-                                                                                                গ্রাম&nbsp; <strong
-                                                                                                    class="product-quantity">&times;&nbsp;1</strong>
-                                                                                            </td>
-                                                                                            <td class="product-total">
-                                                                                                <span
-                                                                                                    class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>490.00</bdi></span>
-                                                                                            </td>
-                                                                                        </tr>
+                                                                                        @php
+                                                                                            $carts = session()->get(
+                                                                                                'cart',
+                                                                                            );
+                                                                                        @endphp
+
+                                                                                        @forelse ($carts ?? [] as $info)
+                                                                                            <tr class="cart_item">
+                                                                                                <td
+                                                                                                    class="product-name">
+                                                                                                    {{ $info['name'] }}
+                                                                                                    ({{ $info['size'] ?? '' }})
+                                                                                                    (
+                                                                                                    {{ $info['qty'] }}&nbsp;
+                                                                                                    <strong
+                                                                                                        class="product-quantity">&times;&nbsp;৳{{ $info['price'] }}</strong>)
+                                                                                                </td>
+                                                                                                <td
+                                                                                                    class="product-total">
+                                                                                                    <span
+                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $info['price'] * $info['qty'] }}</bdi></span>
+                                                                                                </td>
+                                                                                            </tr>
+
+                                                                                        @empty
+                                                                                        @endforelse
+
                                                                                     </tbody>
                                                                                     <tfoot>
                                                                                         <tr class="cart-subtotal">
                                                                                             <th>Subtotal</th>
                                                                                             <td><span
                                                                                                     class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>25,990.00</bdi></span>
+                                                                                                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>
+                                                                                                            @if (session('cart'))
+                                                                                                            @php
+                                                                                                                $net_total = 0;
+                                                                                                            @endphp
+
+                                                                                                            @foreach (session('cart') as $id => $details)
+                                                                                                                @php
+                                                                                                                    $net_total =
+                                                                                                                        $net_total +
+                                                                                                                        $details[
+                                                                                                                            'qty'
+                                                                                                                        ] *
+                                                                                                                            $details[
+                                                                                                                                'price'
+                                                                                                                            ];
+                                                                                                                @endphp
+                                                                                                            @endforeach
+                                                                                                            {{ $net_total }}
+                                                                                                        @endif
+                                                                                                        </bdi></span>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr
@@ -2516,10 +2506,11 @@
                                                                                                     <li>
                                                                                                         <input
                                                                                                             type="radio"
-                                                                                                            name="shipping_method[0]"
+                                                                                                            name="delivery_cost"
                                                                                                             data-index="0"
                                                                                                             id="shipping_method_0_flat_rate8"
-                                                                                                            value="flat_rate:8"
+                                                                                                            value="{{ delivery_policy()->inside_dhaka ?? 0 }}"
+                                                                                                           checked="checked"
                                                                                                             class="shipping_method" /><label
                                                                                                             for="shipping_method_0_flat_rate8">ঢাকার
                                                                                                             মধ্যে: <span
@@ -2529,10 +2520,10 @@
                                                                                                     <li>
                                                                                                         <input
                                                                                                             type="radio"
-                                                                                                            name="shipping_method[0]"
+                                                                                                            name="delivery_cost"
                                                                                                             data-index="0"
                                                                                                             id="shipping_method_0_flat_rate9"
-                                                                                                            value="flat_rate:9"
+                                                                                                            value="{{ delivery_policy()->outside_dhaka ?? 0 }}"
                                                                                                             class="shipping_method" /><label
                                                                                                             for="shipping_method_0_flat_rate9">ঢাকার
                                                                                                             বাইরে: <span
@@ -2542,12 +2533,12 @@
                                                                                                     <li>
                                                                                                         <input
                                                                                                             type="radio"
-                                                                                                            name="shipping_method[0]"
+                                                                                                            name="delivery_cost"
                                                                                                             data-index="0"
                                                                                                             id="shipping_method_0_local_pickup10"
-                                                                                                            value="local_pickup:10"
+                                                                                                            value="0"
                                                                                                             class="shipping_method"
-                                                                                                            checked="checked" /><label
+                                                                                                             /><label
                                                                                                             for="shipping_method_0_local_pickup10">Pickup
                                                                                                             From
                                                                                                             Store</label>
@@ -2561,7 +2552,27 @@
                                                                                             <th>Total</th>
                                                                                             <td><strong><span
                                                                                                         class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>25,990.00</bdi></span></strong>
+                                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>
+                                                                                                            @if (session('cart'))
+                                                                                                                @php
+                                                                                                                    $net_total = 0;
+                                                                                                                @endphp
+
+                                                                                                                @foreach (session('cart') as $id => $details)
+                                                                                                                    @php
+                                                                                                                        $net_total =
+                                                                                                                            $net_total +
+                                                                                                                            $details[
+                                                                                                                                'qty'
+                                                                                                                            ] *
+                                                                                                                                $details[
+                                                                                                                                    'price'
+                                                                                                                                ];
+                                                                                                                    @endphp
+                                                                                                                @endforeach
+                                                                                                                {{ $net_total }}
+                                                                                                            @endif
+                                                                                                        </bdi></span></strong>
                                                                                             </td>
                                                                                         </tr>
                                                                                     </tfoot>
