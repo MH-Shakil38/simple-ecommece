@@ -8,6 +8,12 @@
                     var product_id = $(this).data('product_id');
                     var stock_id = $(this).data('stock_id');
                     var qty = $(this).data('qty');
+                    if(qty == undefined){
+                        var qty = $('.single-qty').val();
+                        var stock_id = $('.stock_id').val();
+                    }
+
+
                     var button = $(this); // Store the reference to the clicked button
 
                     button.addClass('loading');

@@ -46,7 +46,7 @@
                                         <!--**************************check the version  *****************************-->
 
 
-                                        <a href="https://chuijhal.com/cart/?remove_item=32c92c5a9c391d8a2a2a05770f1a3395&amp;_wpnonce=77634fd39e"
+                                        <a href="{{ route('card.remove',['id'=>$info['id'],'stock_id'=>$info['stock_id']]) }}"
                                             class="remove no_djax" aria-label="Remove this item" data-product_id="32614"
                                             data-product_sku="Combo1"
                                             data-item-key="32c92c5a9c391d8a2a2a05770f1a3395"></a>
@@ -71,15 +71,15 @@
 
                                         <a href="https://chuijhal.com/product/pickle-combo-offer-01/">
                                             <img width="300" height="300"
-                                                src="//chuijhal.com/wp-content/uploads/2023/08/3-Pickle-COmbo-1-300x300.png"
+                                                src="{{ asset($info['image']) }}"
                                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                 alt="" decoding="async"
-                                                srcset="//chuijhal.com/wp-content/uploads/2023/08/3-Pickle-COmbo-1-300x300.png 300w, //chuijhal.com/wp-content/uploads/2023/08/3-Pickle-COmbo-1-768x768.png 768w, //chuijhal.com/wp-content/uploads/2023/08/3-Pickle-COmbo-1-340x340.png 340w, //chuijhal.com/wp-content/uploads/2023/08/3-Pickle-COmbo-1-680x680.png 680w, //chuijhal.com/wp-content/uploads/2023/08/3-Pickle-COmbo-1-600x600.png 600w, //chuijhal.com/wp-content/uploads/2023/08/3-Pickle-COmbo-1-400x400.png 400w, //chuijhal.com/wp-content/uploads/2023/08/3-Pickle-COmbo-1-100x100.png 100w, //chuijhal.com/wp-content/uploads/2023/08/3-Pickle-COmbo-1.png 1080w"
+                                                srcset="{{ asset($info['image']) }} 1080w"
                                                 sizes="(max-width: 300px) 100vw, 300px"> </a>
 
-                                        <span>Pickle Combo Offer 01</span>
+                                        <span>{{ $info['name'] }}</span>
 
-
+                                        <span>{{ $info['size'] ?? '' }}</span>
                                         <!--**************************check the version  *****************************-->
 
 
@@ -89,9 +89,9 @@
 
 
 
-                                        <span class="quantity">4 × <span
+                                        <span class="quantity">{{ $info['qty'] }} × <span
                                                 class="woocommerce-Price-amount amount"><bdi><span
-                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>1,350.00</bdi></span></span>
+                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>{{ $info['price'] }}</bdi></span></span>
                                     </li>
 
                                 @empty
@@ -113,14 +113,30 @@
 
                     <p class="total"><strong>Subtotal:</strong> <span
                             class="woocommerce-Price-amount amount"><bdi><span
-                                    class="woocommerce-Price-currencySymbol">৳&nbsp;</span>5,400.00</bdi></span>
+
+                                    class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                    @if (session('cart'))
+                                    @php
+                                        $net_total = 0;
+                                    @endphp
+
+                                    @foreach (session('cart') as $id => $details)
+                                        @php
+                                            $net_total =
+                                                $net_total +
+                                                $details['qty'] * $details['price'];
+                                        @endphp
+                                    @endforeach
+                                    {{ $net_total }}
+                                @endif
+                                </bdi></span>
                     </p>
 
 
                     <p class="buttons">
                         <a href="https://chuijhal.com/cart/" class="button wc-forward">
                             <span data-hover="View Cart">View Cart</span>
-                        </a><a href="https://chuijhal.com/checkout/" class="button checkout wc-forward">
+                        </a><a href="{{ route('checkout') }}" class="button checkout wc-forward">
                             <span data-hover="Checkout">Checkout</span>
                         </a>
                     </p>

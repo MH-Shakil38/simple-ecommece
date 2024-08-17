@@ -80,7 +80,7 @@
                             n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
                                 "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                                 "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                                );
+                            );
                     case "emoji":
                         return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
                 }
@@ -1800,7 +1800,8 @@
                                                     alt="হলুদের গুড়া, মরিচের গুড়া ধনিয়ার গুড়া" decoding="async"
                                                     srcset="https://chuijhal.com/wp-content/uploads/2023/08/4.png 1080w, https://chuijhal.com/wp-content/uploads/2023/08/4-300x300.png 300w, https://chuijhal.com/wp-content/uploads/2023/08/4-100x100.png 100w, https://chuijhal.com/wp-content/uploads/2023/08/4-600x600.png 600w, https://chuijhal.com/wp-content/uploads/2023/08/4-768x768.png 768w, https://chuijhal.com/wp-content/uploads/2023/08/4-340x340.png 340w, https://chuijhal.com/wp-content/uploads/2023/08/4-680x680.png 680w, https://chuijhal.com/wp-content/uploads/2023/08/4-400x400.png 400w"
                                                     sizes="(max-width: 1080px) 100vw, 1080px" /></a></span>
-                                        <span class="onsale percentage-sale">-9%</span>
+                                        <span
+                                            class="onsale percentage-sale offer">-{{ $product->sizePrice[0]->offer }}%</span>
                                         <div class="images">
                                             <div id="product-fullview-thumbs" class="no-gallery">
                                                 <div class="zoom-container">
@@ -1833,10 +1834,13 @@
                                                     class="delimiter">/</span>{{ $product->name }}</nav>
                                             </nav>
                                             <h1 class="product_title entry-title">{{ $product->name }}</h1>
+
                                             <div class="priceminheight">
+
                                                 <p class="price"><del aria-hidden="true"><span
                                                             class="woocommerce-Price-amount amount"><bdi><span
-                                                                    class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $product->sizePrice[0]->price }}</bdi></span></del>
+                                                                    class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span><span
+                                                                    class="original_price">{{ $product->sizePrice[0]->price }}</span></bdi></span></del>
                                                     <span class="screen-reader-text">Original price was:
                                                         &#2547;&nbsp;1,470.00.</span><ins aria-hidden="true"><span
                                                             class="woocommerce-Price-amount amount"><bdi><span
@@ -1845,24 +1849,63 @@
                                                         &#2547;&nbsp;1,350.00.</span>
                                                 </p>
                                             </div>
+
                                             <div class="woocommerce-product-details__short-description">
                                                 <p>লিমিটেড টাইমের জন্য অফার মাত্র</p>
                                                 <p>২০০০ জন এই অফারে অর্ডার করতে পারবেন।</p>
                                                 <p>স্বাদ নিন মজাদার টক ঝাল মিষ্টি আচারের।</p>
                                             </div>
+                                            <style>
+                                                /* Style the buttons */
+                                                #sizeBtn .btn {
+                                                    border: none;
+                                                    outline: none;
+                                                    padding: 7px 13px;
+                                                    background-color: #c8d3d3;
+                                                    cursor: pointer;
+                                                    font-size: 18px;
+                                                }
+
+                                                /* Style the active class, and buttons on mouse-over */
+                                                #sizeBtn .active,
+                                                #sizeBtn .btn:hover {
+                                                    background-color: #1b6567;
+                                                    color: white;
+                                                }
+                                            </style>
+                                            @if (count($product->sizePrice))
+                                                <div class="size mt-3">
+                                                    <div id="sizeBtn" style=" ">
+                                                        @forelse ($product->sizePrice as $info)
+                                                            <button
+                                                                class="btn {{ $loop->iteration == 1 ? 'active' : 'border' }} size btn btn ep_button center row style2"
+                                                                style="" data-size_id={{ $info->id }}>
+                                                                {{ $info->size }}
+                                                            </button>
+                                                        @empty
+                                                        @endforelse
+                                                    </div>
+                                                </div>
+                                            @endif
                                             <p class="stock in-stock">963 in stock</p>
                                             <form class="cart" method="post" enctype="multipart/form-data">
                                                 <div class="quantity">
                                                     <input type="number" step="1" min="1" max
                                                         name="quantity" value="1" title="Qty"
-                                                        class="input-text qty text" size="4" pattern="[0-9]*"
-                                                        inputmode="numeric" />
+                                                        class="input-text qty text single-qty" size="4"
+                                                        pattern="[0-9]*" inputmode="numeric" />
+                                                    <input type="hidden" name="qty" id="qty"
+                                                        class="qty" value="1">
+                                                    <input type="hidden" name="product_id" class="product_id"
+                                                        value="{{ $product->id }}">
+                                                    <input type="hidden" name="stock_id" class="stock_id"
+                                                        value="{{ $product->sizePrice[0]->id }}">
                                                     <div class="plus quantity-button"></div>
                                                     <div class="minus quantity-button"></div>
                                                 </div>
                                                 <a class="single_add_to_cart_button button alt product_type_simple add_to_cart_button ajax_add_to_cart "
-                                                    data-product_id="32614" data-quantity="1" href="#"
-                                                    title="Add to cart">
+                                                    data-product_id="{{ $product->id }}" data-quantity="1"
+                                                    href="#" title="Add to cart">
                                                     <span class="icon"></span>
                                                     <span class="txt" data-hover="Add to cart">
                                                         Add to cart </span>
@@ -2271,10 +2314,12 @@
 </script>
             <script type="text/template" id="tmpl-unavailable-variation-template">
 	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+
 </script>
-       @include('website.version1.layouts.include.footer-script')
-       @include('website.version1.custom-js')
-       @include('website.version1.componant.show-cart')
+            @include('website.version1.layouts.include.footer-script')
+            @include('website.version1.custom-js')
+            @include('website.version1.componant.show-cart')
+            @include('website.componant.size-js')
 </body>
 
 <!-- Mirrored from chuijhal.com/product/pickle-combo-offer-01/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Aug 2024 11:25:35 GMT -->

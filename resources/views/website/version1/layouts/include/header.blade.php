@@ -6,12 +6,12 @@
 
                     <div class="container clearfix">
 
-                        <a class="locallink logo" href="index.html#home">
-                            <img class="firstLogo" src="{{asset('version1/')}}/wp-content/uploads/2019/03/chuijhal-logo.png"
+                        <a class="locallink logo" href="{{ route('/') }}">
+                            <img class="firstLogo" src="{{asset(setting()->logo)}}"
                                 alt="Logo" />
                         </a>
-                        <a class="externalLink logo" href="index.html">
-                            <img class="firstLogo" src="{{asset('version1/')}}/wp-content/uploads/2019/03/chuijhal-logo.png"
+                        <a class="externalLink logo" href="{{ route('/') }}">
+                            <img class="firstLogo" src="{{asset(setting()->logo)}}"
                                 alt="Logo" />
                         </a>
                         <div class="cartSidebarbtn widget widget_woocommerce-dropdown-cart responsive-cart light">
@@ -41,9 +41,9 @@
                                 <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-14742 current_page_item">
                                     <span class="spanHover"></span><a class="locallink home" data-hash="home"
-                                        href="index.html#home"><span class="menu_title_wrap"><span
+                                        href="{{ route('/') }}"><span class="menu_title_wrap"><span
                                                 class="menu_title"><span>প্রচ্ছদ</span></span></span></a><a
-                                        class="externalLink" href="index.html"><span class="menu_title_wrap"><span
+                                        class="externalLink" href="{{ route('/') }}"><span class="menu_title_wrap"><span
                                                 class="menu_title"><span>প্রচ্ছদ</span></span></span></a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page"><span
                                         class="spanHover"></span><a href="shop/index.html"><span
