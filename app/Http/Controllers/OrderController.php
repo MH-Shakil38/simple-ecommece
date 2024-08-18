@@ -19,7 +19,7 @@ class OrderController extends Controller
           'customer_address'    =>  'required',
       ]);
 
-      $data['delivery_cost'] = $request->shipping_method ?? 0;
+      $data['delivery_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
 
       try {
           DB::beginTransaction();
@@ -34,7 +34,7 @@ class OrderController extends Controller
                       'total'           => $details['qty'] * $details['price'],
                   ]);
               }
-              session()->flush();
+              session()->forget('cart');
           DB::commit();
           Return redirect()->back()->with('success','Thank you for your order');
       }catch (\Throwable $e){

@@ -1887,7 +1887,8 @@
                                                     </div>
                                                 </div>
                                             @endif
-                                            <p class="stock in-stock">963 in stock</p>
+                                            {{-- <p class="stock in-stock">963 in stock</p> --}}
+                                            <br>
                                             <form class="cart" method="post" enctype="multipart/form-data">
                                                 <div class="quantity">
                                                     <input type="number" step="1" min="1" max
@@ -1962,7 +1963,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="woocommerce-tabs wc-tabs-wrapper">
+                                {{-- <div class="woocommerce-tabs wc-tabs-wrapper">
                                     <ul class="tabs wc-tabs" role="tablist">
                                         <li class="description_tab" id="tab-title-description" role="tab"
                                             aria-controls="tab-description">
@@ -2027,7 +2028,7 @@
                                         </div>
 
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="product_meta">
                                     <span class="sku_wrapper">SKU: <span class="sku">Combo1</span></span>
                                     <span class="posted_in">Category: <a

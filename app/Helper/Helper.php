@@ -15,8 +15,8 @@ if (!function_exists('menu_categoris')){
 }
 
 if (!function_exists('categories')){
-    function categoris(){
-        return \App\Models\Category::query()->where('show_menu',1)->where('status',1)->latest()->get();
+    function categories(){
+        return \App\Models\Category::query()->where('status',1)->latest()->get();
     }
 }
 

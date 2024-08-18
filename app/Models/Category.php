@@ -16,4 +16,8 @@ class Category extends Model
         'popular',
         'show_menu',
     ];
+
+    public function products(){
+        return $this->hasMany(Product::class);
+    }
 }

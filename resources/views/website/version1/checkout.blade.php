@@ -2238,7 +2238,7 @@
                         <div id="header-content">
                             <div class="page-breadcrumb">
                                 <nav class="woocommerce-breadcrumb" aria-label="Breadcrumb"><a
-                                        href="https://chuijhal.com">Home</a><span class="delimiter">/</span>চেকআউট
+                                        href="{{ route('/') }}">Home</a><span class="delimiter">/</span>চেকআউট
                                 </nav>
                                 </nav>
                             </div>
@@ -2525,7 +2525,7 @@
                                                                                                             id="shipping_method_0_flat_rate9"
                                                                                                             value="{{ delivery_policy()->outside_dhaka ?? 0 }}"
                                                                                                             class="shipping_method" /><label
-                                                                                                            for="shipping_method_0_flat_rate9">ঢাকার
+                                                                                                            for="shipping_method_0_flat_rate9 ">ঢাকার
                                                                                                             বাইরে: <span
                                                                                                                 class="woocommerce-Price-amount amount"><bdi><span
                                                                                                                         class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>120.00</bdi></span></label>
@@ -2550,9 +2550,9 @@
 
                                                                                         <tr class="order-total">
                                                                                             <th>Total</th>
-                                                                                            <td><strong><span
-                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>
+                                                                                            <td><strong>৳<span
+                                                                                                        class="woocommerce-Price-amount"><bdi><span
+                                                                                                                class="woocommerce-Price-currencySymbol"></span>
                                                                                                             @if (session('cart'))
                                                                                                                 @php
                                                                                                                     $net_total = 0;
@@ -2570,7 +2570,9 @@
                                                                                                                                 ];
                                                                                                                     @endphp
                                                                                                                 @endforeach
-                                                                                                                {{ $net_total }}
+                                                                                                                <span class="total-amount">{{ $net_total }}</span>
+
+                                                                                                                <input type="hidden" class="total-amount-input" value="{{ $net_total }}">
                                                                                                             @endif
                                                                                                         </bdi></span></strong>
                                                                                             </td>
@@ -3153,6 +3155,29 @@
     <script type="text/javascript"
         src="https://chuijhal.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=9.0.2"
         id="wc-add-to-cart-variation-js" defer="defer" data-wp-strategy="defer"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script>
+           $(document).ready(function() {
+        // When any radio button is clicked
+        $('input[name="delivery_cost"]').on('click', function() {
+            // Get the checked value
+              // Get the checked value and total amount
+        var checkedValue = parseFloat($('input[name="delivery_cost"]:checked').val());
+        var totalAmount = parseFloat($('.total-amount-input').val());
+
+        // Calculate the sum
+        var sum = totalAmount + checkedValue;
+        $('.total-amount').text(sum)
+        // Log the results
+        console.log('Total Amount:', totalAmount);
+        console.log('Checked Value:', checkedValue);
+        console.log('Sum:', sum);
+            // You can also perform any other actions here
+        });
+    });
+        </script>
+
 </body>
 
 </html>

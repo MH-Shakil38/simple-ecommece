@@ -41,7 +41,7 @@
 
                                                         <div class="content"
                                                             style="color: #9e9e9e;">
-                                                            Phone: +880 1711 30 5889 </div>
+                                                            Phone: {{ setting()->phone1 ?? '' }} </div>
 
                                                     </div>
                                                 </div>
@@ -69,7 +69,7 @@
                                                             style="color: #a0a0a0;">
                                                             <a href="cdn-cgi/l/email-protection.html"
                                                                 class="__cf_email__"
-                                                                data-cfemail="f9919c959596b99a918c9093919895d79a9694">[email&#160;protected]</a>
+                                                                data-cfemail="f9919c959596b99a918c9093919895d79a9694">[email : {{ setting()->email ?? ''}}]</a>
                                                         </div>
 
                                                     </div>
@@ -96,8 +96,7 @@
 
                                                         <div class="content"
                                                             style="color: #a5a5a5;">
-                                                            House 8, Road 7/1, Block B,
-                                                            Mirpur 12, Dhaka, 1216 </div>
+                                                            {{setting()->address ?? ''}} </div>
 
                                                     </div>
                                                 </div>
