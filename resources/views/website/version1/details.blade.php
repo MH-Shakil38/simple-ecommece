@@ -1911,12 +1911,7 @@
                                                     <span class="txt" data-hover="Add to cart">
                                                         Add to cart </span>
                                                 </a>
-                                                <script type="application/javascript" style="display:none">
-                                                    /* <![CDATA[ */
-                                                    window.pysWooProductData = window.pysWooProductData || [];
-                                                    window.pysWooProductData[32614] = { "facebook": { "delay": 0, "type": "static", "name": "AddToCart", "pixelIds": ["427272935467605"], "eventID": "5713df8f-1a2c-4292-ab15-9d15dc0b5f8b", "params": { "content_type": "product", "content_ids": ["32614"], "contents": [{ "id": "32614", "quantity": 1 }], "content_name": "Pickle Combo Offer 01", "category_name": "\u0986\u099a\u09be\u09b0", "value": 1350, "currency": "BDT" }, "e_id": "woo_add_to_cart_on_button_click", "ids": [], "hasTimeWindow": false, "timeWindow": 0, "woo_order": "", "edd_order": "" }, "ga": { "delay": 0, "type": "static", "name": "add_to_cart", "trackingIds": ["G-Q4NWW12SW2"], "params": { "event_category": "ecommerce", "currency": "BDT", "items": [{ "id": "32614", "name": "Pickle Combo Offer 01", "quantity": 1, "price": 1350, "item_category": "\u0986\u099a\u09be\u09b0" }] }, "e_id": "woo_add_to_cart_on_button_click", "ids": [], "hasTimeWindow": false, "timeWindow": 0, "pixelIds": [], "eventID": "", "woo_order": "", "edd_order": "" } };
-                                                    /* ]]> */
-                                                </script>
+                                                
                                             </form>
                                             <div class="socialShareContainer">
                                                 <div class="label hidden-phone hidden-v-tablet"> Share : </div>
