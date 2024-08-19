@@ -33,6 +33,7 @@ Route::get('/checkout',[\App\Http\Controllers\CheckoutController::class,'checkou
 Route::get('/card-clear',[\App\Http\Controllers\CardController::class,'card_clear'])->name('card.clear');
 Route::get('/card-remove/{id}/{stock_id}',[\App\Http\Controllers\CardController::class,'remove'])->name('card.remove');
 Route::post('/place-order',[\App\Http\Controllers\OrderController::class,'place_order'])->name('place.order');
+Route::get('/order-received/{id}',[\App\Http\Controllers\OrderController::class,'order_recived'])->name('order.received');
 
 Auth::routes();
 

@@ -36,7 +36,8 @@ class OrderController extends Controller
               }
               session()->forget('cart');
           DB::commit();
-          Return redirect()->back()->with('success','Thank you for your order');
+          return redirect()->route('order.received',$customer->id);
+
       }catch (\Throwable $e){
           DB::rollBack();
           dd(
@@ -83,6 +84,11 @@ class OrderController extends Controller
               $e->getPrevious(),
           );
       }
+  }
+
+  public function order_recived($id){
+    $customer = Customer::query()->findOrFail($id);
+    Return view('website.version1.order-received-page.order-received',compact('customer'));
   }
 
   public function details_order(Request $request){
