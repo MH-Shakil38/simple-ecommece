@@ -91,6 +91,10 @@ class OrderController extends Controller
     Return view('website.version1.order-received-page.order-received',compact('customer'));
   }
 
+  public function cart(){
+    return view('website.version1.cart');
+  }
+
   public function details_order(Request $request){
       $id = $request->id;
       if ($request->receive == true){

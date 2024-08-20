@@ -1,29 +1,34 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US"
+    class="csstransforms csstransforms3d csstransitions no-forcetouch js_active  vc_desktop  vc_transform  vc_transform ">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="pingback" href="https://chuijhal.com/xmlrpc.php" />
-    <meta name="robots" content="noindex, follow" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="https://chuijhal.com/xmlrpc.php">
+    <meta name="robots" content="noindex, follow">
 
-    <title>চেকআউট - চুইঝাল</title>
-    <link rel="canonical" href="https://chuijhal.com/checkout/" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="চেকআউট - চুইঝাল" />
-    <meta property="og:url" content="https://chuijhal.com/checkout/" />
-    <meta property="og:site_name" content="চুইঝাল" />
-    <meta property="article:publisher" content="https://www.facebook.com/chuijhal.cooking/" />
-    <meta property="article:modified_time" content="2019-02-28T07:58:49+00:00" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@chuijhal" />
+    <!-- This site is optimized with the Yoast SEO plugin v23.0 - https://yoast.com/wordpress/plugins/seo/ -->
+    <title>কার্ট - চুইঝাল</title>
+    <link rel="canonical" href="https://chuijhal.com/cart/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="কার্ট - চুইঝাল">
+    <meta property="og:url" content="https://chuijhal.com/cart/">
+    <meta property="og:site_name" content="চুইঝাল">
+    <meta property="article:publisher" content="https://www.facebook.com/chuijhal.cooking/">
+    <meta property="article:modified_time" content="2019-02-28T07:58:35+00:00">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@chuijhal">
+    <!-- / Yoast SEO plugin. -->
 
+
+    <script async="" src="//www.googletagmanager.com/gtag/js?id=G-Q4NWW12SW2"></script>
+    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
     <script type="application/javascript" id="pys-version-script">console.log('PixelYourSite Free version 9.6.2');</script>
-    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Feed" href="https://chuijhal.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Comments Feed"
-        href="https://chuijhal.com/comments/feed/" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="alternate" type="application/rss+xml" title="চুইঝাল » Feed" href="https://chuijhal.com/feed/">
+    <link rel="alternate" type="application/rss+xml" title="চুইঝাল » Comments Feed"
+        href="https://chuijhal.com/comments/feed/">
     <script type="text/javascript">
         /* <![CDATA[ */
         window._wpemojiSettings = {
@@ -66,7 +71,7 @@
                             n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
                                 "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                                 "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                            );
+                                );
                     case "emoji":
                         return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
                 }
@@ -144,10 +149,10 @@
     </script>
     <link rel="stylesheet" id="epico_icomoon-style-css"
         href="https://chuijhal.com/wp-content/themes/vitrine/assets/css/icomoon.min.css?ver=4.2" type="text/css"
-        media="all" />
+        media="all">
     <link rel="stylesheet" id="epico_fonts-css"
-        href="//fonts.googleapis.com/css?family=Hind+Siliguri%3A300%2C400%2C500%2C600%2C700&#038;ver=6.5.5"
-        type="text/css" media="all" />
+        href="//fonts.googleapis.com/css?family=Hind+Siliguri%3A300%2C400%2C500%2C600%2C700&amp;ver=6.5.5"
+        type="text/css" media="all">
     <style id="wp-emoji-styles-inline-css" type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -164,7 +169,7 @@
     </style>
     <link rel="stylesheet" id="wp-block-library-css"
         href="https://chuijhal.com/wp-includes/css/dist/block-library/style.min.css?ver=a091ed573bab13050d805822863c35a1"
-        type="text/css" media="all" />
+        type="text/css" media="all">
     <style id="classic-theme-styles-inline-css" type="text/css">
         /*! This file is auto-generated */
         .wp-block-button__link {
@@ -507,22 +512,19 @@
     </style>
     <link rel="stylesheet" id="contact-form-7-css"
         href="https://chuijhal.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.6" type="text/css"
-        media="all" />
-    <link rel="stylesheet" id="thwcfd-checkout-style-css"
-        href="https://chuijhal.com/wp-content/plugins/woo-checkout-field-editor-pro/public/assets/css/thwcfd-public.min.css?ver=a091ed573bab13050d805822863c35a1"
-        type="text/css" media="all" />
+        media="all">
     <link rel="stylesheet" id="select2-css"
         href="https://chuijhal.com/wp-content/plugins/woocommerce/assets/css/select2.css?ver=9.0.2" type="text/css"
-        media="all" />
+        media="all">
     <link rel="stylesheet" id="woocommerce-layout-css"
         href="https://chuijhal.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.0.2"
-        type="text/css" media="all" />
+        type="text/css" media="all">
     <link rel="stylesheet" id="woocommerce-smallscreen-css"
         href="https://chuijhal.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.0.2"
-        type="text/css" media="only screen and (max-width: 768px)" />
+        type="text/css" media="only screen and (max-width: 768px)">
     <link rel="stylesheet" id="woocommerce-general-css"
         href="https://chuijhal.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.0.2" type="text/css"
-        media="all" />
+        media="all">
     <style id="woocommerce-inline-inline-css" type="text/css">
         .woocommerce form .form-row .required {
             visibility: hidden;
@@ -530,19 +532,19 @@
     </style>
     <link rel="stylesheet" id="wpsms-subscribe-css"
         href="https://chuijhal.com/wp-content/plugins/greenwebsms/assets/css/subscribe.css?ver=75.0.0" type="text/css"
-        media="all" />
+        media="all">
     <link rel="stylesheet" id="js_composer_front-css"
         href="https://chuijhal.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.9.0"
-        type="text/css" media="all" />
+        type="text/css" media="all">
     <link rel="stylesheet" id="vc-pricing-box-front-css"
         href="https://chuijhal.com/wp-content/plugins/vc-pricing-box/assets/pricing-box-frontend.css?ver=a091ed573bab13050d805822863c35a1"
-        type="text/css" media="all" />
+        type="text/css" media="all">
     <link rel="stylesheet" id="epico_theme-style-css"
         href="https://chuijhal.com/wp-content/themes/vitrine/assets/css/theme-styles.min.css?ver=4.2" type="text/css"
-        media="all" />
+        media="all">
     <link rel="stylesheet" id="epico_woocommerce-style-css"
         href="https://chuijhal.com/wp-content/themes/vitrine/assets/css/woocommerce.min.css?ver=4.2" type="text/css"
-        media="all" />
+        media="all">
     <style id="epico_woocommerce-style-inline-css" type="text/css">
         /* cart bg color */
         header.type9 .widget.widget_woocommerce-dropdown-cart,
@@ -1547,13 +1549,13 @@
     </style>
     <link rel="stylesheet" id="epico_responsive-style-css"
         href="https://chuijhal.com/wp-content/themes/vitrine/assets/css/responsive.min.css?ver=4.2" type="text/css"
-        media="all" />
+        media="all">
     <link rel="stylesheet" id="epico_libs-css"
         href="https://chuijhal.com/wp-content/themes/vitrine/assets/css/libs.min.css?ver=4.2" type="text/css"
-        media="screen" />
+        media="screen">
     <link rel="stylesheet" id="mediaelement-css"
         href="https://chuijhal.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17"
-        type="text/css" media="all" />
+        type="text/css" media="all">
     <script type="text/javascript" src="https://chuijhal.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
     <script type="text/javascript" src="https://chuijhal.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
@@ -1568,7 +1570,7 @@
             "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
             "i18n_view_cart": "View cart",
             "cart_url": "https:\/\/chuijhal.com\/cart\/",
-            "is_cart": "",
+            "is_cart": "1",
             "cart_redirect_after_add": "no"
         };
         /* ]]> */
@@ -1624,25 +1626,23 @@
     <script type="text/javascript"
         src="https://chuijhal.com/wp-content/plugins/woocommerce/assets/js/frontend/address-i18n.min.js?ver=9.0.2"
         id="wc-address-i18n-js" defer="defer" data-wp-strategy="defer"></script>
-    <script type="text/javascript" id="wc-checkout-js-extra">
+    <script type="text/javascript" id="wc-cart-js-extra">
         /* <![CDATA[ */
-        var wc_checkout_params = {
+        var wc_cart_params = {
             "ajax_url": "\/wp-admin\/admin-ajax.php",
             "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
-            "update_order_review_nonce": "a7c525fabc",
-            "apply_coupon_nonce": "3b7779b9e4",
-            "remove_coupon_nonce": "47a2ad800c",
-            "option_guest_checkout": "yes",
-            "checkout_url": "\/?wc-ajax=checkout",
-            "is_checkout": "0",
-            "debug_mode": "",
-            "i18n_checkout_error": "There was an error processing your order. Please check for any charges in your payment method and review your <a href=\"https:\/\/chuijhal.com\/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f\/orders\/\">order history<\/a> before placing the order again."
+            "update_shipping_method_nonce": "294fb4fde3",
+            "apply_coupon_nonce": "88a06a7b6e",
+            "remove_coupon_nonce": "f01e8b9b3f"
         };
         /* ]]> */
     </script>
     <script type="text/javascript"
-        src="https://chuijhal.com/wp-content/plugins/woocommerce/assets/js/frontend/checkout.min.js?ver=9.0.2"
-        id="wc-checkout-js" defer="defer" data-wp-strategy="defer"></script>
+        src="https://chuijhal.com/wp-content/plugins/woocommerce/assets/js/frontend/cart.min.js?ver=9.0.2" id="wc-cart-js"
+        defer="defer" data-wp-strategy="defer"></script>
+    <script type="text/javascript"
+        src="https://chuijhal.com/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9-wc.9.0.2"
+        id="selectWoo-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="ajax-script-js-extra">
         /* <![CDATA[ */
         var ajax_object = {
@@ -1653,12 +1653,6 @@
     <script type="text/javascript" src="https://chuijhal.com/wp-content/plugins/greenwebsms/assets/js/script.js?ver=75.0.0"
         id="ajax-script-js"></script>
     <script type="text/javascript"
-        src="https://chuijhal.com/wp-content/plugins/woocommerce-delivery-notes/assets/js/jquery.print-link.js?ver=5.1.0"
-        id="woocommerce-delivery-notes-print-link-js"></script>
-    <script type="text/javascript"
-        src="https://chuijhal.com/wp-content/plugins/woocommerce-delivery-notes/assets/js/theme.js?ver=5.1.0"
-        id="woocommerce-delivery-notes-theme-js"></script>
-    <script type="text/javascript"
         src="https://chuijhal.com/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=a091ed573bab13050d805822863c35a1"
         id="jquery-bind-first-js"></script>
     <script type="text/javascript"
@@ -1668,91 +1662,64 @@
         /* <![CDATA[ */
         var pysOptions = {
             "staticEvents": {
-                "facebook": {
-                    "woo_purchase": [{
-                        "delay": 0,
-                        "type": "static",
-                        "name": "Purchase",
-                        "woo_order": 37078,
-                        "pixelIds": ["427272935467605"],
-                        "eventID": "53ce1109-7d6f-456f-9744-1c76fc4ed976",
-                        "params": {
-                            "content_type": "product",
-                            "content_ids": ["32614"],
-                            "content_name": "Pickle Combo Offer 01",
-                            "category_name": "\u0986\u099a\u09be\u09b0",
-                            "contents": [{
-                                "id": "32614",
-                                "quantity": 1,
-                                "item_price": 1350
-                            }],
-                            "num_items": 1,
-                            "value": 1425,
-                            "currency": "BDT",
-                            "order_id": 37078,
-                            "fees": 0,
-                            "page_title": "\u099a\u09c7\u0995\u0986\u0989\u099f",
-                            "post_type": "page",
-                            "post_id": 557,
-                            "plugin": "PixelYourSite",
-                            "user_role": "guest",
-                            "event_url": "chuijhal.com\/checkout\/order-received\/37078\/"
-                        },
-                        "e_id": "woo_purchase",
-                        "ids": [],
-                        "hasTimeWindow": false,
-                        "timeWindow": 0,
-                        "edd_order": ""
-                    }],
-                    "init_event": [{
-                        "delay": 0,
-                        "type": "static",
-                        "name": "PageView",
-                        "pixelIds": ["427272935467605"],
-                        "eventID": "519c77a1-4499-4011-9a4b-e445dbea5859",
-                        "params": {
-                            "page_title": "\u099a\u09c7\u0995\u0986\u0989\u099f",
-                            "post_type": "page",
-                            "post_id": 557,
-                            "plugin": "PixelYourSite",
-                            "user_role": "guest",
-                            "event_url": "chuijhal.com\/checkout\/order-received\/37078\/"
-                        },
-                        "e_id": "init_event",
-                        "ids": [],
-                        "hasTimeWindow": false,
-                        "timeWindow": 0,
-                        "woo_order": "",
-                        "edd_order": ""
-                    }]
-                },
                 "ga": {
-                    "woo_purchase": [{
+                    "woo_view_cart": [{
                         "delay": 0,
                         "type": "static",
-                        "name": "purchase",
+                        "name": "view_cart",
                         "trackingIds": ["G-Q4NWW12SW2"],
                         "params": {
                             "event_category": "ecommerce",
-                            "transaction_id": 37078,
-                            "value": 1425,
                             "currency": "BDT",
                             "items": [{
-                                "id": "32614",
-                                "name": "Pickle Combo Offer 01",
+                                "id": "33077",
+                                "name": "Combo \u09e9 \u09ac\u09bf\u09ad\u09be\u0997\u09c7\u09b0 \u09e9 \u099f\u09be \u099d\u09be\u09b2 \u09ae\u09b0\u09bf\u099a\u09c7\u09b0 \u0985\u09ab\u09be\u09b0",
                                 "quantity": 1,
                                 "price": 1350,
                                 "item_category": "\u0986\u099a\u09be\u09b0"
+                            }, {
+                                "id": "14858",
+                                "name": "\u09ac\u09cb\u09ae\u09cd\u09ac\u09be\u0987 \u09ae\u09b0\u09bf\u099a\u09c7\u09b0 \u0986\u099a\u09be\u09b0 (Bombai Morich) 400gm",
+                                "quantity": 1,
+                                "price": 490,
+                                "item_category": "\u0986\u099a\u09be\u09b0"
+                            }, {
+                                "id": "15025",
+                                "name": "Chuijhal (\u099a\u09c1\u0987\u099d\u09be\u09b2) \u09eb\u09e6\u09e6 \u0997\u09cd\u09b0\u09be\u09ae",
+                                "quantity": 1,
+                                "price": 600,
+                                "item_category": "\u09ae\u09b8\u09b2\u09be"
+                            }, {
+                                "id": "19886",
+                                "name": "\u09b9\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09ae\u09c7\u09a1 \u0998\u09bf - Hand Made Ghee (350 gm)",
+                                "quantity": 1,
+                                "price": 590,
+                                "item_category": "\u09ae\u09a7\u09c1 \u0993 \u09a4\u09c7\u09b2",
+                                "item_category2": "\u09ae\u09be\u09b9\u09c7\u09b0\u09ae\u099c\u09be\u09a8 \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2"
+                            }, {
+                                "id": "34109",
+                                "name": "\u09b9\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09ae\u09c7\u09a1 \u0998\u09bf - Hand Made Ghee 500 Gram",
+                                "quantity": 1,
+                                "price": 750,
+                                "item_category": "\u09ae\u09a7\u09c1 \u0993 \u09a4\u09c7\u09b2",
+                                "item_category2": "\u09ae\u09be\u09b9\u09c7\u09b0\u09ae\u099c\u09be\u09a8 \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2"
+                            }, {
+                                "id": "20347",
+                                "name": "\u09b9\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09ae\u09c7\u09a1 \u0998\u09bf - Hand Made Ghee (1 kg)",
+                                "quantity": 1,
+                                "price": 1480,
+                                "item_category": "\u09ae\u09a7\u09c1 \u0993 \u09a4\u09c7\u09b2",
+                                "item_category2": "\u09ae\u09be\u09b9\u09c7\u09b0\u09ae\u099c\u09be\u09a8 \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2"
                             }],
-                            "fees": 0,
-                            "page_title": "\u099a\u09c7\u0995\u0986\u0989\u099f",
+                            "value": 5260,
+                            "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
                             "post_type": "page",
-                            "post_id": 557,
+                            "post_id": 554,
                             "plugin": "PixelYourSite",
                             "user_role": "guest",
-                            "event_url": "chuijhal.com\/checkout\/order-received\/37078\/"
+                            "event_url": "chuijhal.com\/cart\/"
                         },
-                        "e_id": "woo_purchase",
+                        "e_id": "woo_view_cart",
                         "ids": [],
                         "hasTimeWindow": false,
                         "timeWindow": 0,
@@ -1761,25 +1728,434 @@
                         "woo_order": "",
                         "edd_order": ""
                     }]
+                },
+                "facebook": {
+                    "init_event": [{
+                        "delay": 0,
+                        "type": "static",
+                        "name": "PageView",
+                        "pixelIds": ["427272935467605"],
+                        "eventID": "56b12b59-d24b-4b75-a019-71058e7315c8",
+                        "params": {
+                            "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                            "post_type": "page",
+                            "post_id": 554,
+                            "plugin": "PixelYourSite",
+                            "user_role": "guest",
+                            "event_url": "chuijhal.com\/cart\/"
+                        },
+                        "e_id": "init_event",
+                        "ids": [],
+                        "hasTimeWindow": false,
+                        "timeWindow": 0,
+                        "woo_order": "",
+                        "edd_order": ""
+                    }]
                 }
             },
-            "dynamicEvents": [],
+            "dynamicEvents": {
+                "woo_remove_from_cart": {
+                    "32bb9f32e97807c36a1b1a881b31d33b": {
+                        "ga": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "remove_from_cart",
+                            "trackingIds": ["G-Q4NWW12SW2"],
+                            "params": {
+                                "event_category": "ecommerce",
+                                "currency": "BDT",
+                                "items": [{
+                                    "id": 33077,
+                                    "name": "Combo \u09e9 \u09ac\u09bf\u09ad\u09be\u0997\u09c7\u09b0 \u09e9 \u099f\u09be \u099d\u09be\u09b2 \u09ae\u09b0\u09bf\u099a\u09c7\u09b0 \u0985\u09ab\u09be\u09b0",
+                                    "quantity": 1,
+                                    "price": 1350,
+                                    "item_category": "\u0986\u099a\u09be\u09b0"
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "pixelIds": [],
+                            "eventID": "",
+                            "woo_order": "",
+                            "edd_order": ""
+                        },
+                        "facebook": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "RemoveFromCart",
+                            "pixelIds": ["427272935467605"],
+                            "eventID": "0bd7ebaa-22a7-414c-b16e-95d0199c586a",
+                            "params": {
+                                "content_type": "product",
+                                "content_ids": ["33077"],
+                                "content_name": "Combo \u09e9 \u09ac\u09bf\u09ad\u09be\u0997\u09c7\u09b0 \u09e9 \u099f\u09be \u099d\u09be\u09b2 \u09ae\u09b0\u09bf\u099a\u09c7\u09b0 \u0985\u09ab\u09be\u09b0",
+                                "category_name": "\u0986\u099a\u09be\u09b0",
+                                "num_items": 1,
+                                "product_price": 1350,
+                                "contents": [{
+                                    "id": "33077",
+                                    "quantity": 1
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "woo_order": "",
+                            "edd_order": ""
+                        }
+                    },
+                    "ffdc7fa7222f38cac5455d928f2b021b": {
+                        "ga": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "remove_from_cart",
+                            "trackingIds": ["G-Q4NWW12SW2"],
+                            "params": {
+                                "event_category": "ecommerce",
+                                "currency": "BDT",
+                                "items": [{
+                                    "id": 14858,
+                                    "name": "\u09ac\u09cb\u09ae\u09cd\u09ac\u09be\u0987 \u09ae\u09b0\u09bf\u099a\u09c7\u09b0 \u0986\u099a\u09be\u09b0 (Bombai Morich) 400gm",
+                                    "quantity": 1,
+                                    "price": 490,
+                                    "item_category": "\u0986\u099a\u09be\u09b0"
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "pixelIds": [],
+                            "eventID": "",
+                            "woo_order": "",
+                            "edd_order": ""
+                        },
+                        "facebook": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "RemoveFromCart",
+                            "pixelIds": ["427272935467605"],
+                            "eventID": "00eb0d47-e668-4a72-a0f9-f08debf760a3",
+                            "params": {
+                                "content_type": "product",
+                                "content_ids": ["14858"],
+                                "tags": "\u09ac\u09cb\u09ae\u09cd\u09ac\u09be\u0987 \u09ae\u09b0\u09bf\u099a\u09c7\u09b0 \u0986\u099a\u09be\u09b0",
+                                "content_name": "\u09ac\u09cb\u09ae\u09cd\u09ac\u09be\u0987 \u09ae\u09b0\u09bf\u099a\u09c7\u09b0 \u0986\u099a\u09be\u09b0 (Bombai Morich) 400gm",
+                                "category_name": "\u0986\u099a\u09be\u09b0",
+                                "num_items": 1,
+                                "product_price": 490,
+                                "contents": [{
+                                    "id": "14858",
+                                    "quantity": 1
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "woo_order": "",
+                            "edd_order": ""
+                        }
+                    },
+                    "f9470a9c5982e834a183a0b97322afdf": {
+                        "ga": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "remove_from_cart",
+                            "trackingIds": ["G-Q4NWW12SW2"],
+                            "params": {
+                                "event_category": "ecommerce",
+                                "currency": "BDT",
+                                "items": [{
+                                    "id": 15025,
+                                    "name": "Chuijhal (\u099a\u09c1\u0987\u099d\u09be\u09b2) \u09eb\u09e6\u09e6 \u0997\u09cd\u09b0\u09be\u09ae",
+                                    "quantity": 1,
+                                    "price": 600,
+                                    "item_category": "\u09ae\u09b8\u09b2\u09be"
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "pixelIds": [],
+                            "eventID": "",
+                            "woo_order": "",
+                            "edd_order": ""
+                        },
+                        "facebook": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "RemoveFromCart",
+                            "pixelIds": ["427272935467605"],
+                            "eventID": "80e5df3b-eed9-45c1-aa3c-c9f4fcc8e270",
+                            "params": {
+                                "content_type": "product",
+                                "content_ids": ["15025"],
+                                "content_name": "Chuijhal (\u099a\u09c1\u0987\u099d\u09be\u09b2) \u09eb\u09e6\u09e6 \u0997\u09cd\u09b0\u09be\u09ae",
+                                "category_name": "\u09ae\u09b8\u09b2\u09be",
+                                "num_items": 1,
+                                "product_price": 600,
+                                "contents": [{
+                                    "id": "15025",
+                                    "quantity": 1
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "woo_order": "",
+                            "edd_order": ""
+                        }
+                    },
+                    "0fc591c46a8bf39d14d9f87b31cd1fc4": {
+                        "ga": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "remove_from_cart",
+                            "trackingIds": ["G-Q4NWW12SW2"],
+                            "params": {
+                                "event_category": "ecommerce",
+                                "currency": "BDT",
+                                "items": [{
+                                    "id": 19886,
+                                    "name": "\u09b9\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09ae\u09c7\u09a1 \u0998\u09bf - Hand Made Ghee (350 gm)",
+                                    "quantity": 1,
+                                    "price": 590,
+                                    "item_category": "\u09ae\u09a7\u09c1 \u0993 \u09a4\u09c7\u09b2",
+                                    "item_category2": "\u09ae\u09be\u09b9\u09c7\u09b0\u09ae\u099c\u09be\u09a8 \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2"
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "pixelIds": [],
+                            "eventID": "",
+                            "woo_order": "",
+                            "edd_order": ""
+                        },
+                        "facebook": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "RemoveFromCart",
+                            "pixelIds": ["427272935467605"],
+                            "eventID": "84b56900-bf01-4823-b6e1-066372980b2e",
+                            "params": {
+                                "content_type": "product",
+                                "content_ids": ["19886"],
+                                "content_name": "\u09b9\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09ae\u09c7\u09a1 \u0998\u09bf - Hand Made Ghee (350 gm)",
+                                "category_name": "\u09ae\u09a7\u09c1 \u0993 \u09a4\u09c7\u09b2, \u09ae\u09be\u09b9\u09c7\u09b0\u09ae\u099c\u09be\u09a8 \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2",
+                                "num_items": 1,
+                                "product_price": 590,
+                                "contents": [{
+                                    "id": "19886",
+                                    "quantity": 1
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "woo_order": "",
+                            "edd_order": ""
+                        }
+                    },
+                    "11db6a59100b3e48e6aa854e126f7059": {
+                        "ga": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "remove_from_cart",
+                            "trackingIds": ["G-Q4NWW12SW2"],
+                            "params": {
+                                "event_category": "ecommerce",
+                                "currency": "BDT",
+                                "items": [{
+                                    "id": 34109,
+                                    "name": "\u09b9\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09ae\u09c7\u09a1 \u0998\u09bf - Hand Made Ghee 500 Gram",
+                                    "quantity": 1,
+                                    "price": 750,
+                                    "item_category": "\u09ae\u09a7\u09c1 \u0993 \u09a4\u09c7\u09b2",
+                                    "item_category2": "\u09ae\u09be\u09b9\u09c7\u09b0\u09ae\u099c\u09be\u09a8 \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2"
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "pixelIds": [],
+                            "eventID": "",
+                            "woo_order": "",
+                            "edd_order": ""
+                        },
+                        "facebook": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "RemoveFromCart",
+                            "pixelIds": ["427272935467605"],
+                            "eventID": "c999a2b2-201b-4acd-9a10-a4e2f9d96415",
+                            "params": {
+                                "content_type": "product",
+                                "content_ids": ["34109"],
+                                "content_name": "\u09b9\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09ae\u09c7\u09a1 \u0998\u09bf - Hand Made Ghee 500 Gram",
+                                "category_name": "\u09ae\u09a7\u09c1 \u0993 \u09a4\u09c7\u09b2, \u09ae\u09be\u09b9\u09c7\u09b0\u09ae\u099c\u09be\u09a8 \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2",
+                                "num_items": 1,
+                                "product_price": 750,
+                                "contents": [{
+                                    "id": "34109",
+                                    "quantity": 1
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "woo_order": "",
+                            "edd_order": ""
+                        }
+                    },
+                    "15709800bdacf685676ca21dad559a45": {
+                        "ga": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "remove_from_cart",
+                            "trackingIds": ["G-Q4NWW12SW2"],
+                            "params": {
+                                "event_category": "ecommerce",
+                                "currency": "BDT",
+                                "items": [{
+                                    "id": 20347,
+                                    "name": "\u09b9\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09ae\u09c7\u09a1 \u0998\u09bf - Hand Made Ghee (1 kg)",
+                                    "quantity": 1,
+                                    "price": 1480,
+                                    "item_category": "\u09ae\u09a7\u09c1 \u0993 \u09a4\u09c7\u09b2",
+                                    "item_category2": "\u09ae\u09be\u09b9\u09c7\u09b0\u09ae\u099c\u09be\u09a8 \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2"
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "pixelIds": [],
+                            "eventID": "",
+                            "woo_order": "",
+                            "edd_order": ""
+                        },
+                        "facebook": {
+                            "delay": 0,
+                            "type": "dyn",
+                            "name": "RemoveFromCart",
+                            "pixelIds": ["427272935467605"],
+                            "eventID": "53f0ea7b-d248-411c-bb43-501bf2ac66bf",
+                            "params": {
+                                "content_type": "product",
+                                "content_ids": ["20347"],
+                                "content_name": "\u09b9\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09ae\u09c7\u09a1 \u0998\u09bf - Hand Made Ghee (1 kg)",
+                                "category_name": "\u09ae\u09a7\u09c1 \u0993 \u09a4\u09c7\u09b2, \u09ae\u09be\u09b9\u09c7\u09b0\u09ae\u099c\u09be\u09a8 \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2",
+                                "num_items": 1,
+                                "product_price": 1480,
+                                "contents": [{
+                                    "id": "20347",
+                                    "quantity": 1
+                                }],
+                                "page_title": "\u0995\u09be\u09b0\u09cd\u099f",
+                                "post_type": "page",
+                                "post_id": 554,
+                                "plugin": "PixelYourSite",
+                                "user_role": "guest",
+                                "event_url": "chuijhal.com\/cart\/"
+                            },
+                            "e_id": "woo_remove_from_cart",
+                            "ids": [],
+                            "hasTimeWindow": false,
+                            "timeWindow": 0,
+                            "woo_order": "",
+                            "edd_order": ""
+                        }
+                    }
+                }
+            },
             "triggerEvents": [],
             "triggerEventTypes": [],
             "facebook": {
                 "pixelIds": ["427272935467605"],
-                "advancedMatching": {
-                    "em": "pawosawuv@mailinator.com",
-                    "ph": "14598751961",
-                    "fn": "deirdre",
-                    "country": "bd"
-                },
+                "advancedMatching": [],
                 "advancedMatchingEnabled": true,
                 "removeMetadata": false,
                 "contentParams": {
                     "post_type": "page",
-                    "post_id": 557,
-                    "content_name": "\u099a\u09c7\u0995\u0986\u0989\u099f"
+                    "post_id": 554,
+                    "content_name": "\u0995\u09be\u09b0\u09cd\u099f"
                 },
                 "commentEventEnabled": true,
                 "wooVariableAsSimple": false,
@@ -1817,7 +2193,7 @@
             "debug": "",
             "siteUrl": "https:\/\/chuijhal.com",
             "ajaxUrl": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
-            "ajax_event": "1e14e0c322",
+            "ajax_event": "de9d169d9b",
             "enable_remove_download_url_param": "1",
             "cookie_duration": "7",
             "last_visit_duration": "60",
@@ -1898,8 +2274,8 @@
                 "singleProductId": null,
                 "removeFromCartSelector": "form.woocommerce-cart-form .remove",
                 "addToCartCatchMethod": "add_cart_hook",
-                "is_order_received_page": true,
-                "containOrderId": true
+                "is_order_received_page": false,
+                "containOrderId": false
             },
             "edd": {
                 "enabled": false
@@ -1909,13 +2285,13 @@
     </script>
     <script type="text/javascript"
         src="https://chuijhal.com/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=9.6.2" id="pys-js"></script>
-    <link rel="https://api.w.org/" href="https://chuijhal.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://chuijhal.com/wp-json/wp/v2/pages/557" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chuijhal.com/xmlrpc.php?rsd" />
+    <link rel="https://api.w.org/" href="https://chuijhal.com/wp-json/">
+    <link rel="alternate" type="application/json" href="https://chuijhal.com/wp-json/wp/v2/pages/554">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chuijhal.com/xmlrpc.php?rsd">
     <link rel="alternate" type="application/json+oembed"
-        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2Fcheckout%2F" />
+        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2Fcart%2F">
     <link rel="alternate" type="text/xml+oembed"
-        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2Fcheckout%2F&#038;format=xml" />
+        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2Fcart%2F&amp;format=xml">
     <noscript>
         <style>
             .woocommerce-product-gallery {
@@ -1926,18 +2302,20 @@
     <meta name="generator"
         content="Elementor 3.22.3; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 
+    <!-- Schema & Structured Data For WP v1.33 - -->
     <script type="application/ld+json" class="saswp-schema-markup-output">
 [{"@context":"https://schema.org/","@graph":[{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#298 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"শপ","url":"https://chuijhal.com/shop/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Organic Tea","url":"http://epicomedia.com/vitrine-demo37/product-category/organic-tea/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Vegetables","url":"http://epicomedia.com/vitrine-demo37/product-category/vegetables/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"BLOG","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Masonry - Blog","url":"https://chuijhal.com/blog/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"GALLERY","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"PORTFOLIO","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"PAGES","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Creative","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11895 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11899 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Simple","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11901 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"যোগাযোগ","url":"https://chuijhal.com/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Minimal","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11907 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"About us","url":"https://chuijhal.com/about-us/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11913 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Modern","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11915 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11921 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Coming soon - fullwidth","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Coming soon - split","url":""}]}]
 </script>
-    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
     <link rel="icon" href="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-32x32.png"
-        sizes="32x32" />
+        sizes="32x32">
     <link rel="icon" href="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-192x192.png"
-        sizes="192x192" />
+        sizes="192x192">
     <link rel="apple-touch-icon"
-        href="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-180x180.png" />
+        href="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-180x180.png">
     <meta name="msapplication-TileImage"
-        content="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-270x270.png" />
+        content="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-270x270.png">
     <noscript>
         <style>
             .wpb_animate_when_almost_visible {
@@ -1945,121 +2323,265 @@
             }
         </style>
     </noscript>
-    <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" />
+    <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb">
+
+    <script src="https://chuijhal.com/wp-includes/js/wp-emoji-release.min.js?ver=a091ed573bab13050d805822863c35a1" defer="">
+    </script>
+    <style id="fit-vids-style">
+        .fluid-width-video-wrapper {
+            width: 100%;
+            position: relative;
+            padding: 0;
+        }
+
+        .fluid-width-video-wrapper iframe,
+        .fluid-width-video-wrapper object,
+        .fluid-width-video-wrapper embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body data-rsssl="1"
-    class="page-template-default page page-id-557 theme-vitrine woocommerce-checkout woocommerce-page woocommerce-order-received woocommerce-no-js no-preloader no-page-transition fade wpb-js-composer js-comp-ver-6.9.0 vc_responsive elementor-default elementor-kit-34415"
-    data-pageid="557">
+    class="page-template-default page page-id-554 theme-vitrine woocommerce-cart woocommerce-page woocommerce-js no-preloader fade wpb-js-composer js-comp-ver-6.9.0 vc_responsive elementor-default elementor-kit-34415 has-scrollbar scrollbarSize17"
+    data-pageid="554">
+
+
     <div id="top"></div>
+
     <div class="scrollToTop visible-desktop">
         <a href="#top"></a>
     </div>
+
     <div class="layout">
 
+        <!-- Preloader -->
+
+
         <div class="toggleSidebar toggleSidebarWidgetbar">
-            <div id="toggle-sidebar-close-btn"></div>
-            <div class="sidebar widget-area">
-                <div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories">
-                    <h4 class="widget-title">Product categories</h4>
-                    <ul class="product-categories">
-                        <li class="cat-item cat-item-254"><a
-                                href="https://chuijhal.com/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/">আচার</a>
-                            <span class="count">(34)</span>
-                        </li>
-                        <li class="cat-item cat-item-248"><a
-                                href="https://chuijhal.com/product-category/%e0%a6%a1%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%87-%e0%a6%ab%e0%a7%8d%e0%a6%b0%e0%a7%81%e0%a6%9f/">ড্রাই-ফ্রুট</a>
-                            <span class="count">(1)</span>
-                        </li>
-                        <li class="cat-item cat-item-245"><a
-                                href="https://chuijhal.com/product-category/%e0%a6%ad%e0%a7%87%e0%a6%b7%e0%a6%9c-%e0%a6%ac%e0%a6%be%e0%a6%a8%e0%a6%bf%e0%a7%9f%e0%a6%be%e0%a6%a4%e0%a7%80/">ভেষজ
-                                বানিয়াতী</a> <span class="count">(3)</span></li>
-                        <li class="cat-item cat-item-246"><a
-                                href="https://chuijhal.com/product-category/%e0%a6%ae%e0%a6%a7%e0%a7%81-%e0%a6%93-%e0%a6%a4%e0%a7%87%e0%a6%b2/">মধু
-                                ও তেল</a> <span class="count">(5)</span></li>
-                        <li class="cat-item cat-item-247"><a
-                                href="https://chuijhal.com/product-category/%e0%a6%ae%e0%a6%b8%e0%a6%b2%e0%a6%be/">মসলা</a>
-                            <span class="count">(12)</span>
-                        </li>
-                        <li class="cat-item cat-item-249"><a
-                                href="https://chuijhal.com/product-category/%e0%a6%ae%e0%a6%be%e0%a6%b9%e0%a7%87%e0%a6%b0%e0%a6%ae%e0%a6%9c%e0%a6%be%e0%a6%a8-%e0%a6%b8%e0%a7%8d%e0%a6%aa%e0%a7%87%e0%a6%b6%e0%a6%be%e0%a6%b2/">মাহেরমজান
-                                স্পেশাল</a> <span class="count">(3)</span></li>
-                        <li class="cat-item cat-item-671"><a
-                                href="https://chuijhal.com/product-category/%e0%a6%b0%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%a8%e0%a6%be-%e0%a6%ae%e0%a6%be%e0%a6%82%e0%a6%b8/">রান্না
-                                মাংস</a> <span class="count">(1)</span></li>
-                        <li class="cat-item cat-item-252"><a
-                                href="https://chuijhal.com/product-category/%e0%a6%b0%e0%a7%81%e0%a6%9f%e0%a6%bf-%e0%a6%ae%e0%a7%87%e0%a6%95%e0%a6%be%e0%a6%b0/">রুটি
-                                মেকার</a> <span class="count">(3)</span></li>
-                    </ul>
+            <div class="swiper-container sw-scrollbar swiper-container-vertical swiper-container-free-mode">
+                <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                    <div class="swiper-slide swiper-slide-active">
+                        <div id="toggle-sidebar-close-btn"></div>
+                        <div class="sidebar widget-area">
+                            <div id="woocommerce_product_categories-2"
+                                class="widget woocommerce widget_product_categories">
+                                <h4 class="widget-title">Product categories</h4>
+                                <ul class="product-categories">
+                                    <li class="cat-item cat-item-254"><a
+                                            href="https://chuijhal.com/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/">আচার</a>
+                                        <span class="count">(34)</span></li>
+                                    <li class="cat-item cat-item-248"><a
+                                            href="https://chuijhal.com/product-category/%e0%a6%a1%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%87-%e0%a6%ab%e0%a7%8d%e0%a6%b0%e0%a7%81%e0%a6%9f/">ড্রাই-ফ্রুট</a>
+                                        <span class="count">(1)</span></li>
+                                    <li class="cat-item cat-item-245"><a
+                                            href="https://chuijhal.com/product-category/%e0%a6%ad%e0%a7%87%e0%a6%b7%e0%a6%9c-%e0%a6%ac%e0%a6%be%e0%a6%a8%e0%a6%bf%e0%a7%9f%e0%a6%be%e0%a6%a4%e0%a7%80/">ভেষজ
+                                            বানিয়াতী</a> <span class="count">(3)</span></li>
+                                    <li class="cat-item cat-item-246"><a
+                                            href="https://chuijhal.com/product-category/%e0%a6%ae%e0%a6%a7%e0%a7%81-%e0%a6%93-%e0%a6%a4%e0%a7%87%e0%a6%b2/">মধু
+                                            ও তেল</a> <span class="count">(5)</span></li>
+                                    <li class="cat-item cat-item-247"><a
+                                            href="https://chuijhal.com/product-category/%e0%a6%ae%e0%a6%b8%e0%a6%b2%e0%a6%be/">মসলা</a>
+                                        <span class="count">(12)</span></li>
+                                    <li class="cat-item cat-item-249"><a
+                                            href="https://chuijhal.com/product-category/%e0%a6%ae%e0%a6%be%e0%a6%b9%e0%a7%87%e0%a6%b0%e0%a6%ae%e0%a6%9c%e0%a6%be%e0%a6%a8-%e0%a6%b8%e0%a7%8d%e0%a6%aa%e0%a7%87%e0%a6%b6%e0%a6%be%e0%a6%b2/">মাহেরমজান
+                                            স্পেশাল</a> <span class="count">(3)</span></li>
+                                    <li class="cat-item cat-item-671"><a
+                                            href="https://chuijhal.com/product-category/%e0%a6%b0%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%a8%e0%a6%be-%e0%a6%ae%e0%a6%be%e0%a6%82%e0%a6%b8/">রান্না
+                                            মাংস</a> <span class="count">(1)</span></li>
+                                    <li class="cat-item cat-item-252"><a
+                                            href="https://chuijhal.com/product-category/%e0%a6%b0%e0%a7%81%e0%a6%9f%e0%a6%bf-%e0%a6%ae%e0%a7%87%e0%a6%95%e0%a6%be%e0%a6%b0/">রুটি
+                                            মেকার</a> <span class="count">(3)</span></li>
+                                </ul>
+                            </div>
+                            <div id="woocommerce_product_tag_cloud-2"
+                                class="widget woocommerce widget_product_tag_cloud">
+                                <h4 class="widget-title">Product tags</h4>
+                                <div class="tagcloud"><a
+                                        href="https://chuijhal.com/product-tag/%e0%a6%8f%e0%a6%95-%e0%a6%95%e0%a7%8b%e0%a7%9f%e0%a6%be-%e0%a6%b0%e0%a6%b8%e0%a7%81%e0%a6%a8/"
+                                        class="tag-cloud-link tag-link-412 tag-link-position-1"
+                                        style="font-size: 22pt;" aria-label="এক কোয়া রসুন (2 products)">এক কোয়া
+                                        রসুন</a>
+                                    <a href="https://chuijhal.com/product-tag/%e0%a6%95%e0%a6%be%e0%a6%9a%e0%a6%be-%e0%a6%ae%e0%a6%b0%e0%a6%bf%e0%a6%9a%e0%a7%87%e0%a6%b0-%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/"
+                                        class="tag-cloud-link tag-link-407 tag-link-position-2"
+                                        style="font-size: 8pt;" aria-label="কাচা মরিচের আচার (1 product)">কাচা মরিচের
+                                        আচার</a>
+                                    <a href="https://chuijhal.com/product-tag/%e0%a6%ac%e0%a7%8b%e0%a6%ae%e0%a7%8d%e0%a6%ac%e0%a6%be%e0%a6%87-%e0%a6%ae%e0%a6%b0%e0%a6%bf%e0%a6%9a%e0%a7%87%e0%a6%b0-%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/"
+                                        class="tag-cloud-link tag-link-406 tag-link-position-3"
+                                        style="font-size: 8pt;" aria-label="বোম্বাই মরিচের আচার (1 product)">বোম্বাই
+                                        মরিচের আচার</a>
+                                    <a href="https://chuijhal.com/product-tag/%e0%a6%b8%e0%a7%8d%e0%a6%9f%e0%a6%be%e0%a6%b0-%e0%a6%ae%e0%a6%b8%e0%a6%b2%e0%a6%be/"
+                                        class="tag-cloud-link tag-link-450 tag-link-position-4"
+                                        style="font-size: 8pt;" aria-label="স্টার মসলা (1 product)">স্টার মসলা</a>
+                                    <a href="https://chuijhal.com/product-tag/%e0%a6%b8%e0%a7%8d%e0%a6%ae%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b8%e0%a6%a1-%e0%a6%9c%e0%a6%b2%e0%a6%aa%e0%a6%be%e0%a6%87-%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/"
+                                        class="tag-cloud-link tag-link-376 tag-link-position-5"
+                                        style="font-size: 8pt;" aria-label="স্ম্যাসড জলপাই আচার (1 product)">স্ম্যাসড
+                                        জলপাই আচার</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="woocommerce_product_tag_cloud-2" class="widget woocommerce widget_product_tag_cloud">
-                    <h4 class="widget-title">Product tags</h4>
-                    <div class="tagcloud"><a
-                            href="https://chuijhal.com/product-tag/%e0%a6%8f%e0%a6%95-%e0%a6%95%e0%a7%8b%e0%a7%9f%e0%a6%be-%e0%a6%b0%e0%a6%b8%e0%a7%81%e0%a6%a8/"
-                            class="tag-cloud-link tag-link-412 tag-link-position-1" style="font-size: 22pt;"
-                            aria-label="এক কোয়া রসুন (2 products)">এক কোয়া রসুন</a>
-                        <a href="https://chuijhal.com/product-tag/%e0%a6%95%e0%a6%be%e0%a6%9a%e0%a6%be-%e0%a6%ae%e0%a6%b0%e0%a6%bf%e0%a6%9a%e0%a7%87%e0%a6%b0-%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/"
-                            class="tag-cloud-link tag-link-407 tag-link-position-2" style="font-size: 8pt;"
-                            aria-label="কাচা মরিচের আচার (1 product)">কাচা মরিচের আচার</a>
-                        <a href="https://chuijhal.com/product-tag/%e0%a6%ac%e0%a7%8b%e0%a6%ae%e0%a7%8d%e0%a6%ac%e0%a6%be%e0%a6%87-%e0%a6%ae%e0%a6%b0%e0%a6%bf%e0%a6%9a%e0%a7%87%e0%a6%b0-%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/"
-                            class="tag-cloud-link tag-link-406 tag-link-position-3" style="font-size: 8pt;"
-                            aria-label="বোম্বাই মরিচের আচার (1 product)">বোম্বাই মরিচের আচার</a>
-                        <a href="https://chuijhal.com/product-tag/%e0%a6%b8%e0%a7%8d%e0%a6%9f%e0%a6%be%e0%a6%b0-%e0%a6%ae%e0%a6%b8%e0%a6%b2%e0%a6%be/"
-                            class="tag-cloud-link tag-link-450 tag-link-position-4" style="font-size: 8pt;"
-                            aria-label="স্টার মসলা (1 product)">স্টার মসলা</a>
-                        <a href="https://chuijhal.com/product-tag/%e0%a6%b8%e0%a7%8d%e0%a6%ae%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b8%e0%a6%a1-%e0%a6%9c%e0%a6%b2%e0%a6%aa%e0%a6%be%e0%a6%87-%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/"
-                            class="tag-cloud-link tag-link-376 tag-link-position-5" style="font-size: 8pt;"
-                            aria-label="স্ম্যাসড জলপাই আচার (1 product)">স্ম্যাসড জলপাই আচার</a>
+                <div class="swiper-scrollbar" style="opacity: 0; transition-duration: 400ms;">
+                    <div class="swiper-scrollbar-drag" style="height: 0px; transform: translate3d(0px, 0px, 0px);">
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="toggleSidebar cartSidebarContainer">
             <div class="cartSidebarWrap">
                 <div class="wc-loading"></div>
                 <span class="wc-loading-bg"></span>
                 <div class="widget_shopping_cart_content">
+
                     <div class="cartSidebarHeader">
                         <div id="cart-close-btn"></div>
                         <div class="cartSidebarTitle">
                             Shopping Bag </div>
+
                         <div class="cartContentsCount">
-                            0 </div>
+                            6 </div>
+
                     </div>
+
+
                     <ul class="cart_list product_list_widget ">
-                        <li class="empty show-message">No products in the cart.</li>
-                    </ul>
+                        <div
+                            class="swiper-container sw-scrollbar swiper-container-vertical swiper-container-free-mode">
+                            <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-active">
+
+                                        <li class="mini_cart_item">
+
+
+                                            <!--**************************check the version  *****************************-->
+
+
+                                            <a href="https://chuijhal.com/cart/?remove_item=32bb9f32e97807c36a1b1a881b31d33b&amp;_wpnonce=7ea5f11184"
+                                                class="remove no_djax" aria-label="Remove this item"
+                                                data-product_id="33077" data-product_sku="Chilli Combo"
+                                                data-item-key="32bb9f32e97807c36a1b1a881b31d33b"></a>
+
+                                            <!--**************************check the version end *****************************-->
+
+
+
+                                            <div class="wc-loading hide"></div>
+
+
+                                            <!--**************************check the version  *****************************-->
+
+
+                                            <a href="https://chuijhal.com/cart/?undo_item=32bb9f32e97807c36a1b1a881b31d33b&amp;_wpnonce=7ea5f11184"
+                                                class="icon icon-undo undo no_djax" title="Undo this item"
+                                                data-product_id="33077" data-product_sku="Chilli Combo"
+                                                data-item-key="32bb9f32e97807c36a1b1a881b31d33b"><span></span></a>
+
+                                            <!--**************************check the version end *****************************-->
+
+
+                                            <a href="https://chuijhal.com/product/combo-3-jhal-pickle/">
+                                                <img width="300" height="300"
+                                                    src="//chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-300x300.png"
+                                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                    alt="৩ টা ঝাল আচার বোম্বাই, নাগা কাঁচা মরিচ" decoding="async"
+                                                    srcset="//chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-300x300.png 300w, //chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-768x768.png 768w, //chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-340x340.png 340w, //chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-680x680.png 680w, //chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-600x600.png 600w, //chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-400x400.png 400w, //chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-100x100.png 100w, //chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle.png 1080w"
+                                                    sizes="(max-width: 300px) 100vw, 300px"> </a>
+
+                                            <span>Combo ৩ বিভাগের ৩ টা ঝাল মরিচের অফার</span>
+
+
+                                            <!--**************************check the version  *****************************-->
+
+
+                                            <!--**************************check the version end *****************************-->
+
+
+
+
+
+                                            <span class="quantity">1 × <span
+                                                    class="woocommerce-Price-amount amount"><bdi><span
+                                                            class="woocommerce-Price-currencySymbol">৳&nbsp;</span>1,350.00</bdi></span></span>
+                                        </li>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-scrollbar" style="opacity: 0; transition-duration: 400ms;">
+                                <div class="swiper-scrollbar-drag"
+                                    style="height: 29.4688px; transform: translate3d(0px, 0px, 0px);"></div>
+                            </div>
+                        </div>
+                    </ul><!-- end product list -->
+
                     <div class="cart-bottom-box">
+
+                        <p class="total"><strong>Subtotal:</strong> <span
+                                class="woocommerce-Price-amount amount"><bdi><span
+                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>5,260.00</bdi></span>
+                        </p>
+
+
+                        <p class="buttons">
+                            <a href="https://chuijhal.com/cart/" class="button wc-forward">
+                                <span data-hover="View Cart">View Cart</span>
+                            </a><a href="https://chuijhal.com/checkout/" class="button checkout wc-forward">
+                                <span data-hover="Checkout">Checkout</span>
+                            </a>
+                        </p>
+
                     </div>
+
                 </div>
             </div>
         </div>
 
+
+
+        <!-- Header Navigation  -->
         <header id="epHeader" data-fixed="fixed-menu"
             class=" hastogglesidebar  hasDropDownCart   fillhover    type1 fixed-menu   ">
             <div class="wrap headerWrap">
                 <div id="headerFirstState">
                     <div class="menuBgColor hidden-phone hidden-tablet"></div>
 
+                    <!-- if menu be in container -->
+
                     <div class="container clearfix">
+
+
+
+                        <!-- First Logo -->
 
                         <a class="locallink logo" href="https://chuijhal.com/#home">
                             <img class="firstLogo"
                                 src="https://chuijhal.com/wp-content/uploads/2019/03/chuijhal-logo.png"
-                                alt="Logo" />
+                                alt="Logo">
+
                         </a>
+
                         <a class="externalLink logo" href="https://chuijhal.com">
                             <img class="firstLogo"
                                 src="https://chuijhal.com/wp-content/uploads/2019/03/chuijhal-logo.png"
-                                alt="Logo" />
+                                alt="Logo">
                         </a>
+
                         <div class="cartSidebarbtn widget widget_woocommerce-dropdown-cart responsive-cart light">
                             <a href="https://chuijhal.com/cart/"></a>
                             <div class="cart-contents">
-                                <div class="cartContentsCount">0</div>
+                                <div class="cartContentsCount">6</div>
                             </div>
                             <span class="icon icon-bag"></span>
                         </div>
+
+
+
                         <div class="sidebartogglebtn hover light">
                             <ul class="sidebartogglebtnlines">
                                 <li>
@@ -2073,6 +2595,9 @@
                                 </li>
                             </ul>
                         </div>
+
+
+
                         <span class="search-button icon-magnifier no-select hidden-phone hidden-tablet"></span>
                         <nav class="navigation hidden-phone hidden-tablet">
                             <ul id="menu-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a7%e0%a6%be%e0%a6%a8-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be"
@@ -2083,8 +2608,7 @@
                                                 class="menu_title"><span>প্রচ্ছদ</span></span></span></a><a
                                         class="externalLink" href="https://chuijhal.com"><span
                                             class="menu_title_wrap"><span
-                                                class="menu_title"><span>প্রচ্ছদ</span></span></span></a>
-                                </li>
+                                                class="menu_title"><span>প্রচ্ছদ</span></span></span></a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page"><span
                                         class="spanHover"></span><a href="https://chuijhal.com/shop/"><span
                                             class="menu_title_wrap"><span
@@ -2158,8 +2682,7 @@
                                             <a
                                                 href="https://chuijhal.com/%e0%a6%97%e0%a7%8b%e0%a6%aa%e0%a6%a8%e0%a7%80%e0%a6%af%e0%a6%bc%e0%a6%a4%e0%a6%be-%e0%a6%a8%e0%a7%80%e0%a6%a4%e0%a6%bf/"><span
                                                     class="menu_title_wrap"><span class="menu_title"><span>গোপনীয়তা
-                                                            নীতি</span></span></span></a>
-                                        </li>
+                                                            নীতি</span></span></span></a></li>
                                         <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
                                                 href="https://chuijhal.com/%e0%a6%b6%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a7%80/"><span
                                                     class="menu_title_wrap"><span
@@ -2173,15 +2696,14 @@
                                             class="menu_title_wrap"><span class="menu_title"><span>লগইন /
                                                     সাইনআপ</span></span></span></a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                                href="https://chuijhal.com/cart/"><span class="menu_title_wrap"><span
-                                                        class="menu_title"><span>কার্ট</span></span></span></a></li>
                                         <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-557 current_page_item">
-                                            <a href="https://chuijhal.com/checkout/"><span
+                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-554 current_page_item">
+                                            <a href="https://chuijhal.com/cart/"><span class="menu_title_wrap"><span
+                                                        class="menu_title"><span>কার্ট</span></span></span></a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                                href="https://chuijhal.com/checkout/"><span
                                                     class="menu_title_wrap"><span
-                                                        class="menu_title"><span>চেকআউট</span></span></span></a>
-                                        </li>
+                                                        class="menu_title"><span>চেকআউট</span></span></span></a></li>
                                         <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
                                                 href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/orders/"><span
                                                     class="menu_title_wrap"><span class="menu_title"><span>আমার
@@ -2191,12 +2713,22 @@
                             </ul>
                         </nav>
 
+
+                        <!-- if menu be in container -->
+
                     </div>
+
+
+
                 </div>
+
+
+
+
                 <div id="mobile-menu-button" class="navigation-button hidden-desktop no_djax">
                     <span></span>
                 </div>
-                <nav id="mobile-menu-items" class="navigation-mobile  " style="display:none;">
+                <nav id="mobile-menu-items" class="navigation-mobile  " style="display: none; max-height: 234px;">
                     <div class="mobile-menu-container hidden-desktop">
                         <ul id="menu-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a7%e0%a6%be%e0%a6%a8-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be-1"
                             class="menu">
@@ -2256,8 +2788,7 @@
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy">
                                         <a
                                             href="https://chuijhal.com/%e0%a6%97%e0%a7%8b%e0%a6%aa%e0%a6%a8%e0%a7%80%e0%a6%af%e0%a6%bc%e0%a6%a4%e0%a6%be-%e0%a6%a8%e0%a7%80%e0%a6%a4%e0%a6%bf/">গোপনীয়তা
-                                            নীতি</a>
-                                    </li>
+                                            নীতি</a></li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
                                             href="https://chuijhal.com/%e0%a6%b6%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a7%80/">শর্তাবলী</a>
                                     </li>
@@ -2270,12 +2801,11 @@
                                     / সাইনআপ</a>
                                 <span class="toggle_submneu"><span class="toggle_icon"></span></span>
                                 <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                            href="https://chuijhal.com/cart/">কার্ট</a></li>
                                     <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-557 current_page_item">
-                                        <a href="https://chuijhal.com/checkout/">চেকআউট</a>
-                                    </li>
+                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-554 current_page_item">
+                                        <a href="https://chuijhal.com/cart/">কার্ট</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://chuijhal.com/checkout/">চেকআউট</a></li>
                                     <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
                                             href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/orders/">আমার
                                             অর্ডার</a></li>
@@ -2283,30 +2813,43 @@
                             </li>
                         </ul>
                     </div>
+
+
                     <div id="mobile-search-form">
+
                         <div class="search-form">
                             <form role="search" method="get" class="searchform" action="https://chuijhal.com/">
                                 <div>
                                     <label class="screen-reader-text" for="s"></label>
-                                    <input type="text" placeholder="Search" value name="s" />
+                                    <input type="text" placeholder="Search" value="" name="s">
                                     <input type="hidden" name="post_type" value="post">
+
                                 </div>
                             </form>
                         </div>
                     </div>
+
                 </nav>
+
                 <span id="mobile-menu-overlay" class="hidden-desktop"></span>
+
             </div>
         </header>
+        <!-- Header Navigation End -->
+
+
 
         <span id="sidebar-open-overlay"></span>
+
         <div id="search-form">
+
             <div class="search-form searchContainer">
                 <form role="search" method="get" class="searchform popUp" action="https://chuijhal.com/">
                     <label class="screen-reader-text" for="s"></label>
+
                     <div class="searchWrapper">
-                        <input type="text" placeholder="Search" value name="s" class="searchInput"
-                            autocomplete="off" />
+                        <input type="text" placeholder="Search" value="" name="s"
+                            class="searchInput" autocomplete="off">
                         <div class="typing-indicator">
                             <span></span>
                             <span></span>
@@ -2319,9 +2862,10 @@
                 </form>
             </div>
         </div>
+
         <div class="toggleSidebarContainer">
-            <div id="main-content" class="main-content   type1  ">
-                <div id="main">
+            <div id="main-content" class="main-content type1 show">
+                <div id="main" style="margin-top: 0px;">
                     <div id="home" class="hidehome"></div>
                     <style>
                         #header h1,
@@ -2330,167 +2874,257 @@
                         .page-breadcrumb .woocommerce-breadcrumb,
                         .page-breadcrumb .woocommerce-breadcrumb a,
                         .page-breadcrumb .woocommerce-breadcrumb span.delimiter {
-                            color: #191919;
+                            color: #212121;
                         }
 
                         #header ul li a:before {
-                            background-color: #191919;
+                            background-color: #212121;
                         }
                     </style>
-                    <div id="header" class>
+                    <div id="header" class="">
                         <div id="header-content">
+
                             <div class="page-breadcrumb">
                                 <nav class="woocommerce-breadcrumb" aria-label="Breadcrumb"><a
-                                        href="https://chuijhal.com">Home</a><span class="delimiter">/</span><a
-                                        href="https://chuijhal.com/checkout/">চেকআউট</a><span
-                                        class="delimiter">/</span>Order received</nav>
+                                        href="https://chuijhal.com">Home</a><span class="delimiter">/</span>কার্ট
                                 </nav>
                             </div>
-                            <h1>চেকআউট</h1>
+
+                            <h1>কার্ট</h1>
+
                         </div>
                     </div>
 
+
+
+                    <!-- Page Content-->
                     <div class="wrap" id="pageHeight">
-                        <div class="container">
 
-                            <div id="post-557" class="post-557 page type-page status-publish hentry">
-                                <div id="vc_row_1" class="ep-section background_cover row_section  section ">
-                                    <div class="section-container">
-                                        <div class="clearfix"></div>
-                                        <div class="section-content-container" style="padding-bottom:100px;">
-                                            <div class="container">
-                                                <div
-                                                    class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
-                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                        <div class="  vc_column-inner ">
-                                                            <div class="wpb_wrapper">
-                                                                <div class="woocommerce">
-                                                                    <div class="woocommerce-order">
-                                                                        <p
-                                                                            class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received">
-                                                                            Thank you. Your order has been received.</p>
-                                                                        <ul
-                                                                            class="woocommerce-order-overview woocommerce-thankyou-order-details order_details">
-                                                                            <li
-                                                                                class="woocommerce-order-overview__order order">
-                                                                                Order number:
-                                                                                <strong>{{ $customer->id }}</strong>
-                                                                            </li>
-                                                                            <li
-                                                                                class="woocommerce-order-overview__date date">
-                                                                                Date:
-                                                                                <strong>{{ Carbon\Carbon::parse($customer->created_at)->format('M d, Y') }}</strong>
-                                                                            </li>
-                                                                            <li
-                                                                                class="woocommerce-order-overview__total total">
-                                                                                Total: <strong><span
+
+
+                        <!-- custom section  -->
+                        <div id="post-554" class="post-554 page type-page status-publish hentry">
+                            <div id="vc_row_1" class="ep-section background_cover row_section  section ">
+                                <div class="section-container">
+                                    <div class="clearfix"></div>
+                                    <div class="section-content-container" style="padding-bottom:100px;">
+                                        <div class="container">
+                                            <div
+                                                class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <div class="  vc_column-inner ">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="woocommerce">
+                                                                <div class="woocommerce-notices-wrapper"></div>
+                                                                <form class="woocommerce-cart-form"
+                                                                    action="https://chuijhal.com/cart/"
+                                                                    method="post">
+
+                                                                    <table
+                                                                        class="shop_table shop_table_responsive cart woocommerce-cart-form__contents"
+                                                                        cellspacing="0">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th class="product-remove">&nbsp;</th>
+                                                                                <th class="product-thumbnail">&nbsp;
+                                                                                </th>
+                                                                                <th class="product-name">পণ্য</th>
+                                                                                <th class="product-price">মূল্য</th>
+                                                                                <th class="product-price">সাইজ</th>
+                                                                                <th class="product-quantity">পরিমাণ
+                                                                                </th>
+                                                                                <th class="product-subtotal">মোট</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            @forelse (session('cart') as $info)
+                                                                            <tr class="cart_item">
+                                                                                <td class="product-remove">
+                                                                                    <a href="{{ route('card.remove',['id'=>$details['id'],'stock_id'=>$details['stock_id']]) }}"
+                                                                                        class="remove"
+                                                                                        aria-label="Remove this item"
+                                                                                        title="Remove this item"
+                                                                                        data-product_id="33077"
+                                                                                        data-product_sku="Chilli Combo">×</a>
+                                                                                </td>
+                                                                                <td class="product-thumbnail">
+                                                                                    <a
+                                                                                        href="{{ asset($details['image']) }}"><img
+                                                                                            fetchpriority="high"
+                                                                                            decoding="async"
+                                                                                            width="300"
+                                                                                            height="300"
+                                                                                            src="https://chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-300x300.png"
+                                                                                            class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                                                            alt="৩ টা ঝাল আচার বোম্বাই, নাগা কাঁচা মরিচ"
+                                                                                            srcset="https://chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-300x300.png 300w, https://chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-768x768.png 768w, https://chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-340x340.png 340w, https://chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-680x680.png 680w, https://chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-600x600.png 600w, https://chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-400x400.png 400w, https://chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle-100x100.png 100w, https://chuijhal.com/wp-content/uploads/2023/08/3-chilli-pickle.png 1080w"
+                                                                                            sizes="(max-width: 300px) 100vw, 300px"></a>
+                                                                                </td>
+
+                                                                                <td class="product-name"
+                                                                                    data-title="Product">
+                                                                                    <a
+                                                                                        href="https://chuijhal.com/product/combo-3-jhal-pickle/">{{ $details['name'] }}</a>
+                                                                                </td>
+
+                                                                                <td class="product-price"
+                                                                                    data-title="Price">
+                                                                                    <span
                                                                                         class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $customer->tmp_orders->sum('total') }}</bdi></span></strong>
-                                                                            </li>
-                                                                            <li
-                                                                                class="woocommerce-order-overview__payment-method method">
-                                                                                Payment method: <strong>Cash on
-                                                                                    delivery</strong>
-                                                                            </li>
-                                                                        </ul>
-                                                                        <p>Pay with cash upon delivery.</p>
-                                                                        <section class="woocommerce-order-details">
-                                                                            <h2
-                                                                                class="woocommerce-order-details__title">
-                                                                                Order details</h2>
-                                                                            <table
-                                                                                class="woocommerce-table woocommerce-table--order-details shop_table order_details">
-                                                                                <thead>
-                                                                                    <tr>
-                                                                                        <th
-                                                                                            class="woocommerce-table__product-name product-name">
-                                                                                            Product</th>
-                                                                                        <th
-                                                                                            class="woocommerce-table__product-table product-total">
-                                                                                            Total</th>
-                                                                                    </tr>
-                                                                                </thead>
-                                                                                <tbody>
-                                                                                    @forelse ($customer->tmp_orders as $info)
-                                                                                        <tr
-                                                                                            class="woocommerce-table__line-item order_item">
-                                                                                            <td
-                                                                                                class="woocommerce-table__product-name product-name">
-                                                                                                <a
-                                                                                                    href="{{ route('single.product',$info->product_id) }}">{{$info->product->name}}</a>
-                                                                                                <strong
-                                                                                                    class="product-quantity">{{ $info->qty }}</strong>
-                                                                                            </td>
-                                                                                            <td
-                                                                                                class="woocommerce-table__product-total product-total">
-                                                                                                <spans
-                                                                                                    class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ discount_calculate($info->stock->price, $info->stock->offer) }}</bdi></span>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                    @empty
-                                                                                    @endforelse
+                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span class="price{{ $details['stock_id'] }}">{{ $details['price'] }}<span></span></bdi></span>
+                                                                                </td>
 
-                                                                                </tbody>
-                                                                                <tfoot>
-                                                                                    <tr>
-                                                                                        <th scope="row">Subtotal:
-                                                                                        </th>
-                                                                                        <td><span
-                                                                                                class="woocommerce-Price-amount amount"><span
-                                                                                                    class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $customer->tmp_orders->sum('total') }}</span>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <th scope="row">Shipping:
-                                                                                        </th>
-                                                                                        <td><span
-                                                                                                class="woocommerce-Price-amount amount"><span
-                                                                                                    class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $customer->delivery_cost }}</span>&nbsp;<small
-                                                                                                class="shipped_via">via
-                                                                                                ঢাকার মধ্যে</small></td>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <th scope="row">Payment
-                                                                                            method:</th>
-                                                                                        <td>Cash on delivery</td>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <th scope="row">Total:</th>
-                                                                                        <td><span
-                                                                                                class="woocommerce-Price-amount amount"><span
-                                                                                                    class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $customer->tmp_orders->sum('total') + $customer->delivery_cost }}</span>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <th>Note:</th>
-                                                                                        <td>Consectetur illo ani</td>
-                                                                                    </tr>
-                                                                                </tfoot>
-                                                                            </table>
-                                                                        </section>
-                                                                        <section class="woocommerce-customer-details">
-                                                                            <h2 class="woocommerce-column__title">
-                                                                                Billing address</h2>
-                                                                            <address>
-                                                                                Deirdre<br />91 Green First Road
-                                                                                <p
-                                                                                    class="woocommerce-customer-details--phone">
-                                                                                    +1 (459) 875-1961</p>
-                                                                                <p
-                                                                                    class="woocommerce-customer-details--email">
-                                                                                    <a href="/cdn-cgi/l/email-protection"
-                                                                                        class="__cf_email__"
-                                                                                        data-cfemail="700011071f0311070506301d11191c191e11041f025e131f1d">[email&#160;protected]</a>
-                                                                                </p>
-                                                                            </address>
-                                                                        </section>
-                                                                        <p class="order-print">
-                                                                            <a href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/print-order/37078/?print-order-email=pawosawuv@mailinator.com"
-                                                                                class="button print">Print</a>
-                                                                        </p>
+                                                                                <td class="product-quantity"
+                                                                                    data-title="Quantity">
+                                                                                    <div class="quantity">
+                                                                                        <input type="number"
+                                                                                            step="1"
+                                                                                            min="0"
+                                                                                            max="991"
+                                                                                            name="cart[32bb9f32e97807c36a1b1a881b31d33b][qty]"
+                                                                                            value="1"
+                                                                                            title="Qty"
+                                                                                            class="input-text qty text"
+                                                                                            size="4"
+                                                                                            pattern="[0-9]*"
+                                                                                            inputmode="numeric">
+                                                                                        <div
+                                                                                            class="plus quantity-button">
+                                                                                        </div>
+                                                                                        <div
+                                                                                            class="minus quantity-button">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </td>
+
+                                                                                <td class="product-subtotal"
+                                                                                    data-title="Total">
+                                                                                    <span
+                                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span>1,350.00</bdi></span>
+                                                                                </td>
+
+
+                                                                            </tr>
+                                                                            @empty
+
+                                                                            @endforelse
+                                                                        </tbody>
+                                                                    </table>
+                                                                </form>
+
+                                                                <div class="cart-collaterals">
+                                                                    <div class="cart_totals calculated_shipping">
+
+
+                                                                        <h2>Cart totals</h2>
+
+                                                                        <table cellspacing="0"
+                                                                            class="shop_table shop_table_responsive">
+
+                                                                            <tbody>
+                                                                                <tr class="cart-subtotal">
+                                                                                    <th>Subtotal</th>
+                                                                                    <td data-title="Subtotal"><span
+                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                    class="woocommerce-Price-currencySymbol">৳&nbsp;</span>5,260.00</bdi></span>
+                                                                                    </td>
+                                                                                </tr>
+
+
+
+
+                                                                                <tr
+                                                                                    class="woocommerce-shipping-totals shipping">
+                                                                                    <th colspan="2">Shipping</th>
+                                                                                </tr>
+                                                                                <tr
+                                                                                    class="woocommerce-shipping-totals shipping">
+                                                                                    <td colspan="2"
+                                                                                        data-title="Shipping">
+                                                                                        <ul id="shipping_method"
+                                                                                            class="woocommerce-shipping-methods">
+                                                                                            <li>
+                                                                                                <input type="radio"
+                                                                                                    name="shipping_method[0]"
+                                                                                                    data-index="0"
+                                                                                                    id="shipping_method_0_flat_rate8"
+                                                                                                    value="flat_rate:8"
+                                                                                                    class="shipping_method"
+                                                                                                    checked="checked"><label
+                                                                                                    for="shipping_method_0_flat_rate8">ঢাকার
+                                                                                                    মধ্যে: <span
+                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span>75.00</bdi></span></label>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <input type="radio"
+                                                                                                    name="shipping_method[0]"
+                                                                                                    data-index="0"
+                                                                                                    id="shipping_method_0_flat_rate9"
+                                                                                                    value="flat_rate:9"
+                                                                                                    class="shipping_method"><label
+                                                                                                    for="shipping_method_0_flat_rate9">ঢাকার
+                                                                                                    বাইরে: <span
+                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span>120.00</bdi></span></label>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <input type="radio"
+                                                                                                    name="shipping_method[0]"
+                                                                                                    data-index="0"
+                                                                                                    id="shipping_method_0_local_pickup10"
+                                                                                                    value="local_pickup:10"
+                                                                                                    class="shipping_method"><label
+                                                                                                    for="shipping_method_0_local_pickup10">Pickup
+                                                                                                    From Store</label>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                        <p
+                                                                                            class="woocommerce-shipping-destination">
+                                                                                            Estimate for <strong>91
+                                                                                                Green First
+                                                                                                Road</strong>. </p>
+
+
+                                                                                        <!-- EpicoMedia code -->
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="2">
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- EpicoMedia code -->
+
+
+
+
+
+                                                                                <tr class="order-total">
+                                                                                    <th>Total</th>
+                                                                                    <td data-title="Total">
+                                                                                        <strong><span
+                                                                                                class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>5,335.00</bdi></span></strong>
+                                                                                    </td>
+                                                                                </tr>
+
+
+                                                                            </tbody>
+                                                                        </table>
+
+                                                                        <div class="wc-proceed-to-checkout">
+
+                                                                            <a href="https://chuijhal.com/checkout/"
+                                                                                class="checkout-button button alt wc-forward">
+                                                                                Proceed to checkout</a>
+                                                                        </div>
+
+
                                                                     </div>
                                                                 </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2501,51 +3135,76 @@
                                 </div>
                             </div>
                         </div>
+
+
+
+
                     </div>
+
+                    <!-- Page Content End -->
+
+
 
                 </div>
             </div>
         </div>
+
+
         <footer class="footer-bottom dark">
             <div class="wrap">
 
+                <!-- Footer Content   -->
                 <div class="footer_content ">
+
                     <div class="footer_content_left">
                         <div class="copyright_logo">
-
+                            <!-- Footer CopyRight   -->
                             <div class="copyright">
                                 Copyright 2016 - 2024 Chuijhal.com , All Right Reserved </div>
                         </div>
                     </div>
+
                     <div class="footer_content_right">
 
+                        <!-- Footer Social Link  -->
                         <ul class="social-icons">
+
+
                             <li class="socialLinkShortcode textstyle facebook">
                                 <a href="https://www.facebook.com/chuijhal.cooking/" target="_blank">
                                     <span>Facebook</span>
                                 </a>
                             </li>
+
+
                             <li class="socialLinkShortcode textstyle youtube">
                                 <a href="https://www.youtube.com/channel/UChjwisbZJ9Yz-JRCR9NGqyg" target="_blank">
                                     <span>YouTube</span>
                                 </a>
                             </li>
+
+
                             <li class="socialLinkShortcode textstyle pinterest">
                                 <a href="https://www.pinterest.com/chuijhalbd/" target="_blank">
                                     <span>Pinterest</span>
                                 </a>
                             </li>
+
+
                             <li class="socialLinkShortcode textstyle instagram">
                                 <a href="https://www.instagram.com/chuijhal.cooking/" target="_blank">
                                     <span>Instagram</span>
                                 </a>
                             </li>
+
+
                         </ul>
+
                     </div>
                 </div>
             </div>
         </footer>
-
+        <!-- end of wrap element -->
     </div>
     <div id="ep_wc_notices">
         <div class="wc-notice-content"></div>
@@ -2570,9 +3229,10 @@
     <div class="cart fixed-add-to-cart-container">
         <div class="fixed-add-to-cart">
             <a class="single_add_to_cart_button button alt product_type_simple add_to_cart_button" href="#"
-                title>
+                title="">
                 <span class="icon"></span>
-                <span class="txt" data-hover>
+                <span class="txt" data-hover="">
+
                 </span>
             </a>
             <a href="https://chuijhal.com/cart/" class="added_to_cart wc-forward hide"></a>
@@ -2584,19 +3244,21 @@
             href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/">Create
             an account</a>
         <form class="woocommerce-form woocommerce-form-login login" method="post">
+
+
             <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
                 <label for="username">Username or email address <span class="required">*</span></label>
                 <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username"
-                    id="username" value />
+                    id="username" value="">
             </p>
             <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
                 <label for="password">Password <span class="required">*</span></label>
-                <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password"
-                    id="password" />
+                <input class="woocommerce-Input woocommerce-Input--text input-text" type="password"
+                    name="password" id="password">
             </p>
+
             <div class="g-recaptcha" id="g-recaptcha" data-sitekey="6LcqYfMkAAAAAHfV7_4lM45iYaeFXMMKmyckF1Fs"
                 data-callback="submitEnable" data-expired-callback="submitDisable"></div>
-            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
             <script>
                 function submitEnable() {
                     var button = document.getElementById('wp-submit');
@@ -2646,24 +3308,24 @@
                         </div>
                         <div
                             style="width: 100%; height: 60px; border-style: none;
-              bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+          bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
                             <textarea id="g-recaptcha-response" name="g-recaptcha-response" title="response" class="g-recaptcha-response"
                                 style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
-                  margin: 10px 25px; padding: 0px; resize: none;"
+              margin: 10px 25px; padding: 0px; resize: none;"
                                 value="">
-              </textarea>
+          </textarea>
                         </div>
                     </div>
                 </div><br>
             </noscript>
+
             <p class="form-row">
                 <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce"
-                    value="3d5b1ccbfb" /><input type="hidden" name="_wp_http_referer"
-                    value="/checkout/order-received/37078/?key=wc_order_h61YySUWGpFq0" /> <input type="submit"
-                    class="woocommerce-Button button" name="login" value="Login" />
+                    value="9c10265fcd"><input type="hidden" name="_wp_http_referer" value="/cart/"> <input
+                    type="submit" class="woocommerce-Button button" name="login" value="Login">
                 <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
                     <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme"
-                        type="checkbox" id="rememberme" value="forever" /> <span>Remember me</span>
+                        type="checkbox" id="rememberme" value="forever"> <span>Remember me</span>
                 </label>
                 <span class="woocommerce-LostPassword lost_password">
                     <a
@@ -2671,6 +3333,8 @@
                         your password?</a>
                 </span>
             </p>
+
+
         </form>
     </div>
     <div id="pys_ajax_events"></div>
@@ -2684,13 +3348,10 @@
         }
     </script>
     <script type="text/html" id="wpb-modifications"></script><noscript><img height="1" width="1" style="display: none;"
-            src="https://www.facebook.com/tr?id=427272935467605&ev=Purchase&noscript=1&cd%5Bcontent_type%5D=product&cd%5Bcontent_ids%5D=%5B%2232614%22%5D&cd%5Bcontent_name%5D=Pickle+Combo+Offer+01&cd%5Bcategory_name%5D=%E0%A6%86%E0%A6%9A%E0%A6%BE%E0%A6%B0&cd%5Bcontents%5D=%5B%7B%22id%22%3A%2232614%22%2C%22quantity%22%3A1%2C%22item_price%22%3A1350%7D%5D&cd%5Bnum_items%5D=1&cd%5Bvalue%5D=1425&cd%5Bcurrency%5D=BDT&cd%5Border_id%5D=37078&cd%5Bfees%5D=0&cd%5Bpage_title%5D=%E0%A6%9A%E0%A7%87%E0%A6%95%E0%A6%86%E0%A6%89%E0%A6%9F&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=557&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chuijhal.com%2Fcheckout%2Forder-received%2F37078%2F"
+            src="https://www.facebook.com/tr?id=427272935467605&ev=PageView&noscript=1&cd%5Bpage_title%5D=%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=554&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chuijhal.com%2Fcart%2F"
             alt=""></noscript>
     <noscript><img height="1" width="1" style="display: none;"
-            src="https://www.facebook.com/tr?id=427272935467605&ev=PageView&noscript=1&cd%5Bpage_title%5D=%E0%A6%9A%E0%A7%87%E0%A6%95%E0%A6%86%E0%A6%89%E0%A6%9F&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=557&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chuijhal.com%2Fcheckout%2Forder-received%2F37078%2F"
-            alt=""></noscript>
-    <noscript><img height="1" width="1" style="display: none;"
-            src="https://www.google-analytics.com/collect?v=1&tid=G-Q4NWW12SW2&t=event&ec=ecommerce&ev=1425&pr0id=32614&pr0nm=Pickle+Combo+Offer+01&pr0pr=1350&pr0qt=1&pa=detail"
+            src="https://www.google-analytics.com/collect?v=1&tid=G-Q4NWW12SW2&t=event&ec=ecommerce&ev=5260&pr0id=33077&pr0nm=Combo+%E0%A7%A9+%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%B0+%E0%A7%A9+%E0%A6%9F%E0%A6%BE+%E0%A6%9D%E0%A6%BE%E0%A6%B2+%E0%A6%AE%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A7%87%E0%A6%B0+%E0%A6%85%E0%A6%AB%E0%A6%BE%E0%A6%B0&pr0pr=1350&pr0qt=1&pr1id=14858&pr1nm=%E0%A6%AC%E0%A7%8B%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%87+%E0%A6%AE%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A7%87%E0%A6%B0+%E0%A6%86%E0%A6%9A%E0%A6%BE%E0%A6%B0+%28Bombai+Morich%29+400gm&pr1pr=490&pr1qt=1&pr2id=15025&pr2nm=Chuijhal+%28%E0%A6%9A%E0%A7%81%E0%A6%87%E0%A6%9D%E0%A6%BE%E0%A6%B2%29+%E0%A7%AB%E0%A7%A6%E0%A7%A6+%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE&pr2pr=600&pr2qt=1&pr3id=19886&pr3nm=%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%AE%E0%A7%87%E0%A6%A1+%E0%A6%98%E0%A6%BF+-+Hand+Made+Ghee+%28350+gm%29&pr3pr=590&pr3qt=1&pr4id=34109&pr4nm=%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%AE%E0%A7%87%E0%A6%A1+%E0%A6%98%E0%A6%BF+-+Hand+Made+Ghee+500+Gram&pr4pr=750&pr4qt=1&pr5id=20347&pr5nm=%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%AE%E0%A7%87%E0%A6%A1+%E0%A6%98%E0%A6%BF+-+Hand+Made+Ghee+%281+kg%29&pr5pr=1480&pr5qt=1&pa=detail"
             alt="google_analytics"></noscript>
     <script type="text/javascript">
         (function() {
@@ -2699,16 +3360,15 @@
             document.body.className = c;
         })();
     </script>
+    <script type="text/template" id="tmpl-variation-template">
 
-    <script type="text/template" id="tmpl-unavailable-variation-template">
-	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
 </script>
-    <link rel="stylesheet" id="login_nocaptcha_css-css"
-        href="https://chuijhal.com/wp-content/plugins/login-recaptcha/css/style.css?ver=1710394054" type="text/css"
-        media="all" />
+    <script type="text/template" id="tmpl-unavailable-variation-template">
+<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
     <link rel="stylesheet" id="wc-blocks-style-css"
         href="https://chuijhal.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.0.2"
-        type="text/css" media="all" />
+        type="text/css" media="all">
     <script type="text/javascript"
         src="https://chuijhal.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.6" id="swv-js">
     </script>
@@ -2726,19 +3386,6 @@
     <script type="text/javascript"
         src="https://chuijhal.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.6" id="contact-form-7-js">
     </script>
-    <script type="text/javascript"
-        src="https://chuijhal.com/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9-wc.9.0.2"
-        id="selectWoo-js" data-wp-strategy="defer"></script>
-    <script type="text/javascript" id="thwcfd-checkout-script-js-extra">
-        /* <![CDATA[ */
-        var thwcfd_public_var = {
-            "is_override_required": "1"
-        };
-        /* ]]> */
-    </script>
-    <script type="text/javascript"
-        src="https://chuijhal.com/wp-content/plugins/woo-checkout-field-editor-pro/public/assets/js/thwcfd-public.min.js?ver=2.0.2"
-        id="thwcfd-checkout-script-js"></script>
     <script type="text/javascript"
         src="https://chuijhal.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.0.2"
         id="sourcebuster-js-js"></script>
@@ -2889,7 +3536,7 @@
             "home_url": "https:\/\/chuijhal.com\/",
             "img": "https:\/\/chuijhal.com\/wp-content\/themes\/vitrine\/assets\/img",
             "ajax_url": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
-            "nonce": "2ebaf8e3fe",
+            "nonce": "fa199e8c04",
             "zoomLevel": "1",
             "iconMap": "https:\/\/chuijhal.com\/wp-content\/themes\/vitrine\/assets\/img\/marker.png",
             "customMap": "1",
@@ -2902,12 +3549,12 @@
             "additionaljs": ""
         };
         var no_ajax_objects = {
-            "no_ajax_pages": ["https:\/\/chuijhal.com\/wp-login.php?action=logout&_wpnonce=474af721bf"]
+            "no_ajax_pages": ["https:\/\/chuijhal.com\/wp-login.php?action=logout&_wpnonce=2b15cbae9c"]
         };
         var paged_data = {
             "startPage": "1",
             "maxPages": "98",
-            "nextLink": "https:\/\/chuijhal.com\/checkout\/order-received\/37078\/page\/2\/?key=wc_order_h61YySUWGpFq0",
+            "nextLink": "https:\/\/chuijhal.com\/cart\/page\/2\/",
             "loadingText": "Loading...",
             "loadMoreText": "more posts",
             "noMorePostsText": "No More Posts"
@@ -2923,8 +3570,6 @@
     <script type="text/javascript"
         src="https://chuijhal.com/wp-content/themes/vitrine/assets/js/lg-custom-package.min.js?ver=1.2.22"
         id="epico_lightGallery-js"></script>
-    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=submitDisable"
-        id="login_nocaptcha_google_api-js"></script>
     <script type="text/javascript" id="wpb_composer_front_js-js-extra">
         /* <![CDATA[ */
         var vcData = {
@@ -2964,6 +3609,9 @@
     <script type="text/javascript"
         src="https://chuijhal.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=9.0.2"
         id="wc-add-to-cart-variation-js" defer="defer" data-wp-strategy="defer"></script>
+
+
+
 </body>
 
 </html>

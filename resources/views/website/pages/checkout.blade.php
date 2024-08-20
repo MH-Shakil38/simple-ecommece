@@ -83,7 +83,8 @@
                                                 @foreach (session('cart') as $id => $details)
                                                     <tr>
                                                         <td>
-                                                            <a href="{{ route('card.remove',['id'=>$details['id'],'stock_id'=>$details['stock_id']]) }}"><i
+                                                            <a
+                                                                href="{{ route('card.remove', ['id' => $details['id'], 'stock_id' => $details['stock_id']]) }}"><i
                                                                     class="fa fa-trash-o text-danger"></i></a>
                                                         </td>
                                                         <td class="text-left">
@@ -106,7 +107,8 @@
                                                             <a href="#"><i class="fa fa-plus" id="qty_plus"
                                                                     onclick="qty_plus({{ $details['id'] }},{{ $details['stock_id'] }})"></i></a>
                                                         </td>
-                                                        <td class="subtotal{{ $details['stock_id'] }} subtotalsum" id="subtotal">
+                                                        <td class="subtotal{{ $details['stock_id'] }} subtotalsum"
+                                                            id="subtotal">
                                                             {{ $details['qty'] * $details['price'] }}</td>
                                                     </tr>
                                                 @endforeach
@@ -145,8 +147,8 @@
                                             <tr>
                                                 <th colspan="5" class="text-right pr-2">Grand Total</th>
                                                 <td>
-                                                    <span
-                                                        id="grand_total" class="grand_total">{{ $net_total + session('delivery_charge') + \session()->get('shipping_cost') }}</span>
+                                                    <span id="grand_total"
+                                                        class="grand_total">{{ $net_total + session('delivery_charge') + \session()->get('shipping_cost') }}</span>
                                                 </td>
                                             </tr>
                                         </tfoot>
@@ -240,7 +242,7 @@
         console.log('shipping cost:', shipping_cost);
     }
 
-    function netTotal(){
+    function netTotal() {
         var net_total = 0;
         $('.subtotalsum').each(function() {
             net_total += parseFloat($(this).text());

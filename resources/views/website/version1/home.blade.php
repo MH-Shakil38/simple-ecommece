@@ -1,5 +1,6 @@
 @extends('website.version1.layouts.master')
 @section('content')
+
     <div id="post-14742" class="post-14742 page type-page status-publish has-post-thumbnail hentry">
         <div id="vc_row_1" class="ep-section background_cover row_section  section ">
             <div class="section-container" style="background-color:#f8f8f8;">
@@ -79,5 +80,5 @@
         </div>
         @include('website.version1.layouts.include.footer-info')
     </div>
-    
+
 @endsection

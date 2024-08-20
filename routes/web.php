@@ -34,6 +34,7 @@ Route::get('/card-clear',[\App\Http\Controllers\CardController::class,'card_clea
 Route::get('/card-remove/{id}/{stock_id}',[\App\Http\Controllers\CardController::class,'remove'])->name('card.remove');
 Route::post('/place-order',[\App\Http\Controllers\OrderController::class,'place_order'])->name('place.order');
 Route::get('/order-received/{id}',[\App\Http\Controllers\OrderController::class,'order_recived'])->name('order.received');
+Route::get('/cart',[\App\Http\Controllers\OrderController::class,'cart'])->name('cart');
 
 Auth::routes();
 
