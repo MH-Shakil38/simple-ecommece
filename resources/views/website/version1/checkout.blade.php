@@ -2261,8 +2261,8 @@
                                                         <div class="  vc_column-inner ">
                                                             <div class="wpb_wrapper">
                                                                 <div class="woocommerce">
-                                                                    <div class="woocommerce-notices-wrapper"></div>
-                                                                    <div class="woocommerce-form-coupon-toggle">
+                                                                    {{-- <div class="woocommerce-notices-wrapper"></div> --}}
+                                                                    {{-- <div class="woocommerce-form-coupon-toggle">
                                                                         <div class="woocommerce-info">
                                                                             Have a coupon? <a href="#"
                                                                                 class="showcoupon">Click here to enter
@@ -2288,7 +2288,7 @@
                                                                                 coupon</button>
                                                                         </p>
                                                                         <div class="clear"></div>
-                                                                    </form>
+                                                                    </form> --}}
                                                                     <div class="woocommerce-notices-wrapper"></div>
                                                                     <form name="checkout" method="post"
                                                                         class="checkout woocommerce-checkout"

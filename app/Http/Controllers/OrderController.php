@@ -92,7 +92,7 @@ class OrderController extends Controller
   }
 
   public function cart(){
-    return view('website.version1.cart');
+    return view('website.version1.cart.cart');
   }
 
   public function details_order(Request $request){

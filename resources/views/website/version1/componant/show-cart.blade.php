@@ -134,7 +134,7 @@
 
 
                     <p class="buttons">
-                        <a href="https://chuijhal.com/cart/" class="button wc-forward">
+                        <a href="{{ route('cart')}}" class="button wc-forward">
                             <span data-hover="View Cart">View Cart</span>
                         </a><a href="{{ route('checkout') }}" class="button checkout wc-forward">
                             <span data-hover="Checkout">Checkout</span>

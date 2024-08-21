@@ -1,3 +1,6 @@
+@include('website.version1.componant.show-cart')
+@include('website.version1.componant.sidebar-category')
+@include('website.version1.componant.search-popup')
 <header id="epHeader" data-fixed="fixed-menu"
             class=" hastogglesidebar  hasDropDownCart   fillhover    type1 fixed-menu   ">
             <div class="wrap headerWrap">

@@ -130,7 +130,7 @@
     <link rel="apple-touch-icon"
         href="{{ asset('version1/') }}/wp-content/uploads/2019/03/cropped-chuijhal-favicon-180x180.png" />
     <meta name="msapplication-TileImage"
-        content="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-270x270.png" />
+        content="{{ asset($product->image) }}" />
     <noscript>
         <style>
             .wpb_animate_when_almost_visible {
