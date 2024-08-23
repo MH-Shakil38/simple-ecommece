@@ -26,6 +26,7 @@ Route::get('/About-us',[\App\Http\Controllers\WebsiteController::class,'about'])
 Route::get('/Return-policy',[\App\Http\Controllers\WebsiteController::class,'return_policy'])->name('website.return.policy');
 Route::get('/Delivery-policy',[\App\Http\Controllers\WebsiteController::class,'delivery_policy'])->name('website.delivery.policy');
 Route::post('/add-card',[\App\Http\Controllers\CardController::class,'add_card'])->name('add.card');
+Route::post('/quick-view',[\App\Http\Controllers\CardController::class,'quickView'])->name('quick.view');
 Route::post('/size-price',[\App\Http\Controllers\CardController::class,'sizePrice'])->name('sizePrice');
 Route::post('/minus-card',[\App\Http\Controllers\CardController::class,'minus_card'])->name('minus.card');
 Route::post('/update-card',[\App\Http\Controllers\CardController::class,'add_card'])->name('update.card');
@@ -46,6 +47,7 @@ Route::resource('products',ProductController::class);
 Route::resource('delivery-policy',\App\Http\Controllers\DeliveryPolicyController::class);
 Route::resource('return-policy',\App\Http\Controllers\ReturnPolicyController::class);
 Route::resource('about-us',\App\Http\Controllers\AboutUsController::class);
+Route::resource('blog-categories',\App\Http\Controllers\BlogCategoryController::class);
 
 /*Order Route*/
 Route::get('pending-order',[\App\Http\Controllers\OrderController::class,'pending_order'])->name('pending.order');

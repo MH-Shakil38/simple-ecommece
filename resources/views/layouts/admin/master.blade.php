@@ -458,6 +458,48 @@
 
                         </ul>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-copy"></i>
+                            <p>
+                                BLog
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview" style="display: none;">
+                            <li class="nav-item">
+                                <a href="{{route('blog-categories.index')}}" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Cateogry</p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="{{route('products.create')}}" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Blog List</p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="{{route('settings.index')}}" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Create Blog</p>
+                                </a>
+                            </li>
+
+                            {{--                            <li class="nav-item">--}}
+                            {{--                                <a href="{{route('slider-image.index')}}" class="nav-link">--}}
+                            {{--                                    <i class="far fa-circle nav-icon"></i>--}}
+                            {{--                                    <p>Privacy</p>--}}
+                            {{--                                </a>--}}
+                            {{--                            </li>--}}
+
+
+                        </ul>
+                    </li>
+
                     <li class="nav-item">
                         <a href="{{route('about-us.index')}}" class="nav-link">
                             <i class="nav-icon fas fa-copy"></i>

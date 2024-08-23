@@ -63,47 +63,16 @@
                                             class="menu_title_wrap"><span
                                                 class="menu_title"><span>ব্লগ</span></span></span></a>
                                     <ul class="sub-menu">
+                                        @forelse (blog_categories() as $info)
                                         <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="#"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>রেসিপি</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="#"><span
-                                                    class="menu_title_wrap"><span class="menu_title"><span>গরুর
-                                                            মাংস</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="#"><span
-                                                    class="menu_title_wrap"><span class="menu_title"><span>রেসিপি
-                                                            কন্টেস্ট</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="#"><span
-                                                    class="menu_title_wrap"><span class="menu_title"><span>ঈদের
-                                                            রান্না</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="#"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>আচার</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="#"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>রূপচর্চা</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="#"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>স্বাস্থ্যবিধি</span></span></span></a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="#"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>ডাল</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="#"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>বিরিয়ানি</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="#"><span
-                                                    class="menu_title_wrap"><span class="menu_title"><span>আটা
-                                                            ময়দা</span></span></span></a></li>
+                                            href="#"><span
+                                                class="menu_title_wrap"><span
+                                                    class="menu_title"><span>{{ $info->name }}</span></span></span></a></li>
+                                        @empty
+
+                                        @endforelse
+
+                                        
                                     </ul>
                                 </li>
                                 <li

@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\BlogCategory;
 use App\Models\Setting;
 
 if (!function_exists('siteInfo')){
@@ -91,6 +92,13 @@ if (!function_exists('thumbnail')){
 if (!function_exists('setting')){
     function setting(){
        return Setting::query()->first();
+    }
+}
+
+
+if (!function_exists('blog_categories')){
+    function blog_categories(){
+       return BlogCategory::query()->where('status',1)->get();
     }
 }
 

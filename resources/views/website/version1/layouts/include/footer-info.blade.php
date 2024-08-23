@@ -69,7 +69,7 @@
                                                             style="color: #a0a0a0;">
                                                             <a href="cdn-cgi/l/email-protection.html"
                                                                 class="__cf_email__"
-                                                                data-cfemail="f9919c959596b99a918c9093919895d79a9694">[email : {{ setting()->email ?? ''}}]</a>
+                                                                data-cfemail="f9919c959596b99a918c9093919895d79a9694">{{ setting()->email ?? ''}}</a>
                                                         </div>
 
                                                     </div>

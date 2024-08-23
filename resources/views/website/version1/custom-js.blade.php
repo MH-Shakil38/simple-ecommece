@@ -1,6 +1,6 @@
 
 <div id="ep_wc_notices" class="hidden"><div class="woocommerce-message" role="alert">
-    <a href="{{ route('cart') }}" tabindex="1" class="button wc-forward">View cart</a> <span>“হ্যান্ডমেড ঘি – Hand Made Ghee (1 kg)” has been added to your cart.	</span></div></div>
+    <a href="{{ route('cart') }}" tabindex="1" class="button wc-forward">View cart</a> <span class="product-name">“হ্যান্ডমেড ঘি – Hand Made Ghee (1 kg)” has been added to your cart.	</span></div></div>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script>
@@ -32,6 +32,7 @@
                     qty: qty
                 },
                 success: function(res) {
+                    $('.quick-view').html(res.view);
                     button.removeClass('loading'); // Use the stored reference
                     if (res.cart) {
                         // toastr.warning('This Item Already Added!');
@@ -42,6 +43,7 @@
                         $('.ajax-cart').html(res.html_cart);
                         $('#ep_wc_notices').removeClass('hidden');
                         $('#ep_wc_notices').addClass('show');
+                        $('.product-name').text('“'+res.name+'” has been added to your cart.');
 
                         setTimeout(function() {
                             $('#ep_wc_notices').removeClass('show');
@@ -54,6 +56,37 @@
                     button.removeClass('loading'); // Remove loading class on error too
                     toastr.error('An error occurred. Please try again.');
                 }
+            });
+        });
+
+        $('.closeModal').on('click', function(event) {
+            alert()
+            $('.quick-view').html('');
+        });
+
+
+
+        $('.quick-view-button').on('click', function(event) {
+            // event.preventDefault();
+            $('.quick-view').html('');
+            var product_id = $(this).data('product_id');
+            var url = "{{ route('quick.view') }}";
+
+
+
+
+
+            $.ajax({
+                url: url,
+                method: 'POST',
+                data: {
+                    _token: '{{ csrf_token() }}',
+                    product_id: product_id,
+                },
+                success: function(res) {
+                    $('.quick-view').html(res.view);
+                    button.removeClass('loading'); // Use the stored reference
+                    }
             });
         });
     });

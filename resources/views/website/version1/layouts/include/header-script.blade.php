@@ -3,20 +3,20 @@
     <link rel="pingback" href="xmlrpc.php" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
-    <title>Best Pickles, Ghee and Spices Market - Chuijhal - চুইঝাল</title>
+    <title>Exotic Taste House Agro</title>
     <meta name="description"
-        content="চুইঝাল নানা রকমের হোমমেড আচার আর হ্যান্ডমেড ঘি সাথে নানা রকম প্রিমিয়াম মসলা নিয়ে যাত্রা শুরু করে ২০১৫ সালে। আমাদের কাছে চুইঝাল পাওয়া যায়!" />
-    <link rel="canonical" href="index.html" />
+        content="Exotic Taste House Agro " />
+    <link rel="canonical" href="{{route('/')}}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Best Pickles, Ghee and Spices Market - Chuijhal - চুইঝাল" />
+    <meta property="og:title" content="Exotic Taste House Agro" />
     <meta property="og:description"
-        content="চুইঝাল নানা রকমের হোমমেড আচার আর হ্যান্ডমেড ঘি সাথে নানা রকম প্রিমিয়াম মসলা নিয়ে যাত্রা শুরু করে ২০১৫ সালে। আমাদের কাছে চুইঝাল পাওয়া যায়!" />
-    <meta property="og:url" content="index.html" />
-    <meta property="og:site_name" content="চুইঝাল" />
-    <meta property="article:publisher" content="https://www.facebook.com/chuijhal.cooking/" />
+        content="Exotic Taste House Agro " />
+    <meta property="og:url" content="{{route('/')}}" />
+    <meta property="og:site_name" content="আচার" />
+    <meta property="article:publisher" content="https://www.facebook.com/Achar.BariETHA99" />
     <meta property="article:modified_time" content="2024-05-09T09:10:58+00:00" />
-    <meta property="og:image" content="wp-content/uploads/2021/09/Chuijhal_logo-1080-1.png" />
+    <meta property="og:image" content="{{ asset(setting()->logo) }}" />
     <meta property="og:image:width" content="1081" />
     <meta property="og:image:height" content="1081" />
     <meta property="og:image:type" content="image/png" />
@@ -25,9 +25,9 @@
     <meta name="google-site-verification" content="jIOCSweK8TkSBHNM1G5SaayXp6wTfK_HddSTsayDSsM" />
 
     <link rel="dns-prefetch" href="http://fonts.googleapis.com/" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Feed" href="feed/index.html" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Comments Feed"
-        href="comments/feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="আচার &raquo; Feed" href="feed/{{route('/')}}" />
+    <link rel="alternate" type="application/rss+xml" title="আচার &raquo; Comments Feed"
+        href="comments/feed/{{route('/')}}" />
 
     <link rel="stylesheet" id="epico_icomoon-style-css"
         href="{{asset('version1/')}}/wp-content/themes/vitrine/assets/css/icomoon.minbc19.css?ver=4.2" type="text/css" media="all" />
@@ -1471,7 +1471,7 @@
     </script>
     <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/greenwebsms/assets/js/scriptdbc1.js?ver=75.0.0"
         id="ajax-script-js"></script>
-    <link rel="https://api.w.org/" href="wp-json/index.html" />
+    <link rel="https://api.w.org/" href="wp-json/{{route('/')}}" />
     <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/14742.json" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <link rel="alternate" type="application/json+oembed"
@@ -1491,11 +1491,11 @@
     <script type="application/ld+json" class="saswp-schema-markup-output">
 </script>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-    <link rel="icon" href="{{asset('version1/')}}/wp-content/uploads/2019/03/cropped-chuijhal-favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" href="{{asset('version1/')}}/wp-content/uploads/2019/03/cropped-chuijhal-favicon-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{asset('version1/')}}/wp-content/uploads/2019/03/cropped-chuijhal-favicon-180x180.png" />
+    <link rel="icon" href="{{ asset(setting()->logo) }}" sizes="32x32" />
+    <link rel="icon" href="{{ asset(setting()->logo) }}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{ asset(setting()->logo) }}" />
     <meta name="msapplication-TileImage"
-        content="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-270x270.png" />
+        content="{{ asset(setting()->logo) }}" />
     <noscript>
         <style>
             .wpb_animate_when_almost_visible {

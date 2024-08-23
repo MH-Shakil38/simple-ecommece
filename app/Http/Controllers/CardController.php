@@ -18,11 +18,21 @@ class CardController extends Controller
         $cart = $cartService->addProductToCart();
         $carts = session()->get('cart');
         $html_cart = view('website.version1.componant.ajax-cart',compact('carts'))->render();
+        $view = view('website.version1.componant.quick-view',compact('carts'))->render();
+        $name =  Product::findOrFail($request->product_id)->name;
         if($request->ajax()){
-            return response()->json(['success' => 'Product Added into Cart','cart'=>$cart,'html_cart'=>$html_cart]);
+            return response()->json(['success' => 'Product Added into Cart','cart'=>$cart,'html_cart'=>$html_cart,'view'=>$view,'name'=>$name]);
         }else{
             return redirect()->route('checkout')->with('success', 'Product added to cart successfully!');
         }
+    }
+
+    public function quickView(Request $request) {
+        $type = 1;
+        $id = $request->product_id;
+        $product = Product::find($id);
+        $quickView = view('website.version1.componant.quick-view',compact('type','product'))->render();
+        return response()->json(['success' => 'Product quick view','view'=>$quickView]);
     }
 
     public function sizePrice(Request $request)

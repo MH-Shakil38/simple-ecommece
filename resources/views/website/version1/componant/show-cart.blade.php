@@ -61,7 +61,7 @@
                                         <!--**************************check the version  *****************************-->
 
 
-                                        <a href="https://chuijhal.com/cart/?undo_item=32c92c5a9c391d8a2a2a05770f1a3395&amp;_wpnonce=77634fd39e"
+                                        <a href="{{route('cart')}}?undo_item=32c92c5a9c391d8a2a2a05770f1a3395&amp;_wpnonce=77634fd39e"
                                             class="icon icon-undo undo no_djax" title="Undo this item"
                                             data-product_id="32614" data-product_sku="Combo1"
                                             data-item-key="32c92c5a9c391d8a2a2a05770f1a3395"><span></span></a>
@@ -145,7 +145,7 @@
 
 
                 <div class="woocommerce-message" role="alert">
-                    <a href="https://chuijhal.com/cart/" tabindex="1" class="button wc-forward">View cart</a>
+                    <a href="{{route('cart')}}" tabindex="1" class="button wc-forward">View cart</a>
                     “Pickle Combo Offer 01” has been added to your cart.
                 </div>
             </div>

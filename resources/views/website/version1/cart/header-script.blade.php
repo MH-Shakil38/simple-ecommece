@@ -3,8 +3,8 @@
 <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
 <script type="application/javascript" id="pys-version-script">console.log('PixelYourSite Free version 9.6.2');</script>
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="alternate" type="application/rss+xml" title="চুইঝাল » Feed" href="https://chuijhal.com/feed/">
-<link rel="alternate" type="application/rss+xml" title="চুইঝাল » Comments Feed"
+<link rel="alternate" type="application/rss+xml" title="আচার » Feed" href="https://chuijhal.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="আচার » Comments Feed"
     href="https://chuijhal.com/comments/feed/">
 <script type="text/javascript">
     /* <![CDATA[ */
@@ -2261,12 +2261,12 @@
     /* ]]> */
 </script>
 <script type="text/javascript"
-    src="https://chuijhal.com/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=9.6.2" id="pys-js"></script>
-<link rel="https://api.w.org/" href="https://chuijhal.com/wp-json/">
+    src="{{asset('version1/')}}/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=9.6.2" id="pys-js"></script>
+<link rel="https://api.w.org/" href="{{asset('version1/')}}/wp-json/">
 <link rel="alternate" type="application/json" href="https://chuijhal.com/wp-json/wp/v2/pages/554">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chuijhal.com/xmlrpc.php?rsd">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{asset('version1/')}}/xmlrpc.php?rsd">
 <link rel="alternate" type="application/json+oembed"
-    href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2Fcart%2F">
+    href="{{asset('version1/')}}/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2Fcart%2F">
 <link rel="alternate" type="text/xml+oembed"
     href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2Fcart%2F&amp;format=xml">
 <noscript>

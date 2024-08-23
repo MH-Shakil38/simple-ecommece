@@ -19,7 +19,7 @@
                     </span>
                     <span class="ep-qv">
                         <a href="#" class="quick-view-button"
-                        data-product_id="36170" title="Show in quickview">Quick
+                        data-product_id="{{ $info->id }}" title="Show in quickview">Quick
                         View</a></span>
             </div>
         </div>

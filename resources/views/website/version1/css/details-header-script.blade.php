@@ -1,9 +1,9 @@
 <link rel="dns-prefetch" href="http://fonts.googleapis.com/" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Feed"
+    <link rel="alternate" type="application/rss+xml" title="আচার &raquo; Feed"
         href="{{ asset('version1/') }}/feed/index.html" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="আচার &raquo; Comments Feed"
         href="{{ asset('version1/') }}/comments/feed/index.html" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Pickle Combo Offer 01 Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="আচার &raquo; Pickle Combo Offer 01 Comments Feed"
         href="feed/index.html" />
 
     <link rel="stylesheet" id="epico_icomoon-style-css"
@@ -122,13 +122,13 @@
 </script>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <link rel="icon"
-        href="{{ asset('version1/') }}/wp-content/uploads/2019/03/cropped-chuijhal-favicon-32x32.png"
+        href="{{asset(setting()->logo)}}"
         sizes="32x32" />
     <link rel="icon"
-        href="{{ asset('version1/') }}/wp-content/uploads/2019/03/cropped-chuijhal-favicon-192x192.png"
+        href="{{asset(setting()->logo)}}"
         sizes="192x192" />
     <link rel="apple-touch-icon"
-        href="{{ asset('version1/') }}/wp-content/uploads/2019/03/cropped-chuijhal-favicon-180x180.png" />
+        href="{{asset(setting()->logo)}}" />
     <meta name="msapplication-TileImage"
         content="{{ asset($product->image) }}" />
     <noscript>

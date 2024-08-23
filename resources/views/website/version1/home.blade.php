@@ -1,6 +1,11 @@
 @extends('website.version1.layouts.master')
 @section('content')
 
+
+   @include('website.version1.componant.quick-view')
+<div class="quick-view"></div>
+
+
     <div id="post-14742" class="post-14742 page type-page status-publish has-post-thumbnail hentry">
         <div id="vc_row_1" class="ep-section background_cover row_section  section ">
             <div class="section-container" style="background-color:#f8f8f8;">
@@ -59,7 +64,7 @@
                                             <div class="centeralignment">
                                                 <a id="button_1"
                                                     class="ep_button button-large center row style2 fill hasIcon buttoniconright"
-                                                    style="color: #ffffff;" href="shop/index.html" title>
+                                                    style="color: #ffffff;" href="#" title>
                                                     <span class="txt" data-hover="শপে যান">
                                                         শপে যান </span>
                                                     <span class="icon" data-float="right" data-hover="icon-bag2">
@@ -79,6 +84,8 @@
             </div>
         </div>
         @include('website.version1.layouts.include.footer-info')
+        @include('website.version1.custom-js')
+        @include('website.componant.size-js')
     </div>
 
 @endsection

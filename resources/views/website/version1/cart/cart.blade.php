@@ -8,14 +8,14 @@
     <meta name="robots" content="noindex, follow">
 
     <!-- This site is optimized with the Yoast SEO plugin v23.0 - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>কার্ট - চুইঝাল</title>
-    <link rel="canonical" href="https://chuijhal.com/cart/">
+    <title>কার্ট - আচার</title>
+    <link rel="canonical" href="{{route('cart')}}">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="কার্ট - চুইঝাল">
-    <meta property="og:url" content="https://chuijhal.com/cart/">
-    <meta property="og:site_name" content="চুইঝাল">
-    <meta property="article:publisher" content="https://www.facebook.com/chuijhal.cooking/">
+    <meta property="og:title" content="কার্ট - আচার">
+    <meta property="og:url" content="{{route('cart')}}">
+    <meta property="og:site_name" content="আচার">
+    <meta property="article:publisher" content="https://www.facebook.com/Achar.BariETHA99">
     <meta property="article:modified_time" content="2019-02-28T07:58:35+00:00">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@chuijhal">
@@ -108,7 +108,7 @@
                                                             <div class="woocommerce">
                                                                 <div class="woocommerce-notices-wrapper"></div>
                                                                 <form class="woocommerce-cart-form"
-                                                                    action="https://chuijhal.com/cart/"
+                                                                    action="{{route('cart')}}"
                                                                     method="post">
 
                                                                     <table

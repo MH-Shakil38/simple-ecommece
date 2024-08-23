@@ -11,18 +11,18 @@
     <link rel="pingback" href="{{ asset('version1/') }}/xmlrpc.php" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
-    <title>Pickle Combo Offer 01 - চুইঝাল</title>
-    <link rel="canonical" href="index.html" />
+    <title>Exotic Taste House Agro</title>
+    <link rel="canonical" href="{{route('/')}}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Pickle Combo Offer 01 - চুইঝাল" />
+    <meta property="og:title" content="Exotic Taste House Agro" />
     <meta property="og:description"
-        content="লিমিটেড টাইমের জন্য অফার মাত্র  ২০০০ জন এই অফারে অর্ডার করতে পারবেন।  স্বাদ নিন মজাদার টক ঝাল মিষ্টি আচারের।" />
-    <meta property="og:url" content="index.html" />
-    <meta property="og:site_name" content="চুইঝাল" />
-    <meta property="article:publisher" content="https://www.facebook.com/chuijhal.cooking/" />
+        content="{{ $product->name }}" />
+    <meta property="og:url" content="{{route('/')}}" />
+    <meta property="og:site_name" content="আচার" />
+    <meta property="article:publisher" content="https://www.facebook.com/Achar.BariETHA99" />
     <meta property="article:modified_time" content="2024-08-10T05:16:50+00:00" />
-    <meta property="og:image" content="../../wp-content/uploads/2023/08/3-Pickle-COmbo-1.png" />
+    <meta property="og:image" content="{{asset(setting()->logo)}}" />
     <meta property="og:image:width" content="1080" />
     <meta property="og:image:height" content="1080" />
     <meta property="og:image:type" content="image/png" />
@@ -67,7 +67,7 @@
                                     <div class="container">
                                         <span class="product-line hidden-phone hidden-v-tablet"></span>
                                         <span id="next-product" class="hidden-phone"><a
-                                                href="../nutmeg-whole-%e0%a6%96%e0%a7%8b%e0%a6%b8%e0%a6%be-%e0%a6%9b%e0%a6%be%e0%a6%a1%e0%a6%bc%e0%a6%be-%e0%a7%ab%e0%a7%a6-%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae/index.html"
+                                                href="../nutmeg-whole-%e0%a6%96%e0%a7%8b%e0%a6%b8%e0%a6%be-%e0%a6%9b%e0%a6%be%e0%a6%a1%e0%a6%bc%e0%a6%be-%e0%a7%ab%e0%a7%a6-%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae/{{route('/')}}"
                                                 rel="prev"><span></span><img fetchpriority="high" width="800"
                                                     height="800"
                                                     src="{{ asset('version1/') }}/wp-content/uploads/2023/06/Nutmegh-pelled.jpg"
@@ -75,7 +75,7 @@
                                                     alt="চেলা জয়ফল" decoding="async"
                                                     srcset="https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled.jpg 800w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-300x300.jpg 300w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-100x100.jpg 100w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-600x600.jpg 600w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-768x768.jpg 768w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-340x340.jpg 340w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-680x680.jpg 680w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-400x400.jpg 400w"
                                                     sizes="(max-width: 800px) 100vw, 800px" /></a></span><span
-                                            id="prev-product" class="hidden-phone"><a href="../spice-combo1/index.html"
+                                            id="prev-product" class="hidden-phone"><a href="../spice-combo1/{{route('/')}}"
                                                 rel="next"><span></span><img width="1080" height="1080"
                                                     src="{{ asset('version1/') }}/wp-content/uploads/2023/08/4.png"
                                                     class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image"
@@ -107,11 +107,11 @@
                                         </div>
                                         <div class="summary entry-summary">
                                             <nav id="breadcrumb" class="woocommerce-breadcrumb"><a
-                                                    href="{{ asset('version1/') }}/index.html">Home</a><span
+                                                    href="{{ asset('version1/') }}/{{route('/')}}">Home</a><span
                                                     class="delimiter">/</span><a
-                                                    href="{{ asset('version1/') }}/shop/index.html">শপ</a><span
+                                                    href="{{ asset('version1/') }}/shop/{{route('/')}}">শপ</a><span
                                                     class="delimiter">/</span><a
-                                                    href="{{ asset('version1/') }}/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/index.html">আচার</a><span
+                                                    href="{{ asset('version1/') }}/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/{{route('/')}}">আচার</a><span
                                                     class="delimiter">/</span>{{ $product->name }}</nav>
                                             </nav>
                                             <h1 class="product_title entry-title">{{ $product->name }}</h1>
@@ -268,7 +268,7 @@
                                             <li>৯। কদবেলের আচার</li>
                                             <li>১০। কাঁচা মরিচের আচার</li>
                                             <li>১১। দেশি রসুনের আচার</li>
-                                            <li>১২। চুইঝাল রসুনের আচার</li>
+                                            <li>১২। আচার রসুনের আচার</li>
                                             <li>১৩। জলপাইয়ের আচার</li>
                                         </ul>
                                         <p>এই আচার গুলোর মধ্যে যেকোন ৩ টা আচার নিতে পারবেন।</p>
@@ -293,7 +293,7 @@
                                                                     the first to review &ldquo;Pickle Combo Offer
                                                                     01&rdquo;</span>
                                                                 <p class="must-log-in">You must be <a
-                                                                        href="{{ asset('version1/') }}/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/index.html">logged
+                                                                        href="{{ asset('version1/') }}/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/{{route('/')}}">logged
                                                                         in</a> to post a review.</p>
                                                             </div>
                                                         </div>
@@ -308,7 +308,7 @@
                                 <div class="product_meta">
                                     <span class="sku_wrapper">SKU: <span class="sku">Combo1</span></span>
                                     <span class="posted_in">Category: <a
-                                            href="{{ asset('version1/') }}/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/index.html"
+                                            href="{{ asset('version1/') }}/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/{{route('/')}}"
                                             rel="tag">আচার</a></span>
                                 </div>
                                 <div class="container">
@@ -328,11 +328,11 @@
                                                     ])
                                                 @empty
                                                 @endforelse
-                                                <li
+                                                {{-- <li
                                                     class="with-border product type-product post-15268 status-publish first outofstock product_cat-254 has-post-thumbnail shipping-taxable purchasable product-type-simple">
                                                     <div class="productwrap">
                                                         <div class="add_to_cart_btn_wrap lazy-load-hover-container">
-                                                            <a href="../green-mango-pickle-tok-jhal/index.html"
+                                                            <a href="../green-mango-pickle-tok-jhal/{{route('/')}}"
                                                                 class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
                                                             <div class="imageswrap productthumbnail lazy-load lazy-load-on-load"
                                                                 style="padding-top:100%;"><img width="800"
@@ -348,7 +348,7 @@
                                                             <div class="out_of_stock_badge_loop">Out of stock</div>
                                                             <div class="product-buttons">
                                                                 <span class="product-button product_type_simple"><a
-                                                                        href="../green-mango-pickle-tok-jhal/index.html"
+                                                                        href="../green-mango-pickle-tok-jhal/{{route('/')}}"
                                                                         rel="nofollow" data-product_id="15268"
                                                                         data-product_sku data-quantity="1"
                                                                         class="button  product_type_simple ajax_add_to_cart"><span
@@ -362,7 +362,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="wrap_after_thumbnail">
-                                                            <a href="../green-mango-pickle-tok-jhal/index.html">
+                                                            <a href="../green-mango-pickle-tok-jhal/{{route('/')}}">
                                                                 <h2 class="woocommerce-loop-product__title">আমের টক ঝাল
                                                                     মিস্টি আচার (খোসা সহ) ৪৫০ গ্রাম জার</h2>
                                                             </a>
@@ -376,7 +376,7 @@
                                                     class="with-border product type-product post-15268 status-publish first outofstock product_cat-254 has-post-thumbnail shipping-taxable purchasable product-type-simple">
                                                     <div class="productwrap">
                                                         <div class="add_to_cart_btn_wrap lazy-load-hover-container">
-                                                            <a href="../green-mango-pickle-tok-jhal/index.html"
+                                                            <a href="../green-mango-pickle-tok-jhal/{{route('/')}}"
                                                                 class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
                                                             <div class="imageswrap productthumbnail lazy-load lazy-load-on-load"
                                                                 style="padding-top:100%;"><img width="800"
@@ -392,7 +392,7 @@
                                                             <div class="out_of_stock_badge_loop">Out of stock</div>
                                                             <div class="product-buttons">
                                                                 <span class="product-button product_type_simple"><a
-                                                                        href="../green-mango-pickle-tok-jhal/index.html"
+                                                                        href="../green-mango-pickle-tok-jhal/{{route('/')}}"
                                                                         rel="nofollow" data-product_id="15268"
                                                                         data-product_sku data-quantity="1"
                                                                         class="button  product_type_simple ajax_add_to_cart"><span
@@ -406,7 +406,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="wrap_after_thumbnail">
-                                                            <a href="../green-mango-pickle-tok-jhal/index.html">
+                                                            <a href="../green-mango-pickle-tok-jhal/{{route('/')}}">
                                                                 <h2 class="woocommerce-loop-product__title">আমের টক ঝাল
                                                                     মিস্টি আচার (খোসা সহ) ৪৫০ গ্রাম জার</h2>
                                                             </a>
@@ -415,12 +415,12 @@
                                                                             class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>490.00</bdi></span></span>
                                                         </div>
                                                     </div>
-                                                </li>
+                                                </li> --}}
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <meta content="index.html" />
+                                <meta content="{{route('/')}}" />
                             </div>
                         </div>
                     </div>
@@ -473,13 +473,13 @@
                         <span class="txt" data-hover>
                         </span>
                     </a>
-                    <a href="{{ asset('version1/') }}/cart/index.html" class="added_to_cart wc-forward hide"></a>
+                    <a href="{{ asset('version1/') }}/cart/{{route('/')}}" class="added_to_cart wc-forward hide"></a>
                 </div>
             </div>
             <div id="customer_login" class="hide-login ">
                 <h2>Login</h2>
                 <a class="register-link"
-                    href="{{ asset('version1/') }}/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/index.html">Create
+                    href="{{ asset('version1/') }}/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/{{route('/')}}">Create
                     an account</a>
                 <form class="woocommerce-form woocommerce-form-login login" method="post">
                     <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
@@ -564,7 +564,7 @@
                         </label>
                         <span class="woocommerce-LostPassword lost_password">
                             <a
-                                href="{{ asset('version1/') }}/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/lost-password/index.html">Lost
+                                href="{{ asset('version1/') }}/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/lost-password/{{route('/')}}">Lost
                                 your password?</a>
                         </span>
                     </p>
@@ -593,6 +593,8 @@
 	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
 
 </script>
+@include('website.version1.componant.quick-view')
+<div class="quick-view"></div>
             @include('website.version1.layouts.include.footer-script')
             @include('website.version1.custom-js')
             @include('website.version1.componant.show-cart')
