@@ -7,13 +7,13 @@
     <link rel="pingback" href="https://chuijhal.com/xmlrpc.php" />
     <meta name="robots" content="noindex, follow" />
 
-    <title>চেকআউট - চুইঝাল</title>
+    <title>চেকআউট - আচার</title>
     <link rel="canonical" href="https://chuijhal.com/checkout/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="চেকআউট - চুইঝাল" />
+    <meta property="og:title" content="চেকআউট - আচার" />
     <meta property="og:url" content="https://chuijhal.com/checkout/" />
-    <meta property="og:site_name" content="চুইঝাল" />
+    <meta property="og:site_name" content="আচার" />
     <meta property="article:publisher" content="https://www.facebook.com/chuijhal.cooking/" />
     <meta property="article:modified_time" content="2019-02-28T07:58:49+00:00" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -21,8 +21,8 @@
 
     <script type="application/javascript" id="pys-version-script">console.log('PixelYourSite Free version 9.6.2');</script>
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Feed" href="https://chuijhal.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="আচার &raquo; Feed" href="https://chuijhal.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="আচার &raquo; Comments Feed"
         href="https://chuijhal.com/comments/feed/" />
     <script type="text/javascript">
         /* <![CDATA[ */
@@ -2142,10 +2142,10 @@
                                 <img width="300" height="300"
                                     src="//chuijhal.com/wp-content/uploads/2019/01/Chuijhal-EiD-Special-300x300.png"
                                     class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                    alt="খুলনার চুইঝাল" decoding="async"
+                                    alt="খুলনার আচার" decoding="async"
                                     srcset="//chuijhal.com/wp-content/uploads/2019/01/Chuijhal-EiD-Special-300x300.png 300w, //chuijhal.com/wp-content/uploads/2019/01/Chuijhal-EiD-Special-100x100.png 100w, //chuijhal.com/wp-content/uploads/2019/01/Chuijhal-EiD-Special-600x600.png 600w, //chuijhal.com/wp-content/uploads/2019/01/Chuijhal-EiD-Special-768x768.png 768w, //chuijhal.com/wp-content/uploads/2019/01/Chuijhal-EiD-Special-340x340.png 340w, //chuijhal.com/wp-content/uploads/2019/01/Chuijhal-EiD-Special-680x680.png 680w, //chuijhal.com/wp-content/uploads/2019/01/Chuijhal-EiD-Special-400x400.png 400w, //chuijhal.com/wp-content/uploads/2019/01/Chuijhal-EiD-Special.png 800w"
                                     sizes="(max-width: 300px) 100vw, 300px" /> </a>
-                            <span>Chuijhal (চুইঝাল) 1 কেজি</span>
+                            <span>Chuijhal (আচার) 1 কেজি</span>
 
 
                             <span class="quantity">1 &times; <span class="woocommerce-Price-amount amount"><bdi><span
