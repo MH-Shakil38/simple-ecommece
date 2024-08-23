@@ -32,7 +32,7 @@
                                                     data-animation="none">
                                                     <div class="icon">
                                                         <span class="glyph icon-telephone"
-                                                            style=" color: #ff692c;"></span>
+                                                            style=" color: #168d44;"></span>
                                                     </div>
                                                     <div class="content-wrap">
                                                         <h3 class="title"
@@ -58,7 +58,7 @@
                                                     data-animation="none">
                                                     <div class="icon">
                                                         <span class="glyph icon-envelope"
-                                                            style=" color: #ff692c;"></span>
+                                                            style=" color: #168d44;"></span>
                                                     </div>
                                                     <div class="content-wrap">
                                                         <h3 class="title"
@@ -87,7 +87,7 @@
                                                     data-animation="none">
                                                     <div class="icon">
                                                         <span class="glyph icon-home4"
-                                                            style=" color: #ff692c;"></span>
+                                                            style=" color: #168d44;"></span>
                                                     </div>
                                                     <div class="content-wrap">
                                                         <h3 class="title"

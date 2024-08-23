@@ -681,14 +681,14 @@
     }
 
     header #headerFirstState .navigation>ul>li .spanHover {
-        background-color: #ff692c !important;
+        background-color: #168d44 !important;
     }
 
     header.borderhover #headerFirstState .navigation>ul>li>a:before,
     header.borderhover #headerFirstState .navigation>ul>li.active>a:before,
     header.borderhover #headerFirstState .navigation>ul>li.current_page_item>a:before,
     header.borderhover #headerFirstState .navigation>ul>li.current-menu-ancestor>a:before {
-        background-color: #ff692c;
+        background-color: #168d44;
     }
 
     header.borderhover .navigation>ul>li>a:before,
@@ -700,7 +700,7 @@
 
     /* Anchor */
     a {
-        color: #ff4c2f;
+        color: #168d44;
     }
 
     a:hover {
@@ -709,12 +709,12 @@
 
     /* Text Selection */
     ::-moz-selection {
-        background: #ff4c2f;
+        background: #168d44;
         /* Firefox */
     }
 
     ::selection {
-        background: #ff4c2f;
+        background: #168d44;
         /* Safari */
     }
 
@@ -820,7 +820,7 @@
     .galleryexternallink,
     .page-load-status .view-more-button:hover,
     .ep-popup-newsletter-shortcode .widget_wysija_cont .wysija-submit {
-        background-color: #ff4c2f;
+        background-color: #168d44;
     }
 
     .nice-select .option:hover,
@@ -832,7 +832,7 @@
     .widget_shopping_cart_content a.wc-forward.button,
     .nice-select .option:hover,
     .toggleSidebar.cartSidebarContainer .cart-bottom-box .buttons a.checkout {
-        background-color: #ff4c2f !important;
+        background-color: #168d44 !important;
     }
 
     .woocommerce ul.products li.product a:hover h3,
@@ -938,7 +938,7 @@
     .widget_product_categories .cats-toggle.toggle-active,
     .footer-widgetized .product-categories li.current-cat>a,
     form.woocommerce-currency-switcher-form .dd-option .dd-option-text:hover {
-        color: #ff4c2f;
+        color: #168d44;
     }
 
     .woocommerce div.product form.cart .group_table .woocommerce-grouped-product-list-item__price,
@@ -970,7 +970,7 @@
     .summary.entry-summary .button.compare.added:before,
     .lang-sel ul.lang_link>li:hover a,
     .summary.entry-summary .button.compare:hover {
-        color: #ff4c2f !important;
+        color: #168d44 !important;
     }
 
 
@@ -1009,7 +1009,7 @@
     .widget-area .product-categories li.cat-item a:hover:before,
     .widget-area .product-categories li.cat-item a:hover:before,
     .galleryexternallink {
-        border-color: #ff4c2f;
+        border-color: #168d44;
     }
 
     .woocommerce .blockUI.blockOverlay:after,
@@ -1025,11 +1025,11 @@
     .showcase .swiper-button-prev:hover:before,
     .showcase .swiper-button-next:hover:before,
     .mejs-overlay-loading:after {
-        border-right-color: #ff4c2f;
+        border-right-color: #168d44;
     }
 
     .sticky .blogAccordion .rightBorder {
-        border-right-color: #ff4c2f !important;
+        border-right-color: #168d44 !important;
     }
 
     .testimonials .quot-icon:before,
@@ -1039,7 +1039,7 @@
     .vc_tta-tabs-position-bottom li.vc_tta-tab.vc_active,
     .showcase .swiper-button-prev:hover:before,
     .showcase .swiper-button-next:hover:before {
-        border-top-color: #ff4c2f;
+        border-top-color: #168d44;
     }
 
 
@@ -1077,7 +1077,7 @@
     .custom-title .shape-container.triangle .shape-line,
     .custom-title .shape-container.triangle .shape-line:after,
     .custom-title .shape-container.triangle .shape-line:before {
-        border-bottom-color: #ff4c2f;
+        border-bottom-color: #168d44;
     }
 
     .loading-next-page,
@@ -1085,7 +1085,7 @@
     .testimonials .quot-icon:before,
     .textLeftBorder.fontSize123 .title,
     .textLeftBorder .title {
-        border-left-color: #ff4c2f;
+        border-left-color: #168d44;
     }
 
     .touchevents #comment-text .button.button-large,
@@ -1102,7 +1102,7 @@
     .custom-title .shape-container.square .shape-line,
     .custom-title .shape-container.rotated_square .shape-line,
     .custom-title .shape-container.circle .shape-line {
-        border-color: #ff4c2f;
+        border-color: #168d44;
     }
 
 
@@ -1110,7 +1110,7 @@
     /* topbar */
 
     #topbar {
-        background-color: #ff692c
+        background-color: #168d44
     }
 
 
@@ -1511,7 +1511,7 @@
 
     /* Snap to scroll */
     #snap-to-scroll-nav span:after {
-        background: #ff4c2f;
+        background: #168d44;
     }
 
 
@@ -1521,7 +1521,7 @@
     /* Popup Newsletter */
 
     .ep-popup-newsletter-shortcode.ep-newsletter .widget_wysija_cont .wysija-submit:hover {
-        color: #ff4c2f !important;
+        color: #168d44 !important;
     }
 </style>
 <link rel="stylesheet" id="epico_responsive-style-css"

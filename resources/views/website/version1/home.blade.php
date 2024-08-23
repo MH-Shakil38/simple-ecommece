@@ -53,11 +53,11 @@
 
                                             #button_1.ep_button.style1,
                                             #button_1.ep_button.style2 {
-                                                border-color: #ff692c;
+                                                border-color: #168d44;
                                             }
 
                                             #button_1.ep_button {
-                                                background-color: #ff692c;
+                                                background-color: #168d44;
                                             }
                                         </style>
                                         <div class="inlinestyle center ">
