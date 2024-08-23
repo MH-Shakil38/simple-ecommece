@@ -67,9 +67,10 @@
                                         class="swiper-container sw-scrollbar swiper-container-vertical swiper-container-free-mode">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide swiper-slide-active">
-                                                <p>লিমিটেড টাইমের জন্য অফার মাত্র</p>
-                                                <p>২০০০ জন এই অফারে অর্ডার করতে পারবেন।</p>
-                                                <p>স্বাদ নিন মজাদার টক ঝাল মিষ্টি আচারের।</p>
+                                                <p> <b> স্বাদঃ টক ঝাল মিষ্টি</b></p>
+                                                <p>উপাদানঃ আম, লবন, মরিচ, ভিনেগার,</p>
+                                                <p> নিজস্ব ঘানি ভাংগা সরিষার তৈল,</p>
+                                                <p>আচার বাড়ি”র স্পেশাল মসলা।</p>
                                             </div>
                                         </div>
                                         <div class="swiper-scrollbar" style="opacity: 0;">
