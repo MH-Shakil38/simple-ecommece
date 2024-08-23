@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Artisan;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,5 +56,10 @@ Route::get('received-order',[\App\Http\Controllers\OrderController::class,'recei
 Route::get('store-order/{id}',[\App\Http\Controllers\OrderController::class,'store_order'])->name('store.order');
 Route::get('order-details',[\App\Http\Controllers\OrderController::class,'details_order'])->name('order.details');
 Route::get('delete-order/{id}',[\App\Http\Controllers\OrderController::class,'delete_order'])->name('delete.order');
+
+Route::get('/migrate', function () {
+    Artisan::call('migrate');
+    return 'Migration complete!';
+});
 
 
