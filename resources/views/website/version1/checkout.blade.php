@@ -2050,13 +2050,13 @@
                     <ul class="cart_list product_list_widget ">
                         <li class="mini_cart_item">
 
-                            <a href="https://chuijhal.com/cart/?remove_item=32c92c5a9c391d8a2a2a05770f1a3395&#038;_wpnonce=61822a9bf3"
+                            <a href="{{route('cart')}}?remove_item=32c92c5a9c391d8a2a2a05770f1a3395&#038;_wpnonce=61822a9bf3"
                                 class="remove" aria-label="Remove this item" data-product_id="32614"
                                 data-product_sku="Combo1" data-item-key="32c92c5a9c391d8a2a2a05770f1a3395"></a>
 
                             <div class="wc- hide"></div>
 
-                            <a href="https://chuijhal.com/cart/?undo_item=32c92c5a9c391d8a2a2a05770f1a3395&#038;_wpnonce=61822a9bf3"
+                            <a href="{{route('cart')}}?undo_item=32c92c5a9c391d8a2a2a05770f1a3395&#038;_wpnonce=61822a9bf3"
                                 class="icon icon-undo undo" title="Undo this item" data-product_id="32614"
                                 data-product_sku="Combo1"
                                 data-item-key="32c92c5a9c391d8a2a2a05770f1a3395"><span></span></a>
@@ -2076,13 +2076,13 @@
                         </li>
                         <li class="mini_cart_item">
 
-                            <a href="https://chuijhal.com/cart/?remove_item=32bb9f32e97807c36a1b1a881b31d33b&#038;_wpnonce=61822a9bf3"
+                            <a href="{{route('cart')}}?remove_item=32bb9f32e97807c36a1b1a881b31d33b&#038;_wpnonce=61822a9bf3"
                                 class="remove" aria-label="Remove this item" data-product_id="33077"
                                 data-product_sku="Chilli Combo" data-item-key="32bb9f32e97807c36a1b1a881b31d33b"></a>
 
                             <div class="wc- hide"></div>
 
-                            <a href="https://chuijhal.com/cart/?undo_item=32bb9f32e97807c36a1b1a881b31d33b&#038;_wpnonce=61822a9bf3"
+                            <a href="{{route('cart')}}?undo_item=32bb9f32e97807c36a1b1a881b31d33b&#038;_wpnonce=61822a9bf3"
                                 class="icon icon-undo undo" title="Undo this item" data-product_id="33077"
                                 data-product_sku="Chilli Combo"
                                 data-item-key="32bb9f32e97807c36a1b1a881b31d33b"><span></span></a>
@@ -2102,13 +2102,13 @@
                         </li>
                         <li class="mini_cart_item">
 
-                            <a href="https://chuijhal.com/cart/?remove_item=23c7963ec66989c155759d1ed3a6cbea&#038;_wpnonce=61822a9bf3"
+                            <a href="{{route('cart')}}?remove_item=23c7963ec66989c155759d1ed3a6cbea&#038;_wpnonce=61822a9bf3"
                                 class="remove" aria-label="Remove this item" data-product_id="36170" data-product_sku
                                 data-item-key="23c7963ec66989c155759d1ed3a6cbea"></a>
 
                             <div class="wc- hide"></div>
 
-                            <a href="https://chuijhal.com/cart/?undo_item=23c7963ec66989c155759d1ed3a6cbea&#038;_wpnonce=61822a9bf3"
+                            <a href="{{route('cart')}}?undo_item=23c7963ec66989c155759d1ed3a6cbea&#038;_wpnonce=61822a9bf3"
                                 class="icon icon-undo undo" title="Undo this item" data-product_id="36170"
                                 data-product_sku data-item-key="23c7963ec66989c155759d1ed3a6cbea"><span></span></a>
 
@@ -2127,13 +2127,13 @@
                         </li>
                         <li class="mini_cart_item">
 
-                            <a href="https://chuijhal.com/cart/?remove_item=bfdbc88767ec7e391c7ceb9dd747f440&#038;_wpnonce=61822a9bf3"
+                            <a href="{{route('cart')}}?remove_item=bfdbc88767ec7e391c7ceb9dd747f440&#038;_wpnonce=61822a9bf3"
                                 class="remove" aria-label="Remove this item" data-product_id="15026" data-product_sku
                                 data-item-key="bfdbc88767ec7e391c7ceb9dd747f440"></a>
 
                             <div class="wc- hide"></div>
 
-                            <a href="https://chuijhal.com/cart/?undo_item=bfdbc88767ec7e391c7ceb9dd747f440&#038;_wpnonce=61822a9bf3"
+                            <a href="{{route('cart')}}?undo_item=bfdbc88767ec7e391c7ceb9dd747f440&#038;_wpnonce=61822a9bf3"
                                 class="icon icon-undo undo" title="Undo this item" data-product_id="15026"
                                 data-product_sku data-item-key="bfdbc88767ec7e391c7ceb9dd747f440"><span></span></a>
 
@@ -2153,13 +2153,13 @@
                         </li>
                         <li class="mini_cart_item">
 
-                            <a href="https://chuijhal.com/cart/?remove_item=596676c0468e1aa77be2d247aa42455e&#038;_wpnonce=61822a9bf3"
+                            <a href="{{route('cart')}}?remove_item=596676c0468e1aa77be2d247aa42455e&#038;_wpnonce=61822a9bf3"
                                 class="remove" aria-label="Remove this item" data-product_id="25254" data-product_sku
                                 data-item-key="596676c0468e1aa77be2d247aa42455e"></a>
 
                             <div class="wc- hide"></div>
 
-                            <a href="https://chuijhal.com/cart/?undo_item=596676c0468e1aa77be2d247aa42455e&#038;_wpnonce=61822a9bf3"
+                            <a href="{{route('cart')}}?undo_item=596676c0468e1aa77be2d247aa42455e&#038;_wpnonce=61822a9bf3"
                                 class="icon icon-undo undo" title="Undo this item" data-product_id="25254"
                                 data-product_sku data-item-key="596676c0468e1aa77be2d247aa42455e"><span></span></a>
 
@@ -2183,7 +2183,7 @@
                                         class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>25,990.00</bdi></span>
                         </p>
                         <p class="buttons">
-                            <a href="https://chuijhal.com/cart/" class="button wc-forward">
+                            <a href="{{route('cart')}}" class="button wc-forward">
                                 <span data-hover="View Cart">View Cart</span>
                             </a><a href="https://chuijhal.com/checkout/" class="button checkout wc-forward">
                                 <span data-hover="Checkout">Checkout</span>
@@ -2768,7 +2768,7 @@
                 <span class="txt" data-hover>
                 </span>
             </a>
-            <a href="https://chuijhal.com/cart/" class="added_to_cart wc-forward hide"></a>
+            <a href="{{route('cart')}}" class="added_to_cart wc-forward hide"></a>
         </div>
     </div>
     <div id="customer_login" class="hide-login ">

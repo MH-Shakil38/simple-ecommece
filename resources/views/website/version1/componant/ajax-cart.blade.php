@@ -117,7 +117,7 @@
 
 
         <p class="buttons">
-            <a href="https://chuijhal.com/cart/" class="button wc-forward">
+            <a href="{{ route('cart') }}" class="button wc-forward">
                 <span data-hover="View Cart">View Cart</span>
             </a><a href="{{ route('checkout') }}" class="button checkout wc-forward">
                 <span data-hover="Checkout">Checkout</span>
@@ -129,7 +129,7 @@
 
 
     <div class="woocommerce-message" role="alert">
-        <a href="https://chuijhal.com/cart/" tabindex="1" class="button wc-forward">View cart</a>
+        <a href="{{ route('cart') }}" tabindex="1" class="button wc-forward">View cart</a>
         “Pickle Combo Offer 01” has been added to your cart.
     </div>
 </div>

@@ -69,7 +69,7 @@
                                         <!--**************************check the version end *****************************-->
 
 
-                                        <a href="https://chuijhal.com/product/pickle-combo-offer-01/">
+                                        <a href="{{ route('single.product',$info['id']) }}">
                                             <img width="300" height="300"
                                                 src="{{ asset($info['image']) }}"
                                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
