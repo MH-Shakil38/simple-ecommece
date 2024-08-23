@@ -27,7 +27,7 @@
             <a href="product/tok-jhal-misti-tetul-rorun-alubookhara-achar/index.html">
                 <h3>{{ $info->name }}</h3>
             </a> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span
-                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>1,350.00</bdi></span></span>
+                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ discount_calculate($info->sizePrice[0]->price, $info->sizePrice[0]->offer) }}</bdi></span></span>
         </div>
     </div>
 </li>
