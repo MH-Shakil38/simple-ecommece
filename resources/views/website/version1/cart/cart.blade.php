@@ -120,8 +120,8 @@
                                                                                 <th class="product-thumbnail">&nbsp;
                                                                                 </th>
                                                                                 <th class="product-name">পণ্য</th>
-                                                                                <th class="product-price">মূল্য</th>
                                                                                 <th class="product-price">সাইজ</th>
+                                                                                <th class="product-price">মূল্য</th>
                                                                                 <th class="product-quantity">পরিমাণ
                                                                                 </th>
                                                                                 <th class="product-subtotal">মোট</th>
@@ -162,28 +162,37 @@
                                                                                     data-title="Price">
                                                                                     <span
                                                                                         class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span class="price{{ $info['stock_id'] }}">{{ $info['price'] }}<span></span></bdi></span>
+                                                                                                class="woocommerce-Price-currencySymbol"></span><span>{{ $info['size'] }}</span></bdi></span>
                                                                                 </td>
 
+                                                                                <td class="product-price"
+                                                                                    data-title="Price">
+                                                                                    <span
+                                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span ><span class="price{{ $info['stock_id'] }}">{{ $info['price'] }}</span></bdi></span>
+                                                                                </td>
                                                                                 <td class="product-quantity"
                                                                                     data-title="Quantity">
                                                                                     <div class="quantity">
                                                                                         <input type="number"
+                                                                                            class="qty{{ $info['stock_id'] }}"
                                                                                             step="1"
                                                                                             min="0"
                                                                                             max="991"
                                                                                             name="cart[32bb9f32e97807c36a1b1a881b31d33b][qty]"
-                                                                                            value="1"
+                                                                                            value="{{ $info['qty'] ?? 1}}"
                                                                                             title="Qty"
+                                                                                            readonly=""
                                                                                             class="input-text qty text"
                                                                                             size="4"
                                                                                             pattern="[0-9]*"
+                                                                                            style="border: none"
                                                                                             inputmode="numeric">
                                                                                         <div
-                                                                                            class="plus quantity-button">
+                                                                                            class="plus quantity-button" onclick="qty_plus({{ $info['id'] }},{{ $info['stock_id'] }})">
                                                                                         </div>
                                                                                         <div
-                                                                                            class="minus quantity-button">
+                                                                                            class="minus quantity-button" onclick="qty_minus({{ $info['id'] }},{{ $info['stock_id'] }})">
                                                                                         </div>
                                                                                     </div>
                                                                                 </td>
@@ -192,7 +201,7 @@
                                                                                     data-title="Total">
                                                                                     <span
                                                                                         class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span>{{ $info['price'] * $info['qty'] }}</bdi></span>
+                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span> <span class="subtotal{{ $info['stock_id'] }} subtotalsum"> {{ $info['price'] * $info['qty'] }}</span></bdi></span>
                                                                                 </td>
 
 
@@ -219,6 +228,7 @@
                                                                                     <td data-title="Subtotal"><span
                                                                                             class="woocommerce-Price-amount amount"><bdi><span
                                                                                                     class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                    <span class="net_total">
                                                                                                     @if (session('cart'))
                                                                                                     @php
                                                                                                         $net_total = 0;
@@ -233,6 +243,7 @@
                                                                                                     @endforeach
                                                                                                     {{ $net_total }}
                                                                                                 @endif
+                                                                                            </span>
                                                                                                 </bdi></span>
                                                                                     </td>
                                                                                 </tr>
@@ -255,7 +266,7 @@
                                                                                                     name="shipping_method[0]"
                                                                                                     data-index="0"
                                                                                                     id="shipping_method_0_flat_rate8"
-                                                                                                    value="flat_rate:8"
+                                                                                                    value="75"
                                                                                                     class="shipping_method"
                                                                                                     checked="checked"><label
                                                                                                     for="shipping_method_0_flat_rate8">ঢাকার
@@ -268,7 +279,7 @@
                                                                                                     name="shipping_method[0]"
                                                                                                     data-index="0"
                                                                                                     id="shipping_method_0_flat_rate9"
-                                                                                                    value="flat_rate:9"
+                                                                                                    value="120"
                                                                                                     class="shipping_method"><label
                                                                                                     for="shipping_method_0_flat_rate9">ঢাকার
                                                                                                     বাইরে: <span
@@ -280,7 +291,7 @@
                                                                                                     name="shipping_method[0]"
                                                                                                     data-index="0"
                                                                                                     id="shipping_method_0_local_pickup10"
-                                                                                                    value="local_pickup:10"
+                                                                                                    value="0"
                                                                                                     class="shipping_method"><label
                                                                                                     for="shipping_method_0_local_pickup10">Pickup
                                                                                                     From Store</label>
@@ -313,6 +324,7 @@
                                                                                         <strong><span
                                                                                                 class="woocommerce-Price-amount amount"><bdi><span
                                                                                                         class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                        <span class="grand_total">
                                                                                                         @if (session('cart'))
                                                                                                         @php
                                                                                                             $net_total = 0;
@@ -327,6 +339,7 @@
                                                                                                         @endforeach
                                                                                                         {{ $net_total }}
                                                                                                     @endif
+                                                                                                </span>
                                                                                                     </bdi></span></strong>
                                                                                     </td>
                                                                                 </tr>
@@ -403,10 +416,12 @@
 <p>Sorry, this product is unavailable. Please choose a different combination.</p>
 
 </script>
+<link rel="stylesheet" type="text/css" href="{{ asset('/') }}backEnd/assets/vendor/toastr/toastr.min.css">
 @include('website.version1.layouts.include.footer-script')
 @include('website.version1.custom-js')
 @include('website.version1.componant.show-cart')
 @include('website.componant.size-js')
+@include('website.version1.componant.qty-plus-minus-js')
 
 
 

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Models\Product;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Artisan;
 
@@ -18,7 +19,8 @@ use Illuminate\Support\Facades\Artisan;
 
 Route::get('/', function () {
     session()->put('theme','version1');
-    return view('website.'.session('theme').'.home');
+    $data['products'] = Product::query()->paginate(15);
+    return view('website.'.session('theme').'.home')->with($data);
 })->name('/');
 Route::get('/category/{id}',[\App\Http\Controllers\WebsiteController::class,'category_ways_product'])->name('product.category');
 Route::get('/all-hot-deal',[\App\Http\Controllers\WebsiteController::class,'all_hot_deal'])->name('all.hot.deal');

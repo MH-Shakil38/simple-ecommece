@@ -1,9 +1,7 @@
 @extends('website.version1.layouts.master')
 @section('content')
-
-
-   @include('website.version1.componant.quick-view')
-<div class="quick-view"></div>
+    @include('website.version1.componant.quick-view')
+    <div class="quick-view"></div>
 
 
     <div id="post-14742" class="post-14742 page type-page status-publish has-post-thumbnail hentry">
@@ -20,18 +18,24 @@
                                             data-layoutMode="masonry" data-delay="0" data-animation="none">
                                             <ul class="products buttonsOnHover shop-3column">
 
-                                                @php
+                                                {{-- @php
                                                     $products = products();
-                                                @endphp
+                                                @endphp --}}
                                                 @forelse ($products as $info)
                                                     @include('website.version1.card.card1', [
                                                         'info' => $info,
                                                     ])
                                                 @empty
                                                 @endforelse
-                                            </ul>
-                                        </div>
 
+                                            </ul>
+
+                                        </div>
+                                        <div class="inlinestyle center ">
+                                            <div class="centeralignment">
+                                                {{ $products->links('website.version1.componant.pagination') }}
+                                            </div>
+                                        </div>
                                         <div id="vc_empty_space_1" class="vc_empty_space" style="height: 30px"><span
                                                 class="vc_empty_space_inner"></span></div>
                                         <style type="text/css" media="all">
@@ -87,5 +91,4 @@
         @include('website.version1.custom-js')
         @include('website.componant.size-js')
     </div>
-
 @endsection

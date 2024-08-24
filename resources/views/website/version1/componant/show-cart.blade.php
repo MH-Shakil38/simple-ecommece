@@ -120,14 +120,15 @@
                                         $net_total = 0;
                                     @endphp
 
-                                    @foreach (session('cart') as $id => $details)
-                                        @php
-                                            $net_total =
-                                                $net_total +
-                                                $details['qty'] * $details['price'];
-                                        @endphp
-                                    @endforeach
-                                    {{ $net_total }}
+                                        @foreach (session('cart') as $id => $details)
+
+                                            @php
+                                                $net_total =
+                                                    $net_total +
+                                                    $details['qty'] * $details['price'];
+                                            @endphp
+                                        @endforeach
+                                        {{ $net_total }}
                                 @endif
                                 </bdi></span>
                     </p>
