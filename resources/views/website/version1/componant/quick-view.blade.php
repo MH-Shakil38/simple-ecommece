@@ -67,10 +67,14 @@
                                         class="swiper-container sw-scrollbar swiper-container-vertical swiper-container-free-mode">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide swiper-slide-active">
+                                                @if (isset($product) && $product->short_description !=null)
+                                                {!! $product->short_description !!}
+                                                @else
                                                 <p> <b> স্বাদঃ টক ঝাল মিষ্টি</b></p>
                                                 <p>উপাদানঃ আম, লবন, মরিচ, ভিনেগার,</p>
                                                 <p> নিজস্ব ঘানি ভাংগা সরিষার তৈল,</p>
                                                 <p>আচার বাড়ি”র স্পেশাল মসলা।</p>
+                                                @endif
                                             </div>
                                         </div>
                                         <div class="swiper-scrollbar" style="opacity: 0;">

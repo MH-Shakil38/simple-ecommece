@@ -153,6 +153,11 @@
                                 </div>
 
                                 <div class="col-md-12">
+                                    {{ Form::label('Short Description', null, ['class' => 'form-label']) }}
+                                    {{ Form::textarea('short_description', null, ['rows' => 3, 'class' => 'summernote']) }}
+                                </div>
+
+                                <div class="col-md-12">
                                     {{ Form::label('Description', null, ['class' => 'form-label']) }}
                                     {{ Form::textarea('description', null, ['rows' => 4, 'class' => 'form-control', 'id' => 'summernote']) }}
                                 </div>

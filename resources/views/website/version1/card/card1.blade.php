@@ -1,7 +1,11 @@
 <li
     class="with-border no-responsive-animation post-36170 product type-product status-publish has-post-thumbnail product_cat-254 last instock shipping-taxable purchasable product-type-simple">
     <div class="productwrap">
-        <span class="onsale percentage-sale">-9%</span>
+        @if ($info->sizePrice[0]->offer)
+        <span class="onsale percentage-sale">-{{ $info->sizePrice[0]->offer }}%</span>
+        @else
+        {{-- <span class="onsale" style="background: green">Sale</span> --}}
+        @endif
         <div class="add_to_cart_btn_wrap lazy-load-hover-container">
             <a href="{{ route('single.product', $info->id) }}" class="product-link"></a>
             <div class="imageswrap productthumbnail lazy-load lazy-load-on-load" style="padding-top: 100%;">

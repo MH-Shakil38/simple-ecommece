@@ -7,13 +7,13 @@
     <link rel="pingback" href="https://chuijhal.com/xmlrpc.php" />
     <meta name="robots" content="noindex, follow" />
 
-    <title>চেকআউট - চুইঝাল</title>
+    <title>Exotic - আচার</title>
     <link rel="canonical" href="https://chuijhal.com/checkout/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="চেকআউট - চুইঝাল" />
+    <meta property="og:title" content="চেকআউট - আচার" />
     <meta property="og:url" content="https://chuijhal.com/checkout/" />
-    <meta property="og:site_name" content="চুইঝাল" />
+    <meta property="og:site_name" content="আচার" />
     <meta property="article:publisher" content="https://www.facebook.com/chuijhal.cooking/" />
     <meta property="article:modified_time" content="2019-02-28T07:58:49+00:00" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -21,8 +21,8 @@
 
     <script type="application/javascript" id="pys-version-script">console.log('PixelYourSite Free version 9.6.2');</script>
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Feed" href="https://chuijhal.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="চুইঝাল &raquo; Comments Feed"
+    <link rel="alternate" type="application/rss+xml" title="আচার &raquo; Feed" href="https://chuijhal.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="আচার &raquo; Comments Feed"
         href="https://chuijhal.com/comments/feed/" />
     <script type="text/javascript">
         /* <![CDATA[ */
@@ -1930,14 +1930,14 @@
 [{"@context":"https://schema.org/","@graph":[{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#298 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"শপ","url":"https://chuijhal.com/shop/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Organic Tea","url":"http://epicomedia.com/vitrine-demo37/product-category/organic-tea/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Vegetables","url":"http://epicomedia.com/vitrine-demo37/product-category/vegetables/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"BLOG","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Masonry - Blog","url":"https://chuijhal.com/blog/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"GALLERY","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"PORTFOLIO","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"PAGES","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Creative","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11895 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11899 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Simple","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11901 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"যোগাযোগ","url":"https://chuijhal.com/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Minimal","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11907 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"About us","url":"https://chuijhal.com/about-us/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11913 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Modern","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11915 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11921 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Coming soon - fullwidth","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Coming soon - split","url":""}]}]
 </script>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-    <link rel="icon" href="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-32x32.png"
+    <link rel="icon" href="{{ asset(setting()->logo) }}"
         sizes="32x32" />
-    <link rel="icon" href="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-192x192.png"
+    <link rel="icon" href="{{ asset(setting()->logo) }}"
         sizes="192x192" />
     <link rel="apple-touch-icon"
-        href="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-180x180.png" />
+        href="{{ asset(setting()->logo) }}" />
     <meta name="msapplication-TileImage"
-        content="https://chuijhal.com/wp-content/uploads/2019/03/cropped-chuijhal-favicon-270x270.png" />
+        content="{{ asset(setting()->logo) }}" />
     <noscript>
         <style>
             .wpb_animate_when_almost_visible {
@@ -2035,269 +2035,7 @@
             </div>
         </div>
 
-        <header id="epHeader" data-fixed="fixed-menu"
-            class=" hastogglesidebar  hasDropDownCart   fillhover    type1 fixed-menu   ">
-            <div class="wrap headerWrap">
-                <div id="headerFirstState">
-                    <div class="menuBgColor hidden-phone hidden-tablet"></div>
-
-                    <div class="container clearfix">
-
-                        <a class="locallink logo" href="https://chuijhal.com/#home">
-                            <img class="firstLogo"
-                                src="https://chuijhal.com/wp-content/uploads/2019/03/chuijhal-logo.png"
-                                alt="Logo" />
-                        </a>
-                        <a class="externalLink logo" href="https://chuijhal.com">
-                            <img class="firstLogo"
-                                src="https://chuijhal.com/wp-content/uploads/2019/03/chuijhal-logo.png"
-                                alt="Logo" />
-                        </a>
-                        <div class="cartSidebarbtn widget widget_woocommerce-dropdown-cart responsive-cart light">
-                            <a href="https://chuijhal.com/cart/"></a>
-                            <div class="cart-contents">
-                                <div class="cartContentsCount">0</div>
-                            </div>
-                            <span class="icon icon-bag"></span>
-                        </div>
-                        <div class="sidebartogglebtn hover light">
-                            <ul class="sidebartogglebtnlines">
-                                <li>
-                                    <hr>
-                                </li>
-                                <li>
-                                    <hr>
-                                </li>
-                                <li>
-                                    <hr>
-                                </li>
-                            </ul>
-                        </div>
-                        <span class="search-button icon-magnifier no-select hidden-phone hidden-tablet"></span>
-                        <nav class="navigation hidden-phone hidden-tablet">
-                            <ul id="menu-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a7%e0%a6%be%e0%a6%a8-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be"
-                                class="clearfix">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
-                                    <span class="spanHover"></span><a class="locallink home" data-hash="home"
-                                        href="https://chuijhal.com/#home"><span class="menu_title_wrap"><span
-                                                class="menu_title"><span>প্রচ্ছদ</span></span></span></a><a
-                                        class="externalLink" href="https://chuijhal.com"><span
-                                            class="menu_title_wrap"><span
-                                                class="menu_title"><span>প্রচ্ছদ</span></span></span></a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page"><span
-                                        class="spanHover"></span><a href="https://chuijhal.com/shop/"><span
-                                            class="menu_title_wrap"><span
-                                                class="menu_title"><span>শপ</span></span></span></a></li>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom"><span
-                                        class="spanHover"></span><a
-                                        href="https://chuijhal.com/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/"><span
-                                            class="menu_title_wrap"><span
-                                                class="menu_title"><span>আচার</span></span></span></a></li>
-                                <li
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                                    <span class="spanHover"></span><a href="https://chuijhal.com/blog/"><span
-                                            class="menu_title_wrap"><span
-                                                class="menu_title"><span>ব্লগ</span></span></span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="https://chuijhal.com/category/%e0%a6%b0%e0%a7%87%e0%a6%b8%e0%a6%bf%e0%a6%aa%e0%a6%bf/"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>রেসিপি</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="https://chuijhal.com/category/beef-recipe/"><span
-                                                    class="menu_title_wrap"><span class="menu_title"><span>গরুর
-                                                            মাংস</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="https://chuijhal.com/category/%e0%a6%b0%e0%a7%87%e0%a6%b8%e0%a6%bf%e0%a6%aa%e0%a6%bf-%e0%a6%95%e0%a6%a8%e0%a7%8d%e0%a6%9f%e0%a7%87%e0%a6%b8%e0%a7%8d%e0%a6%9f/"><span
-                                                    class="menu_title_wrap"><span class="menu_title"><span>রেসিপি
-                                                            কন্টেস্ট</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="https://chuijhal.com/category/%e0%a6%88%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%b0%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%a8%e0%a6%be/"><span
-                                                    class="menu_title_wrap"><span class="menu_title"><span>ঈদের
-                                                            রান্না</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="https://chuijhal.com/category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>আচার</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="https://chuijhal.com/category/%e0%a6%b0%e0%a7%82%e0%a6%aa%e0%a6%9a%e0%a6%b0%e0%a7%8d%e0%a6%9a%e0%a6%be/"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>রূপচর্চা</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="https://chuijhal.com/category/%e0%a6%b8%e0%a7%8d%e0%a6%ac%e0%a6%be%e0%a6%b8%e0%a7%8d%e0%a6%a5%e0%a7%8d%e0%a6%af%e0%a6%ac%e0%a6%bf%e0%a6%a7%e0%a6%bf/"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>স্বাস্থ্যবিধি</span></span></span></a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="https://chuijhal.com/category/%e0%a6%a1%e0%a6%be%e0%a6%b2/"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>ডাল</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="https://chuijhal.com/category/%e0%a6%ac%e0%a6%bf%e0%a6%b0%e0%a6%bf%e0%a7%9f%e0%a6%be%e0%a6%a8%e0%a6%bf/"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>বিরিয়ানি</span></span></span></a></li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                                href="https://chuijhal.com/category/%e0%a6%86%e0%a6%9f%e0%a6%be-%e0%a6%ae%e0%a7%9f%e0%a6%a6%e0%a6%be/"><span
-                                                    class="menu_title_wrap"><span class="menu_title"><span>আটা
-                                                            ময়দা</span></span></span></a></li>
-                                    </ul>
-                                </li>
-                                <li
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                    <span class="spanHover"></span><a href="https://chuijhal.com/about-us/"><span
-                                            class="menu_title_wrap"><span class="menu_title"><span>আমাদের
-                                                    সম্পর্কে</span></span></span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                                href="https://chuijhal.com/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97/"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>যোগাযোগ</span></span></span></a></li>
-                                        <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy">
-                                            <a
-                                                href="https://chuijhal.com/%e0%a6%97%e0%a7%8b%e0%a6%aa%e0%a6%a8%e0%a7%80%e0%a6%af%e0%a6%bc%e0%a6%a4%e0%a6%be-%e0%a6%a8%e0%a7%80%e0%a6%a4%e0%a6%bf/"><span
-                                                    class="menu_title_wrap"><span class="menu_title"><span>গোপনীয়তা
-                                                            নীতি</span></span></span></a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                                href="https://chuijhal.com/%e0%a6%b6%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a7%80/"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>শর্তাবলী</span></span></span></a></li>
-                                    </ul>
-                                </li>
-                                <li
-                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children">
-                                    <span class="spanHover"></span><a
-                                        href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/"><span
-                                            class="menu_title_wrap"><span class="menu_title"><span>লগইন /
-                                                    সাইনআপ</span></span></span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                                href="https://chuijhal.com/cart/"><span class="menu_title_wrap"><span
-                                                        class="menu_title"><span>কার্ট</span></span></span></a></li>
-                                        <li
-                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-557 current_page_item">
-                                            <a href="https://chuijhal.com/checkout/"><span
-                                                    class="menu_title_wrap"><span
-                                                        class="menu_title"><span>চেকআউট</span></span></span></a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                                                href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/orders/"><span
-                                                    class="menu_title_wrap"><span class="menu_title"><span>আমার
-                                                            অর্ডার</span></span></span></a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-
-                    </div>
-                </div>
-                <div id="mobile-menu-button" class="navigation-button hidden-desktop no_djax">
-                    <span></span>
-                </div>
-                <nav id="mobile-menu-items" class="navigation-mobile  " style="display:none;">
-                    <div class="mobile-menu-container hidden-desktop">
-                        <ul id="menu-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a7%e0%a6%be%e0%a6%a8-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be-1"
-                            class="menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home"><a
-                                    class="locallink home" data-hash="home"
-                                    href="https://chuijhal.com/#home">প্রচ্ছদ</a><a class="externalLink"
-                                    href="https://chuijhal.com">প্রচ্ছদ</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                    href="https://chuijhal.com/shop/">শপ</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                                    href="https://chuijhal.com/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/">আচার</a>
-                            </li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                                <a href="https://chuijhal.com/blog/">ব্লগ</a>
-                                <span class="toggle_submneu"><span class="toggle_icon"></span></span>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                            href="https://chuijhal.com/category/%e0%a6%b0%e0%a7%87%e0%a6%b8%e0%a6%bf%e0%a6%aa%e0%a6%bf/">রেসিপি</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                            href="https://chuijhal.com/category/beef-recipe/">গরুর মাংস</a></li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                            href="https://chuijhal.com/category/%e0%a6%b0%e0%a7%87%e0%a6%b8%e0%a6%bf%e0%a6%aa%e0%a6%bf-%e0%a6%95%e0%a6%a8%e0%a7%8d%e0%a6%9f%e0%a7%87%e0%a6%b8%e0%a7%8d%e0%a6%9f/">রেসিপি
-                                            কন্টেস্ট</a></li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                            href="https://chuijhal.com/category/%e0%a6%88%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%b0%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%a8%e0%a6%be/">ঈদের
-                                            রান্না</a></li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                            href="https://chuijhal.com/category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/">আচার</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                            href="https://chuijhal.com/category/%e0%a6%b0%e0%a7%82%e0%a6%aa%e0%a6%9a%e0%a6%b0%e0%a7%8d%e0%a6%9a%e0%a6%be/">রূপচর্চা</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                            href="https://chuijhal.com/category/%e0%a6%b8%e0%a7%8d%e0%a6%ac%e0%a6%be%e0%a6%b8%e0%a7%8d%e0%a6%a5%e0%a7%8d%e0%a6%af%e0%a6%ac%e0%a6%bf%e0%a6%a7%e0%a6%bf/">স্বাস্থ্যবিধি</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                            href="https://chuijhal.com/category/%e0%a6%a1%e0%a6%be%e0%a6%b2/">ডাল</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                            href="https://chuijhal.com/category/%e0%a6%ac%e0%a6%bf%e0%a6%b0%e0%a6%bf%e0%a7%9f%e0%a6%be%e0%a6%a8%e0%a6%bf/">বিরিয়ানি</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                            href="https://chuijhal.com/category/%e0%a6%86%e0%a6%9f%e0%a6%be-%e0%a6%ae%e0%a7%9f%e0%a6%a6%e0%a6%be/">আটা
-                                            ময়দা</a></li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                <a href="https://chuijhal.com/about-us/">আমাদের সম্পর্কে</a>
-                                <span class="toggle_submneu"><span class="toggle_icon"></span></span>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                            href="https://chuijhal.com/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97/">যোগাযোগ</a>
-                                    </li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy">
-                                        <a
-                                            href="https://chuijhal.com/%e0%a6%97%e0%a7%8b%e0%a6%aa%e0%a6%a8%e0%a7%80%e0%a6%af%e0%a6%bc%e0%a6%a4%e0%a6%be-%e0%a6%a8%e0%a7%80%e0%a6%a4%e0%a6%bf/">গোপনীয়তা
-                                            নীতি</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                            href="https://chuijhal.com/%e0%a6%b6%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a7%80/">শর্তাবলী</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children">
-                                <a
-                                    href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/">লগইন
-                                    / সাইনআপ</a>
-                                <span class="toggle_submneu"><span class="toggle_icon"></span></span>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                            href="https://chuijhal.com/cart/">কার্ট</a></li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-557 current_page_item">
-                                        <a href="https://chuijhal.com/checkout/">চেকআউট</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                                            href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/orders/">আমার
-                                            অর্ডার</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="mobile-search-form">
-                        <div class="search-form">
-                            <form role="search" method="get" class="searchform" action="https://chuijhal.com/">
-                                <div>
-                                    <label class="screen-reader-text" for="s"></label>
-                                    <input type="text" placeholder="Search" value name="s" />
-                                    <input type="hidden" name="post_type" value="post">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </nav>
-                <span id="mobile-menu-overlay" class="hidden-desktop"></span>
-            </div>
-        </header>
+        @include('website.version1.layouts.include.header')
 
         <span id="sidebar-open-overlay"></span>
         <div id="search-form">
@@ -2374,7 +2112,7 @@
                                                                             <li
                                                                                 class="woocommerce-order-overview__order order">
                                                                                 Order number:
-                                                                                <strong>{{ $customer->id }}</strong>
+                                                                                <strong>{{ $customer->order_number }}</strong>
                                                                             </li>
                                                                             <li
                                                                                 class="woocommerce-order-overview__date date">
@@ -2385,7 +2123,7 @@
                                                                                 class="woocommerce-order-overview__total total">
                                                                                 Total: <strong><span
                                                                                         class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $customer->tmp_orders->sum('total') }}</bdi></span></strong>
+                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $customer->tmp_orders->sum('total') + $customer->shipping_cost }}</bdi></span></strong>
                                                                             </li>
                                                                             <li
                                                                                 class="woocommerce-order-overview__payment-method method">
@@ -2398,6 +2136,260 @@
                                                                             <h2
                                                                                 class="woocommerce-order-details__title">
                                                                                 Order details</h2>
+
+                                                                                <div class="container">
+                                                                                    <div class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
+                                                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                                                            <div class="  vc_column-inner ">
+                                                                                                <div class="wpb_wrapper">
+                                                                                                    <div class="woocommerce">
+                                                                                                    </div>
+                                                                                                    <form class="woocommerce-cart-form"
+                                                                                                        action="http://simple-ecommece.test/cart"
+                                                                                                        method="post">
+
+                                                                                                        <table
+                                                                                                            class="shop_table shop_table_responsive cart woocommerce-cart-form__contents"
+                                                                                                            cellspacing="0">
+                                                                                                            <thead>
+                                                                                                                <tr>
+
+                                                                                                                    <th
+                                                                                                                        class="product-thumbnail">
+                                                                                                                        &nbsp;
+                                                                                                                    </th>
+                                                                                                                    <th class="product-name">
+                                                                                                                        পণ্য</th>
+                                                                                                                    <th class="product-price">
+                                                                                                                        সাইজ</th>
+                                                                                                                    <th class="product-price">
+                                                                                                                        মূল্য</th>
+                                                                                                                    <th
+                                                                                                                        class="product-quantity">
+                                                                                                                        পরিমাণ
+                                                                                                                    </th>
+                                                                                                                    <th
+                                                                                                                        class="product-subtotal">
+                                                                                                                        মোট</th>
+                                                                                                                </tr>
+                                                                                                            </thead>
+                                                                                                            <tbody>
+                                                                                                                @forelse ($customer->tmp_orders as $info)
+                                                                                                                    <tr class="cart_item">
+
+                                                                                                                        <td
+                                                                                                                            class="product-thumbnail">
+                                                                                                                            <a href="{{ route('single.product', $info->product_id) }}"
+                                                                                                                                target="_blank"><img
+                                                                                                                                    fetchpriority="high"
+                                                                                                                                    decoding="async"
+                                                                                                                                    width="300"
+                                                                                                                                    height="300"
+                                                                                                                                    src="{{ asset($info->product->image) }}"
+                                                                                                                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                                                                                                    alt="৩ টা ঝাল আচার বোম্বাই, নাগা কাঁচা মরিচ"
+                                                                                                                                    {{-- srcset="{{ asset(setting()->logo) }}" --}}
+                                                                                                                                    sizes="(max-width: 300px) 100vw, 300px"></a>
+                                                                                                                        </td>
+
+                                                                                                                        <td class="product-name"
+                                                                                                                            data-title="Product">
+                                                                                                                            <a
+                                                                                                                                href="{{ route('single.product', $info->product_id) }}">{{ $info->product->name }}</a>
+                                                                                                                        </td>
+
+                                                                                                                        <td class="product-price"
+                                                                                                                            data-title="Price">
+                                                                                                                            <span
+                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                        class="woocommerce-Price-currencySymbol"></span><span>{{ $info->stock->size }}</span></bdi></span>
+                                                                                                                        </td>
+
+                                                                                                                        <td class="product-price"
+                                                                                                                            data-title="Price">
+                                                                                                                            <span
+                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span><span
+                                                                                                                                        class="price3">{{ discount_calculate(@$info->stock->price, @$info->stock->offer) }}</span></bdi></span>
+                                                                                                                        </td>
+
+                                                                                                                        <td class="product-price"
+                                                                                                                            data-title="Price">
+                                                                                                                            <span
+                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span><span
+                                                                                                                                        class="price3">{{ $info->qty }}</span></bdi></span>
+                                                                                                                        </td>
+
+
+                                                                                                                        <td class="product-subtotal"
+                                                                                                                            data-title="Total">
+                                                                                                                            <span
+                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                                                    <span
+                                                                                                                                        class="subtotal3 subtotalsum">
+                                                                                                                                        450</span></bdi></span>
+                                                                                                                        </td>
+
+
+                                                                                                                    </tr>
+                                                                                                                @empty
+                                                                                                                @endforelse
+
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                    </form>
+
+                                                                                                        <div class="cart-collaterals">
+                                                                                                            <div
+                                                                                                                class="cart_totals calculated_shipping">
+
+
+                                                                                                                <table cellspacing="0"
+                                                                                                                    class="shop_table shop_table_responsive">
+
+                                                                                                                    <tbody>
+                                                                                                                        <tr class="">
+                                                                                                                            <th colspan="2"> <span style="font-weight: bolder">Cart Total</span></th>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                        <tr class="cart-subtotal">
+                                                                                                                            <th>Subtotal</th>
+                                                                                                                            <td
+                                                                                                                                data-title="Subtotal">
+                                                                                                                                <span
+                                                                                                                                    class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                            class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                                                        <span
+                                                                                                                                            class="net_total">
+
+                                                                                                                                            {{$customer->tmp_orders->sum('total')}}
+                                                                                                                                        </span>
+                                                                                                                                    </bdi></span>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+
+
+
+
+                                                                                                                        <tr
+                                                                                                                            class="woocommerce-shipping-totals shipping">
+                                                                                                                            <th colspan="2">
+                                                                                                                                Shipping</th>
+                                                                                                                        </tr>
+                                                                                                                        <tr
+                                                                                                                            class="woocommerce-shipping-totals shipping">
+                                                                                                                            <td colspan="2"
+                                                                                                                                data-title="Shipping">
+                                                                                                                                <ul id="shipping_method"
+                                                                                                                                    class="woocommerce-shipping-methods">
+                                                                                                                                    <li>
+                                                                                                                                        <input
+                                                                                                                                            type="radio"
+                                                                                                                                            name="shipping_method[0]"
+                                                                                                                                            data-index="0"
+                                                                                                                                            id="shipping_method_0_flat_rate8"
+                                                                                                                                            value="75"
+                                                                                                                                            class="shipping_method"
+                                                                                                                                            checked="checked"><label
+                                                                                                                                            for="shipping_method_0_flat_rate8">ঢাকার
+                                                                                                                                            মধ্যে:
+                                                                                                                                            <span
+                                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>75.00</bdi></span></label>
+                                                                                                                                    </li>
+                                                                                                                                    <li>
+                                                                                                                                        <input
+                                                                                                                                            type="radio"
+                                                                                                                                            name="shipping_method[0]"
+                                                                                                                                            data-index="0"
+                                                                                                                                            id="shipping_method_0_flat_rate9"
+                                                                                                                                            value="120"
+                                                                                                                                            class="shipping_method"><label
+                                                                                                                                            for="shipping_method_0_flat_rate9">ঢাকার
+                                                                                                                                            বাইরে:
+                                                                                                                                            <span
+                                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>120.00</bdi></span></label>
+                                                                                                                                    </li>
+                                                                                                                                    <li>
+                                                                                                                                        <input
+                                                                                                                                            type="radio"
+                                                                                                                                            name="shipping_method[0]"
+                                                                                                                                            data-index="0"
+                                                                                                                                            id="shipping_method_0_local_pickup10"
+                                                                                                                                            value="0"
+                                                                                                                                            class="shipping_method"><label
+                                                                                                                                            for="shipping_method_0_local_pickup10">Pickup
+                                                                                                                                            From
+                                                                                                                                            Store</label>
+                                                                                                                                    </li>
+                                                                                                                                </ul>
+                                                                                                                                <p
+                                                                                                                                    class="woocommerce-shipping-destination">
+                                                                                                                                    Estimate for
+                                                                                                                                    <strong>91
+                                                                                                                                        Green First
+                                                                                                                                        Road</strong>.
+                                                                                                                                </p>
+
+
+                                                                                                                                <!-- EpicoMedia code -->
+
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                        <tr>
+                                                                                                                            <td colspan="2">
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                        <!-- EpicoMedia code -->
+
+
+
+
+
+                                                                                                                        <tr class="order-total">
+                                                                                                                            <th>Total</th>
+                                                                                                                            <td data-title="Total">
+                                                                                                                                <strong><span
+                                                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                                                            <span
+                                                                                                                                                class="grand_total">
+
+                                                                                                                                                895
+                                                                                                                                            </span>
+                                                                                                                                        </bdi></span></strong>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+
+
+                                                                                                                    </tbody>
+                                                                                                                </table>
+
+                                                                                                                <div
+                                                                                                                    class="wc-proceed-to-checkout">
+
+                                                                                                                    <a href="http://simple-ecommece.test/checkout"
+                                                                                                                        class="checkout-button button alt wc-forward">
+                                                                                                                        Proceed to checkout</a>
+                                                                                                                </div>
+
+
+                                                                                                            </div>
+                                                                                                        </div>
+
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+
+
+
+
                                                                             <table
                                                                                 class="woocommerce-table woocommerce-table--order-details shop_table order_details">
                                                                                 <thead>
@@ -2417,14 +2409,15 @@
                                                                                             <td
                                                                                                 class="woocommerce-table__product-name product-name">
                                                                                                 <a
-                                                                                                    href="{{ route('single.product',$info->product_id) }}">{{$info->product->name}}</a>
+                                                                                                    href="{{ route('single.product', $info->product_id) }}">{{ $info->product->name }}</a>
                                                                                                 <strong
                                                                                                     class="product-quantity">{{ $info->qty }}</strong>
                                                                                             </td>
                                                                                             <td
                                                                                                 class="woocommerce-table__product-total product-total">
                                                                                                 <spans
-                                                                                                    class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                    class="woocommerce-Price-amount amount">
+                                                                                                    <bdi><span
                                                                                                             class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ discount_calculate($info->stock->price, $info->stock->offer) }}</bdi></span>
                                                                                             </td>
                                                                                         </tr>

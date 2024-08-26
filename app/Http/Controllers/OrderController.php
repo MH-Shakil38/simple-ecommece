@@ -8,6 +8,7 @@ use App\Models\Order;
 use App\Models\Product;
 use App\Models\TmpOrder;
 use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
 
 class OrderController extends Controller
@@ -20,6 +21,11 @@ class OrderController extends Controller
       ]);
 
       $data['delivery_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
+      $data['shipping_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
+      $data['shipping_type'] = ($request->delivery_cost == 75 ? 1 : ($request->delivery_cost == 120 ? 2 : 0));
+      $data['message'] = $request->message;
+      $last = Customer::query()->latest('id')->value('id');
+      $data['order_number'] = Carbon::parse(now())->format('dmy').'#'.$last;
 
       try {
           DB::beginTransaction();

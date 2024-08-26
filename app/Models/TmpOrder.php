@@ -15,7 +15,7 @@ class TmpOrder extends Model
         'qty',
         'selling_price',
         'total',
-        'stock_id',
+        'stock_id'
     ];
 
     public function customer(){

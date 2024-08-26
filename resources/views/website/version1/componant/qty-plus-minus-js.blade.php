@@ -7,6 +7,7 @@
     function qty_plus(id, stock_id) {
         var ele = $(this);
         var qty = parseInt($('.qty' + stock_id).val(), 10);
+        $('.loader').addClass('wc-loading')
         $.ajax({
             url: '{{ route('add.card') }}',
             method: "POST",
@@ -25,6 +26,7 @@
 
     function qty_minus(id, stock_id) {
         var ele = $(this);
+        $('.loader').addClass('wc-loading')
         var qty = parseInt($('.qty' + stock_id).val(), 10);
         $.ajax({
             url: '{{ route('add.card') }}',
@@ -55,6 +57,7 @@
         var shipping_cost = $('.shipping_method:checked').val();
         console.log("Selected Value: " + shipping_cost);
         $('.grand_total').html(net_total + parseFloat(shipping_cost));
+        $('.loader').removeClass('wc-loading')
         console.log('Total:', net_total);
         console.log('shipping cost:', shipping_cost);
     }

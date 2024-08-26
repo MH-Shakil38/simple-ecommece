@@ -23,7 +23,8 @@ class Product extends Model
       'status',
       'show_hot_deal',
       'stock',
-      'stock_out'
+      'stock_out',
+      'short_description'
     ];
 
     public function category(){

@@ -9,6 +9,10 @@
 
     <!-- This site is optimized with the Yoast SEO plugin v23.0 - https://yoast.com/wordpress/plugins/seo/ -->
     <title>কার্ট - আচার</title>
+    <link rel="icon" href="{{ asset(setting()->logo) }}" sizes="32x32" />
+    <link rel="icon" href="{{ asset(setting()->logo) }}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{ asset(setting()->logo) }}" />
+
     <link rel="canonical" href="{{route('cart')}}">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
@@ -20,7 +24,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@chuijhal">
     <!-- / Yoast SEO plugin. -->
-
+    @include('website.version1.layouts.include.header-script')
     @include('website.version1.cart.header-script')
 </script>
 </head>
@@ -85,7 +89,7 @@
 
                         </div>
                     </div>
-
+                    <div class="loader"></div>
 
 
                     <!-- Page Content-->
@@ -106,7 +110,6 @@
                                                     <div class="  vc_column-inner ">
                                                         <div class="wpb_wrapper">
                                                             <div class="woocommerce">
-                                                                <div class="woocommerce-notices-wrapper"></div>
                                                                 <form class="woocommerce-cart-form"
                                                                     action="{{route('cart')}}"
                                                                     method="post">
@@ -131,7 +134,7 @@
                                                                             @forelse (session('cart') as $info)
                                                                             <tr class="cart_item">
                                                                                 <td class="product-remove">
-                                                                                    <a href="{{ route('card.remove',['id'=>$info['id'],'stock_id'=>$info['stock_id']]) }}"
+                                                                                    <a href="{{ route('card.remove',['id'=>$info['id'],'stock_id'=>$info['stock_id']]) }}" style="background: red"
                                                                                         class="remove"
                                                                                         aria-label="Remove this item"
                                                                                         title="Remove this item"
@@ -387,15 +390,7 @@
         @include('website.version1.layouts.include.footer')
         <!-- end of wrap element -->
 
-    <script>
-        var node = document.getElementsByClassName('woocommerce-message')[0];
-        if (node && document.getElementById('pys_late_event')) {
-            var messageText = node.textContent.trim();
-            if (!messageText) {
-                node.style.display = 'none';
-            }
-        }
-    </script>
+
     <script type="text/html" id="wpb-modifications"></script><noscript><img height="1" width="1" style="display: none;"
             src="https://www.facebook.com/tr?id=427272935467605&ev=PageView&noscript=1&cd%5Bpage_title%5D=%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=554&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chuijhal.com%2Fcart%2F"
             alt=""></noscript>

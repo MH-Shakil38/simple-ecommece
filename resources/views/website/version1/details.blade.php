@@ -32,6 +32,7 @@
     <meta name="twitter:data1" content="1 minute" />
 
     @include('website.version1.css.details-header-script')
+    
 
     <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" />
 </head>
@@ -132,10 +133,15 @@
                                             </div>
 
                                             <div class="woocommerce-product-details__short-description">
+                                                @if ($product->short_description !=null)
+                                                {!! $product->short_description !!}
+                                                @else
                                                 <p> <b> স্বাদঃ টক ঝাল মিষ্টি</b></p>
                                                 <p>উপাদানঃ আম, লবন, মরিচ, ভিনেগার,</p>
                                                 <p> নিজস্ব ঘানি ভাংগা সরিষার তৈল,</p>
                                                 <p>আচার বাড়ি”র স্পেশাল মসলা।</p>
+                                                @endif
+
                                             </div>
                                             <style>
                                                 /* Style the buttons */
@@ -318,12 +324,10 @@
                                             <h2>Related Products</h2>
                                             <ul class="products buttonsOnHover centered shop-4column column_res  ">
                                                 @php
-                                                    $products = products(); // Assuming products() returns a LengthAwarePaginator instance
-                                                    $limitedProducts = $products->items(); // Convert to an array
-                                                    $limitedProducts = array_slice($limitedProducts, 0, 10);
+                                                    $products = related_product($product->category_id); // Assuming products() returns a LengthAwarePaginator instance
                                                 @endphp
 
-                                                @forelse ($limitedProducts as $info)
+                                                @forelse ($products as $info)
                                                     @include('website.version1.card.card1', [
                                                         'info' => $info,
                                                     ])

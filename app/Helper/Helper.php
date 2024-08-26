@@ -63,7 +63,7 @@ if (!function_exists('delivery_policy')){
 
 if (!function_exists('related_product')){
     function related_product($id){
-        return \App\Models\Product::query()->where('category_id',$id)->latest()->paginate(28);
+        return \App\Models\Product::query()->where('category_id',$id)->latest()->get();
 
     }
 }
