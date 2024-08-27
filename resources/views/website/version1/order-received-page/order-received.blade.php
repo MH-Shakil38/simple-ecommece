@@ -1930,14 +1930,10 @@
 [{"@context":"https://schema.org/","@graph":[{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#298 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"শপ","url":"https://chuijhal.com/shop/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Organic Tea","url":"http://epicomedia.com/vitrine-demo37/product-category/organic-tea/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Vegetables","url":"http://epicomedia.com/vitrine-demo37/product-category/vegetables/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"BLOG","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Masonry - Blog","url":"https://chuijhal.com/blog/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"GALLERY","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"PORTFOLIO","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"PAGES","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Creative","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11895 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11899 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Simple","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11901 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"যোগাযোগ","url":"https://chuijhal.com/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Minimal","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11907 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"About us","url":"https://chuijhal.com/about-us/"},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11913 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Modern","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11915 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"#11921 (no title)","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Coming soon - fullwidth","url":""},{"@context":"https://schema.org/","@type":"SiteNavigationElement","@id":"https://chuijhal.com#Main Menu","name":"Coming soon - split","url":""}]}]
 </script>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-    <link rel="icon" href="{{ asset(setting()->logo) }}"
-        sizes="32x32" />
-    <link rel="icon" href="{{ asset(setting()->logo) }}"
-        sizes="192x192" />
-    <link rel="apple-touch-icon"
-        href="{{ asset(setting()->logo) }}" />
-    <meta name="msapplication-TileImage"
-        content="{{ asset(setting()->logo) }}" />
+    <link rel="icon" href="{{ asset(setting()->logo) }}" sizes="32x32" />
+    <link rel="icon" href="{{ asset(setting()->logo) }}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{ asset(setting()->logo) }}" />
+    <meta name="msapplication-TileImage" content="{{ asset(setting()->logo) }}" />
     <noscript>
         <style>
             .wpb_animate_when_almost_visible {
@@ -2137,351 +2133,274 @@
                                                                                 class="woocommerce-order-details__title">
                                                                                 Order details</h2>
 
-                                                                                <div class="container">
-                                                                                    <div class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
-                                                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                                                            <div class="  vc_column-inner ">
-                                                                                                <div class="wpb_wrapper">
-                                                                                                    <div class="woocommerce">
-                                                                                                    </div>
-                                                                                                    <form class="woocommerce-cart-form"
-                                                                                                        action="http://simple-ecommece.test/cart"
-                                                                                                        method="post">
+                                                                            <div class="container">
+                                                                                <div
+                                                                                    class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
+                                                                                    <div
+                                                                                        class="wpb_column vc_column_container vc_col-sm-12">
+                                                                                        <div
+                                                                                            class="  vc_column-inner ">
+                                                                                            <div class="wpb_wrapper">
+                                                                                                <div
+                                                                                                    class="woocommerce">
+                                                                                                </div>
+                                                                                                <form
+                                                                                                    class="woocommerce-cart-form"
+                                                                                                    action=""
+                                                                                                    method="post">
+
+                                                                                                    <table
+                                                                                                        class="shop_table shop_table_responsive cart woocommerce-cart-form__contents"
+                                                                                                        cellspacing="0">
+                                                                                                        <thead>
+                                                                                                            <tr>
+
+                                                                                                                <th
+                                                                                                                    class="product-name">
+                                                                                                                    পণ্য
+                                                                                                                </th>
+                                                                                                                <th
+                                                                                                                    class="product-price">
+                                                                                                                    সাইজ
+                                                                                                                </th>
+                                                                                                                <th
+                                                                                                                    class="product-price">
+                                                                                                                    মূল্য
+                                                                                                                </th>
+                                                                                                                <th
+                                                                                                                    class="product-quantity">
+                                                                                                                    পরিমাণ
+                                                                                                                </th>
+                                                                                                                <th
+                                                                                                                    class="product-subtotal">
+                                                                                                                    মোট
+                                                                                                                </th>
+                                                                                                            </tr>
+                                                                                                        </thead>
+                                                                                                        <tbody>
+                                                                                                            @forelse ($customer->tmp_orders as $info)
+                                                                                                                <tr
+                                                                                                                    class="cart_item">
+
+                                                                                                                   
+
+                                                                                                                    <td class="product-name"
+                                                                                                                        data-title="Product">
+                                                                                                                        <a
+                                                                                                                            href="{{ route('single.product', $info->product_id) }}">{{ $info->product->name }}</a>
+                                                                                                                    </td>
+
+                                                                                                                    <td class="product-price"
+                                                                                                                        data-title="Price">
+                                                                                                                        <span
+                                                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                    class="woocommerce-Price-currencySymbol"></span><span>{{ $info->stock->size }}</span></bdi></span>
+                                                                                                                    </td>
+
+                                                                                                                    <td class="product-price"
+                                                                                                                        data-title="Price">
+                                                                                                                        <span
+                                                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                    class="woocommerce-Price-currencySymbol">৳&nbsp;</span><span
+                                                                                                                                    class="price3">{{ discount_calculate(@$info->stock->price, @$info->stock->offer) }}</span></bdi></span>
+                                                                                                                    </td>
+
+                                                                                                                    <td class="product-price"
+                                                                                                                        data-title="Price">
+                                                                                                                        <span
+                                                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                    class="woocommerce-Price-currencySymbol">৳&nbsp;</span><span
+                                                                                                                                    class="price3">{{ $info->qty }}</span></bdi></span>
+                                                                                                                    </td>
+
+
+                                                                                                                    <td class="product-subtotal"
+                                                                                                                        data-title="Total">
+                                                                                                                        <span
+                                                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                    class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                                                <span
+                                                                                                                                    class="subtotal3 subtotalsum">
+                                                                                                                                    {{ @$info->selling_price * @$info->qty }}</span></bdi></span>
+                                                                                                                    </td>
+
+
+                                                                                                                </tr>
+                                                                                                            @empty
+                                                                                                            @endforelse
+
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                    <hr />
+                                                                                                    <section
+                                                                                                        class="woocommerce-customer-details">
+                                                                                                        <h2
+                                                                                                            class="woocommerce-column__title">
+                                                                                                            Billing
+                                                                                                            address</h2>
+                                                                                                        <address>
+                                                                                                            Address<br />{{ $customer->customer_address }}
+                                                                                                            <p
+                                                                                                                class="woocommerce-customer-details--phone">
+                                                                                                                {{ $customer->customer_phone }}
+                                                                                                            </p>
+
+                                                                                                        </address>
+                                                                                                    </section>
+                                                                                                    <p
+                                                                                                        class="order-print">
+                                                                                                        <a href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/print-order/37078/?print-order-email=pawosawuv@mailinator.com"
+                                                                                                            class="button print">Print</a>
+                                                                                                    </p>
+                                                                                                </form>
+
+                                                                                                <div
+                                                                                                    class="cart-collaterals">
+                                                                                                    <div
+                                                                                                        class="cart_totals calculated_shipping">
+
 
                                                                                                         <table
-                                                                                                            class="shop_table shop_table_responsive cart woocommerce-cart-form__contents"
-                                                                                                            cellspacing="0">
-                                                                                                            <thead>
-                                                                                                                <tr>
+                                                                                                            cellspacing="0"
+                                                                                                            class="shop_table shop_table_responsive">
 
-                                                                                                                    <th
-                                                                                                                        class="product-thumbnail">
-                                                                                                                        &nbsp;
-                                                                                                                    </th>
-                                                                                                                    <th class="product-name">
-                                                                                                                        পণ্য</th>
-                                                                                                                    <th class="product-price">
-                                                                                                                        সাইজ</th>
-                                                                                                                    <th class="product-price">
-                                                                                                                        মূল্য</th>
-                                                                                                                    <th
-                                                                                                                        class="product-quantity">
-                                                                                                                        পরিমাণ
-                                                                                                                    </th>
-                                                                                                                    <th
-                                                                                                                        class="product-subtotal">
-                                                                                                                        মোট</th>
-                                                                                                                </tr>
-                                                                                                            </thead>
                                                                                                             <tbody>
-                                                                                                                @forelse ($customer->tmp_orders as $info)
-                                                                                                                    <tr class="cart_item">
-
-                                                                                                                        <td
-                                                                                                                            class="product-thumbnail">
-                                                                                                                            <a href="{{ route('single.product', $info->product_id) }}"
-                                                                                                                                target="_blank"><img
-                                                                                                                                    fetchpriority="high"
-                                                                                                                                    decoding="async"
-                                                                                                                                    width="300"
-                                                                                                                                    height="300"
-                                                                                                                                    src="{{ asset($info->product->image) }}"
-                                                                                                                                    class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                                                                                                    alt="৩ টা ঝাল আচার বোম্বাই, নাগা কাঁচা মরিচ"
-                                                                                                                                    {{-- srcset="{{ asset(setting()->logo) }}" --}}
-                                                                                                                                    sizes="(max-width: 300px) 100vw, 300px"></a>
-                                                                                                                        </td>
-
-                                                                                                                        <td class="product-name"
-                                                                                                                            data-title="Product">
-                                                                                                                            <a
-                                                                                                                                href="{{ route('single.product', $info->product_id) }}">{{ $info->product->name }}</a>
-                                                                                                                        </td>
-
-                                                                                                                        <td class="product-price"
-                                                                                                                            data-title="Price">
-                                                                                                                            <span
-                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                                        class="woocommerce-Price-currencySymbol"></span><span>{{ $info->stock->size }}</span></bdi></span>
-                                                                                                                        </td>
-
-                                                                                                                        <td class="product-price"
-                                                                                                                            data-title="Price">
-                                                                                                                            <span
-                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span><span
-                                                                                                                                        class="price3">{{ discount_calculate(@$info->stock->price, @$info->stock->offer) }}</span></bdi></span>
-                                                                                                                        </td>
-
-                                                                                                                        <td class="product-price"
-                                                                                                                            data-title="Price">
-                                                                                                                            <span
-                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span><span
-                                                                                                                                        class="price3">{{ $info->qty }}</span></bdi></span>
-                                                                                                                        </td>
-
-
-                                                                                                                        <td class="product-subtotal"
-                                                                                                                            data-title="Total">
-                                                                                                                            <span
+                                                                                                                <tr
+                                                                                                                    class="">
+                                                                                                                    <th
+                                                                                                                        colspan="2">
+                                                                                                                        <span
+                                                                                                                            style="font-weight: bolder">Cart
+                                                                                                                            Total</span>
+                                                                                                                    </th>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                                <tr
+                                                                                                                    class="order-total">
+                                                                                                                    <th>Shipping:
+                                                                                                                    </th>
+                                                                                                                    <td
+                                                                                                                        data-title="Total">
+                                                                                                                        <strong><span
                                                                                                                                 class="woocommerce-Price-amount amount"><bdi><span
                                                                                                                                         class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
                                                                                                                                     <span
-                                                                                                                                        class="subtotal3 subtotalsum">
-                                                                                                                                        450</span></bdi></span>
-                                                                                                                        </td>
+                                                                                                                                        class="grand_total">
+
+                                                                                                                                        {{ $customer->shipping_cost == 70 ? 'ঢাকার মধ্যে' : ($customer->shipping_cost == 120 ? 'ঢাকার বাইরে' : 'Pickup From Store') }}
+                                                                                                                                    </span>
+                                                                                                                                </bdi></span></strong>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                                <tr
+                                                                                                                    class="order-total">
+                                                                                                                    <th>Payment
+                                                                                                                        Type:
+                                                                                                                    </th>
+                                                                                                                    <td
+                                                                                                                        data-title="Total">
+                                                                                                                        <strong><span
+                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                                                    <span
+                                                                                                                                        class="grand_total">
+
+                                                                                                                                        Cash
+                                                                                                                                        On
+                                                                                                                                        delivery
+                                                                                                                                    </span>
+                                                                                                                                </bdi></span></strong>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                                <tr
+                                                                                                                    class="cart-subtotal">
+                                                                                                                    <th>Subtotal
+                                                                                                                    </th>
+                                                                                                                    <td
+                                                                                                                        data-title="Subtotal">
+                                                                                                                        <span
+                                                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                    class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                                                <span
+                                                                                                                                    class="net_total">
+
+                                                                                                                                    {{ $customer->tmp_orders->sum('total') }}
+                                                                                                                                </span>
+                                                                                                                            </bdi></span>
+                                                                                                                    </td>
+                                                                                                                </tr>
+
+                                                                                                                <tr
+                                                                                                                    class="cart-subtotal">
+                                                                                                                    <th>Shipping
+                                                                                                                        Cost:
+                                                                                                                    </th>
+                                                                                                                    <td
+                                                                                                                        data-title="Subtotal">
+                                                                                                                        <span
+                                                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                    class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                                                <span
+                                                                                                                                    class="net_total">
+                                                                                                                                    {{ $customer->shipping_cost }}
+                                                                                                                                </span>
+                                                                                                                            </bdi></span>
+                                                                                                                    </td>
+                                                                                                                </tr>
 
 
-                                                                                                                    </tr>
-                                                                                                                @empty
-                                                                                                                @endforelse
+                                                                                                                <tr
+                                                                                                                    class="order-total">
+                                                                                                                    <th>Total
+                                                                                                                    </th>
+                                                                                                                    <td
+                                                                                                                        data-title="Total">
+                                                                                                                        <strong><span
+                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                                                    <span
+                                                                                                                                        class="grand_total">
+                                                                                                                                        @php
+                                                                                                                                            $net_total = 0;
+                                                                                                                                        @endphp
+
+                                                                                                                                        @foreach ($customer->tmp_orders as $id => $details)
+                                                                                                                                            @php
+                                                                                                                                                $net_total =  $net_total + ($details->selling_price *  $details->qty);
+                                                                                                                                            @endphp
+                                                                                                                                        @endforeach
+                                                                                                                                        {{ $net_total + $customer->shii }}
+                                                                                                                                    </span>
+                                                                                                                                </bdi></span></strong>
+                                                                                                                    </td>
+                                                                                                                </tr>
+
+
+
+
 
                                                                                                             </tbody>
                                                                                                         </table>
-                                                                                                    </form>
-
-                                                                                                        <div class="cart-collaterals">
-                                                                                                            <div
-                                                                                                                class="cart_totals calculated_shipping">
-
-
-                                                                                                                <table cellspacing="0"
-                                                                                                                    class="shop_table shop_table_responsive">
-
-                                                                                                                    <tbody>
-                                                                                                                        <tr class="">
-                                                                                                                            <th colspan="2"> <span style="font-weight: bolder">Cart Total</span></th>
-                                                                                                                            </td>
-                                                                                                                        </tr>
-                                                                                                                        <tr class="cart-subtotal">
-                                                                                                                            <th>Subtotal</th>
-                                                                                                                            <td
-                                                                                                                                data-title="Subtotal">
-                                                                                                                                <span
-                                                                                                                                    class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                                            class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
-                                                                                                                                        <span
-                                                                                                                                            class="net_total">
-
-                                                                                                                                            {{$customer->tmp_orders->sum('total')}}
-                                                                                                                                        </span>
-                                                                                                                                    </bdi></span>
-                                                                                                                            </td>
-                                                                                                                        </tr>
 
 
 
-
-                                                                                                                        <tr
-                                                                                                                            class="woocommerce-shipping-totals shipping">
-                                                                                                                            <th colspan="2">
-                                                                                                                                Shipping</th>
-                                                                                                                        </tr>
-                                                                                                                        <tr
-                                                                                                                            class="woocommerce-shipping-totals shipping">
-                                                                                                                            <td colspan="2"
-                                                                                                                                data-title="Shipping">
-                                                                                                                                <ul id="shipping_method"
-                                                                                                                                    class="woocommerce-shipping-methods">
-                                                                                                                                    <li>
-                                                                                                                                        <input
-                                                                                                                                            type="radio"
-                                                                                                                                            name="shipping_method[0]"
-                                                                                                                                            data-index="0"
-                                                                                                                                            id="shipping_method_0_flat_rate8"
-                                                                                                                                            value="75"
-                                                                                                                                            class="shipping_method"
-                                                                                                                                            checked="checked"><label
-                                                                                                                                            for="shipping_method_0_flat_rate8">ঢাকার
-                                                                                                                                            মধ্যে:
-                                                                                                                                            <span
-                                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>75.00</bdi></span></label>
-                                                                                                                                    </li>
-                                                                                                                                    <li>
-                                                                                                                                        <input
-                                                                                                                                            type="radio"
-                                                                                                                                            name="shipping_method[0]"
-                                                                                                                                            data-index="0"
-                                                                                                                                            id="shipping_method_0_flat_rate9"
-                                                                                                                                            value="120"
-                                                                                                                                            class="shipping_method"><label
-                                                                                                                                            for="shipping_method_0_flat_rate9">ঢাকার
-                                                                                                                                            বাইরে:
-                                                                                                                                            <span
-                                                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                                                        class="woocommerce-Price-currencySymbol">৳&nbsp;</span>120.00</bdi></span></label>
-                                                                                                                                    </li>
-                                                                                                                                    <li>
-                                                                                                                                        <input
-                                                                                                                                            type="radio"
-                                                                                                                                            name="shipping_method[0]"
-                                                                                                                                            data-index="0"
-                                                                                                                                            id="shipping_method_0_local_pickup10"
-                                                                                                                                            value="0"
-                                                                                                                                            class="shipping_method"><label
-                                                                                                                                            for="shipping_method_0_local_pickup10">Pickup
-                                                                                                                                            From
-                                                                                                                                            Store</label>
-                                                                                                                                    </li>
-                                                                                                                                </ul>
-                                                                                                                                <p
-                                                                                                                                    class="woocommerce-shipping-destination">
-                                                                                                                                    Estimate for
-                                                                                                                                    <strong>91
-                                                                                                                                        Green First
-                                                                                                                                        Road</strong>.
-                                                                                                                                </p>
-
-
-                                                                                                                                <!-- EpicoMedia code -->
-
-                                                                                                                            </td>
-                                                                                                                        </tr>
-                                                                                                                        <tr>
-                                                                                                                            <td colspan="2">
-                                                                                                                            </td>
-                                                                                                                        </tr>
-                                                                                                                        <!-- EpicoMedia code -->
-
-
-
-
-
-                                                                                                                        <tr class="order-total">
-                                                                                                                            <th>Total</th>
-                                                                                                                            <td data-title="Total">
-                                                                                                                                <strong><span
-                                                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
-                                                                                                                                            <span
-                                                                                                                                                class="grand_total">
-
-                                                                                                                                                895
-                                                                                                                                            </span>
-                                                                                                                                        </bdi></span></strong>
-                                                                                                                            </td>
-                                                                                                                        </tr>
-
-
-                                                                                                                    </tbody>
-                                                                                                                </table>
-
-                                                                                                                <div
-                                                                                                                    class="wc-proceed-to-checkout">
-
-                                                                                                                    <a href="http://simple-ecommece.test/checkout"
-                                                                                                                        class="checkout-button button alt wc-forward">
-                                                                                                                        Proceed to checkout</a>
-                                                                                                                </div>
-
-
-                                                                                                            </div>
-                                                                                                        </div>
 
                                                                                                     </div>
                                                                                                 </div>
+
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
+                                                                                </div>
+                                                                            </div>
 
 
 
 
 
-                                                                            <table
-                                                                                class="woocommerce-table woocommerce-table--order-details shop_table order_details">
-                                                                                <thead>
-                                                                                    <tr>
-                                                                                        <th
-                                                                                            class="woocommerce-table__product-name product-name">
-                                                                                            Product</th>
-                                                                                        <th
-                                                                                            class="woocommerce-table__product-table product-total">
-                                                                                            Total</th>
-                                                                                    </tr>
-                                                                                </thead>
-                                                                                <tbody>
-                                                                                    @forelse ($customer->tmp_orders as $info)
-                                                                                        <tr
-                                                                                            class="woocommerce-table__line-item order_item">
-                                                                                            <td
-                                                                                                class="woocommerce-table__product-name product-name">
-                                                                                                <a
-                                                                                                    href="{{ route('single.product', $info->product_id) }}">{{ $info->product->name }}</a>
-                                                                                                <strong
-                                                                                                    class="product-quantity">{{ $info->qty }}</strong>
-                                                                                            </td>
-                                                                                            <td
-                                                                                                class="woocommerce-table__product-total product-total">
-                                                                                                <spans
-                                                                                                    class="woocommerce-Price-amount amount">
-                                                                                                    <bdi><span
-                                                                                                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ discount_calculate($info->stock->price, $info->stock->offer) }}</bdi></span>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                    @empty
-                                                                                    @endforelse
 
-                                                                                </tbody>
-                                                                                <tfoot>
-                                                                                    <tr>
-                                                                                        <th scope="row">Subtotal:
-                                                                                        </th>
-                                                                                        <td><span
-                                                                                                class="woocommerce-Price-amount amount"><span
-                                                                                                    class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $customer->tmp_orders->sum('total') }}</span>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <th scope="row">Shipping:
-                                                                                        </th>
-                                                                                        <td><span
-                                                                                                class="woocommerce-Price-amount amount"><span
-                                                                                                    class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $customer->delivery_cost }}</span>&nbsp;<small
-                                                                                                class="shipped_via">via
-                                                                                                ঢাকার মধ্যে</small></td>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <th scope="row">Payment
-                                                                                            method:</th>
-                                                                                        <td>Cash on delivery</td>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <th scope="row">Total:</th>
-                                                                                        <td><span
-                                                                                                class="woocommerce-Price-amount amount"><span
-                                                                                                    class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $customer->tmp_orders->sum('total') + $customer->delivery_cost }}</span>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <th>Note:</th>
-                                                                                        <td>Consectetur illo ani</td>
-                                                                                    </tr>
-                                                                                </tfoot>
-                                                                            </table>
                                                                         </section>
-                                                                        <section class="woocommerce-customer-details">
-                                                                            <h2 class="woocommerce-column__title">
-                                                                                Billing address</h2>
-                                                                            <address>
-                                                                                Deirdre<br />91 Green First Road
-                                                                                <p
-                                                                                    class="woocommerce-customer-details--phone">
-                                                                                    +1 (459) 875-1961</p>
-                                                                                <p
-                                                                                    class="woocommerce-customer-details--email">
-                                                                                    <a href="/cdn-cgi/l/email-protection"
-                                                                                        class="__cf_email__"
-                                                                                        data-cfemail="700011071f0311070506301d11191c191e11041f025e131f1d">[email&#160;protected]</a>
-                                                                                </p>
-                                                                            </address>
-                                                                        </section>
-                                                                        <p class="order-print">
-                                                                            <a href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/print-order/37078/?print-order-email=pawosawuv@mailinator.com"
-                                                                                class="button print">Print</a>
-                                                                        </p>
+
                                                                     </div>
                                                                 </div>
                                                             </div>

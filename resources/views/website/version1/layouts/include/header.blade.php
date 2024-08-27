@@ -14,10 +14,7 @@
                 </a>
                 <a class="externalLink logo" href="{{ route('/') }}">
                     <img class="firstLogo" src="{{ asset(setting()->logo) }}" alt="Logo" style="float: left" />
-                    <img src="https://exoticagro.com/site_logo/1724442113-66c8e601841a3.png" alt=""
-                        style="    width: 116px;
-    max-height: 207px !important;
-    margin-top: -19px;">
+                    
                 </a>
                 <div class="cartSidebarbtn widget widget_woocommerce-dropdown-cart responsive-cart light">
                     <a href="#"></a>
