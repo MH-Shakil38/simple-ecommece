@@ -14,7 +14,7 @@
                 </a>
                 <a class="externalLink logo" href="{{ route('/') }}">
                     <img class="firstLogo" src="{{ asset(setting()->logo) }}" alt="Logo" style="float: left" />
-                    
+
                 </a>
                 <div class="cartSidebarbtn widget widget_woocommerce-dropdown-cart responsive-cart light">
                     <a href="#"></a>
@@ -49,10 +49,10 @@
                                         class="menu_title"><span>প্রচ্ছদ</span></span></span></a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page"><span
-                                class="spanHover"></span><a href="#"><span class="menu_title_wrap"><span
+                                class="spanHover"></span><a href="{{ route('product.category',0) }}"><span class="menu_title_wrap"><span
                                         class="menu_title"><span>শপ</span></span></span></a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom"><span
-                                class="spanHover"></span><a href="#"><span class="menu_title_wrap"><span
+                                class="spanHover"></span><a href="{{ route('product.category',2) }}"><span class="menu_title_wrap"><span
                                         class="menu_title"><span>আচার</span></span></span></a></li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
                             <span class="spanHover"></span><a href="#"><span class="menu_title_wrap"><span

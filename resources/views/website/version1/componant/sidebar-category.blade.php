@@ -6,7 +6,7 @@
             <ul class="product-categories">
                 @forelse (categories() as $info)
                 <li class="cat-item cat-item-254"><a
-                    href="#">{{ $info->name }}</a> <span
+                    href="{{ route('product.category',$info->id) }}">{{ $info->name }}</a> <span
                     class="count">({{ $info->products->count() }})</span></li>
                 @empty
 

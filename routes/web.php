@@ -22,7 +22,7 @@ Route::get('/', function () {
     $data['products'] = Product::query()->paginate(15);
     return view('website.'.session('theme').'.home')->with($data);
 })->name('/');
-Route::get('/category/{id}',[\App\Http\Controllers\WebsiteController::class,'category_ways_product'])->name('product.category');
+Route::get('/product-category/{id}',[\App\Http\Controllers\WebsiteController::class,'category_ways_product'])->name('product.category');
 Route::get('/all-hot-deal',[\App\Http\Controllers\WebsiteController::class,'all_hot_deal'])->name('all.hot.deal');
 Route::get('/product/{id}',[\App\Http\Controllers\WebsiteController::class,'single_product'])->name('single.product');
 Route::get('/About-us',[\App\Http\Controllers\WebsiteController::class,'about'])->name('website.about');

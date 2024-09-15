@@ -32,6 +32,9 @@
                 <div id="main">
                     <div id="home" class="hidehome"></div>
                     <style>
+                        body{
+                            background-color: #bebcbc;
+                        }
                         #header h1,
                         #header .subtitle,
                         #header ul li a,

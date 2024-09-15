@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.369" height="46.639" viewBox="0 0 37.369 46.639">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c9053b"/>
+      <stop offset="1" stop-color="#8f212e"/>
+    </linearGradient>
+  </defs>
+  <g id="gift-base" transform="translate(-412.473 -238)">
+    <g id="Group_130" data-name="Group 130" transform="translate(-18313 -130)">
+      <path id="Path_103" data-name="Path 103" d="M0,0S15.3,5.442,15.327,5.454,30.842,0,30.842,0V46.639H0Z" transform="translate(18762.842 414.639) rotate(180)" fill="#c9053b"/>
+      <path id="Path_104" data-name="Path 104" d="M0,.4,8.009,6.932H0Z" transform="translate(18725.068 376.009) rotate(-90)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Icon_feather-gift" data-name="Icon feather-gift" transform="translate(420 245)">
+      <path id="Path_105" data-name="Path 105" d="M24.111,18V29.319H6V18" transform="translate(-0.736 -3.681)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_106" data-name="Path 106" d="M3,10.5H25.638v5.66H3Z" transform="translate(0 -1.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_107" data-name="Path 107" d="M18,27.479V10.5" transform="translate(-3.681 -1.84)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_108" data-name="Path 108" d="M15.423,8.66H10.33a2.83,2.83,0,0,1,0-5.66C14.292,3,15.423,8.66,15.423,8.66Z" transform="translate(-1.104)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_109" data-name="Path 109" d="M18,8.66h5.094a2.83,2.83,0,1,0,0-5.66C19.132,3,18,8.66,18,8.66Z" transform="translate(-3.681)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

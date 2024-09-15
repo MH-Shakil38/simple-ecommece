@@ -1,5 +1,6 @@
 @extends('website.version1.layouts.master')
 @section('content')
+    @include('website.version1.componant.slide')
     @include('website.version1.componant.quick-view')
     <div class="quick-view"></div>
 

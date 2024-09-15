@@ -10,10 +10,14 @@ use Illuminate\Support\Facades\Session;
 class WebsiteController extends Controller
 {
     public function category_ways_product($id){
-        $data['products'] = Product::query()->where('status',1)->where('category_id',$id)->paginate(35);
-        $data['category'] = Category::query()->findOrFail($id);
+        if($id == 0){
+            $data['products'] = Product::query()->paginate(16);
+        }else{
+            $data['products'] = Product::query()->where('category_id',$id)->paginate(16);
+            $data['category'] = Category::query()->findOrFail($id);
+        }
 
-        return view('website.pages.category')->with($data);
+        return view('website.version1.category-product')->with($data);
     }
 
     public function all_hot_deal(){
