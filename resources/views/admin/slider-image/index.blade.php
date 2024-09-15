@@ -25,20 +25,20 @@
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
-                        @if(isset($slider))
-                            {!! Form::model($slider,['route' => ['slider-image.update',$slider->id],'files'=>true]) !!}
+                        @if (isset($slider))
+                            {!! Form::model($slider, ['route' => ['slider-image.update', $slider->id], 'files' => true]) !!}
                             @method('PUT')
                         @else
-                            {!! Form::open(['route' => 'slider-image.store','files'=>true]) !!}
+                            {!! Form::open(['route' => 'slider-image.store', 'files' => true]) !!}
                         @endif
 
-                        {{Form::label('Slider image',null,['class'=>'form-label'])}}
-                        {{Form::file('image',['class'=>'form-control'])}}
+                        {{ Form::label('Slider image', null, ['class' => 'form-label']) }}
+                        {{ Form::file('image', ['class' => 'form-control']) }}
 
-                        {{Form::label('Status',null,['class'=>'form-label'])}}
-                        {{Form::select('status',[1=>"active",0=>"inActive"],null,['class'=>'form-control'])}}
+                        {{ Form::label('Status', null, ['class' => 'form-label']) }}
+                        {{ Form::select('status', [1 => 'active', 0 => 'inActive'], null, ['class' => 'form-control']) }}
 
-                        {{Form::submit('submit',['class'=>'btn btn-success mt-4'])}}
+                        {{ Form::submit('submit', ['class' => 'btn btn-success mt-4']) }}
                         {!! Form::close() !!}
 
                     </div>
@@ -66,18 +66,26 @@
                             @foreach ($sliders as $item)
                                 <tr>
                                     <td>{{ $item->id }}</td>
-                                    <td><img src="{{ asset($item->image) }}" alt="" height="200px" width="500px"></td>
-                                    <td> <span class="badge {{ $item->status == 1 ? 'badge-success':'badge-danger'}} ">{{ $item->status == 1 ? 'On':'Off' }}</span></td>
+                                    <td><img src="{{ asset($item->image) }}" alt="" height="200px" width="500px">
+                                    </td>
+                                    <td> <span
+                                            class="badge {{ $item->status == 1 ? 'badge-success' : 'badge-danger' }} ">{{ $item->status == 1 ? 'On' : 'Off' }}</span>
+                                    </td>
 
                                     <td class="d-flex">
-                                        <a href="{{ route('slider-image.edit', [$item->id]) }}" class="btn btn-sm btn-primary mr-1"><i
-                                                class="fas fa-edit"></i></a>
-                                        <form action="{{ route('slider-image.destroy', [$item->id]) }}" class="mr-1"
-                                              method="POST">
-                                            @method('DELETE')
-                                            @csrf
-                                            <button class="btn btn-sm btn-danger "><i class="fas fa-trash"></i></button>
-                                        </form>
+                                        @if (isset($slider) && $slider->id == $item->id)
+                                            <span class="badge bg-info">Updating...</span>
+                                        @else
+                                            <a href="{{ route('slider-image.edit', [$item->id]) }}"
+                                                class="btn btn-sm btn-primary mr-1"><i class="fas fa-edit"></i></a>
+                                            <form action="{{ route('slider-image.destroy', [$item->id]) }}" class="mr-1"
+                                                method="POST">
+                                                @method('DELETE')
+                                                @csrf
+                                                <button class="btn btn-sm btn-danger "><i class="fas fa-trash"></i></button>
+                                            </form>
+                                        @endif
+
                                     </td>
                                 </tr>
                             @endforeach
@@ -93,4 +101,4 @@
     <!-- /.card -->
     </div>
     <div>
-@endsection
+    @endsection

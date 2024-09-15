@@ -3,7 +3,7 @@
         position: absolute;
         left: 0;
         width: 100%;
-        top: 50%;
+        top: 65%;
         transform: translateY(-50%);
         text-align: center;
         z-index: 9;
@@ -90,7 +90,7 @@
     }
 </style>
 @if (count(slider()) > 0)
-<div class="slider-container">
+<div class="container">
     <div class="slider">
         @forelse (slider() as  $slider)
             <div class="slide" style="background-image: url('{{$slider->image}}');">
@@ -99,15 +99,15 @@
         @endforelse
     </div>
     <div class="banner-content">
-        <h1 class="heading1" style="color: #fff;">Exotic</h1>
-        <h2>Agro</h2>
+        {{-- <h1 class="heading1" style="color: #fff;">Exotic</h1> --}}
+        <h2>Exotic Agro</h2>
         <a class="btn" href="{{ route('product.category',0) }}">Explore Products <i class="icon-chevron-right"></i>
         </a>
     </div>
-    <div class="slider-controls">
+    {{-- <div class="slider-controls">
         <span class="prev" onclick="moveSlide(-1)">&#10094;</span>
         <span class="next" onclick="moveSlide(1)">&#10095;</span>
-    </div>
+    </div> --}}
 </div>
 @endif
 

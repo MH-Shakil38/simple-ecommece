@@ -82,24 +82,18 @@ class SliderImageController extends Controller
      */
     public function update(Request $request, SliderImage $sliderImage)
     {
-        $slider = $request->validate([
-            'image' => 'required|image|mimes:png,jpg,jpeg'
-        ]);
         try {
             DB::beginTransaction();
-
             if ($image = $request->file('image')) {
                 $logo = time() . '-' . uniqid() . '.' . $image->getClientOriginalExtension();
                 $image->move('slider', $logo);
                 $sliderImage['image'] = 'slider/' . $logo;
-                $sliderImage['status'] = $request->status;
-
             }
-
+            $sliderImage['status'] = $request->status;
             $sliderImage->update();
 
             DB::commit();
-            return redirect()->back()->with('success', 'Slider Successfully added');
+            return redirect()->route('slider-image.index')->with('success', 'Slider Successfully added');
 
 
         } catch (\Throwable $e) {
