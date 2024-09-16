@@ -75,7 +75,7 @@
                                             সম্পর্কে</span></span></span></a>
                             <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                        href="#"><span class="menu_title_wrap"><span
+                                        href="{{ route('contact') }}"><span class="menu_title_wrap"><span
                                                 class="menu_title"><span>যোগাযোগ</span></span></span></a></li>
                                 <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy">

@@ -44,5 +44,14 @@ class WebsiteController extends Controller
     }
 
 
+    public function contact(){
+        return view('website.version1.contact');
+    }
+
+    public function contactStore(Request $request){
+        dd($request->all());
+    }
+
+
 
 }
