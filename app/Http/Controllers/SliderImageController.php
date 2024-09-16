@@ -41,9 +41,14 @@ class SliderImageController extends Controller
                 $logo = time().'-'.uniqid().'.'.$image->getClientOriginalExtension();
                 $image->move('slider',$logo);
                 $data->image  = 'slider/'.$logo;
-                $data->update();
             }
 
+            if ($mobile = $request->file('mobile_slider')) {
+                $m_slider = time() . '-' . uniqid() . '.' . $mobile->getClientOriginalExtension();
+                $mobile->move('slider', $m_slider);
+                $data->mobile_slider = 'slider/' . $m_slider;
+            }
+            $data->update();
             DB::commit();
             return redirect()->back()->with('success','Slider Successfully added');
 
@@ -88,6 +93,12 @@ class SliderImageController extends Controller
                 $logo = time() . '-' . uniqid() . '.' . $image->getClientOriginalExtension();
                 $image->move('slider', $logo);
                 $sliderImage['image'] = 'slider/' . $logo;
+            }
+
+            if ($mobile= $request->file('mobile_slider')) {
+                $logo = time() . '-' . uniqid() . '.' . $mobile->getClientOriginalExtension();
+                $mobile->move('slider', $logo);
+                $sliderImage['mobile_slider'] = 'slider/' . $logo;
             }
             $sliderImage['status'] = $request->status;
             $sliderImage->update();

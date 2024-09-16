@@ -88,27 +88,54 @@
     .heading1 {
         font-family: "Sacramento", cursive;
     }
+
+    /* Desktop styles */
+    .desktop {
+        display: block;
+        background-color: lightblue;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    /* Mobile styles */
+    @media (max-width: 768px) {
+        .mobile {
+            display: block;
+            background-color: lightgreen;
+        }
+
+        .desktop {
+            display: none;
+        }
+    }
 </style>
 @if (count(slider()) > 0)
-<div class="container">
-    <div class="slider">
-        @forelse (slider() as  $slider)
-            <div class="slide" style="background-image: url('{{$slider->image}}');">
-            </div>
-        @empty
-        @endforelse
+    <div class="mr-1 ml-1">
+        <div class="slider">
+            @forelse (slider() as  $slider)
+                <div class="slide desktop" style="background-image: url('{{ $slider->image }}');">
+                </div>
+
+                <div class="slide mobile" style="background-image: url('{{ $slider->mobile_slider }}');">
+                </div>
+
+            @empty
+            @endforelse
+        </div>
+
+        <div class="banner-content">
+            {{-- <h1 class="heading1" style="color: #fff;">Exotic</h1> --}}
+            <h2>Exotic Agro</h2>
+            <a class="btn" href="{{ route('product.category', 0) }}">Explore Products <i class="icon-chevron-right"></i>
+            </a>
+        </div>
+        <div class="slider-controls">
+            <span class="prev" onclick="moveSlide(-1)">&#10094;</span>
+            <span class="next" onclick="moveSlide(1)">&#10095;</span>
+        </div>
     </div>
-    <div class="banner-content">
-        {{-- <h1 class="heading1" style="color: #fff;">Exotic</h1> --}}
-        <h2>Exotic Agro</h2>
-        <a class="btn" href="{{ route('product.category',0) }}">Explore Products <i class="icon-chevron-right"></i>
-        </a>
-    </div>
-    {{-- <div class="slider-controls">
-        <span class="prev" onclick="moveSlide(-1)">&#10094;</span>
-        <span class="next" onclick="moveSlide(1)">&#10095;</span>
-    </div> --}}
-</div>
 @endif
 
 

@@ -9,5 +9,5 @@ class SliderImage extends Model
 {
     use HasFactory;
     protected $table = 'slider_images';
-    protected $fillable = ['image','status'];
+    protected $fillable = ['image','mobile_slider','status'];
 }

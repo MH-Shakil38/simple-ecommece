@@ -35,6 +35,9 @@
                         {{ Form::label('Slider image', null, ['class' => 'form-label']) }}
                         {{ Form::file('image', ['class' => 'form-control']) }}
 
+                        {{ Form::label('Mobile Slider', null, ['class' => 'form-label']) }}
+                        {{ Form::file('mobile_slider', ['class' => 'form-control']) }}
+
                         {{ Form::label('Status', null, ['class' => 'form-label']) }}
                         {{ Form::select('status', [1 => 'active', 0 => 'inActive'], null, ['class' => 'form-control']) }}
 
@@ -53,11 +56,12 @@
                         <h3>Slider List</h3>
                     </div>
                     <div class="card-body">
-                        <table class="table" class="cat-table">
+                        <table class="table table-responsive cat-table" >
 
                             <tr>
                                 <th>ID</th>
-                                <th>Image</th>
+                                <th>Desktop Slider</th>
+                                <th>mobile Slider</th>
                                 <th>Status</th>
                                 <th>Action</th>
                             </tr>
@@ -66,8 +70,8 @@
                             @foreach ($sliders as $item)
                                 <tr>
                                     <td>{{ $item->id }}</td>
-                                    <td><img src="{{ asset($item->image) }}" alt="" height="200px" width="500px">
-                                    </td>
+                                    <td><img src="{{ asset($item->image) }}" alt="" height="200px" width="500px"></td>
+                                    <td ><img src="{{ asset($item->mobile_slider) }}" alt="" height="200px" width="500px"></td>
                                     <td> <span
                                             class="badge {{ $item->status == 1 ? 'badge-success' : 'badge-danger' }} ">{{ $item->status == 1 ? 'On' : 'Off' }}</span>
                                     </td>

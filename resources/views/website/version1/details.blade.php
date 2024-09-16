@@ -32,7 +32,7 @@
     <meta name="twitter:data1" content="1 minute" />
 
     @include('website.version1.css.details-header-script')
-    
+
 
     <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" />
 </head>
@@ -599,7 +599,7 @@
 
 </script>
 @include('website.version1.componant.quick-view')
-<div class="quick-view"></div>
+
             @include('website.version1.layouts.include.footer-script')
             @include('website.version1.custom-js')
             @include('website.version1.componant.show-cart')
