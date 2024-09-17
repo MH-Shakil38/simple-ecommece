@@ -125,37 +125,16 @@
                     <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">আচার</a>
                     </li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                        <a href="blog/#">ব্লগ</a>
+                        <a href="#">ব্লগ</a>
                         <span class="toggle_submneu"><span class="toggle_icon"></span></span>
                         <ul class="sub-menu">
+                            @forelse (blog_categories() as $info)
                             <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#">রেসিপি</a>
+                                    href="#"><span class="menu_title_wrap"><span
+                                            class="menu_title"><span>{{ $info->name }}</span></span></span></a>
                             </li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#">গরুর মাংস</a></li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#">রেসিপি
-                                    কন্টেস্ট</a></li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#">ঈদের
-                                    রান্না</a></li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#">আচার</a>
-                            </li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#">রূপচর্চা</a>
-                            </li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#">স্বাস্থ্যবিধি</a>
-                            </li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#">ডাল</a></li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#">বিরিয়ানি</a>
-                            </li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#">আটা
-                                    ময়দা</a></li>
+                        @empty
+                        @endforelse
                         </ul>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
@@ -171,7 +150,7 @@
                                     নীতি</a>
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                    href="#">শর্তাবলী</a>
+                                    href="{{ route('tearms') }}">শর্তাবলী</a>
                             </li>
                         </ul>
                     </li>
@@ -181,9 +160,9 @@
                         <span class="toggle_submneu"><span class="toggle_icon"></span></span>
                         <ul class="sub-menu">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                    href="cart/#">কার্ট</a></li>
+                                    href="{{ route('cart') }}">কার্ট</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                    href="checkout/#">চেকআউট</a></li>
+                                    href="{{ route('checkout') }}">চেকআউট</a></li>
                             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">আমার
                                     অর্ডার</a></li>
                         </ul>
@@ -192,7 +171,7 @@
             </div>
             <div id="mobile-search-form">
                 <div class="search-form">
-                    <form role="search" method="get" class="searchform" action="https://chuijhal.com/">
+                    <form role="search" method="get" class="searchform" action="#">
                         <div>
                             <label class="screen-reader-text" for="s"></label>
                             <input type="text" placeholder="Search" value name="s" />
