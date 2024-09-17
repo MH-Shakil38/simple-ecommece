@@ -1812,7 +1812,7 @@
                                                                     class="vc_empty_space_inner"></span></div>
                                                             <div class="socialLinkShortcode textstyle facebook dark">
                                                                 <a id="socialLink_1"
-                                                                    href="https://www.facebook.com/chuijhal.cooking/"
+                                                                    href="#"
                                                                     target="_blank">
                                                                     <span>facebook</span>
                                                                 </a>
