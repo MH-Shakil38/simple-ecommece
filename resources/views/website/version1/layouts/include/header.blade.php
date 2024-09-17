@@ -70,7 +70,7 @@
                             </ul>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                            <span class="spanHover"></span><a href="#"><span class="menu_title_wrap"><span
+                            <span class="spanHover"></span><a href="{{ url('/about') }}"><span class="menu_title_wrap"><span
                                         class="menu_title"><span>আমাদের
                                             সম্পর্কে</span></span></span></a>
                             <ul class="sub-menu">
@@ -79,12 +79,12 @@
                                                 class="menu_title"><span>যোগাযোগ</span></span></span></a></li>
                                 <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy">
-                                    <a href="#"><span class="menu_title_wrap"><span
+                                    <a href="{{ route('policy') }}"><span class="menu_title_wrap"><span
                                                 class="menu_title"><span>গোপনীয়তা
                                                     নীতি</span></span></span></a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                        href="#"><span class="menu_title_wrap"><span
+                                        href="{{ route('tearms') }}"><span class="menu_title_wrap"><span
                                                 class="menu_title"><span>শর্তাবলী</span></span></span></a></li>
                             </ul>
                         </li>
@@ -94,10 +94,10 @@
                                             সাইনআপ</span></span></span></a>
                             <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                        href="#"><span class="menu_title_wrap"><span
+                                        href="{{ route('cart') }}"><span class="menu_title_wrap"><span
                                                 class="menu_title"><span>কার্ট</span></span></span></a></li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                        href="#"><span class="menu_title_wrap"><span
+                                        href="{{ route('checkout') }}"><span class="menu_title_wrap"><span
                                                 class="menu_title"><span>চেকআউট</span></span></span></a></li>
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
                                         href="#"><span class="menu_title_wrap"><span class="menu_title"><span>আমার
@@ -159,15 +159,15 @@
                         </ul>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                        <a href="about-us/#">আমাদের সম্পর্কে</a>
+                        <a href="{{ url('about') }}">আমাদের সম্পর্কে</a>
                         <span class="toggle_submneu"><span class="toggle_icon"></span></span>
                         <ul class="sub-menu">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                    href="#">যোগাযোগ</a>
+                                    href="{{ route('contact') }}">যোগাযোগ</a>
                             </li>
                             <li
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy">
-                                <a href="#">গোপনীয়তা
+                                <a href="{{ route('policy') }}">গোপনীয়তা
                                     নীতি</a>
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page"><a

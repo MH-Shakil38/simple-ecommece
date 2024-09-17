@@ -26,19 +26,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="pingback" href="https://chuijhal.com/xmlrpc.php" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <title>যোগাযোগ - Exoticagro</title>
-    <link rel="canonical" href="https://chuijhal.com/যোগাযোগ/" />
+    <title>শর্তাবলী - Exoticagro</title>
+    <link rel="canonical" href="https://chuijhal.com/শর্তাবলী/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="যোগাযোগ - Exoticagro" />
-    <meta property="og:url" content="https://chuijhal.com/যোগাযোগ/" />
+    <meta property="og:title" content="শর্তাবলী - Exoticagro" />
+    <meta property="og:url" content="https://chuijhal.com/শর্তাবলী/" />
     <meta property="og:site_name" content="Exoticagro" />
     <meta property="article:publisher" content="https://www.facebook.com/chuijhal.cooking/" />
-    <meta property="article:modified_time" content="2023-03-11T17:04:24+00:00" />
+    <meta property="article:modified_time" content="2019-02-28T07:59:18+00:00" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@chuijhal" />
     <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="1 minute" />
+    <meta name="twitter:data1" content="18 minutes" />
     <script type="application/javascript" id="pys-version-script">console.log('PixelYourSite Free version 9.7.2');</script>
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="dns-prefetch" href="//www.googletagmanager.com" />
@@ -610,7 +610,7 @@
 
         /* Anchor */
         a {
-            color: #ff4c2f;
+            color: #168d44;
         }
 
         a:hover {
@@ -619,12 +619,12 @@
 
         /* Text Selection */
         ::-moz-selection {
-            background: #ff4c2f;
+            background: #168d44;
             /* Firefox */
         }
 
         ::selection {
-            background: #ff4c2f;
+            background: #168d44;
             /* Safari */
         }
 
@@ -730,7 +730,7 @@
         .galleryexternallink,
         .page-load-status .view-more-button:hover,
         .ep-popup-newsletter-shortcode .widget_wysija_cont .wysija-submit {
-            background-color: #ff4c2f;
+            background-color: #168d44;
         }
 
         .nice-select .option:hover,
@@ -742,7 +742,7 @@
         .widget_shopping_cart_content a.wc-forward.button,
         .nice-select .option:hover,
         .toggleSidebar.cartSidebarContainer .cart-bottom-box .buttons a.checkout {
-            background-color: #ff4c2f !important;
+            background-color: #168d44 !important;
         }
 
         .woocommerce ul.products li.product a:hover h3,
@@ -848,7 +848,7 @@
         .widget_product_categories .cats-toggle.toggle-active,
         .footer-widgetized .product-categories li.current-cat>a,
         form.woocommerce-currency-switcher-form .dd-option .dd-option-text:hover {
-            color: #ff4c2f;
+            color: #168d44;
         }
 
         .woocommerce div.product form.cart .group_table .woocommerce-grouped-product-list-item__price,
@@ -880,7 +880,7 @@
         .summary.entry-summary .button.compare.added:before,
         .lang-sel ul.lang_link>li:hover a,
         .summary.entry-summary .button.compare:hover {
-            color: #ff4c2f !important;
+            color: #168d44 !important;
         }
 
 
@@ -919,7 +919,7 @@
         .widget-area .product-categories li.cat-item a:hover:before,
         .widget-area .product-categories li.cat-item a:hover:before,
         .galleryexternallink {
-            border-color: #ff4c2f;
+            border-color: #168d44;
         }
 
         .woocommerce .blockUI.blockOverlay:after,
@@ -935,11 +935,11 @@
         .showcase .swiper-button-prev:hover:before,
         .showcase .swiper-button-next:hover:before,
         .mejs-overlay-loading:after {
-            border-right-color: #ff4c2f;
+            border-right-color: #168d44;
         }
 
         .sticky .blogAccordion .rightBorder {
-            border-right-color: #ff4c2f !important;
+            border-right-color: #168d44 !important;
         }
 
         .testimonials .quot-icon:before,
@@ -949,7 +949,7 @@
         .vc_tta-tabs-position-bottom li.vc_tta-tab.vc_active,
         .showcase .swiper-button-prev:hover:before,
         .showcase .swiper-button-next:hover:before {
-            border-top-color: #ff4c2f;
+            border-top-color: #168d44;
         }
 
 
@@ -987,7 +987,7 @@
         .custom-title .shape-container.triangle .shape-line,
         .custom-title .shape-container.triangle .shape-line:after,
         .custom-title .shape-container.triangle .shape-line:before {
-            border-bottom-color: #ff4c2f;
+            border-bottom-color: #168d44;
         }
 
         .loading-next-page,
@@ -995,7 +995,7 @@
         .testimonials .quot-icon:before,
         .textLeftBorder.fontSize123 .title,
         .textLeftBorder .title {
-            border-left-color: #ff4c2f;
+            border-left-color: #168d44;
         }
 
         .touchevents #comment-text .button.button-large,
@@ -1012,7 +1012,7 @@
         .custom-title .shape-container.square .shape-line,
         .custom-title .shape-container.rotated_square .shape-line,
         .custom-title .shape-container.circle .shape-line {
-            border-color: #ff4c2f;
+            border-color: #168d44;
         }
 
 
@@ -1421,7 +1421,7 @@
 
         /* Snap to scroll */
         #snap-to-scroll-nav span:after {
-            background: #ff4c2f;
+            background: #168d44;
         }
 
 
@@ -1431,7 +1431,7 @@
         /* Popup Newsletter */
 
         .ep-popup-newsletter-shortcode.ep-newsletter .widget_wysija_cont .wysija-submit:hover {
-            color: #ff4c2f !important;
+            color: #168d44 !important;
         }
     </style>
     <link data-optimized="1" rel="stylesheet" id="epico_responsive-style-css"
@@ -1479,19 +1479,19 @@
         src="https://chuijhal.com/wp-content/litespeed/js/4f15c0175a24814cd977b486e68707f3.js?ver=707f3"
         id="js-cookie-pys-js" defer data-deferred="1"></script>
     <script type="text/javascript" id="pys-js-extra"
-        src="data:text/javascript;base64,dmFyIHB5c09wdGlvbnM9eyJzdGF0aWNFdmVudHMiOnsiZmFjZWJvb2siOnsiaW5pdF9ldmVudCI6W3siZGVsYXkiOjAsInR5cGUiOiJzdGF0aWMiLCJuYW1lIjoiUGFnZVZpZXciLCJwaXhlbElkcyI6WyI0MjcyNzI5MzU0Njc2MDUiXSwiZXZlbnRJRCI6IjZhZTVjNDRmLTdhOWYtNGMyZS04NGExLTc3ZDliZmJiMzI1YyIsInBhcmFtcyI6eyJwYWdlX3RpdGxlIjoiXHUwOWFmXHUwOWNiXHUwOTk3XHUwOWJlXHUwOWFmXHUwOWNiXHUwOTk3IiwicG9zdF90eXBlIjoicGFnZSIsInBvc3RfaWQiOjExOTA1LCJwbHVnaW4iOiJQaXhlbFlvdXJTaXRlIiwidXNlcl9yb2xlIjoiZ3Vlc3QiLCJldmVudF91cmwiOiJjaHVpamhhbC5jb21cLyVlMCVhNiVhZiVlMCVhNyU4YiVlMCVhNiU5NyVlMCVhNiViZSVlMCVhNiVhZiVlMCVhNyU4YiVlMCVhNiU5N1wvIn0sImVfaWQiOiJpbml0X2V2ZW50IiwiaWRzIjpbXSwiaGFzVGltZVdpbmRvdyI6ITEsInRpbWVXaW5kb3ciOjAsIndvb19vcmRlciI6IiIsImVkZF9vcmRlciI6IiJ9XX19LCJkeW5hbWljRXZlbnRzIjpbXSwidHJpZ2dlckV2ZW50cyI6W10sInRyaWdnZXJFdmVudFR5cGVzIjpbXSwiZmFjZWJvb2siOnsicGl4ZWxJZHMiOlsiNDI3MjcyOTM1NDY3NjA1Il0sImFkdmFuY2VkTWF0Y2hpbmciOltdLCJhZHZhbmNlZE1hdGNoaW5nRW5hYmxlZCI6ITAsInJlbW92ZU1ldGFkYXRhIjohMSwiY29udGVudFBhcmFtcyI6eyJwb3N0X3R5cGUiOiJwYWdlIiwicG9zdF9pZCI6MTE5MDUsImNvbnRlbnRfbmFtZSI6Ilx1MDlhZlx1MDljYlx1MDk5N1x1MDliZVx1MDlhZlx1MDljYlx1MDk5NyJ9LCJjb21tZW50RXZlbnRFbmFibGVkIjohMCwid29vVmFyaWFibGVBc1NpbXBsZSI6ITEsImRvd25sb2FkRW5hYmxlZCI6ITAsImZvcm1FdmVudEVuYWJsZWQiOiEwLCJzZXJ2ZXJBcGlFbmFibGVkIjohMCwid29vQ1JTZW5kRnJvbVNlcnZlciI6ITEsInNlbmRfZXh0ZXJuYWxfaWQiOm51bGx9LCJnYSI6eyJ0cmFja2luZ0lkcyI6WyJHLVE0TldXMTJTVzIiXSwiY29tbWVudEV2ZW50RW5hYmxlZCI6ITAsImRvd25sb2FkRW5hYmxlZCI6ITAsImZvcm1FdmVudEVuYWJsZWQiOiEwLCJjcm9zc0RvbWFpbkVuYWJsZWQiOiExLCJjcm9zc0RvbWFpbkFjY2VwdEluY29taW5nIjohMSwiY3Jvc3NEb21haW5Eb21haW5zIjpbXSwiaXNEZWJ1Z0VuYWJsZWQiOlsiaW5kZXhfMCJdLCJzZXJ2ZXJDb250YWluZXJVcmxzIjp7IkctUTROV1cxMlNXMiI6eyJlbmFibGVfc2VydmVyX2NvbnRhaW5lciI6IiIsInNlcnZlcl9jb250YWluZXJfdXJsIjoiIiwidHJhbnNwb3J0X3VybCI6IiJ9fSwiYWRkaXRpb25hbENvbmZpZyI6eyJHLVE0TldXMTJTVzIiOnsiZmlyc3RfcGFydHlfY29sbGVjdGlvbiI6ITB9fSwiZGlzYWJsZUFkdmVydGlzaW5nRmVhdHVyZXMiOiExLCJkaXNhYmxlQWR2ZXJ0aXNpbmdQZXJzb25hbGl6YXRpb24iOiExLCJ3b29WYXJpYWJsZUFzU2ltcGxlIjohMCwiY3VzdG9tX3BhZ2Vfdmlld19ldmVudCI6ITF9LCJkZWJ1ZyI6IiIsInNpdGVVcmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tIiwiYWpheFVybCI6Imh0dHBzOlwvXC9jaHVpamhhbC5jb21cL3dwLWFkbWluXC9hZG1pbi1hamF4LnBocCIsImFqYXhfZXZlbnQiOiJiYWYzMzM5MmYzIiwiZW5hYmxlX3JlbW92ZV9kb3dubG9hZF91cmxfcGFyYW0iOiIxIiwiY29va2llX2R1cmF0aW9uIjoiNyIsImxhc3RfdmlzaXRfZHVyYXRpb24iOiI2MCIsImVuYWJsZV9zdWNjZXNzX3NlbmRfZm9ybSI6IiIsImFqYXhGb3JTZXJ2ZXJFdmVudCI6IjEiLCJhamF4Rm9yU2VydmVyU3RhdGljRXZlbnQiOiIxIiwic2VuZF9leHRlcm5hbF9pZCI6IjEiLCJleHRlcm5hbF9pZF9leHBpcmUiOiIxODAiLCJnb29nbGVfY29uc2VudF9tb2RlIjoiMSIsImdkcHIiOnsiYWpheF9lbmFibGVkIjohMSwiYWxsX2Rpc2FibGVkX2J5X2FwaSI6ITEsImZhY2Vib29rX2Rpc2FibGVkX2J5X2FwaSI6ITEsImFuYWx5dGljc19kaXNhYmxlZF9ieV9hcGkiOiExLCJnb29nbGVfYWRzX2Rpc2FibGVkX2J5X2FwaSI6ITEsInBpbnRlcmVzdF9kaXNhYmxlZF9ieV9hcGkiOiExLCJiaW5nX2Rpc2FibGVkX2J5X2FwaSI6ITEsImV4dGVybmFsSURfZGlzYWJsZWRfYnlfYXBpIjohMSwiZmFjZWJvb2tfcHJpb3JfY29uc2VudF9lbmFibGVkIjohMCwiYW5hbHl0aWNzX3ByaW9yX2NvbnNlbnRfZW5hYmxlZCI6ITAsImdvb2dsZV9hZHNfcHJpb3JfY29uc2VudF9lbmFibGVkIjpudWxsLCJwaW50ZXJlc3RfcHJpb3JfY29uc2VudF9lbmFibGVkIjohMCwiYmluZ19wcmlvcl9jb25zZW50X2VuYWJsZWQiOiEwLCJjb29raWVib3RfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZWJvdF9mYWNlYm9va19jb25zZW50X2NhdGVnb3J5IjoibWFya2V0aW5nIiwiY29va2llYm90X2FuYWx5dGljc19jb25zZW50X2NhdGVnb3J5Ijoic3RhdGlzdGljcyIsImNvb2tpZWJvdF90aWt0b2tfY29uc2VudF9jYXRlZ29yeSI6Im1hcmtldGluZyIsImNvb2tpZWJvdF9nb29nbGVfYWRzX2NvbnNlbnRfY2F0ZWdvcnkiOm51bGwsImNvb2tpZWJvdF9waW50ZXJlc3RfY29uc2VudF9jYXRlZ29yeSI6Im1hcmtldGluZyIsImNvb2tpZWJvdF9iaW5nX2NvbnNlbnRfY2F0ZWdvcnkiOiJtYXJrZXRpbmciLCJjb25zZW50X21hZ2ljX2ludGVncmF0aW9uX2VuYWJsZWQiOiExLCJyZWFsX2Nvb2tpZV9iYW5uZXJfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZV9ub3RpY2VfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZV9sYXdfaW5mb19pbnRlZ3JhdGlvbl9lbmFibGVkIjohMSwiYW5hbHl0aWNzX3N0b3JhZ2UiOnsiZW5hYmxlZCI6ITAsInZhbHVlIjoiZ3JhbnRlZCIsImZpbHRlciI6ITF9LCJhZF9zdG9yYWdlIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfSwiYWRfdXNlcl9kYXRhIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfSwiYWRfcGVyc29uYWxpemF0aW9uIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfX0sImNvb2tpZSI6eyJkaXNhYmxlZF9hbGxfY29va2llIjohMSwiZGlzYWJsZWRfc3RhcnRfc2Vzc2lvbl9jb29raWUiOiExLCJkaXNhYmxlZF9hZHZhbmNlZF9mb3JtX2RhdGFfY29va2llIjohMSwiZGlzYWJsZWRfbGFuZGluZ19wYWdlX2Nvb2tpZSI6ITEsImRpc2FibGVkX2ZpcnN0X3Zpc2l0X2Nvb2tpZSI6ITEsImRpc2FibGVkX3RyYWZmaWNzb3VyY2VfY29va2llIjohMSwiZGlzYWJsZWRfdXRtVGVybXNfY29va2llIjohMSwiZGlzYWJsZWRfdXRtSWRfY29va2llIjohMX0sInRyYWNraW5nX2FuYWx5dGljcyI6eyJUcmFmZmljU291cmNlIjoiZGlyZWN0IiwiVHJhZmZpY0xhbmRpbmciOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC8iLCJUcmFmZmljVXRtcyI6W10sIlRyYWZmaWNVdG1zSWQiOltdfSwid29vIjp7ImVuYWJsZWQiOiEwLCJlbmFibGVkX3NhdmVfZGF0YV90b19vcmRlcnMiOiEwLCJhZGRUb0NhcnRPbkJ1dHRvbkVuYWJsZWQiOiEwLCJhZGRUb0NhcnRPbkJ1dHRvblZhbHVlRW5hYmxlZCI6ITAsImFkZFRvQ2FydE9uQnV0dG9uVmFsdWVPcHRpb24iOiJwcmljZSIsInNpbmdsZVByb2R1Y3RJZCI6bnVsbCwicmVtb3ZlRnJvbUNhcnRTZWxlY3RvciI6ImZvcm0ud29vY29tbWVyY2UtY2FydC1mb3JtIC5yZW1vdmUiLCJhZGRUb0NhcnRDYXRjaE1ldGhvZCI6ImFkZF9jYXJ0X2hvb2siLCJpc19vcmRlcl9yZWNlaXZlZF9wYWdlIjohMSwiY29udGFpbk9yZGVySWQiOiExfSwiZWRkIjp7ImVuYWJsZWQiOiExfX0="
+        src="data:text/javascript;base64,dmFyIHB5c09wdGlvbnM9eyJzdGF0aWNFdmVudHMiOnsiZmFjZWJvb2siOnsiaW5pdF9ldmVudCI6W3siZGVsYXkiOjAsInR5cGUiOiJzdGF0aWMiLCJuYW1lIjoiUGFnZVZpZXciLCJwaXhlbElkcyI6WyI0MjcyNzI5MzU0Njc2MDUiXSwiZXZlbnRJRCI6ImQ0ZWNiNmIwLWQwZGUtNDFjOC04MzRkLTBiYTNmYzU0NzdmYiIsInBhcmFtcyI6eyJwYWdlX3RpdGxlIjoiXHUwOWI2XHUwOWIwXHUwOWNkXHUwOWE0XHUwOWJlXHUwOWFjXHUwOWIyXHUwOWMwIiwicG9zdF90eXBlIjoicGFnZSIsInBvc3RfaWQiOjE2MjY0LCJwbHVnaW4iOiJQaXhlbFlvdXJTaXRlIiwidXNlcl9yb2xlIjoiZ3Vlc3QiLCJldmVudF91cmwiOiJjaHVpamhhbC5jb21cLyVlMCVhNiViNiVlMCVhNiViMCVlMCVhNyU4ZCVlMCVhNiVhNCVlMCVhNiViZSVlMCVhNiVhYyVlMCVhNiViMiVlMCVhNyU4MFwvIn0sImVfaWQiOiJpbml0X2V2ZW50IiwiaWRzIjpbXSwiaGFzVGltZVdpbmRvdyI6ITEsInRpbWVXaW5kb3ciOjAsIndvb19vcmRlciI6IiIsImVkZF9vcmRlciI6IiJ9XX19LCJkeW5hbWljRXZlbnRzIjpbXSwidHJpZ2dlckV2ZW50cyI6W10sInRyaWdnZXJFdmVudFR5cGVzIjpbXSwiZmFjZWJvb2siOnsicGl4ZWxJZHMiOlsiNDI3MjcyOTM1NDY3NjA1Il0sImFkdmFuY2VkTWF0Y2hpbmciOltdLCJhZHZhbmNlZE1hdGNoaW5nRW5hYmxlZCI6ITAsInJlbW92ZU1ldGFkYXRhIjohMSwiY29udGVudFBhcmFtcyI6eyJwb3N0X3R5cGUiOiJwYWdlIiwicG9zdF9pZCI6MTYyNjQsImNvbnRlbnRfbmFtZSI6Ilx1MDliNlx1MDliMFx1MDljZFx1MDlhNFx1MDliZVx1MDlhY1x1MDliMlx1MDljMCJ9LCJjb21tZW50RXZlbnRFbmFibGVkIjohMCwid29vVmFyaWFibGVBc1NpbXBsZSI6ITEsImRvd25sb2FkRW5hYmxlZCI6ITAsImZvcm1FdmVudEVuYWJsZWQiOiEwLCJzZXJ2ZXJBcGlFbmFibGVkIjohMCwid29vQ1JTZW5kRnJvbVNlcnZlciI6ITEsInNlbmRfZXh0ZXJuYWxfaWQiOm51bGx9LCJnYSI6eyJ0cmFja2luZ0lkcyI6WyJHLVE0TldXMTJTVzIiXSwiY29tbWVudEV2ZW50RW5hYmxlZCI6ITAsImRvd25sb2FkRW5hYmxlZCI6ITAsImZvcm1FdmVudEVuYWJsZWQiOiEwLCJjcm9zc0RvbWFpbkVuYWJsZWQiOiExLCJjcm9zc0RvbWFpbkFjY2VwdEluY29taW5nIjohMSwiY3Jvc3NEb21haW5Eb21haW5zIjpbXSwiaXNEZWJ1Z0VuYWJsZWQiOlsiaW5kZXhfMCJdLCJzZXJ2ZXJDb250YWluZXJVcmxzIjp7IkctUTROV1cxMlNXMiI6eyJlbmFibGVfc2VydmVyX2NvbnRhaW5lciI6IiIsInNlcnZlcl9jb250YWluZXJfdXJsIjoiIiwidHJhbnNwb3J0X3VybCI6IiJ9fSwiYWRkaXRpb25hbENvbmZpZyI6eyJHLVE0TldXMTJTVzIiOnsiZmlyc3RfcGFydHlfY29sbGVjdGlvbiI6ITB9fSwiZGlzYWJsZUFkdmVydGlzaW5nRmVhdHVyZXMiOiExLCJkaXNhYmxlQWR2ZXJ0aXNpbmdQZXJzb25hbGl6YXRpb24iOiExLCJ3b29WYXJpYWJsZUFzU2ltcGxlIjohMCwiY3VzdG9tX3BhZ2Vfdmlld19ldmVudCI6ITF9LCJkZWJ1ZyI6IiIsInNpdGVVcmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tIiwiYWpheFVybCI6Imh0dHBzOlwvXC9jaHVpamhhbC5jb21cL3dwLWFkbWluXC9hZG1pbi1hamF4LnBocCIsImFqYXhfZXZlbnQiOiJiYWYzMzM5MmYzIiwiZW5hYmxlX3JlbW92ZV9kb3dubG9hZF91cmxfcGFyYW0iOiIxIiwiY29va2llX2R1cmF0aW9uIjoiNyIsImxhc3RfdmlzaXRfZHVyYXRpb24iOiI2MCIsImVuYWJsZV9zdWNjZXNzX3NlbmRfZm9ybSI6IiIsImFqYXhGb3JTZXJ2ZXJFdmVudCI6IjEiLCJhamF4Rm9yU2VydmVyU3RhdGljRXZlbnQiOiIxIiwic2VuZF9leHRlcm5hbF9pZCI6IjEiLCJleHRlcm5hbF9pZF9leHBpcmUiOiIxODAiLCJnb29nbGVfY29uc2VudF9tb2RlIjoiMSIsImdkcHIiOnsiYWpheF9lbmFibGVkIjohMSwiYWxsX2Rpc2FibGVkX2J5X2FwaSI6ITEsImZhY2Vib29rX2Rpc2FibGVkX2J5X2FwaSI6ITEsImFuYWx5dGljc19kaXNhYmxlZF9ieV9hcGkiOiExLCJnb29nbGVfYWRzX2Rpc2FibGVkX2J5X2FwaSI6ITEsInBpbnRlcmVzdF9kaXNhYmxlZF9ieV9hcGkiOiExLCJiaW5nX2Rpc2FibGVkX2J5X2FwaSI6ITEsImV4dGVybmFsSURfZGlzYWJsZWRfYnlfYXBpIjohMSwiZmFjZWJvb2tfcHJpb3JfY29uc2VudF9lbmFibGVkIjohMCwiYW5hbHl0aWNzX3ByaW9yX2NvbnNlbnRfZW5hYmxlZCI6ITAsImdvb2dsZV9hZHNfcHJpb3JfY29uc2VudF9lbmFibGVkIjpudWxsLCJwaW50ZXJlc3RfcHJpb3JfY29uc2VudF9lbmFibGVkIjohMCwiYmluZ19wcmlvcl9jb25zZW50X2VuYWJsZWQiOiEwLCJjb29raWVib3RfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZWJvdF9mYWNlYm9va19jb25zZW50X2NhdGVnb3J5IjoibWFya2V0aW5nIiwiY29va2llYm90X2FuYWx5dGljc19jb25zZW50X2NhdGVnb3J5Ijoic3RhdGlzdGljcyIsImNvb2tpZWJvdF90aWt0b2tfY29uc2VudF9jYXRlZ29yeSI6Im1hcmtldGluZyIsImNvb2tpZWJvdF9nb29nbGVfYWRzX2NvbnNlbnRfY2F0ZWdvcnkiOm51bGwsImNvb2tpZWJvdF9waW50ZXJlc3RfY29uc2VudF9jYXRlZ29yeSI6Im1hcmtldGluZyIsImNvb2tpZWJvdF9iaW5nX2NvbnNlbnRfY2F0ZWdvcnkiOiJtYXJrZXRpbmciLCJjb25zZW50X21hZ2ljX2ludGVncmF0aW9uX2VuYWJsZWQiOiExLCJyZWFsX2Nvb2tpZV9iYW5uZXJfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZV9ub3RpY2VfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZV9sYXdfaW5mb19pbnRlZ3JhdGlvbl9lbmFibGVkIjohMSwiYW5hbHl0aWNzX3N0b3JhZ2UiOnsiZW5hYmxlZCI6ITAsInZhbHVlIjoiZ3JhbnRlZCIsImZpbHRlciI6ITF9LCJhZF9zdG9yYWdlIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfSwiYWRfdXNlcl9kYXRhIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfSwiYWRfcGVyc29uYWxpemF0aW9uIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfX0sImNvb2tpZSI6eyJkaXNhYmxlZF9hbGxfY29va2llIjohMSwiZGlzYWJsZWRfc3RhcnRfc2Vzc2lvbl9jb29raWUiOiExLCJkaXNhYmxlZF9hZHZhbmNlZF9mb3JtX2RhdGFfY29va2llIjohMSwiZGlzYWJsZWRfbGFuZGluZ19wYWdlX2Nvb2tpZSI6ITEsImRpc2FibGVkX2ZpcnN0X3Zpc2l0X2Nvb2tpZSI6ITEsImRpc2FibGVkX3RyYWZmaWNzb3VyY2VfY29va2llIjohMSwiZGlzYWJsZWRfdXRtVGVybXNfY29va2llIjohMSwiZGlzYWJsZWRfdXRtSWRfY29va2llIjohMX0sInRyYWNraW5nX2FuYWx5dGljcyI6eyJUcmFmZmljU291cmNlIjoiZGlyZWN0IiwiVHJhZmZpY0xhbmRpbmciOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC8iLCJUcmFmZmljVXRtcyI6W10sIlRyYWZmaWNVdG1zSWQiOltdfSwid29vIjp7ImVuYWJsZWQiOiEwLCJlbmFibGVkX3NhdmVfZGF0YV90b19vcmRlcnMiOiEwLCJhZGRUb0NhcnRPbkJ1dHRvbkVuYWJsZWQiOiEwLCJhZGRUb0NhcnRPbkJ1dHRvblZhbHVlRW5hYmxlZCI6ITAsImFkZFRvQ2FydE9uQnV0dG9uVmFsdWVPcHRpb24iOiJwcmljZSIsInNpbmdsZVByb2R1Y3RJZCI6bnVsbCwicmVtb3ZlRnJvbUNhcnRTZWxlY3RvciI6ImZvcm0ud29vY29tbWVyY2UtY2FydC1mb3JtIC5yZW1vdmUiLCJhZGRUb0NhcnRDYXRjaE1ldGhvZCI6ImFkZF9jYXJ0X2hvb2siLCJpc19vcmRlcl9yZWNlaXZlZF9wYWdlIjohMSwiY29udGFpbk9yZGVySWQiOiExfSwiZWRkIjp7ImVuYWJsZWQiOiExfX0="
         defer></script>
     <script data-optimized="1" type="text/javascript"
         src="https://chuijhal.com/wp-content/litespeed/js/430fb1f3c8924683fccf0199ea43e196.js?ver=3e196" id="pys-js" defer
         data-deferred="1"></script>
     <link rel="https://api.w.org/" href="https://chuijhal.com/wp-json/" />
     <link rel="alternate" title="JSON" type="application/json"
-        href="https://chuijhal.com/wp-json/wp/v2/pages/11905" />
+        href="https://chuijhal.com/wp-json/wp/v2/pages/16264" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chuijhal.com/xmlrpc.php?rsd" />
     <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2F%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%25e0%25a6%25be%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%2F" />
+        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2F%25e0%25a6%25b6%25e0%25a6%25b0%25e0%25a7%258d%25e0%25a6%25a4%25e0%25a6%25be%25e0%25a6%25ac%25e0%25a6%25b2%25e0%25a7%2580%2F" />
     <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2F%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%25e0%25a6%25be%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%2F&#038;format=xml" />
+        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2F%25e0%25a6%25b6%25e0%25a6%25b0%25e0%25a7%258d%25e0%25a6%25a4%25e0%25a6%25be%25e0%25a6%25ac%25e0%25a6%25b2%25e0%25a7%2580%2F&#038;format=xml" />
     <noscript>
         <style>
             .woocommerce-product-gallery {
@@ -1501,9 +1501,7 @@
     </noscript>
     <meta name="generator"
         content="Elementor 3.24.2; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-    <script type="application/ld+json" class="saswp-schema-markup-output">[{"@context":"https:\/\/schema.org\/","@type":"ContactPage","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/chuijhal.com\/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97\/"},"url":"https:\/\/chuijhal.com\/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97\/","headline":"\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997","description":"","publisher":{"@type":"Organization","name":"\u099a\u09c1\u0987\u099d\u09be\u09b2","url":"https:\/\/chuijhal.com","logo":{"@type":"ImageObject","url":"https:\/\/chuijhal.com\/wp-content\/uploads\/2023\/06\/Logo-Chuijhal-.jpg","width":"160","height":"50"}}},
-
-    {"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#298 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"\u09b6\u09aa","url":"https:\/\/chuijhal.com\/shop\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Organic Tea","url":"http:\/\/epicomedia.com\/vitrine-demo37\/product-category\/organic-tea\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Vegetables","url":"http:\/\/epicomedia.com\/vitrine-demo37\/product-category\/vegetables\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"BLOG","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Masonry - Blog","url":"https:\/\/chuijhal.com\/blog\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"GALLERY","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"PORTFOLIO","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"PAGES","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Creative","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11895 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11899 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Simple","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11901 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997","url":"https:\/\/chuijhal.com\/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Minimal","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11907 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"About us","url":"https:\/\/chuijhal.com\/about-us\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11913 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Modern","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11915 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11921 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Coming soon - fullwidth","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Coming soon - split","url":""}]}]</script>
+    <script type="application/ld+json" class="saswp-schema-markup-output">[{"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#298 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"\u09b6\u09aa","url":"https:\/\/chuijhal.com\/shop\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Organic Tea","url":"http:\/\/epicomedia.com\/vitrine-demo37\/product-category\/organic-tea\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Vegetables","url":"http:\/\/epicomedia.com\/vitrine-demo37\/product-category\/vegetables\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"BLOG","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Masonry - Blog","url":"https:\/\/chuijhal.com\/blog\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"GALLERY","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"PORTFOLIO","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"PAGES","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Creative","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11895 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11899 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Simple","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11901 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997","url":"https:\/\/chuijhal.com\/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Minimal","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11907 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"About us","url":"https:\/\/chuijhal.com\/about-us\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11913 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Modern","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11915 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11921 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Coming soon - fullwidth","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Coming soon - split","url":""}]}]</script>
     <style>
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
@@ -1545,15 +1543,19 @@
             src: url('https://chuijhal.com/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');
         }
     </style>
-    <link rel="icon" href="{{asset(setting()->logo)}}"
+    <link rel="icon" href="{{ setting()->logo }}"
         sizes="32x32" />
-    <link rel="icon" href="{{asset(setting()->logo)}}"
+    <link rel="icon" href="{{ setting()->logo }}"
         sizes="192x192" />
     <link rel="apple-touch-icon"
-        href="{{asset(setting()->logo)}}" />
+        href="{{ setting()->logo }}" />
     <meta name="msapplication-TileImage"
-        content="{{asset(setting()->logo)}}" />
-    <noscript>
+        content="{{ setting()->logo }}" />
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1460550359379 {
+            margin-top: 150px !important;
+        }
+    </style><noscript>
         <style>
             .wpb_animate_when_almost_visible {
                 opacity: 1;
@@ -1561,12 +1563,11 @@
         </style>
     </noscript>
     <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" />
-
 </head>
 
 <body data-rsssl="1"
-    class="page-template-default page page-id-11905 theme-vitrine woocommerce-no-js no-preloader no-page-transition fade wpb-js-composer js-comp-ver-6.9.0 vc_responsive elementor-default elementor-kit-34415"
-    data-pageid="11905">
+    class="page-template-default page page-id-16264 theme-vitrine woocommerce-no-js no-preloader no-page-transition fade whiteColorFirtStateMenu  wpb-js-composer js-comp-ver-6.9.0 vc_responsive elementor-default elementor-kit-34415"
+    data-pageid="16264">
     <div id="top"></div>
     <div class="scrollToTop visible-desktop">
         <a href="#top"></a>
@@ -1645,12 +1646,7 @@
                 </div>
             </div>
         </div>
-        @include('website.version1.componant.sidebar-category')
-        @include('website.version1.componant.show-cart')
         @include('website.version1.layouts.include.header')
-
-        <span id="sidebar-open-overlay"></span>
-        @include('website.version1.componant.search-popup')
         <span id="sidebar-open-overlay"></span>
         <div id="search-form">
             <div class="search-form searchContainer">
@@ -1690,62 +1686,40 @@
                         }
                     </style>
                     <div class="wrap" id="pageHeight">
-                        <div id="post-11905" class="post-11905 page type-page status-publish hentry">
-                            <div id="vc_row_1" class="ep-section background_cover row_section  section ">
+                        <div id="post-16264" class="post-16264 page type-page status-publish hentry">
+                            <div id="vc_row_1" class="ep-section parallax sectionOverlay section   texture1"
+                                data-speed="25" style=" min-height:400px;">
                                 <div class="section-container">
-                                    <div class="clearfix"></div>
-                                    <div class="section-content-container" style="padding-top:200px;">
+                                    <div class="parallax-img"
+                                        style=" background-image:url(''); background-position:center top;"></div>
+                                    <div class="section-content-container">
                                         <div class="container">
                                             <div
                                                 class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-8 vc_col-md-8">
-                                                    <div class="  vc_column-inner ">
+                                                <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                    <div
+                                                        class="  col_custom_classes vc_column-inner vc_custom_1460550359379">
                                                         <div class="wpb_wrapper">
-                                                            <style type="text/css" media="all">
-                                                                #textbox_1.textBox.textRightBorder .title {
-                                                                    border-color: #333333;
-                                                                }
-
-                                                                #textbox_1.textBox.textLeftBorder .title {
-                                                                    border-color: #333333;
-                                                                }
-
-                                                                #textbox_1.textBox.textTopBorder hr {
-                                                                    background-color: #333333;
-                                                                }
-
-                                                                #textbox_1.textBox.textBottomBorder hr {
-                                                                    background-color: #333333;
-                                                                }
-                                                            </style>
+                                                            <div id="vc_empty_space_1" class="vc_empty_space"
+                                                                style="height: 50px"><span
+                                                                    class="vc_empty_space_inner"></span></div>
+                                                            <style type="text/css" media="all"></style>
                                                             <div id="textbox_1"
-                                                                class="textBox    nosubtitle    fontSize32 textBoxCenter textBoxUnderCenter textBottomBorder"
-                                                                data-delay="0" data-animation="none">
+                                                                class="textBox    nosubtitle    fontSize60 textBoxleft textBoxUnderleft textBoxNoStyle shortcodeAnimation no-responsive-animation"
+                                                                data-delay="200" data-animation="fade-in">
                                                                 <div class="clearfix">
                                                                     <div class="title clearfix"
-                                                                        style="color:#333333;">
-                                                                        CONTACT US
-                                                                        <hr />
-                                                                    </div>
+                                                                        style="color:#000000;">
+                                                                        Terms and Conditions</div>
                                                                 </div>
-                                                                <div class="contentfs14 text" style="color: #333333;">
-                                                                    Thank you for visiting our website. We appreciate
-                                                                    your interest in our products and services. If you
-                                                                    have any questions, comments, or feedback, please
-                                                                    don't hesitate to contact us using the information
-                                                                    below.</div>
                                                             </div>
+                                                            <div id="vc_empty_space_2" class="vc_empty_space"
+                                                                style="height: 32px"><span
+                                                                    class="vc_empty_space_inner"></span></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="wpb_column vc_column_container vc_col-sm-2">
+                                                <div class="wpb_column vc_column_container vc_col-sm-6">
                                                     <div class="  vc_column-inner ">
                                                         <div class="wpb_wrapper"></div>
                                                     </div>
@@ -1758,224 +1732,551 @@
                             <div id="vc_row_2" class="ep-section background_cover row_section  section ">
                                 <div class="section-container">
                                     <div class="clearfix"></div>
-                                    <div class="section-content-container" style="margin-top:50px;">
+                                    <div class="section-content-container" style>
                                         <div class="container">
                                             <div
                                                 class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-5 vc_col-lg-4 vc_col-md-4">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
                                                     <div class="  vc_column-inner ">
                                                         <div class="wpb_wrapper">
-                                                            <style type="text/css" media="all">
-                                                                #textbox_2 .textBox .frame div {
-                                                                    background-color: #ff4c2f;
-                                                                }
-                                                            </style>
-                                                            <div id="textbox_2" class="custom-textbox">
-                                                                <div class="custom-textbox-bg"
-                                                                    style="background-color:#168d44"></div>
-                                                                <div
-                                                                    class="textBox   nosubtitle   fontSize20 textBoxleft textBoxUnderleft textBoxNoStyle">
-                                                                    <div class="frame top">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame right">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame bottom">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame left">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="clearfix">
-                                                                        <div class="title clearfix"
-                                                                            style="color:#ffffff;">
-                                                                            Phone:</div>
-                                                                    </div>
-                                                                    <div class="contentfs13 text"
-                                                                        style="color: #ffffff;">{{ setting()->phone1 ?? '' }}</div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-5 vc_col-lg-4 vc_col-md-4">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper">
-                                                            <style type="text/css" media="all">
-                                                                #textbox_3 .textBox .frame div {
-                                                                    background-color: #3a3a3a;
-                                                                }
-                                                            </style>
-                                                            <div id="textbox_3" class="custom-textbox">
-                                                                <div class="custom-textbox-bg"
-                                                                    style="background-color:#272727"></div>
-                                                                <div
-                                                                    class="textBox   nosubtitle   fontSize20 textBoxleft textBoxUnderleft textBoxNoStyle">
-                                                                    <div class="frame top">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame right">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame bottom">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame left">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="clearfix">
-                                                                        <div class="title clearfix"
-                                                                            style="color:#ffffff;">
-                                                                            Email:</div>
-                                                                    </div>
-                                                                    <div class="contentfs13 text"
-                                                                        style="color: #ffffff;"><a
-                                                                            href="/cdn-cgi/l/email-protection"
-                                                                            class="__cf_email__"
-                                                                            data-cfemail="d7bfb2bbbbb897b4bfa2bebdbfb6bbf9b4b8ba">{{ setting()->email ?? '' }}</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="vc_row_3" class="ep-section background_cover row_section  section ">
-                                <div class="section-container">
-                                    <div class="clearfix"></div>
-                                    <div class="section-content-container"
-                                        style="margin-top:50px;margin-bottom:100px;">
-                                        <div class="container">
-                                            <div
-                                                class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="contact_pg_form wpb_column vc_column_container vc_col-sm-10 vc_col-lg-8 vc_col-md-8">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper">
+                                                            <div id="vc_empty_space_3" class="vc_empty_space"
+                                                                style="height: 60px"><span
+                                                                    class="vc_empty_space_inner"></span></div>
                                                             <div class="wpb_text_column wpb_content_element "
                                                                 data-delay data-animation="none">
                                                                 <div class="wpb_wrapper">
-                                                                    <div class="wpcf7 no-js"
-                                                                        id="wpcf7-f30428-p11905-o1" lang="en-US"
-                                                                        dir="ltr">
-                                                                        <div class="screen-reader-response">
-                                                                            <p role="status" aria-live="polite"
-                                                                                aria-atomic="true"></p>
-                                                                            <ul></ul>
-                                                                        </div>
-                                                                        <form
-                                                                            action="{{ route('contact.store') }}"
-                                                                            method="post">
-                                                                            @csrf
-                                                                            <div style="display: none;">
-                                                                                <input type="hidden" name="_wpcf7"
-                                                                                    value="30428" />
-                                                                                <input type="hidden"
-                                                                                    name="_wpcf7_version"
-                                                                                    value="5.9.8" />
-                                                                                <input type="hidden"
-                                                                                    name="_wpcf7_locale"
-                                                                                    value="en_US" />
-                                                                                <input type="hidden"
-                                                                                    name="_wpcf7_unit_tag"
-                                                                                    value="wpcf7-f30428-p11905-o1" />
-                                                                                <input type="hidden"
-                                                                                    name="_wpcf7_container_post"
-                                                                                    value="11905" />
-                                                                                <input type="hidden"
-                                                                                    name="_wpcf7_posted_data_hash"
-                                                                                    value />
-                                                                            </div>
-                                                                            <p><label> Your name<br />
-                                                                                    <span
-                                                                                        class="wpcf7-form-control-wrap"
-                                                                                        data-name="your-name"><input
-                                                                                            size="40"
-                                                                                            maxlength="400"
-                                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                            autocomplete="name"
-                                                                                            aria-required="true"
-                                                                                            aria-invalid="false" value
-                                                                                            type="text"
-                                                                                            name="your-name" /></span>
-                                                                                </label></p>
-                                                                            <p><label> Your email<br />
-                                                                                    <span
-                                                                                        class="wpcf7-form-control-wrap"
-                                                                                        data-name="your-email"><input
-                                                                                            size="40"
-                                                                                            maxlength="400"
-                                                                                            class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
-                                                                                            autocomplete="email"
-                                                                                            aria-required="true"
-                                                                                            aria-invalid="false" value
-                                                                                            type="email"
-                                                                                            name="your-email" /></span>
-                                                                                </label></p>
-                                                                            <p><label> Subject<br />
-                                                                                    <span
-                                                                                        class="wpcf7-form-control-wrap"
-                                                                                        data-name="your-subject"><input
-                                                                                            size="40"
-                                                                                            maxlength="400"
-                                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                            aria-required="true"
-                                                                                            aria-invalid="false" value
-                                                                                            type="text"
-                                                                                            name="your-subject" /></span>
-                                                                                </label></p>
-                                                                            <p><label> Your message (optional)<br />
-                                                                                    <span
-                                                                                        class="wpcf7-form-control-wrap"
-                                                                                        data-name="your-message">
-                                                                                        <textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea"
-                                                                                            aria-invalid="false" name="your-message"></textarea>
-                                                                                    </span> </label></p>
-                                                                                    <br>
-                                                                                    <br>
-                                                                            <p><input
-                                                                                    class="wpcf7-form-control wpcf7-submit has-spinner"
-                                                                                    type="submit" value="Submit" />
-                                                                            </p>
-                                                                            <div class="wpcf7-response-output"
-                                                                                aria-hidden="true"></div>
-
-                                                                        </form>
-                                                                    </div>
+                                                                    <h3><strong>Terms and Conditions</strong></h3>
+                                                                    <h5>Last Updated: Sep 02 2024</h5>
+                                                                    <p>This website and any mobile application
+                                                                        (collectively, this “Site”) is owned by Exoticagro
+                                                                        (“We”, “Us” or “Exoticagro”). We are providing you
+                                                                        with access to this Site and our online store
+                                                                        (together, our “Services”) subject to the
+                                                                        following terms and conditions.<br />
+                                                                        By browsing, accessing, using, registering for
+                                                                        or purchasing merchandise on this Site or
+                                                                        otherwise using our Services, you are agreeing
+                                                                        to all of the following terms and conditions,
+                                                                        including any policies referred to herein
+                                                                        (collectively, these “Terms”). So, please read
+                                                                        these Terms carefully. We reserve the right to
+                                                                        change this Site and these Terms at any time. If
+                                                                        you are unwilling to be bound by these Terms‚
+                                                                        you should not browse, access‚ use‚ register for
+                                                                        or purchase merchandise from the Site.<br />
+                                                                        You represent and warrant that you are at least
+                                                                        18 years old or visiting this Site under the
+                                                                        supervision of a parent or guardian.</p>
+                                                                    <h6><strong>Privacy Policy</strong></h6>
+                                                                    <p>Our Privacy Policy, which also governs your visit
+                                                                        to Our Site, can be found at PRIVACY POLICY.
+                                                                        Please review our Privacy Policy for information
+                                                                        on how We collect, use and share information
+                                                                        about our users.</p>
+                                                                    <h6><strong>Use of This Site</strong></h6>
+                                                                    <p>Subject to your compliance with these Terms‚ We
+                                                                        grant you a limited‚ non-exclusive‚
+                                                                        non-transferable‚ non-sublicensable license to
+                                                                        access and make personal‚ non-commercial use of
+                                                                        this Site. This license grant does not include:
+                                                                        (a) any resale or commercial use of this Site or
+                                                                        content therein; (b) the collection and use of
+                                                                        any product listings or descriptions; (c) making
+                                                                        derivative uses of this Site and its contents;
+                                                                        or (d) use of any data mining‚ robots‚ or
+                                                                        similar data gathering and extraction methods on
+                                                                        this Site. You may not use‚ frame or utilize
+                                                                        framing techniques to enclose any of Our
+                                                                        trademark‚ logo‚ content or other proprietary
+                                                                        information (including the images found at this
+                                                                        Site‚ the content of any text or the
+                                                                        layout/design of any page or form contained on a
+                                                                        page) without Our express written consent.
+                                                                        Further‚ you may not use any meta tags or any
+                                                                        other “hidden text” utilizing Our name‚
+                                                                        trademark‚ or product name without Our express
+                                                                        written consent. Any breach of these Terms shall
+                                                                        result in the immediate revocation of the
+                                                                        license granted in this paragraph without notice
+                                                                        to you.<br />
+                                                                        You are granted a limited, revocable, and
+                                                                        nonexclusive right to create a hyperlink to the
+                                                                        homepage of this Site so long as the link does
+                                                                        not portray Us or Our products or services in a
+                                                                        false, misleading, derogatory, or otherwise
+                                                                        offensive matter. This limited right may be
+                                                                        revoked at any time. You may not use any of Our
+                                                                        logos or other proprietary graphics or
+                                                                        trademarks as part of the link without express
+                                                                        written permission.</p>
+                                                                    <h6><strong>Account</strong></h6>
+                                                                    <p>In order to access some features of this Site‚
+                                                                        you may be required to register and We may
+                                                                        assign to you, or you may be required to select,
+                                                                        a password and user name or account
+                                                                        identification. If you register‚ you agree to
+                                                                        provide Us with accurate and complete
+                                                                        registration information‚ and to inform us
+                                                                        immediately of any updates or other changes to
+                                                                        such information.<br />
+                                                                        You are solely responsible for protecting the
+                                                                        security and confidentiality of the password and
+                                                                        identification assigned to you. You shall
+                                                                        immediately notify Us of any unauthorized use of
+                                                                        your password or identification or any other
+                                                                        breach or threatened breach of this Site’s
+                                                                        security. Each time you use a password or
+                                                                        identification, you will be deemed to be
+                                                                        authorized to access and use the Site in a
+                                                                        manner consistent with these Terms, and We have
+                                                                        no obligation to investigate the authorization
+                                                                        or source of any such access or use of this
+                                                                        Site. YOU WILL BE SOLELY RESPONSIBLE FOR ALL
+                                                                        ACCESS TO AND USE OF THIS SITE BY ANYONE USING
+                                                                        THE PASSWORD AND IDENTIFICATION ORIGINALLY
+                                                                        SELECTED BY, OR ASSIGNED TO, YOU WHETHER OR NOT
+                                                                        SUCH ACCESS TO AND USE OF THIS SITE IS ACTUALLY
+                                                                        AUTHORIZED BY YOU, INCLUDING WITHOUT LIMITATION,
+                                                                        ALL COMMUNICATIONS AND TRANSMISSIONS AND ALL
+                                                                        OBLIGATIONS (INCLUDING WITHOUT LIMITATION
+                                                                        FINANCIAL OBLIGATIONS) INCURRED THROUGH SUCH
+                                                                        ACCESS OR USE.</p>
+                                                                    <h6><strong>Electronic Communication</strong></h6>
+                                                                    <p>When you use this Site, or send emails to Us, you
+                                                                        are communicating with Us electronically. You
+                                                                        consent to receive communications from Us
+                                                                        electronically. We will communicate with you by
+                                                                        e-mail or by posting notices on this Site or
+                                                                        through our other services. You agree that all
+                                                                        agreements, notices, disclosures and other
+                                                                        communication that We provide to you
+                                                                        electronically satisfy any legal requirements
+                                                                        that such communications be in writing.</p>
+                                                                    <h6><strong>User Content</strong></h6>
+                                                                    <p>This Site may include features and functionality
+                                                                        (“Interactive Features”) that allows users to
+                                                                        create, post, transmit or store any content,
+                                                                        such as text, music, sound, photos, video,
+                                                                        graphics or code on the Sites (“User Content”).
+                                                                        User Content is publicly-viewable and may
+                                                                        include your profile information and any content
+                                                                        you post pursuant to your profile, but it does
+                                                                        not include your account information or
+                                                                        information you submit in order to make a
+                                                                        purchase. You agree that you are solely
+                                                                        responsible for your User Content and for your
+                                                                        use of Interactive Features, and that your use
+                                                                        any Interactive Features at your own risk.<br />
+                                                                        By using any Interactive Areas, you agree not to
+                                                                        post, upload to, transmit, distribute, store,
+                                                                        create or otherwise publish or send through the
+                                                                        Sites any of the following:<br />
+                                                                        User Content that is unlawful, libelous,
+                                                                        defamatory, obscene, pornographic, indecent,
+                                                                        lewd, suggestive, harassing, threatening,
+                                                                        abusive, inflammatory, fraudulent or otherwise
+                                                                        objectionable;<br />
+                                                                        User Content that would constitute, encourage or
+                                                                        provide instructions for a criminal offense,
+                                                                        violate the rights of any party or that would
+                                                                        otherwise create liability or violate any local,
+                                                                        state, national or international law;<br />
+                                                                        User Content that displays, describes or
+                                                                        encourages usage of any product We sell in a
+                                                                        manner that could be offensive, inappropriate or
+                                                                        harmful to Us or any user or consumer;<br />
+                                                                        User Content that may impinge upon or violate
+                                                                        the publicity, privacy or data protection rights
+                                                                        of others, including pictures, videos, images or
+                                                                        information about another individual where you
+                                                                        have not obtained such individual’s
+                                                                        consent;<br />
+                                                                        User Content that makes false or misleading
+                                                                        statements, claims or depictions about a person,
+                                                                        company, product or service;<br />
+                                                                        User Content that may infringe any patent,
+                                                                        trademark, trade secret, copyright or other
+                                                                        intellectual or proprietary right of any
+                                                                        party;<br />
+                                                                        User Content that impersonates any person or
+                                                                        entity or otherwise misrepresents your
+                                                                        affiliation with a person or entity; and<br />
+                                                                        Viruses, malware of any kind, corrupted data or
+                                                                        other harmful, disruptive or destructive files
+                                                                        or code.</p>
+                                                                    <h6><strong>Rights in User Content</strong></h6>
+                                                                    <p>Except as otherwise provided in these Terms, on
+                                                                        this Site or in a separate agreement with Us, We
+                                                                        claim no ownership or control over any User
+                                                                        Content. However, by submitting or posting User
+                                                                        Content on this Site, you grant to Us a
+                                                                        nonexclusive, royalty-free, worldwide,
+                                                                        perpetual, irrevocable, transferable, and fully
+                                                                        sublicensable right to use, reproduce, modify,
+                                                                        adapt, publish, translate, create derivative
+                                                                        works from, distribute, perform and display such
+                                                                        User Content on this Site and on third-party
+                                                                        sites and mobile applications and in all other
+                                                                        media or formats, whether currently known or
+                                                                        hereafter developed, for any purpose and without
+                                                                        any compensation to you. You also grant users of
+                                                                        this Site the right to access your User Content
+                                                                        in connection with their use of this Site.</p>
+                                                                    <p>By posting User Content to this Site, you
+                                                                        represent and warrant that (a) such User Content
+                                                                        is non-confidential; (b) you own and control all
+                                                                        of the rights, title and interest in and to the
+                                                                        User Content or you otherwise have all necessary
+                                                                        rights to post and use such User Content to this
+                                                                        Site and to grant to Us the rights that you
+                                                                        grant in these Terms; (c) the User Content is
+                                                                        accurate and not misleading or harmful in any
+                                                                        manner; and (d) the User Content, and your use
+                                                                        and posting thereof in connection with this
+                                                                        Site, do not and will not violate these Terms or
+                                                                        any other of Our applicable terms, guidelines or
+                                                                        policies or any applicable law, rule or
+                                                                        regulation.</p>
+                                                                    <h6><strong>Feedback</strong></h6>
+                                                                    <p>Separate and apart from User Content, you may
+                                                                        have the ability to submit questions, comments
+                                                                        suggestions, reviews, ideas, plans, designs,
+                                                                        notes, proposals, drawings, original or creative
+                                                                        materials and other information regarding this
+                                                                        Site, Us and our products or services
+                                                                        (collectively “Feedback”). You agree that
+                                                                        Feedback is non-confidential and shall become
+                                                                        Our sole property. We shall own exclusive
+                                                                        rights, including all intellectual property
+                                                                        rights, in and to such Feedback and shall be
+                                                                        entitled to the unrestricted use and
+                                                                        dissemination of the Feedback for any purpose,
+                                                                        commercial or otherwise, without acknowledgment
+                                                                        or compensation to you.</p>
+                                                                    <h6><strong>Restrictions on Rights to Use</strong>
+                                                                    </h6>
+                                                                    <p>You agree you shall not (and you agree not to
+                                                                        allow any other individual or entity using your
+                                                                        password and identification to):<br />
+                                                                        download‚ modify‚ reproduce‚ adapt‚ translate‚
+                                                                        reverse engineer‚ create derivative works based
+                                                                        upon‚ publicly display‚ sell‚ rent‚ license‚ or
+                                                                        in any way commercially exploit any portion of
+                                                                        this Site‚ except and to the extent expressly
+                                                                        permitted under these Terms;<br />
+                                                                        remove any copyright‚ trademark or other
+                                                                        proprietary rights notice contained in or on the
+                                                                        Site;<br />
+                                                                        use any robot‚ spider‚ site search/retrieval
+                                                                        application‚ or other device to retrieve or
+                                                                        index any portion of this Site;<br />
+                                                                        collect any information about other users
+                                                                        (including usernames and/or email addresses) for
+                                                                        any purpose other than to solicit and/or share
+                                                                        reviews with other users;<br />
+                                                                        reformat or frame any portion of any Web pages
+                                                                        that are part of this Site;<br />
+                                                                        create user accounts by automated means or under
+                                                                        false or fraudulent pretenses;<br />
+                                                                        create or transmit to other users unsolicited
+                                                                        electronic communications‚ such as “spam‚” or
+                                                                        otherwise interfere with other users’ enjoyment
+                                                                        of the Site;<br />
+                                                                        submit to this Site any content that falsely
+                                                                        states or implies that such content is sponsored
+                                                                        or endorsed by us;<br />
+                                                                        transmit or upload to this Site any item
+                                                                        containing or embodying any virus‚ worm‚ defect‚
+                                                                        malware‚ Trojan horse‚ software bomb or other
+                                                                        feature designed to damage or degrade in any
+                                                                        manner the performance of this Site‚ any other
+                                                                        Web site‚ or any computer or other device or
+                                                                        system‚ or the enjoyment of this Site by any
+                                                                        user;<br />
+                                                                        use this Site to violate the security of or gain
+                                                                        unauthorized access to any computer or computer
+                                                                        network or other device or system (including
+                                                                        unauthorized attempts to discover passwords or
+                                                                        security encryption codes);<br />
+                                                                        submit to this Site any content that is unlawful
+                                                                        or facilitates‚ constitutes‚ promotes or
+                                                                        encourages illegal activity; or otherwise use
+                                                                        the Site to transfer or store illegal material‚
+                                                                        including any material deemed threatening or
+                                                                        obscene;<br />
+                                                                        copy or store any User Content offered on this
+                                                                        Site other than for your personal‚
+                                                                        non-commercial use;<br />
+                                                                        take any action that imposes‚ or may impose‚ in
+                                                                        our sole discretion‚ an unreasonable or
+                                                                        disproportionately large data or traffic load on
+                                                                        this Site or the IT infrastructure used to
+                                                                        operate and make this Site available; or<br />
+                                                                        use this Site and/ or any User Content‚
+                                                                        intentionally or unintentionally‚ to violate any
+                                                                        applicable local‚ state‚ federal or
+                                                                        international law.<br />
+                                                                        We have no obligation to monitor any user
+                                                                        conduct on this Site, and We reserve the right
+                                                                        and have absolute discretion to monitor any user
+                                                                        conduct on this Site at any time and for any
+                                                                        reason without notice.</p>
+                                                                    <h6><strong>Ownership</strong></h6>
+                                                                    <p>As between you and Us‚ this Site‚ including all
+                                                                        photographs‚ images‚ text‚ graphics‚ icons‚
+                                                                        audio clips‚ software‚ source code and other
+                                                                        aspects thereof (excluding User Content)‚ all
+                                                                        improvements or modifications thereof‚ all
+                                                                        derivative works based thereon‚ and the
+                                                                        collection‚ arrangement‚ and assembly of this
+                                                                        Site (collectively, the “Site Content”)‚
+                                                                        including all copyrights‚ trademarks‚ and other
+                                                                        intellectual property or proprietary rights in
+                                                                        the foregoing‚ are owned by Us or our licensors
+                                                                        and protected by applicable copyright
+                                                                        laws.<br />
+                                                                        The use of any of Our trademarks or service
+                                                                        marks without our express written consent is
+                                                                        strictly prohibited. You may not use our
+                                                                        trademarks or service marks in connection with
+                                                                        any product or service in any way that is likely
+                                                                        to cause confusion. You may not use our
+                                                                        trademarks or service marks in any manner that
+                                                                        disparages or discredits us. You may not use any
+                                                                        of our trademarks or service marks in meta tags
+                                                                        without prior explicit consent. Nothing in these
+                                                                        Terms shall be deemed to grant to you or any
+                                                                        other user any license or right in or to any of
+                                                                        Our patents‚ copyrights‚ trademarks‚ trade
+                                                                        secrets or other proprietary rights.</p>
+                                                                    <h6><strong>Purchases on this Site</strong></h6>
+                                                                    <p>You agree that all of your transactions with or
+                                                                        through this Site may, at Our option, be
+                                                                        conducted electronically from start to finish.
+                                                                        If We decide to proceed non-electronically,
+                                                                        those transactions will still be governed by the
+                                                                        remainder of these Terms unless you enter into
+                                                                        different terms provided by us. You are
+                                                                        responsible to print or make an electronic a
+                                                                        copy of these Terms and any other contract or
+                                                                        disclosure that we are required to provide to
+                                                                        you.<br />
+                                                                        The risk of loss and title for items purchased
+                                                                        by you on this Site pass to you upon our
+                                                                        delivery of the items to the carrier pursuant to
+                                                                        a shipment contract.<br />
+                                                                        We charge sales tax for merchandise ordered on
+                                                                        this Site based on the applicable state sales
+                                                                        tax rate of the location to which the order is
+                                                                        being shipped.<br />
+                                                                        When We ship to you or per your directions to
+                                                                        another person, you agree to pay the shipping
+                                                                        and any handling charges shown on this Site when
+                                                                        your order is placed. We reserve the right to
+                                                                        increase, decrease and add or eliminate charges
+                                                                        from time to time and without prior notice, so
+                                                                        you agree to check all charges before placing an
+                                                                        order or signing up for a service. Any shipping
+                                                                        or handling charges may or may not reflect
+                                                                        actual costs.<br />
+                                                                        Only valid credit cards or other payment method
+                                                                        acceptable to us may be used. By submitting your
+                                                                        order, you represent and warrant that you are
+                                                                        authorized to use the designated card or method
+                                                                        and authorize us to charge your order (including
+                                                                        taxes, shipping, handling and any other amounts
+                                                                        described on the Sites) to that card or other
+                                                                        method. If the card (or other method) cannot be
+                                                                        verified, is invalid, or is not otherwise
+                                                                        acceptable, your order may be suspended or
+                                                                        cancelled automatically.</p>
+                                                                    <p>All returns are governed by our Return Policy,
+                                                                        which can be found at [INSERT LINK TO YOUR
+                                                                        REFUND POLICY].<br />
+                                                                        We attempt to be as accurate as possible and
+                                                                        eliminate errors on this Site; however, We do
+                                                                        not warrant that any product, service,
+                                                                        description, photograph, pricing or other
+                                                                        information is accurate, complete, reliable,
+                                                                        current or error-free. In the event of an error,
+                                                                        whether on this Site, in an order confirmation,
+                                                                        in processing an order, delivering a product or
+                                                                        service or otherwise, We reserve the right to
+                                                                        correct such error and revise your order
+                                                                        accordingly if necessary (including charging the
+                                                                        correct price) or to cancel the order and refund
+                                                                        any amount charged. Your sole remedy in the
+                                                                        event of such error is to cancel your order and
+                                                                        obtain a refund.</p>
+                                                                    <p>All items are subject to availability and We
+                                                                        reserve the right to impose quantity limits on
+                                                                        any order, to reject all or part of an order and
+                                                                        to discontinue products or services without
+                                                                        notice, even if you have already placed your
+                                                                        order. All prices are subject to change without
+                                                                        notice. We reserve the right to refuse or cancel
+                                                                        any orders placed for products and/or services
+                                                                        which the sale or use of such product and/or
+                                                                        service in your state or jurisdiction is
+                                                                        restricted or prohibited.</p>
+                                                                    <h6><strong>Links</strong></h6>
+                                                                    <p>This Site may contain links to other sites on the
+                                                                        Internet that are owned and operated by third
+                                                                        parties. You acknowledge that We are not
+                                                                        responsible for the operation of or content
+                                                                        located on or through any such site.</p>
+                                                                    <h6><strong>Termination</strong></h6>
+                                                                    <p>You may terminate the Terms at any time by
+                                                                        closing your account, discontinuing your use of
+                                                                        this Site and providing Us with a notice of
+                                                                        termination. We reserve the right, without
+                                                                        notice and in our sole discretion, to terminate
+                                                                        your right to use this Site, or any portion of
+                                                                        this Site, and to block or prevent your future
+                                                                        access to and use of this Site or any portion of
+                                                                        this Site.</p>
+                                                                    <h6><strong>Indemnification</strong></h6>
+                                                                    <p>To the fullest extent permitted by applicable
+                                                                        law, you agree to defend, indemnify and hold
+                                                                        harmless Us and our subsidiaries and affiliates,
+                                                                        and our respective officers, directors, agents,
+                                                                        partners, members, employees, independent
+                                                                        contractors, service providers and consultants
+                                                                        (“Our Related Parties”), from and against any
+                                                                        claims, damages, costs, liabilities and expenses
+                                                                        (collectively, “Claims”) arising out of or
+                                                                        related to (a) your access to and use or misuse
+                                                                        of this Site; (b) any User Content you post,
+                                                                        upload, use, distribute, store or otherwise
+                                                                        transmit on or through this Site; (c) any
+                                                                        Feedback that you provide; (d) your violation of
+                                                                        these Terms; and (e) your violation of any
+                                                                        rights of another. You agree to promptly notify
+                                                                        Us of any third party Claims, cooperate with Us
+                                                                        in defending such Claims and pay all fees, costs
+                                                                        and expenses associated with defending such
+                                                                        Claims (including but not limited to attorneys’
+                                                                        fees). You further agree that the We shall have
+                                                                        the right to control of the defense or
+                                                                        settlement of any third party Claims.</p>
+                                                                    <h6><strong>Disclaimers</strong></h6>
+                                                                    <p>Except as expressly provided, this Site,
+                                                                        including all Site Content, and services
+                                                                        provided on or in connection with this Site are
+                                                                        provided on an “AS IS” and “WITH ALL FAULTS”
+                                                                        basis without representations, warranties or
+                                                                        conditions of any kind, either express or
+                                                                        implied. WE DISCLAIM ALL OTHER REPRESENTATIONS,
+                                                                        WARRANTIES, CONDITIONS AND DUTIES, EXPRESS,
+                                                                        IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED
+                                                                        TO IMPLIED WARRANTIES, DUTIES OR CONDITIONS: (A)
+                                                                        OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+                                                                        PURPOSE OR USE, RESULTS, TITLE, AND
+                                                                        NON-INFRINGEMENT; AND (B) CREATED BY TRADE
+                                                                        USAGE, COURSE OF DEALING OR COURSE OF
+                                                                        PERFORMANCE. We does not represent or warrant
+                                                                        that this Site is accurate, complete, reliable,
+                                                                        current or error-free. We do not represent or
+                                                                        warrant that this Site or our servers are free
+                                                                        of viruses or other harmful components.</p>
+                                                                    <h6><strong>Exclusivity of Remedy; Limitation of
+                                                                            Liability</strong></h6>
+                                                                    <p>Your sole and exclusive remedy, and Our sole and
+                                                                        exclusive liability, for any breach of warranty
+                                                                        shall be your right to return the product, or
+                                                                        receive a refund for the service under Our
+                                                                        applicable returns and exchanges policies. IN NO
+                                                                        EVENT SHALL THE WE OR OUR RELATED PARTIES, BE
+                                                                        LIABLE FOR SPECIAL, INDIRECT, INCIDENTAL, OR
+                                                                        CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS OR
+                                                                        LOSS OF BUSINESS, EVEN IF THEY HAVE BEEN ADVISED
+                                                                        OF THE POSSIBILITY OF SUCH DAMAGES, NOR SHALL
+                                                                        OUR AND OUR RELATED PARTIES’ AGGREGATE
+                                                                        LIABILITY, WHETHER IN CONTRACT, WARRANTY, TORT
+                                                                        (INCLUDING NEGLIGENCE, WHETHER ACTIVE, PASSIVE
+                                                                        OR IMPUTED), OR OTHER THEORY, ARISING OUT OF OR
+                                                                        RELATING TO THESE TERMS OR THE PURCHASE OR USE
+                                                                        OF ANY PRODUCTS OR SERVICES PURCHASED THROUGH
+                                                                        THIS SITE EXCEED THE PURCHASE PRICE OF THE
+                                                                        PRODUCT OR SERVICE. THE LIMITATIONS SET FORTH IN
+                                                                        THIS PARAGRAPH WILL NOT LIMIT OR EXCLUDE OUR OR
+                                                                        OUR RELATED PARTIES’ GROSS NEGLIGENCE, FRAUD,
+                                                                        INTENTIONAL, WILLFUL, MALICIOUS OR RECKLESS
+                                                                        MISCONDUCT.</p>
+                                                                    <h6><strong>Remedies</strong></h6>
+                                                                    <p>You agree that our remedy at law for any actual
+                                                                        or threatened breach of these Terms would be
+                                                                        inadequate and that we shall be entitled to
+                                                                        specific performance or injunctive relief, or
+                                                                        both, in addition to any damages that we may be
+                                                                        legally entitled to recover, together with
+                                                                        reasonable expenses of any form of dispute
+                                                                        resolution, including, without limitation,
+                                                                        attorneys’ fees.<br />
+                                                                        No right or remedy of ours shall be exclusive of
+                                                                        any other, whether at law or in equity,
+                                                                        including without limitation damages injunctive
+                                                                        relief, attorneys’ fees and expenses.</p>
+                                                                    <h6><strong>Modifications to Site</strong></h6>
+                                                                    <p>We reserve the right to modify or discontinue,
+                                                                        temporarily or permanently, this Site or any
+                                                                        features or portions thereof without prior
+                                                                        notice.</p>
+                                                                    <h6><strong>Severability</strong></h6>
+                                                                    <p>If any these provisions shall be deemed invalid,
+                                                                        void, or for any reason unenforceable, that
+                                                                        condition shall be deemed several and shall not
+                                                                        affect the validity and enforceability of any
+                                                                        remaining provision.</p>
+                                                                    <h6><strong>No Third-Party Beneficiaries</strong>
+                                                                    </h6>
+                                                                    <p>These Terms are for the benefit of, and will be
+                                                                        enforceable by, the parties only. These Terms
+                                                                        are not intended to confer any right or benefit
+                                                                        on any third party or to create any obligations
+                                                                        or liability of a party to any such third party.
+                                                                    </p>
+                                                                    <h6><strong>Miscellaneous</strong></h6>
+                                                                    <p>No agency‚ partnership‚ joint venture‚ or
+                                                                        employment relationship is created as a result
+                                                                        of these Terms‚ and you do not have any
+                                                                        authority of any kind to bind Us in any respect
+                                                                        whatsoever. We may provide you with notices‚
+                                                                        including those regarding changes to these
+                                                                        Terms‚ by email‚ regular mail‚ or postings on
+                                                                        this Site. These Terms, which shall be deemed
+                                                                        accepted by you upon your use of the Site‚
+                                                                        constitute the entire agreement among you and Us
+                                                                        regarding use of this Site. Our failure to
+                                                                        exercise or enforce any right or provision of
+                                                                        these Terms shall not constitute a waiver of the
+                                                                        enforcement of such right or provision. If any
+                                                                        provision of these Terms is found to be
+                                                                        unenforceable or invalid‚ that provision shall
+                                                                        be limited or eliminated to the minimum extent
+                                                                        necessary so that these Terms shall otherwise
+                                                                        remain in full force and effect and enforceable.
+                                                                        These Terms are not assignable‚ transferable or
+                                                                        sublicensable by you‚ except with our prior
+                                                                        written consent. These Terms include and
+                                                                        incorporate by reference Our Privacy Policy,
+                                                                        which can be found at [INSERT LINK TO YOUR
+                                                                        PRIVACY POLICY], and any notices regarding the
+                                                                        Site.</p>
+                                                                    <h6><strong>Questions</strong></h6>
+                                                                    <p>Questions regarding these Terms, Our Privacy
+                                                                        Policy, or other policy related material can be
+                                                                        directed to our support staff by emailing us at:
+                                                                        <a href="/cdn-cgi/l/email-protection"
+                                                                            class="__cf_email__"
+                                                                            data-cfemail="8cede8e1e5e2ccefe4f9e5e6e4ede0a2efe3e1">[email&#160;protected]</a>.
+                                                                    </p>
                                                                 </div>
                                                             </div>
+                                                            <div id="vc_empty_space_4" class="vc_empty_space"
+                                                                style="height: 60px"><span
+                                                                    class="vc_empty_space_inner"></span></div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -2026,8 +2327,7 @@
         <a class="register-link"
             href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/">Create
             an account</a>
-        <form class="" method="post" action="{{ route('contact.store') }}">
-            @csrf
+        <form class="woocommerce-form woocommerce-form-login login" method="post">
             <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
                 <label for="username">Username or email address <span class="required">*</span></label>
                 <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username"
@@ -2068,8 +2368,8 @@
             <p class="form-row">
                 <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce"
                     value="e5cbfda3a7" /><input type="hidden" name="_wp_http_referer"
-                    value="/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97/" /> <input type="submit"
-                    class="woocommerce-Button button" name="login" value="Login" />
+                    value="/%e0%a6%b6%e0%a6%b0%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%ac%e0%a6%b2%e0%a7%80/" /> <input
+                    type="submit" class="woocommerce-Button button" name="login" value="Login" />
                 <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
                     <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme"
                         type="checkbox" id="rememberme" value="forever" /> <span>Remember me</span>
@@ -2090,7 +2390,7 @@
         src="data:text/javascript;base64,Y29uc3QgbGF6eWxvYWRSdW5PYnNlcnZlcj0oKT0+e2NvbnN0IGxhenlsb2FkQmFja2dyb3VuZHM9ZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbChgLmUtY29uLmUtcGFyZW50Om5vdCguZS1sYXp5bG9hZGVkKWApO2NvbnN0IGxhenlsb2FkQmFja2dyb3VuZE9ic2VydmVyPW5ldyBJbnRlcnNlY3Rpb25PYnNlcnZlcigoZW50cmllcyk9PntlbnRyaWVzLmZvckVhY2goKGVudHJ5KT0+e2lmKGVudHJ5LmlzSW50ZXJzZWN0aW5nKXtsZXQgbGF6eWxvYWRCYWNrZ3JvdW5kPWVudHJ5LnRhcmdldDtpZihsYXp5bG9hZEJhY2tncm91bmQpe2xhenlsb2FkQmFja2dyb3VuZC5jbGFzc0xpc3QuYWRkKCdlLWxhenlsb2FkZWQnKX0KbGF6eWxvYWRCYWNrZ3JvdW5kT2JzZXJ2ZXIudW5vYnNlcnZlKGVudHJ5LnRhcmdldCl9fSl9LHtyb290TWFyZ2luOicyMDBweCAwcHggMjAwcHggMHB4J30pO2xhenlsb2FkQmFja2dyb3VuZHMuZm9yRWFjaCgobGF6eWxvYWRCYWNrZ3JvdW5kKT0+e2xhenlsb2FkQmFja2dyb3VuZE9ic2VydmVyLm9ic2VydmUobGF6eWxvYWRCYWNrZ3JvdW5kKX0pfTtjb25zdCBldmVudHM9WydET01Db250ZW50TG9hZGVkJywnZWxlbWVudG9yL2xhenlsb2FkL29ic2VydmUnLF07ZXZlbnRzLmZvckVhY2goKGV2ZW50KT0+e2RvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoZXZlbnQsbGF6eWxvYWRSdW5PYnNlcnZlcil9KQ=="
         defer></script>
     <script type="text/html" id="wpb-modifications"></script><noscript><img height="1" width="1" style="display: none;"
-            src="https://www.facebook.com/tr?id=427272935467605&ev=PageView&noscript=1&cd%5Bpage_title%5D=%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%AF%E0%A7%8B%E0%A6%97&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=11905&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chuijhal.com%2F%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%25e0%25a6%25be%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%2F"
+            src="https://www.facebook.com/tr?id=427272935467605&ev=PageView&noscript=1&cd%5Bpage_title%5D=%E0%A6%B6%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%AC%E0%A6%B2%E0%A7%80&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=16264&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chuijhal.com%2F%25e0%25a6%25b6%25e0%25a6%25b0%25e0%25a7%258d%25e0%25a6%25a4%25e0%25a6%25be%25e0%25a6%25ac%25e0%25a6%25b2%25e0%25a7%2580%2F"
             alt=""></noscript>
     <script type="text/javascript"
         src="data:text/javascript;base64,KGZ1bmN0aW9uKCl7dmFyIGM9ZG9jdW1lbnQuYm9keS5jbGFzc05hbWU7Yz1jLnJlcGxhY2UoL3dvb2NvbW1lcmNlLW5vLWpzLywnd29vY29tbWVyY2UtanMnKTtkb2N1bWVudC5ib2R5LmNsYXNzTmFtZT1jfSkoKQ=="
@@ -2151,7 +2451,7 @@
         src="data:text/javascript;base64,dmFyIF93cG1lanNTZXR0aW5ncz17InBsdWdpblBhdGgiOiJcL3dwLWluY2x1ZGVzXC9qc1wvbWVkaWFlbGVtZW50XC8iLCJjbGFzc1ByZWZpeCI6Im1lanMtIiwic3RyZXRjaGluZyI6InJlc3BvbnNpdmUiLCJhdWRpb1Nob3J0Y29kZUxpYnJhcnkiOiJtZWRpYWVsZW1lbnQiLCJ2aWRlb1Nob3J0Y29kZUxpYnJhcnkiOiJtZWRpYWVsZW1lbnQifQ=="
         defer></script>
     <script type="text/javascript" id="epico_custom-js-extra"
-        src="data:text/javascript;base64,dmFyIGVwaWNvX3RoZW1lX3ZhcnM9eyJ1cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tIiwiaG9tZV91cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC8iLCJpbWciOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC93cC1jb250ZW50XC90aGVtZXNcL3ZpdHJpbmVcL2Fzc2V0c1wvaW1nIiwiYWpheF91cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC93cC1hZG1pblwvYWRtaW4tYWpheC5waHAiLCJub25jZSI6IjlhNDM2Y2FhZGMiLCJ6b29tTGV2ZWwiOiIxMyIsImljb25NYXAiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC93cC1jb250ZW50XC90aGVtZXNcL3ZpdHJpbmVcL2Fzc2V0c1wvaW1nXC9tYXJrZXIucG5nIiwiY3VzdG9tTWFwIjoiMCIsImNpdHlNYXBDZW50ZXJMYXQiOiIyMy44MTI4ODEiLCJjaXR5TWFwQ2VudGVyTG5nIjoiIDkwLjM2MjA5MyIsImN1c3RvbUFwaUtleSI6IiIsIkFwaUtleSI6IjAiLCJzY3JvbGxpbmdfc3BlZWQiOiIxMDA1Iiwic2Nyb2xsaW5nX2Vhc2luZyI6ImVhc2VJbk91dFF1YXJ0IiwiYWRkaXRpb25hbGpzIjoiIn07dmFyIG5vX2FqYXhfb2JqZWN0cz17Im5vX2FqYXhfcGFnZXMiOlsiaHR0cHM6XC9cL2NodWlqaGFsLmNvbVwvd3AtbG9naW4ucGhwP2FjdGlvbj1sb2dvdXQmX3dwbm9uY2U9MmVkYTk4YTliOSJdfTt2YXIgcGFnZWRfZGF0YT17InN0YXJ0UGFnZSI6IjEiLCJtYXhQYWdlcyI6Ijk4IiwibmV4dExpbmsiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC8lZTAlYTYlYWYlZTAlYTclOGIlZTAlYTYlOTclZTAlYTYlYmUlZTAlYTYlYWYlZTAlYTclOGIlZTAlYTYlOTdcL3BhZ2VcLzJcLyIsImxvYWRpbmdUZXh0IjoiTG9hZGluZy4uLiIsImxvYWRNb3JlVGV4dCI6Im1vcmUgcG9zdHMiLCJub01vcmVQb3N0c1RleHQiOiJObyBNb3JlIFBvc3RzIn07dmFyIHdjX3NpbmdsZV9wcm9kdWN0X3BhcmFtcz17ImkxOG5fcmVxdWlyZWRfcmF0aW5nX3RleHQiOiJQbGVhc2Ugc2VsZWN0IGEgcmF0aW5nIiwicmV2aWV3X3JhdGluZ19yZXF1aXJlZCI6InllcyJ9"
+        src="data:text/javascript;base64,dmFyIGVwaWNvX3RoZW1lX3ZhcnM9eyJ1cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tIiwiaG9tZV91cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC8iLCJpbWciOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC93cC1jb250ZW50XC90aGVtZXNcL3ZpdHJpbmVcL2Fzc2V0c1wvaW1nIiwiYWpheF91cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC93cC1hZG1pblwvYWRtaW4tYWpheC5waHAiLCJub25jZSI6IjlhNDM2Y2FhZGMiLCJ6b29tTGV2ZWwiOiIxIiwiaWNvbk1hcCI6Imh0dHBzOlwvXC9jaHVpamhhbC5jb21cL3dwLWNvbnRlbnRcL3RoZW1lc1wvdml0cmluZVwvYXNzZXRzXC9pbWdcL21hcmtlci5wbmciLCJjdXN0b21NYXAiOiIxIiwiY2l0eU1hcENlbnRlckxhdCI6IiIsImNpdHlNYXBDZW50ZXJMbmciOiIiLCJjdXN0b21BcGlLZXkiOiIiLCJBcGlLZXkiOiIwIiwic2Nyb2xsaW5nX3NwZWVkIjoiMTAwNSIsInNjcm9sbGluZ19lYXNpbmciOiJlYXNlSW5PdXRRdWFydCIsImFkZGl0aW9uYWxqcyI6IiJ9O3ZhciBub19hamF4X29iamVjdHM9eyJub19hamF4X3BhZ2VzIjpbImh0dHBzOlwvXC9jaHVpamhhbC5jb21cL3dwLWxvZ2luLnBocD9hY3Rpb249bG9nb3V0Jl93cG5vbmNlPTJlZGE5OGE5YjkiXX07dmFyIHBhZ2VkX2RhdGE9eyJzdGFydFBhZ2UiOiIxIiwibWF4UGFnZXMiOiI5OCIsIm5leHRMaW5rIjoiaHR0cHM6XC9cL2NodWlqaGFsLmNvbVwvJWUwJWE2JWI2JWUwJWE2JWIwJWUwJWE3JThkJWUwJWE2JWE0JWUwJWE2JWJlJWUwJWE2JWFjJWUwJWE2JWIyJWUwJWE3JTgwXC9wYWdlXC8yXC8iLCJsb2FkaW5nVGV4dCI6IkxvYWRpbmcuLi4iLCJsb2FkTW9yZVRleHQiOiJtb3JlIHBvc3RzIiwibm9Nb3JlUG9zdHNUZXh0IjoiTm8gTW9yZSBQb3N0cyJ9O3ZhciB3Y19zaW5nbGVfcHJvZHVjdF9wYXJhbXM9eyJpMThuX3JlcXVpcmVkX3JhdGluZ190ZXh0IjoiUGxlYXNlIHNlbGVjdCBhIHJhdGluZyIsInJldmlld19yYXRpbmdfcmVxdWlyZWQiOiJ5ZXMifQ=="
         defer></script>
     <script data-optimized="1" type="text/javascript"
         src="https://chuijhal.com/wp-content/litespeed/js/8ff21990f021a3c814ef7f8832ad9741.js?ver=d9741"

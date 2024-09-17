@@ -52,6 +52,18 @@ class WebsiteController extends Controller
         dd($request->all());
     }
 
+    public function aboutUs(){
+        return view('website.version1.about-us');
+    }
+
+    public function policy(){
+        return view('website.version1.policy');
+    }
+
+    public function tearms(){
+        return view('website.version1.tearms');
+    }
+
 
 
 }

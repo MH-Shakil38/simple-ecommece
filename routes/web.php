@@ -42,6 +42,9 @@ Route::get('/order-received/{id}',[\App\Http\Controllers\OrderController::class,
 Route::get('/cart',[\App\Http\Controllers\OrderController::class,'cart'])->name('cart');
 Route::get('/contact',[WebsiteController::class,'contact'])->name('contact');
 Route::post('/contact-store',[WebsiteController::class,'contactStore'])->name('contact.store');
+Route::get('/about',[WebsiteController::class,'aboutUs'])->name('about.us');
+Route::get('/privacy-policy',[WebsiteController::class,'policy'])->name('policy');
+Route::get('/tearms-condition',[WebsiteController::class,'tearms'])->name('tearms');
 
 Auth::routes();
 

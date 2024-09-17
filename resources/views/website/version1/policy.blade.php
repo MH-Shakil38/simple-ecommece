@@ -26,19 +26,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="pingback" href="https://chuijhal.com/xmlrpc.php" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <title>যোগাযোগ - Exoticagro</title>
-    <link rel="canonical" href="https://chuijhal.com/যোগাযোগ/" />
+    <title>গোপনীয়তা নীতি - Exoticagro</title>
+    <link rel="canonical" href="https://chuijhal.com/গোপনীয়তা-নীতি/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="যোগাযোগ - Exoticagro" />
-    <meta property="og:url" content="https://chuijhal.com/যোগাযোগ/" />
+    <meta property="og:title" content="গোপনীয়তা নীতি - Exoticagro" />
+    <meta property="og:description" content="&nbsp;" />
+    <meta property="og:url" content="https://chuijhal.com/গোপনীয়তা-নীতি/" />
     <meta property="og:site_name" content="Exoticagro" />
     <meta property="article:publisher" content="https://www.facebook.com/chuijhal.cooking/" />
-    <meta property="article:modified_time" content="2023-03-11T17:04:24+00:00" />
+    <meta property="article:modified_time" content="2023-01-09T14:27:11+00:00" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@chuijhal" />
     <meta name="twitter:label1" content="Est. reading time" />
-    <meta name="twitter:data1" content="1 minute" />
+    <meta name="twitter:data1" content="7 minutes" />
     <script type="application/javascript" id="pys-version-script">console.log('PixelYourSite Free version 9.7.2');</script>
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="dns-prefetch" href="//www.googletagmanager.com" />
@@ -610,7 +611,7 @@
 
         /* Anchor */
         a {
-            color: #ff4c2f;
+            color: #168d44;
         }
 
         a:hover {
@@ -619,12 +620,12 @@
 
         /* Text Selection */
         ::-moz-selection {
-            background: #ff4c2f;
+            background: #168d44;
             /* Firefox */
         }
 
         ::selection {
-            background: #ff4c2f;
+            background: #168d44;
             /* Safari */
         }
 
@@ -730,7 +731,7 @@
         .galleryexternallink,
         .page-load-status .view-more-button:hover,
         .ep-popup-newsletter-shortcode .widget_wysija_cont .wysija-submit {
-            background-color: #ff4c2f;
+            background-color: #168d44;
         }
 
         .nice-select .option:hover,
@@ -742,7 +743,7 @@
         .widget_shopping_cart_content a.wc-forward.button,
         .nice-select .option:hover,
         .toggleSidebar.cartSidebarContainer .cart-bottom-box .buttons a.checkout {
-            background-color: #ff4c2f !important;
+            background-color: #168d44 !important;
         }
 
         .woocommerce ul.products li.product a:hover h3,
@@ -848,7 +849,7 @@
         .widget_product_categories .cats-toggle.toggle-active,
         .footer-widgetized .product-categories li.current-cat>a,
         form.woocommerce-currency-switcher-form .dd-option .dd-option-text:hover {
-            color: #ff4c2f;
+            color: #168d44;
         }
 
         .woocommerce div.product form.cart .group_table .woocommerce-grouped-product-list-item__price,
@@ -880,7 +881,7 @@
         .summary.entry-summary .button.compare.added:before,
         .lang-sel ul.lang_link>li:hover a,
         .summary.entry-summary .button.compare:hover {
-            color: #ff4c2f !important;
+            color: #168d44 !important;
         }
 
 
@@ -919,7 +920,7 @@
         .widget-area .product-categories li.cat-item a:hover:before,
         .widget-area .product-categories li.cat-item a:hover:before,
         .galleryexternallink {
-            border-color: #ff4c2f;
+            border-color: #168d44;
         }
 
         .woocommerce .blockUI.blockOverlay:after,
@@ -935,11 +936,11 @@
         .showcase .swiper-button-prev:hover:before,
         .showcase .swiper-button-next:hover:before,
         .mejs-overlay-loading:after {
-            border-right-color: #ff4c2f;
+            border-right-color: #168d44;
         }
 
         .sticky .blogAccordion .rightBorder {
-            border-right-color: #ff4c2f !important;
+            border-right-color: #168d44 !important;
         }
 
         .testimonials .quot-icon:before,
@@ -949,7 +950,7 @@
         .vc_tta-tabs-position-bottom li.vc_tta-tab.vc_active,
         .showcase .swiper-button-prev:hover:before,
         .showcase .swiper-button-next:hover:before {
-            border-top-color: #ff4c2f;
+            border-top-color: #168d44;
         }
 
 
@@ -987,7 +988,7 @@
         .custom-title .shape-container.triangle .shape-line,
         .custom-title .shape-container.triangle .shape-line:after,
         .custom-title .shape-container.triangle .shape-line:before {
-            border-bottom-color: #ff4c2f;
+            border-bottom-color: #168d44;
         }
 
         .loading-next-page,
@@ -995,7 +996,7 @@
         .testimonials .quot-icon:before,
         .textLeftBorder.fontSize123 .title,
         .textLeftBorder .title {
-            border-left-color: #ff4c2f;
+            border-left-color: #168d44;
         }
 
         .touchevents #comment-text .button.button-large,
@@ -1012,7 +1013,7 @@
         .custom-title .shape-container.square .shape-line,
         .custom-title .shape-container.rotated_square .shape-line,
         .custom-title .shape-container.circle .shape-line {
-            border-color: #ff4c2f;
+            border-color: #168d44;
         }
 
 
@@ -1421,7 +1422,7 @@
 
         /* Snap to scroll */
         #snap-to-scroll-nav span:after {
-            background: #ff4c2f;
+            background: #168d44;
         }
 
 
@@ -1431,7 +1432,7 @@
         /* Popup Newsletter */
 
         .ep-popup-newsletter-shortcode.ep-newsletter .widget_wysija_cont .wysija-submit:hover {
-            color: #ff4c2f !important;
+            color: #168d44 !important;
         }
     </style>
     <link data-optimized="1" rel="stylesheet" id="epico_responsive-style-css"
@@ -1479,19 +1480,19 @@
         src="https://chuijhal.com/wp-content/litespeed/js/4f15c0175a24814cd977b486e68707f3.js?ver=707f3"
         id="js-cookie-pys-js" defer data-deferred="1"></script>
     <script type="text/javascript" id="pys-js-extra"
-        src="data:text/javascript;base64,dmFyIHB5c09wdGlvbnM9eyJzdGF0aWNFdmVudHMiOnsiZmFjZWJvb2siOnsiaW5pdF9ldmVudCI6W3siZGVsYXkiOjAsInR5cGUiOiJzdGF0aWMiLCJuYW1lIjoiUGFnZVZpZXciLCJwaXhlbElkcyI6WyI0MjcyNzI5MzU0Njc2MDUiXSwiZXZlbnRJRCI6IjZhZTVjNDRmLTdhOWYtNGMyZS04NGExLTc3ZDliZmJiMzI1YyIsInBhcmFtcyI6eyJwYWdlX3RpdGxlIjoiXHUwOWFmXHUwOWNiXHUwOTk3XHUwOWJlXHUwOWFmXHUwOWNiXHUwOTk3IiwicG9zdF90eXBlIjoicGFnZSIsInBvc3RfaWQiOjExOTA1LCJwbHVnaW4iOiJQaXhlbFlvdXJTaXRlIiwidXNlcl9yb2xlIjoiZ3Vlc3QiLCJldmVudF91cmwiOiJjaHVpamhhbC5jb21cLyVlMCVhNiVhZiVlMCVhNyU4YiVlMCVhNiU5NyVlMCVhNiViZSVlMCVhNiVhZiVlMCVhNyU4YiVlMCVhNiU5N1wvIn0sImVfaWQiOiJpbml0X2V2ZW50IiwiaWRzIjpbXSwiaGFzVGltZVdpbmRvdyI6ITEsInRpbWVXaW5kb3ciOjAsIndvb19vcmRlciI6IiIsImVkZF9vcmRlciI6IiJ9XX19LCJkeW5hbWljRXZlbnRzIjpbXSwidHJpZ2dlckV2ZW50cyI6W10sInRyaWdnZXJFdmVudFR5cGVzIjpbXSwiZmFjZWJvb2siOnsicGl4ZWxJZHMiOlsiNDI3MjcyOTM1NDY3NjA1Il0sImFkdmFuY2VkTWF0Y2hpbmciOltdLCJhZHZhbmNlZE1hdGNoaW5nRW5hYmxlZCI6ITAsInJlbW92ZU1ldGFkYXRhIjohMSwiY29udGVudFBhcmFtcyI6eyJwb3N0X3R5cGUiOiJwYWdlIiwicG9zdF9pZCI6MTE5MDUsImNvbnRlbnRfbmFtZSI6Ilx1MDlhZlx1MDljYlx1MDk5N1x1MDliZVx1MDlhZlx1MDljYlx1MDk5NyJ9LCJjb21tZW50RXZlbnRFbmFibGVkIjohMCwid29vVmFyaWFibGVBc1NpbXBsZSI6ITEsImRvd25sb2FkRW5hYmxlZCI6ITAsImZvcm1FdmVudEVuYWJsZWQiOiEwLCJzZXJ2ZXJBcGlFbmFibGVkIjohMCwid29vQ1JTZW5kRnJvbVNlcnZlciI6ITEsInNlbmRfZXh0ZXJuYWxfaWQiOm51bGx9LCJnYSI6eyJ0cmFja2luZ0lkcyI6WyJHLVE0TldXMTJTVzIiXSwiY29tbWVudEV2ZW50RW5hYmxlZCI6ITAsImRvd25sb2FkRW5hYmxlZCI6ITAsImZvcm1FdmVudEVuYWJsZWQiOiEwLCJjcm9zc0RvbWFpbkVuYWJsZWQiOiExLCJjcm9zc0RvbWFpbkFjY2VwdEluY29taW5nIjohMSwiY3Jvc3NEb21haW5Eb21haW5zIjpbXSwiaXNEZWJ1Z0VuYWJsZWQiOlsiaW5kZXhfMCJdLCJzZXJ2ZXJDb250YWluZXJVcmxzIjp7IkctUTROV1cxMlNXMiI6eyJlbmFibGVfc2VydmVyX2NvbnRhaW5lciI6IiIsInNlcnZlcl9jb250YWluZXJfdXJsIjoiIiwidHJhbnNwb3J0X3VybCI6IiJ9fSwiYWRkaXRpb25hbENvbmZpZyI6eyJHLVE0TldXMTJTVzIiOnsiZmlyc3RfcGFydHlfY29sbGVjdGlvbiI6ITB9fSwiZGlzYWJsZUFkdmVydGlzaW5nRmVhdHVyZXMiOiExLCJkaXNhYmxlQWR2ZXJ0aXNpbmdQZXJzb25hbGl6YXRpb24iOiExLCJ3b29WYXJpYWJsZUFzU2ltcGxlIjohMCwiY3VzdG9tX3BhZ2Vfdmlld19ldmVudCI6ITF9LCJkZWJ1ZyI6IiIsInNpdGVVcmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tIiwiYWpheFVybCI6Imh0dHBzOlwvXC9jaHVpamhhbC5jb21cL3dwLWFkbWluXC9hZG1pbi1hamF4LnBocCIsImFqYXhfZXZlbnQiOiJiYWYzMzM5MmYzIiwiZW5hYmxlX3JlbW92ZV9kb3dubG9hZF91cmxfcGFyYW0iOiIxIiwiY29va2llX2R1cmF0aW9uIjoiNyIsImxhc3RfdmlzaXRfZHVyYXRpb24iOiI2MCIsImVuYWJsZV9zdWNjZXNzX3NlbmRfZm9ybSI6IiIsImFqYXhGb3JTZXJ2ZXJFdmVudCI6IjEiLCJhamF4Rm9yU2VydmVyU3RhdGljRXZlbnQiOiIxIiwic2VuZF9leHRlcm5hbF9pZCI6IjEiLCJleHRlcm5hbF9pZF9leHBpcmUiOiIxODAiLCJnb29nbGVfY29uc2VudF9tb2RlIjoiMSIsImdkcHIiOnsiYWpheF9lbmFibGVkIjohMSwiYWxsX2Rpc2FibGVkX2J5X2FwaSI6ITEsImZhY2Vib29rX2Rpc2FibGVkX2J5X2FwaSI6ITEsImFuYWx5dGljc19kaXNhYmxlZF9ieV9hcGkiOiExLCJnb29nbGVfYWRzX2Rpc2FibGVkX2J5X2FwaSI6ITEsInBpbnRlcmVzdF9kaXNhYmxlZF9ieV9hcGkiOiExLCJiaW5nX2Rpc2FibGVkX2J5X2FwaSI6ITEsImV4dGVybmFsSURfZGlzYWJsZWRfYnlfYXBpIjohMSwiZmFjZWJvb2tfcHJpb3JfY29uc2VudF9lbmFibGVkIjohMCwiYW5hbHl0aWNzX3ByaW9yX2NvbnNlbnRfZW5hYmxlZCI6ITAsImdvb2dsZV9hZHNfcHJpb3JfY29uc2VudF9lbmFibGVkIjpudWxsLCJwaW50ZXJlc3RfcHJpb3JfY29uc2VudF9lbmFibGVkIjohMCwiYmluZ19wcmlvcl9jb25zZW50X2VuYWJsZWQiOiEwLCJjb29raWVib3RfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZWJvdF9mYWNlYm9va19jb25zZW50X2NhdGVnb3J5IjoibWFya2V0aW5nIiwiY29va2llYm90X2FuYWx5dGljc19jb25zZW50X2NhdGVnb3J5Ijoic3RhdGlzdGljcyIsImNvb2tpZWJvdF90aWt0b2tfY29uc2VudF9jYXRlZ29yeSI6Im1hcmtldGluZyIsImNvb2tpZWJvdF9nb29nbGVfYWRzX2NvbnNlbnRfY2F0ZWdvcnkiOm51bGwsImNvb2tpZWJvdF9waW50ZXJlc3RfY29uc2VudF9jYXRlZ29yeSI6Im1hcmtldGluZyIsImNvb2tpZWJvdF9iaW5nX2NvbnNlbnRfY2F0ZWdvcnkiOiJtYXJrZXRpbmciLCJjb25zZW50X21hZ2ljX2ludGVncmF0aW9uX2VuYWJsZWQiOiExLCJyZWFsX2Nvb2tpZV9iYW5uZXJfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZV9ub3RpY2VfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZV9sYXdfaW5mb19pbnRlZ3JhdGlvbl9lbmFibGVkIjohMSwiYW5hbHl0aWNzX3N0b3JhZ2UiOnsiZW5hYmxlZCI6ITAsInZhbHVlIjoiZ3JhbnRlZCIsImZpbHRlciI6ITF9LCJhZF9zdG9yYWdlIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfSwiYWRfdXNlcl9kYXRhIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfSwiYWRfcGVyc29uYWxpemF0aW9uIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfX0sImNvb2tpZSI6eyJkaXNhYmxlZF9hbGxfY29va2llIjohMSwiZGlzYWJsZWRfc3RhcnRfc2Vzc2lvbl9jb29raWUiOiExLCJkaXNhYmxlZF9hZHZhbmNlZF9mb3JtX2RhdGFfY29va2llIjohMSwiZGlzYWJsZWRfbGFuZGluZ19wYWdlX2Nvb2tpZSI6ITEsImRpc2FibGVkX2ZpcnN0X3Zpc2l0X2Nvb2tpZSI6ITEsImRpc2FibGVkX3RyYWZmaWNzb3VyY2VfY29va2llIjohMSwiZGlzYWJsZWRfdXRtVGVybXNfY29va2llIjohMSwiZGlzYWJsZWRfdXRtSWRfY29va2llIjohMX0sInRyYWNraW5nX2FuYWx5dGljcyI6eyJUcmFmZmljU291cmNlIjoiZGlyZWN0IiwiVHJhZmZpY0xhbmRpbmciOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC8iLCJUcmFmZmljVXRtcyI6W10sIlRyYWZmaWNVdG1zSWQiOltdfSwid29vIjp7ImVuYWJsZWQiOiEwLCJlbmFibGVkX3NhdmVfZGF0YV90b19vcmRlcnMiOiEwLCJhZGRUb0NhcnRPbkJ1dHRvbkVuYWJsZWQiOiEwLCJhZGRUb0NhcnRPbkJ1dHRvblZhbHVlRW5hYmxlZCI6ITAsImFkZFRvQ2FydE9uQnV0dG9uVmFsdWVPcHRpb24iOiJwcmljZSIsInNpbmdsZVByb2R1Y3RJZCI6bnVsbCwicmVtb3ZlRnJvbUNhcnRTZWxlY3RvciI6ImZvcm0ud29vY29tbWVyY2UtY2FydC1mb3JtIC5yZW1vdmUiLCJhZGRUb0NhcnRDYXRjaE1ldGhvZCI6ImFkZF9jYXJ0X2hvb2siLCJpc19vcmRlcl9yZWNlaXZlZF9wYWdlIjohMSwiY29udGFpbk9yZGVySWQiOiExfSwiZWRkIjp7ImVuYWJsZWQiOiExfX0="
+        src="data:text/javascript;base64,dmFyIHB5c09wdGlvbnM9eyJzdGF0aWNFdmVudHMiOnsiZmFjZWJvb2siOnsiaW5pdF9ldmVudCI6W3siZGVsYXkiOjAsInR5cGUiOiJzdGF0aWMiLCJuYW1lIjoiUGFnZVZpZXciLCJwaXhlbElkcyI6WyI0MjcyNzI5MzU0Njc2MDUiXSwiZXZlbnRJRCI6ImQzNmNiZDE1LWQ0MzktNGNiMC1iYzQ4LWQ4Y2QzYzU0NDgwMSIsInBhcmFtcyI6eyJwYWdlX3RpdGxlIjoiXHUwOTk3XHUwOWNiXHUwOWFhXHUwOWE4XHUwOWMwXHUwOWFmXHUwOWJjXHUwOWE0XHUwOWJlIFx1MDlhOFx1MDljMFx1MDlhNFx1MDliZiIsInBvc3RfdHlwZSI6InBhZ2UiLCJwb3N0X2lkIjoxNjI1MiwicGx1Z2luIjoiUGl4ZWxZb3VyU2l0ZSIsInVzZXJfcm9sZSI6Imd1ZXN0IiwiZXZlbnRfdXJsIjoiY2h1aWpoYWwuY29tXC8lZTAlYTYlOTclZTAlYTclOGIlZTAlYTYlYWElZTAlYTYlYTglZTAlYTclODAlZTAlYTYlYWYlZTAlYTYlYmMlZTAlYTYlYTQlZTAlYTYlYmUtJWUwJWE2JWE4JWUwJWE3JTgwJWUwJWE2JWE0JWUwJWE2JWJmXC8ifSwiZV9pZCI6ImluaXRfZXZlbnQiLCJpZHMiOltdLCJoYXNUaW1lV2luZG93IjohMSwidGltZVdpbmRvdyI6MCwid29vX29yZGVyIjoiIiwiZWRkX29yZGVyIjoiIn1dfX0sImR5bmFtaWNFdmVudHMiOltdLCJ0cmlnZ2VyRXZlbnRzIjpbXSwidHJpZ2dlckV2ZW50VHlwZXMiOltdLCJmYWNlYm9vayI6eyJwaXhlbElkcyI6WyI0MjcyNzI5MzU0Njc2MDUiXSwiYWR2YW5jZWRNYXRjaGluZyI6W10sImFkdmFuY2VkTWF0Y2hpbmdFbmFibGVkIjohMCwicmVtb3ZlTWV0YWRhdGEiOiExLCJjb250ZW50UGFyYW1zIjp7InBvc3RfdHlwZSI6InBhZ2UiLCJwb3N0X2lkIjoxNjI1MiwiY29udGVudF9uYW1lIjoiXHUwOTk3XHUwOWNiXHUwOWFhXHUwOWE4XHUwOWMwXHUwOWFmXHUwOWJjXHUwOWE0XHUwOWJlIFx1MDlhOFx1MDljMFx1MDlhNFx1MDliZiJ9LCJjb21tZW50RXZlbnRFbmFibGVkIjohMCwid29vVmFyaWFibGVBc1NpbXBsZSI6ITEsImRvd25sb2FkRW5hYmxlZCI6ITAsImZvcm1FdmVudEVuYWJsZWQiOiEwLCJzZXJ2ZXJBcGlFbmFibGVkIjohMCwid29vQ1JTZW5kRnJvbVNlcnZlciI6ITEsInNlbmRfZXh0ZXJuYWxfaWQiOm51bGx9LCJnYSI6eyJ0cmFja2luZ0lkcyI6WyJHLVE0TldXMTJTVzIiXSwiY29tbWVudEV2ZW50RW5hYmxlZCI6ITAsImRvd25sb2FkRW5hYmxlZCI6ITAsImZvcm1FdmVudEVuYWJsZWQiOiEwLCJjcm9zc0RvbWFpbkVuYWJsZWQiOiExLCJjcm9zc0RvbWFpbkFjY2VwdEluY29taW5nIjohMSwiY3Jvc3NEb21haW5Eb21haW5zIjpbXSwiaXNEZWJ1Z0VuYWJsZWQiOlsiaW5kZXhfMCJdLCJzZXJ2ZXJDb250YWluZXJVcmxzIjp7IkctUTROV1cxMlNXMiI6eyJlbmFibGVfc2VydmVyX2NvbnRhaW5lciI6IiIsInNlcnZlcl9jb250YWluZXJfdXJsIjoiIiwidHJhbnNwb3J0X3VybCI6IiJ9fSwiYWRkaXRpb25hbENvbmZpZyI6eyJHLVE0TldXMTJTVzIiOnsiZmlyc3RfcGFydHlfY29sbGVjdGlvbiI6ITB9fSwiZGlzYWJsZUFkdmVydGlzaW5nRmVhdHVyZXMiOiExLCJkaXNhYmxlQWR2ZXJ0aXNpbmdQZXJzb25hbGl6YXRpb24iOiExLCJ3b29WYXJpYWJsZUFzU2ltcGxlIjohMCwiY3VzdG9tX3BhZ2Vfdmlld19ldmVudCI6ITF9LCJkZWJ1ZyI6IiIsInNpdGVVcmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tIiwiYWpheFVybCI6Imh0dHBzOlwvXC9jaHVpamhhbC5jb21cL3dwLWFkbWluXC9hZG1pbi1hamF4LnBocCIsImFqYXhfZXZlbnQiOiJiYWYzMzM5MmYzIiwiZW5hYmxlX3JlbW92ZV9kb3dubG9hZF91cmxfcGFyYW0iOiIxIiwiY29va2llX2R1cmF0aW9uIjoiNyIsImxhc3RfdmlzaXRfZHVyYXRpb24iOiI2MCIsImVuYWJsZV9zdWNjZXNzX3NlbmRfZm9ybSI6IiIsImFqYXhGb3JTZXJ2ZXJFdmVudCI6IjEiLCJhamF4Rm9yU2VydmVyU3RhdGljRXZlbnQiOiIxIiwic2VuZF9leHRlcm5hbF9pZCI6IjEiLCJleHRlcm5hbF9pZF9leHBpcmUiOiIxODAiLCJnb29nbGVfY29uc2VudF9tb2RlIjoiMSIsImdkcHIiOnsiYWpheF9lbmFibGVkIjohMSwiYWxsX2Rpc2FibGVkX2J5X2FwaSI6ITEsImZhY2Vib29rX2Rpc2FibGVkX2J5X2FwaSI6ITEsImFuYWx5dGljc19kaXNhYmxlZF9ieV9hcGkiOiExLCJnb29nbGVfYWRzX2Rpc2FibGVkX2J5X2FwaSI6ITEsInBpbnRlcmVzdF9kaXNhYmxlZF9ieV9hcGkiOiExLCJiaW5nX2Rpc2FibGVkX2J5X2FwaSI6ITEsImV4dGVybmFsSURfZGlzYWJsZWRfYnlfYXBpIjohMSwiZmFjZWJvb2tfcHJpb3JfY29uc2VudF9lbmFibGVkIjohMCwiYW5hbHl0aWNzX3ByaW9yX2NvbnNlbnRfZW5hYmxlZCI6ITAsImdvb2dsZV9hZHNfcHJpb3JfY29uc2VudF9lbmFibGVkIjpudWxsLCJwaW50ZXJlc3RfcHJpb3JfY29uc2VudF9lbmFibGVkIjohMCwiYmluZ19wcmlvcl9jb25zZW50X2VuYWJsZWQiOiEwLCJjb29raWVib3RfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZWJvdF9mYWNlYm9va19jb25zZW50X2NhdGVnb3J5IjoibWFya2V0aW5nIiwiY29va2llYm90X2FuYWx5dGljc19jb25zZW50X2NhdGVnb3J5Ijoic3RhdGlzdGljcyIsImNvb2tpZWJvdF90aWt0b2tfY29uc2VudF9jYXRlZ29yeSI6Im1hcmtldGluZyIsImNvb2tpZWJvdF9nb29nbGVfYWRzX2NvbnNlbnRfY2F0ZWdvcnkiOm51bGwsImNvb2tpZWJvdF9waW50ZXJlc3RfY29uc2VudF9jYXRlZ29yeSI6Im1hcmtldGluZyIsImNvb2tpZWJvdF9iaW5nX2NvbnNlbnRfY2F0ZWdvcnkiOiJtYXJrZXRpbmciLCJjb25zZW50X21hZ2ljX2ludGVncmF0aW9uX2VuYWJsZWQiOiExLCJyZWFsX2Nvb2tpZV9iYW5uZXJfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZV9ub3RpY2VfaW50ZWdyYXRpb25fZW5hYmxlZCI6ITEsImNvb2tpZV9sYXdfaW5mb19pbnRlZ3JhdGlvbl9lbmFibGVkIjohMSwiYW5hbHl0aWNzX3N0b3JhZ2UiOnsiZW5hYmxlZCI6ITAsInZhbHVlIjoiZ3JhbnRlZCIsImZpbHRlciI6ITF9LCJhZF9zdG9yYWdlIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfSwiYWRfdXNlcl9kYXRhIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfSwiYWRfcGVyc29uYWxpemF0aW9uIjp7ImVuYWJsZWQiOiEwLCJ2YWx1ZSI6ImdyYW50ZWQiLCJmaWx0ZXIiOiExfX0sImNvb2tpZSI6eyJkaXNhYmxlZF9hbGxfY29va2llIjohMSwiZGlzYWJsZWRfc3RhcnRfc2Vzc2lvbl9jb29raWUiOiExLCJkaXNhYmxlZF9hZHZhbmNlZF9mb3JtX2RhdGFfY29va2llIjohMSwiZGlzYWJsZWRfbGFuZGluZ19wYWdlX2Nvb2tpZSI6ITEsImRpc2FibGVkX2ZpcnN0X3Zpc2l0X2Nvb2tpZSI6ITEsImRpc2FibGVkX3RyYWZmaWNzb3VyY2VfY29va2llIjohMSwiZGlzYWJsZWRfdXRtVGVybXNfY29va2llIjohMSwiZGlzYWJsZWRfdXRtSWRfY29va2llIjohMX0sInRyYWNraW5nX2FuYWx5dGljcyI6eyJUcmFmZmljU291cmNlIjoiZGlyZWN0IiwiVHJhZmZpY0xhbmRpbmciOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC8iLCJUcmFmZmljVXRtcyI6W10sIlRyYWZmaWNVdG1zSWQiOltdfSwid29vIjp7ImVuYWJsZWQiOiEwLCJlbmFibGVkX3NhdmVfZGF0YV90b19vcmRlcnMiOiEwLCJhZGRUb0NhcnRPbkJ1dHRvbkVuYWJsZWQiOiEwLCJhZGRUb0NhcnRPbkJ1dHRvblZhbHVlRW5hYmxlZCI6ITAsImFkZFRvQ2FydE9uQnV0dG9uVmFsdWVPcHRpb24iOiJwcmljZSIsInNpbmdsZVByb2R1Y3RJZCI6bnVsbCwicmVtb3ZlRnJvbUNhcnRTZWxlY3RvciI6ImZvcm0ud29vY29tbWVyY2UtY2FydC1mb3JtIC5yZW1vdmUiLCJhZGRUb0NhcnRDYXRjaE1ldGhvZCI6ImFkZF9jYXJ0X2hvb2siLCJpc19vcmRlcl9yZWNlaXZlZF9wYWdlIjohMSwiY29udGFpbk9yZGVySWQiOiExfSwiZWRkIjp7ImVuYWJsZWQiOiExfX0="
         defer></script>
     <script data-optimized="1" type="text/javascript"
         src="https://chuijhal.com/wp-content/litespeed/js/430fb1f3c8924683fccf0199ea43e196.js?ver=3e196" id="pys-js" defer
         data-deferred="1"></script>
     <link rel="https://api.w.org/" href="https://chuijhal.com/wp-json/" />
     <link rel="alternate" title="JSON" type="application/json"
-        href="https://chuijhal.com/wp-json/wp/v2/pages/11905" />
+        href="https://chuijhal.com/wp-json/wp/v2/pages/16252" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chuijhal.com/xmlrpc.php?rsd" />
     <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2F%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%25e0%25a6%25be%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%2F" />
+        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2F%25e0%25a6%2597%25e0%25a7%258b%25e0%25a6%25aa%25e0%25a6%25a8%25e0%25a7%2580%25e0%25a6%25af%25e0%25a6%25bc%25e0%25a6%25a4%25e0%25a6%25be-%25e0%25a6%25a8%25e0%25a7%2580%25e0%25a6%25a4%25e0%25a6%25bf%2F" />
     <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2F%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%25e0%25a6%25be%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%2F&#038;format=xml" />
+        href="https://chuijhal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchuijhal.com%2F%25e0%25a6%2597%25e0%25a7%258b%25e0%25a6%25aa%25e0%25a6%25a8%25e0%25a7%2580%25e0%25a6%25af%25e0%25a6%25bc%25e0%25a6%25a4%25e0%25a6%25be-%25e0%25a6%25a8%25e0%25a7%2580%25e0%25a6%25a4%25e0%25a6%25bf%2F&#038;format=xml" />
     <noscript>
         <style>
             .woocommerce-product-gallery {
@@ -1501,9 +1502,7 @@
     </noscript>
     <meta name="generator"
         content="Elementor 3.24.2; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-    <script type="application/ld+json" class="saswp-schema-markup-output">[{"@context":"https:\/\/schema.org\/","@type":"ContactPage","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/chuijhal.com\/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97\/"},"url":"https:\/\/chuijhal.com\/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97\/","headline":"\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997","description":"","publisher":{"@type":"Organization","name":"\u099a\u09c1\u0987\u099d\u09be\u09b2","url":"https:\/\/chuijhal.com","logo":{"@type":"ImageObject","url":"https:\/\/chuijhal.com\/wp-content\/uploads\/2023\/06\/Logo-Chuijhal-.jpg","width":"160","height":"50"}}},
-
-    {"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#298 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"\u09b6\u09aa","url":"https:\/\/chuijhal.com\/shop\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Organic Tea","url":"http:\/\/epicomedia.com\/vitrine-demo37\/product-category\/organic-tea\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Vegetables","url":"http:\/\/epicomedia.com\/vitrine-demo37\/product-category\/vegetables\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"BLOG","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Masonry - Blog","url":"https:\/\/chuijhal.com\/blog\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"GALLERY","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"PORTFOLIO","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"PAGES","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Creative","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11895 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11899 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Simple","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11901 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997","url":"https:\/\/chuijhal.com\/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Minimal","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11907 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"About us","url":"https:\/\/chuijhal.com\/about-us\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11913 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Modern","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11915 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11921 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Coming soon - fullwidth","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Coming soon - split","url":""}]}]</script>
+    <script type="application/ld+json" class="saswp-schema-markup-output">[{"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#298 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"\u09b6\u09aa","url":"https:\/\/chuijhal.com\/shop\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Organic Tea","url":"http:\/\/epicomedia.com\/vitrine-demo37\/product-category\/organic-tea\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Vegetables","url":"http:\/\/epicomedia.com\/vitrine-demo37\/product-category\/vegetables\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"BLOG","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Masonry - Blog","url":"https:\/\/chuijhal.com\/blog\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"GALLERY","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"PORTFOLIO","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"PAGES","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Creative","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11895 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11899 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Simple","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11901 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"\u09af\u09cb\u0997\u09be\u09af\u09cb\u0997","url":"https:\/\/chuijhal.com\/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Minimal","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11907 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"About us","url":"https:\/\/chuijhal.com\/about-us\/"},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11913 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Modern","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11915 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"#11921 (no title)","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Coming soon - fullwidth","url":""},{"@context":"https:\/\/schema.org\/","@type":"SiteNavigationElement","@id":"https:\/\/chuijhal.com#Main Menu","name":"Coming soon - split","url":""}]}]</script>
     <style>
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
         .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
@@ -1545,15 +1544,19 @@
             src: url('https://chuijhal.com/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');
         }
     </style>
-    <link rel="icon" href="{{asset(setting()->logo)}}"
+    <link rel="icon" href="{{ asset(setting()->logo) }}"
         sizes="32x32" />
-    <link rel="icon" href="{{asset(setting()->logo)}}"
+    <link rel="icon" href="{{ asset(setting()->logo) }}"
         sizes="192x192" />
     <link rel="apple-touch-icon"
-        href="{{asset(setting()->logo)}}" />
+        href="{{ asset(setting()->logo) }}" />
     <meta name="msapplication-TileImage"
-        content="{{asset(setting()->logo)}}" />
-    <noscript>
+        content="{{ asset(setting()->logo) }}" />
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1460550359379 {
+            margin-top: 150px !important;
+        }
+    </style><noscript>
         <style>
             .wpb_animate_when_almost_visible {
                 opacity: 1;
@@ -1561,12 +1564,11 @@
         </style>
     </noscript>
     <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" />
-
 </head>
 
 <body data-rsssl="1"
-    class="page-template-default page page-id-11905 theme-vitrine woocommerce-no-js no-preloader no-page-transition fade wpb-js-composer js-comp-ver-6.9.0 vc_responsive elementor-default elementor-kit-34415"
-    data-pageid="11905">
+    class="privacy-policy page-template-default page page-id-16252 theme-vitrine woocommerce-no-js no-preloader no-page-transition fade whiteColorFirtStateMenu  wpb-js-composer js-comp-ver-6.9.0 vc_responsive elementor-default elementor-kit-34415"
+    data-pageid="16252">
     <div id="top"></div>
     <div class="scrollToTop visible-desktop">
         <a href="#top"></a>
@@ -1645,32 +1647,13 @@
                 </div>
             </div>
         </div>
+
         @include('website.version1.componant.sidebar-category')
         @include('website.version1.componant.show-cart')
         @include('website.version1.layouts.include.header')
 
         <span id="sidebar-open-overlay"></span>
         @include('website.version1.componant.search-popup')
-        <span id="sidebar-open-overlay"></span>
-        <div id="search-form">
-            <div class="search-form searchContainer">
-                <form role="search" method="get" class="searchform popUp" action="https://chuijhal.com/">
-                    <label class="screen-reader-text" for="s"></label>
-                    <div class="searchWrapper">
-                        <input type="text" placeholder="Search" value name="s" class="searchInput"
-                            autocomplete="off" />
-                        <div class="typing-indicator">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <div class="searchIcon"><span class="icon icon-search"></span></div>
-                        <div class="searchResults close"></div>
-                        <div class="showAllResults close">See All Results</div>
-                    </div>
-                </form>
-            </div>
-        </div>
         <div class="toggleSidebarContainer">
             <div id="main-content" class="main-content   type1  ">
                 <div id="main">
@@ -1690,298 +1673,319 @@
                         }
                     </style>
                     <div class="wrap" id="pageHeight">
-                        <div id="post-11905" class="post-11905 page type-page status-publish hentry">
-                            <div id="vc_row_1" class="ep-section background_cover row_section  section ">
-                                <div class="section-container">
-                                    <div class="clearfix"></div>
-                                    <div class="section-content-container" style="padding-top:200px;">
-                                        <div class="container">
-                                            <div
-                                                class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
+                        <div class="container">
+                            <div id="post-16252" class="post-16252 page type-page status-publish hentry">
+                                <div id="vc_row_1" class="ep-section parallax sectionOverlay section   texture1"
+                                    data-speed="25" style=" min-height:400px;">
+                                    <div class="section-container">
+                                        <div class="parallax-img"
+                                            style=" background-image:url(''); background-position:center top;"></div>
+                                        <div class="section-content-container">
+                                            <div class="container">
                                                 <div
-                                                    class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-10 vc_col-lg-8 vc_col-md-8">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper">
-                                                            <style type="text/css" media="all">
-                                                                #textbox_1.textBox.textRightBorder .title {
-                                                                    border-color: #333333;
-                                                                }
-
-                                                                #textbox_1.textBox.textLeftBorder .title {
-                                                                    border-color: #333333;
-                                                                }
-
-                                                                #textbox_1.textBox.textTopBorder hr {
-                                                                    background-color: #333333;
-                                                                }
-
-                                                                #textbox_1.textBox.textBottomBorder hr {
-                                                                    background-color: #333333;
-                                                                }
-                                                            </style>
-                                                            <div id="textbox_1"
-                                                                class="textBox    nosubtitle    fontSize32 textBoxCenter textBoxUnderCenter textBottomBorder"
-                                                                data-delay="0" data-animation="none">
-                                                                <div class="clearfix">
-                                                                    <div class="title clearfix"
-                                                                        style="color:#333333;">
-                                                                        CONTACT US
-                                                                        <hr />
-                                                                    </div>
-                                                                </div>
-                                                                <div class="contentfs14 text" style="color: #333333;">
-                                                                    Thank you for visiting our website. We appreciate
-                                                                    your interest in our products and services. If you
-                                                                    have any questions, comments, or feedback, please
-                                                                    don't hesitate to contact us using the information
-                                                                    below.</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wpb_column vc_column_container vc_col-sm-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="vc_row_2" class="ep-section background_cover row_section  section ">
-                                <div class="section-container">
-                                    <div class="clearfix"></div>
-                                    <div class="section-content-container" style="margin-top:50px;">
-                                        <div class="container">
-                                            <div
-                                                class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-5 vc_col-lg-4 vc_col-md-4">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper">
-                                                            <style type="text/css" media="all">
-                                                                #textbox_2 .textBox .frame div {
-                                                                    background-color: #ff4c2f;
-                                                                }
-                                                            </style>
-                                                            <div id="textbox_2" class="custom-textbox">
-                                                                <div class="custom-textbox-bg"
-                                                                    style="background-color:#168d44"></div>
-                                                                <div
-                                                                    class="textBox   nosubtitle   fontSize20 textBoxleft textBoxUnderleft textBoxNoStyle">
-                                                                    <div class="frame top">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame right">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame bottom">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame left">
-                                                                        <div></div>
-                                                                    </div>
+                                                    class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                        <div
+                                                            class="  col_custom_classes vc_column-inner vc_custom_1460550359379">
+                                                            <div class="wpb_wrapper">
+                                                                <div id="vc_empty_space_1" class="vc_empty_space"
+                                                                    style="height: 50px"><span
+                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <style type="text/css" media="all"></style>
+                                                                <div id="textbox_1"
+                                                                    class="textBox    nosubtitle    fontSize60 textBoxleft textBoxUnderleft textBoxNoStyle shortcodeAnimation no-responsive-animation"
+                                                                    data-delay="200" data-animation="fade-in">
                                                                     <div class="clearfix">
                                                                         <div class="title clearfix"
-                                                                            style="color:#ffffff;">
-                                                                            Phone:</div>
+                                                                            style="color:#000000;">
+                                                                            Privacy Policy</div>
                                                                     </div>
-                                                                    <div class="contentfs13 text"
-                                                                        style="color: #ffffff;">{{ setting()->phone1 ?? '' }}</div>
                                                                 </div>
+                                                                <div id="vc_empty_space_2" class="vc_empty_space"
+                                                                    style="height: 32px"><span
+                                                                        class="vc_empty_space_inner"></span></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-5 vc_col-lg-4 vc_col-md-4">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper">
-                                                            <style type="text/css" media="all">
-                                                                #textbox_3 .textBox .frame div {
-                                                                    background-color: #3a3a3a;
-                                                                }
-                                                            </style>
-                                                            <div id="textbox_3" class="custom-textbox">
-                                                                <div class="custom-textbox-bg"
-                                                                    style="background-color:#272727"></div>
-                                                                <div
-                                                                    class="textBox   nosubtitle   fontSize20 textBoxleft textBoxUnderleft textBoxNoStyle">
-                                                                    <div class="frame top">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame right">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame bottom">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="frame left">
-                                                                        <div></div>
-                                                                    </div>
-                                                                    <div class="clearfix">
-                                                                        <div class="title clearfix"
-                                                                            style="color:#ffffff;">
-                                                                            Email:</div>
-                                                                    </div>
-                                                                    <div class="contentfs13 text"
-                                                                        style="color: #ffffff;"><a
-                                                                            href="/cdn-cgi/l/email-protection"
-                                                                            class="__cf_email__"
-                                                                            data-cfemail="d7bfb2bbbbb897b4bfa2bebdbfb6bbf9b4b8ba">{{ setting()->email ?? '' }}</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                        <div class="  vc_column-inner ">
+                                                            <div class="wpb_wrapper"></div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div id="vc_row_3" class="ep-section background_cover row_section  section ">
-                                <div class="section-container">
-                                    <div class="clearfix"></div>
-                                    <div class="section-content-container"
-                                        style="margin-top:50px;margin-bottom:100px;">
-                                        <div class="container">
-                                            <div
-                                                class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
+                                <div id="vc_row_2" class="ep-section background_cover row_section  section ">
+                                    <div class="section-container">
+                                        <div class="clearfix"></div>
+                                        <div class="section-content-container" style>
+                                            <div class="container">
                                                 <div
-                                                    class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="contact_pg_form wpb_column vc_column_container vc_col-sm-10 vc_col-lg-8 vc_col-md-8">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper">
-                                                            <div class="wpb_text_column wpb_content_element "
-                                                                data-delay data-animation="none">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="wpcf7 no-js"
-                                                                        id="wpcf7-f30428-p11905-o1" lang="en-US"
-                                                                        dir="ltr">
-                                                                        <div class="screen-reader-response">
-                                                                            <p role="status" aria-live="polite"
-                                                                                aria-atomic="true"></p>
-                                                                            <ul></ul>
-                                                                        </div>
-                                                                        <form
-                                                                            action="{{ route('contact.store') }}"
-                                                                            method="post">
-                                                                            @csrf
-                                                                            <div style="display: none;">
-                                                                                <input type="hidden" name="_wpcf7"
-                                                                                    value="30428" />
-                                                                                <input type="hidden"
-                                                                                    name="_wpcf7_version"
-                                                                                    value="5.9.8" />
-                                                                                <input type="hidden"
-                                                                                    name="_wpcf7_locale"
-                                                                                    value="en_US" />
-                                                                                <input type="hidden"
-                                                                                    name="_wpcf7_unit_tag"
-                                                                                    value="wpcf7-f30428-p11905-o1" />
-                                                                                <input type="hidden"
-                                                                                    name="_wpcf7_container_post"
-                                                                                    value="11905" />
-                                                                                <input type="hidden"
-                                                                                    name="_wpcf7_posted_data_hash"
-                                                                                    value />
-                                                                            </div>
-                                                                            <p><label> Your name<br />
-                                                                                    <span
-                                                                                        class="wpcf7-form-control-wrap"
-                                                                                        data-name="your-name"><input
-                                                                                            size="40"
-                                                                                            maxlength="400"
-                                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                            autocomplete="name"
-                                                                                            aria-required="true"
-                                                                                            aria-invalid="false" value
-                                                                                            type="text"
-                                                                                            name="your-name" /></span>
-                                                                                </label></p>
-                                                                            <p><label> Your email<br />
-                                                                                    <span
-                                                                                        class="wpcf7-form-control-wrap"
-                                                                                        data-name="your-email"><input
-                                                                                            size="40"
-                                                                                            maxlength="400"
-                                                                                            class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
-                                                                                            autocomplete="email"
-                                                                                            aria-required="true"
-                                                                                            aria-invalid="false" value
-                                                                                            type="email"
-                                                                                            name="your-email" /></span>
-                                                                                </label></p>
-                                                                            <p><label> Subject<br />
-                                                                                    <span
-                                                                                        class="wpcf7-form-control-wrap"
-                                                                                        data-name="your-subject"><input
-                                                                                            size="40"
-                                                                                            maxlength="400"
-                                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                            aria-required="true"
-                                                                                            aria-invalid="false" value
-                                                                                            type="text"
-                                                                                            name="your-subject" /></span>
-                                                                                </label></p>
-                                                                            <p><label> Your message (optional)<br />
-                                                                                    <span
-                                                                                        class="wpcf7-form-control-wrap"
-                                                                                        data-name="your-message">
-                                                                                        <textarea cols="40" rows="10" maxlength="2000" class="wpcf7-form-control wpcf7-textarea"
-                                                                                            aria-invalid="false" name="your-message"></textarea>
-                                                                                    </span> </label></p>
-                                                                                    <br>
-                                                                                    <br>
-                                                                            <p><input
-                                                                                    class="wpcf7-form-control wpcf7-submit has-spinner"
-                                                                                    type="submit" value="Submit" />
-                                                                            </p>
-                                                                            <div class="wpcf7-response-output"
-                                                                                aria-hidden="true"></div>
-
-                                                                        </form>
+                                                    class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                        <div class="  vc_column-inner ">
+                                                            <div class="wpb_wrapper">
+                                                                <div id="vc_empty_space_3" class="vc_empty_space"
+                                                                    style="height: 60px"><span
+                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="wpb_text_column wpb_content_element "
+                                                                    data-delay data-animation="none">
+                                                                    <div class="wpb_wrapper">
+                                                                        <h3><strong>Privacy Policy</strong></h3>
+                                                                        <h5>Updated: September 02 2024</h5>
+                                                                        <p>All defined terms used below shall have the
+                                                                            meanings set forth in Our Terms and
+                                                                            Conditions. See TERMS AND CONDITIONS</p>
+                                                                        <p>This Privacy Policy (“Policy”) explains how
+                                                                            information about You is collected, used,
+                                                                            and disclosed by Your access or use of this
+                                                                            Site or otherwise as a result of Your
+                                                                            interactions with Us. By visiting this Site
+                                                                            directly or through another site, You accept
+                                                                            the terms and conditions of this Policy.
+                                                                            This Policy applies to this Site. We are not
+                                                                            responsible for the content or privacy
+                                                                            practices on any website not operated by Us
+                                                                            to which this Site links or that links to
+                                                                            this Site.</p>
+                                                                        <p>We respect children’s privacy. We do not
+                                                                            knowingly or intentionally collect personal
+                                                                            information from children under age 13.
+                                                                            Elsewhere on the Site, you have represented
+                                                                            and warranted that you are either 18 years
+                                                                            of age or using the Site with the
+                                                                            supervision of a parent or guardian. If you
+                                                                            are under the age of 13, please do not
+                                                                            submit any personal information to Us, and
+                                                                            rely on a parent or guardian to assist you.
+                                                                        </p>
+                                                                        <h6><strong>Information Collection</strong></h6>
+                                                                        <p>We collect information from you in several
+                                                                            different ways on this Site.</p>
+                                                                        <h6><strong>Registration and Ordering</strong>
+                                                                        </h6>
+                                                                        <p>Before using certain portions of this Site or
+                                                                            ordering products, you may be required to
+                                                                            complete an online registration form. During
+                                                                            registration, you will be asked to provide
+                                                                            to Us certain personal information,
+                                                                            including but not limited to your name,
+                                                                            shipping and billing address(es), phone
+                                                                            number, email address, gender, and credit
+                                                                            card number. In addition, We may also ask
+                                                                            you for your country of residence and/or
+                                                                            your organization’s country of operation, so
+                                                                            we can comply with applicable laws and
+                                                                            regulations. These kinds of personal
+                                                                            information are used for billing purposes,
+                                                                            to fulfill your orders, to communicate with
+                                                                            you about your order and the Sites, and for
+                                                                            internal marketing purposes. If We encounter
+                                                                            a problem when processing your order, your
+                                                                            personal information may be used to contact
+                                                                            you.</p>
+                                                                        <h6><strong>Information We Collect
+                                                                                Automatically</strong></h6>
+                                                                        <p>We may also automatically collect information
+                                                                            about you when you access or use the Site or
+                                                                            transact business with Us, including:</p>
+                                                                        <p>Transaction Information: When you purchase or
+                                                                            return a product, We collect information
+                                                                            about the transaction, such as product
+                                                                            details, purchase price, and the date and
+                                                                            location of the transaction.<br />
+                                                                            Log Information: We obtain information about
+                                                                            your use of Our websites, including the type
+                                                                            of browser you use, access times, pages
+                                                                            viewed, your IP address and the page you
+                                                                            visited before navigating to this
+                                                                            Site.<br />
+                                                                            Device Information: We collect information
+                                                                            about the computer or mobile device you use
+                                                                            to access Our Services, such as the hardware
+                                                                            model, operating system and version, unique
+                                                                            device identifiers, mobile network
+                                                                            information, and browsing behavior.<br />
+                                                                            Location Information: We may collect
+                                                                            information about the precise location of
+                                                                            your device when you consent to the
+                                                                            collection of this information. We may also
+                                                                            collect information about your approximate
+                                                                            location each time you access this
+                                                                            Site.<br />
+                                                                            Information Collected by Cookies and other
+                                                                            Tracking Technologies: We may use cookies,
+                                                                            web beacons, and other tracking technologies
+                                                                            to collect information about you and your
+                                                                            interaction with this Site, including
+                                                                            information about your browsing behavior,
+                                                                            purchase behavior, and other engagement with
+                                                                            the Services. We use this information in one
+                                                                            or more of the ways described in the “Use of
+                                                                            Information” section below. Most web
+                                                                            browsers are set to accept cookies by
+                                                                            default, but you can usually change your
+                                                                            browser settings to remove or reject
+                                                                            cookies.</p>
+                                                                        <h6><strong>Information We Collect from Other
+                                                                                Sources</strong></h6>
+                                                                        <p>We may also receive information about you
+                                                                            from other sources and combine or link that
+                                                                            with information We have about you. For
+                                                                            example, We may collect demographic and
+                                                                            change-of-address information from third
+                                                                            party sources and information from third
+                                                                            party social media platforms (such as
+                                                                            Facebook) if you log into this Site using
+                                                                            your social media account credentials or if
+                                                                            you make certain content and information
+                                                                            publicly available, such as photos, videos,
+                                                                            and profile information.</p>
+                                                                        <h6><strong>Information Use and
+                                                                                Disclosure</strong></h6>
+                                                                        <h6><strong>Internal Use</strong></h6>
+                                                                        <p>We use your personal information to process
+                                                                            your order and provide you with customer
+                                                                            service. We may internally your personal
+                                                                            information to improve this Site’s content
+                                                                            and layout, to improve outreach and for Our
+                                                                            own marketing efforts (including marketing
+                                                                            our services and products to you), and to
+                                                                            determine general marketplace information
+                                                                            about visitors to this Site.</p>
+                                                                        <h6><strong>Communications with You</strong>
+                                                                        </h6>
+                                                                        <p>We will use your personal information to
+                                                                            communicate with you about this Site and
+                                                                            your orders and deliveries. Also, We may
+                                                                            send you a confirmation email when you
+                                                                            register with Us. We may send you a
+                                                                            service-related announcement on the rare
+                                                                            occasions when it is necessary (for example,
+                                                                            if we must temporarily suspend our service
+                                                                            for maintenance.) Also, you may submit your
+                                                                            email address for reasons such as to
+                                                                            register for a contest or sweepstakes or to
+                                                                            sign up for email newsletters and special
+                                                                            offers. If you submit your email address, We
+                                                                            use it to deliver the information to you. We
+                                                                            always permit you to unsubscribe or opt out
+                                                                            of future emails. Because We have to
+                                                                            communicate with you about orders that you
+                                                                            choose to place, you cannot opt out of
+                                                                            receiving emails related to your orders.</p>
+                                                                        <h6><strong>External Use</strong></h6>
+                                                                        <p>Except as otherwise set forth below, We do
+                                                                            not sell, rent, trade, license or otherwise
+                                                                            disclose your specific personal information
+                                                                            or financial information to anyone.</p>
+                                                                        <p>We may disclose information to third parties
+                                                                            that perform specific functions on Our
+                                                                            behalf. However, We will only disclose the
+                                                                            information that is necessary for them to
+                                                                            perform their service.</p>
+                                                                        <p>We must provide your credit card number to
+                                                                            financial-services corporations such as
+                                                                            credit-card processors and issuers as is
+                                                                            required to process your orders. We will use
+                                                                            industry-standard security measures,
+                                                                            including data encryption when providing
+                                                                            your credit card number to others.</p>
+                                                                        <p>We may disclose personal information or
+                                                                            financial information in response to
+                                                                            requests from law enforcement officials
+                                                                            conducting investigations; subpoenas; a
+                                                                            court order; or if We are otherwise required
+                                                                            to disclose such information by law. We also
+                                                                            will release personal information where
+                                                                            disclosure is necessary to protect our legal
+                                                                            rights, enforce our Terms and Conditions or
+                                                                            other agreements, or to protect ourselves or
+                                                                            others. For example, We may share
+                                                                            information to reduce the risk of fraud or
+                                                                            if someone uses or attempts to use this Site
+                                                                            for illegal reasons or to commit fraud.</p>
+                                                                        <p>While We will not sell (or trade or rent)
+                                                                            personally identifiable information to other
+                                                                            companies as part of Our regular course of
+                                                                            business. However, it’s possible that We
+                                                                            might acquire or merge with or be acquired
+                                                                            by another company or that We might dispose
+                                                                            of some or all of Our assets. If that
+                                                                            happens, your personal information may be
+                                                                            disclosed to another company, but that
+                                                                            disclosure will be subject to the Privacy
+                                                                            Policy in effect.</p>
+                                                                        <p>We may share non-personal information (such
+                                                                            as the number of daily visitors to a
+                                                                            particular web page, or the size of an order
+                                                                            placed on a certain date) with third parties
+                                                                            such as advertising partners. This
+                                                                            information does not directly personally
+                                                                            identify you or any user.</p>
+                                                                        <h6><strong>Data Security</strong></h6>
+                                                                        <p>We take reasonable measures, including
+                                                                            administrative, technical, and physical
+                                                                            safeguards, to protect information about you
+                                                                            from loss, theft, misuse, unauthorized
+                                                                            access, disclosure, alteration, and
+                                                                            destruction.</p>
+                                                                        <h6><strong>Opt Out/Corrections</strong></h6>
+                                                                        <p>Upon your request, We will (a) correct or
+                                                                            update your personal information; (b) stop
+                                                                            sending emails to your email address; and/or
+                                                                            (c) disable your account to prevent any
+                                                                            future purchases through that account. You
+                                                                            can make these requests by emailing Us at <a
+                                                                                href="/cdn-cgi/l/email-protection"
+                                                                                class="__cf_email__"
+                                                                                data-cfemail="f59d9099999ab5969d809c9f9d9499db969a98">{{ setting()->email }}</a>.
+                                                                        </p>
+                                                                        <p>Please do not email your credit-card number
+                                                                            or other sensitive information.</p>
+                                                                        <h6><strong>Offline Collection Use and
+                                                                                Disclosure</strong></h6>
+                                                                        <p>We also may collect information offline. We
+                                                                            will treat any information collected offline
+                                                                            in a manner that is consistent with this
+                                                                            Policy. One example involves someone calling
+                                                                            Us to place an order or to ask questions.
+                                                                            When someone calls, We will ask only for the
+                                                                            personal information We need in order to
+                                                                            place the order or to answer the question.
+                                                                            When We need to store information (such as
+                                                                            order information), We will enter it into
+                                                                            our database.</p>
+                                                                        <h6><strong>Updates to this Policy</strong></h6>
+                                                                        <p>If We change or update this Privacy Policy,
+                                                                            We will post changes and updates on the Site
+                                                                            so that you will always be aware of what
+                                                                            information We collect, use and disclose. We
+                                                                            encourage you to review this Policy from
+                                                                            time to time so you will know if the Privacy
+                                                                            Policy has been changed or updated. If you
+                                                                            have any questions about the Policy, please
+                                                                            contact us at <a
+                                                                                href="/cdn-cgi/l/email-protection"
+                                                                                class="__cf_email__"
+                                                                                data-cfemail="355d5059595a75565d405c5f5d54591b565a58">[email&#160;protected]</a>.
+                                                                        </p>
                                                                     </div>
                                                                 </div>
+                                                                <div id="vc_empty_space_4" class="vc_empty_space"
+                                                                    style="height: 60px"><span
+                                                                        class="vc_empty_space_inner"></span></div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="wpb_column vc_column_container vc_col-sm-1 vc_col-lg-2 vc_col-md-2">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <p>&nbsp;</p>
                             </div>
                         </div>
                     </div>
@@ -2026,8 +2030,7 @@
         <a class="register-link"
             href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/">Create
             an account</a>
-        <form class="" method="post" action="{{ route('contact.store') }}">
-            @csrf
+        <form class="woocommerce-form woocommerce-form-login login" method="post">
             <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
                 <label for="username">Username or email address <span class="required">*</span></label>
                 <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username"
@@ -2068,8 +2071,8 @@
             <p class="form-row">
                 <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce"
                     value="e5cbfda3a7" /><input type="hidden" name="_wp_http_referer"
-                    value="/%e0%a6%af%e0%a7%8b%e0%a6%97%e0%a6%be%e0%a6%af%e0%a7%8b%e0%a6%97/" /> <input type="submit"
-                    class="woocommerce-Button button" name="login" value="Login" />
+                    value="/%e0%a6%97%e0%a7%8b%e0%a6%aa%e0%a6%a8%e0%a7%80%e0%a6%af%e0%a6%bc%e0%a6%a4%e0%a6%be-%e0%a6%a8%e0%a7%80%e0%a6%a4%e0%a6%bf/" />
+                <input type="submit" class="woocommerce-Button button" name="login" value="Login" />
                 <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
                     <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme"
                         type="checkbox" id="rememberme" value="forever" /> <span>Remember me</span>
@@ -2090,7 +2093,7 @@
         src="data:text/javascript;base64,Y29uc3QgbGF6eWxvYWRSdW5PYnNlcnZlcj0oKT0+e2NvbnN0IGxhenlsb2FkQmFja2dyb3VuZHM9ZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbChgLmUtY29uLmUtcGFyZW50Om5vdCguZS1sYXp5bG9hZGVkKWApO2NvbnN0IGxhenlsb2FkQmFja2dyb3VuZE9ic2VydmVyPW5ldyBJbnRlcnNlY3Rpb25PYnNlcnZlcigoZW50cmllcyk9PntlbnRyaWVzLmZvckVhY2goKGVudHJ5KT0+e2lmKGVudHJ5LmlzSW50ZXJzZWN0aW5nKXtsZXQgbGF6eWxvYWRCYWNrZ3JvdW5kPWVudHJ5LnRhcmdldDtpZihsYXp5bG9hZEJhY2tncm91bmQpe2xhenlsb2FkQmFja2dyb3VuZC5jbGFzc0xpc3QuYWRkKCdlLWxhenlsb2FkZWQnKX0KbGF6eWxvYWRCYWNrZ3JvdW5kT2JzZXJ2ZXIudW5vYnNlcnZlKGVudHJ5LnRhcmdldCl9fSl9LHtyb290TWFyZ2luOicyMDBweCAwcHggMjAwcHggMHB4J30pO2xhenlsb2FkQmFja2dyb3VuZHMuZm9yRWFjaCgobGF6eWxvYWRCYWNrZ3JvdW5kKT0+e2xhenlsb2FkQmFja2dyb3VuZE9ic2VydmVyLm9ic2VydmUobGF6eWxvYWRCYWNrZ3JvdW5kKX0pfTtjb25zdCBldmVudHM9WydET01Db250ZW50TG9hZGVkJywnZWxlbWVudG9yL2xhenlsb2FkL29ic2VydmUnLF07ZXZlbnRzLmZvckVhY2goKGV2ZW50KT0+e2RvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoZXZlbnQsbGF6eWxvYWRSdW5PYnNlcnZlcil9KQ=="
         defer></script>
     <script type="text/html" id="wpb-modifications"></script><noscript><img height="1" width="1" style="display: none;"
-            src="https://www.facebook.com/tr?id=427272935467605&ev=PageView&noscript=1&cd%5Bpage_title%5D=%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%BE%E0%A6%AF%E0%A7%8B%E0%A6%97&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=11905&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chuijhal.com%2F%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%25e0%25a6%25be%25e0%25a6%25af%25e0%25a7%258b%25e0%25a6%2597%2F"
+            src="https://www.facebook.com/tr?id=427272935467605&ev=PageView&noscript=1&cd%5Bpage_title%5D=%E0%A6%97%E0%A7%8B%E0%A6%AA%E0%A6%A8%E0%A7%80%E0%A6%AF%E0%A6%BC%E0%A6%A4%E0%A6%BE+%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=16252&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chuijhal.com%2F%25e0%25a6%2597%25e0%25a7%258b%25e0%25a6%25aa%25e0%25a6%25a8%25e0%25a7%2580%25e0%25a6%25af%25e0%25a6%25bc%25e0%25a6%25a4%25e0%25a6%25be-%25e0%25a6%25a8%25e0%25a7%2580%25e0%25a6%25a4%25e0%25a6%25bf%2F"
             alt=""></noscript>
     <script type="text/javascript"
         src="data:text/javascript;base64,KGZ1bmN0aW9uKCl7dmFyIGM9ZG9jdW1lbnQuYm9keS5jbGFzc05hbWU7Yz1jLnJlcGxhY2UoL3dvb2NvbW1lcmNlLW5vLWpzLywnd29vY29tbWVyY2UtanMnKTtkb2N1bWVudC5ib2R5LmNsYXNzTmFtZT1jfSkoKQ=="
@@ -2151,7 +2154,7 @@
         src="data:text/javascript;base64,dmFyIF93cG1lanNTZXR0aW5ncz17InBsdWdpblBhdGgiOiJcL3dwLWluY2x1ZGVzXC9qc1wvbWVkaWFlbGVtZW50XC8iLCJjbGFzc1ByZWZpeCI6Im1lanMtIiwic3RyZXRjaGluZyI6InJlc3BvbnNpdmUiLCJhdWRpb1Nob3J0Y29kZUxpYnJhcnkiOiJtZWRpYWVsZW1lbnQiLCJ2aWRlb1Nob3J0Y29kZUxpYnJhcnkiOiJtZWRpYWVsZW1lbnQifQ=="
         defer></script>
     <script type="text/javascript" id="epico_custom-js-extra"
-        src="data:text/javascript;base64,dmFyIGVwaWNvX3RoZW1lX3ZhcnM9eyJ1cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tIiwiaG9tZV91cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC8iLCJpbWciOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC93cC1jb250ZW50XC90aGVtZXNcL3ZpdHJpbmVcL2Fzc2V0c1wvaW1nIiwiYWpheF91cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC93cC1hZG1pblwvYWRtaW4tYWpheC5waHAiLCJub25jZSI6IjlhNDM2Y2FhZGMiLCJ6b29tTGV2ZWwiOiIxMyIsImljb25NYXAiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC93cC1jb250ZW50XC90aGVtZXNcL3ZpdHJpbmVcL2Fzc2V0c1wvaW1nXC9tYXJrZXIucG5nIiwiY3VzdG9tTWFwIjoiMCIsImNpdHlNYXBDZW50ZXJMYXQiOiIyMy44MTI4ODEiLCJjaXR5TWFwQ2VudGVyTG5nIjoiIDkwLjM2MjA5MyIsImN1c3RvbUFwaUtleSI6IiIsIkFwaUtleSI6IjAiLCJzY3JvbGxpbmdfc3BlZWQiOiIxMDA1Iiwic2Nyb2xsaW5nX2Vhc2luZyI6ImVhc2VJbk91dFF1YXJ0IiwiYWRkaXRpb25hbGpzIjoiIn07dmFyIG5vX2FqYXhfb2JqZWN0cz17Im5vX2FqYXhfcGFnZXMiOlsiaHR0cHM6XC9cL2NodWlqaGFsLmNvbVwvd3AtbG9naW4ucGhwP2FjdGlvbj1sb2dvdXQmX3dwbm9uY2U9MmVkYTk4YTliOSJdfTt2YXIgcGFnZWRfZGF0YT17InN0YXJ0UGFnZSI6IjEiLCJtYXhQYWdlcyI6Ijk4IiwibmV4dExpbmsiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC8lZTAlYTYlYWYlZTAlYTclOGIlZTAlYTYlOTclZTAlYTYlYmUlZTAlYTYlYWYlZTAlYTclOGIlZTAlYTYlOTdcL3BhZ2VcLzJcLyIsImxvYWRpbmdUZXh0IjoiTG9hZGluZy4uLiIsImxvYWRNb3JlVGV4dCI6Im1vcmUgcG9zdHMiLCJub01vcmVQb3N0c1RleHQiOiJObyBNb3JlIFBvc3RzIn07dmFyIHdjX3NpbmdsZV9wcm9kdWN0X3BhcmFtcz17ImkxOG5fcmVxdWlyZWRfcmF0aW5nX3RleHQiOiJQbGVhc2Ugc2VsZWN0IGEgcmF0aW5nIiwicmV2aWV3X3JhdGluZ19yZXF1aXJlZCI6InllcyJ9"
+        src="data:text/javascript;base64,dmFyIGVwaWNvX3RoZW1lX3ZhcnM9eyJ1cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tIiwiaG9tZV91cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC8iLCJpbWciOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC93cC1jb250ZW50XC90aGVtZXNcL3ZpdHJpbmVcL2Fzc2V0c1wvaW1nIiwiYWpheF91cmwiOiJodHRwczpcL1wvY2h1aWpoYWwuY29tXC93cC1hZG1pblwvYWRtaW4tYWpheC5waHAiLCJub25jZSI6IjlhNDM2Y2FhZGMiLCJ6b29tTGV2ZWwiOiIxIiwiaWNvbk1hcCI6Imh0dHBzOlwvXC9jaHVpamhhbC5jb21cL3dwLWNvbnRlbnRcL3RoZW1lc1wvdml0cmluZVwvYXNzZXRzXC9pbWdcL21hcmtlci5wbmciLCJjdXN0b21NYXAiOiIxIiwiY2l0eU1hcENlbnRlckxhdCI6IiIsImNpdHlNYXBDZW50ZXJMbmciOiIiLCJjdXN0b21BcGlLZXkiOiIiLCJBcGlLZXkiOiIwIiwic2Nyb2xsaW5nX3NwZWVkIjoiMTAwNSIsInNjcm9sbGluZ19lYXNpbmciOiJlYXNlSW5PdXRRdWFydCIsImFkZGl0aW9uYWxqcyI6IiJ9O3ZhciBub19hamF4X29iamVjdHM9eyJub19hamF4X3BhZ2VzIjpbImh0dHBzOlwvXC9jaHVpamhhbC5jb21cL3dwLWxvZ2luLnBocD9hY3Rpb249bG9nb3V0Jl93cG5vbmNlPTJlZGE5OGE5YjkiXX07dmFyIHBhZ2VkX2RhdGE9eyJzdGFydFBhZ2UiOiIxIiwibWF4UGFnZXMiOiI5OCIsIm5leHRMaW5rIjoiaHR0cHM6XC9cL2NodWlqaGFsLmNvbVwvJWUwJWE2JTk3JWUwJWE3JThiJWUwJWE2JWFhJWUwJWE2JWE4JWUwJWE3JTgwJWUwJWE2JWFmJWUwJWE2JWJjJWUwJWE2JWE0JWUwJWE2JWJlLSVlMCVhNiVhOCVlMCVhNyU4MCVlMCVhNiVhNCVlMCVhNiViZlwvcGFnZVwvMlwvIiwibG9hZGluZ1RleHQiOiJMb2FkaW5nLi4uIiwibG9hZE1vcmVUZXh0IjoibW9yZSBwb3N0cyIsIm5vTW9yZVBvc3RzVGV4dCI6Ik5vIE1vcmUgUG9zdHMifTt2YXIgd2Nfc2luZ2xlX3Byb2R1Y3RfcGFyYW1zPXsiaTE4bl9yZXF1aXJlZF9yYXRpbmdfdGV4dCI6IlBsZWFzZSBzZWxlY3QgYSByYXRpbmciLCJyZXZpZXdfcmF0aW5nX3JlcXVpcmVkIjoieWVzIn0="
         defer></script>
     <script data-optimized="1" type="text/javascript"
         src="https://chuijhal.com/wp-content/litespeed/js/8ff21990f021a3c814ef7f8832ad9741.js?ver=d9741"

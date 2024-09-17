@@ -131,6 +131,7 @@
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody>
+                                                                            @if (session()->has('cart'))
                                                                             @forelse (session('cart') as $info)
                                                                             <tr class="cart_item">
                                                                                 <td class="product-remove">
@@ -212,6 +213,8 @@
                                                                             @empty
 
                                                                             @endforelse
+                                                                            @endif
+
                                                                         </tbody>
                                                                     </table>
                                                                 </form>
