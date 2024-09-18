@@ -12,17 +12,16 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
     <title>Exotic Taste House Agro</title>
-    <link rel="canonical" href="{{route('/')}}" />
+    <link rel="canonical" href="{{ route('/') }}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Exotic Taste House Agro" />
-    <meta property="og:description"
-        content="{{ $product->name }}" />
-    <meta property="og:url" content="{{route('/')}}" />
+    <meta property="og:description" content="{{ $product->name }}" />
+    <meta property="og:url" content="{{ route('/') }}" />
     <meta property="og:site_name" content="আচার" />
     <meta property="article:publisher" content="https://www.facebook.com/Achar.BariETHA99" />
     <meta property="article:modified_time" content="2024-08-10T05:16:50+00:00" />
-    <meta property="og:image" content="{{asset(setting()->logo)}}" />
+    <meta property="og:image" content="{{ asset(setting()->logo) }}" />
     <meta property="og:image:width" content="1080" />
     <meta property="og:image:height" content="1080" />
     <meta property="og:image:type" content="image/png" />
@@ -68,7 +67,7 @@
                                     <div class="container">
                                         <span class="product-line hidden-phone hidden-v-tablet"></span>
                                         <span id="next-product" class="hidden-phone"><a
-                                                href="../nutmeg-whole-%e0%a6%96%e0%a7%8b%e0%a6%b8%e0%a6%be-%e0%a6%9b%e0%a6%be%e0%a6%a1%e0%a6%bc%e0%a6%be-%e0%a7%ab%e0%a7%a6-%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae/{{route('/')}}"
+                                                href="../nutmeg-whole-%e0%a6%96%e0%a7%8b%e0%a6%b8%e0%a6%be-%e0%a6%9b%e0%a6%be%e0%a6%a1%e0%a6%bc%e0%a6%be-%e0%a7%ab%e0%a7%a6-%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae/{{ route('/') }}"
                                                 rel="prev"><span></span><img fetchpriority="high" width="800"
                                                     height="800"
                                                     src="{{ asset('version1/') }}/wp-content/uploads/2023/06/Nutmegh-pelled.jpg"
@@ -76,7 +75,8 @@
                                                     alt="চেলা জয়ফল" decoding="async"
                                                     srcset="https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled.jpg 800w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-300x300.jpg 300w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-100x100.jpg 100w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-600x600.jpg 600w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-768x768.jpg 768w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-340x340.jpg 340w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-680x680.jpg 680w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-400x400.jpg 400w"
                                                     sizes="(max-width: 800px) 100vw, 800px" /></a></span><span
-                                            id="prev-product" class="hidden-phone"><a href="../spice-combo1/{{route('/')}}"
+                                            id="prev-product" class="hidden-phone"><a
+                                                href="../spice-combo1/{{ route('/') }}"
                                                 rel="next"><span></span><img width="1080" height="1080"
                                                     src="{{ asset('version1/') }}/wp-content/uploads/2023/08/4.png"
                                                     class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image"
@@ -93,7 +93,8 @@
                                                             <div class="swiper-slide easyzoom enable-popup swiper-slide-active"
                                                                 data-zoom-image="{{ asset($product->image) }}"
                                                                 data-src="{{ asset($product->image) }}"
-                                                                data-slide="0"><img src="{{ asset($product->image) }}"
+                                                                data-slide="0"><img
+                                                                    src="{{ asset($product->image) }}"
                                                                     alt="3 Pickle COmbo 1" /></div>
                                                         </div>
                                                         <div class="swiper-button-next"></div>
@@ -108,11 +109,11 @@
                                         </div>
                                         <div class="summary entry-summary">
                                             <nav id="breadcrumb" class="woocommerce-breadcrumb"><a
-                                                    href="{{ asset('version1/') }}/{{route('/')}}">Home</a><span
+                                                    href="{{ asset('version1/') }}/{{ route('/') }}">Home</a><span
                                                     class="delimiter">/</span><a
-                                                    href="{{ asset('version1/') }}/shop/{{route('/')}}">শপ</a><span
+                                                    href="{{ asset('version1/') }}/shop/{{ route('/') }}">শপ</a><span
                                                     class="delimiter">/</span><a
-                                                    href="{{ asset('version1/') }}/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/{{route('/')}}">আচার</a><span
+                                                    href="{{ asset('version1/') }}/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/{{ route('/') }}">আচার</a><span
                                                     class="delimiter">/</span>{{ $product->name }}</nav>
                                             </nav>
                                             <h1 class="product_title entry-title">{{ $product->name }}</h1>
@@ -133,13 +134,13 @@
                                             </div>
 
                                             <div class="woocommerce-product-details__short-description">
-                                                @if ($product->short_description !=null)
-                                                {!! $product->short_description !!}
+                                                @if ($product->short_description != null)
+                                                    {!! $product->short_description !!}
                                                 @else
-                                                <p> <b> স্বাদঃ টক ঝাল মিষ্টি</b></p>
-                                                <p>উপাদানঃ আম, লবন, মরিচ, ভিনেগার,</p>
-                                                <p> নিজস্ব ঘানি ভাংগা সরিষার তৈল,</p>
-                                                <p>আচার বাড়ি”র স্পেশাল মসলা।</p>
+                                                    <p> <b> স্বাদঃ টক ঝাল মিষ্টি</b></p>
+                                                    <p>উপাদানঃ আম, লবন, মরিচ, ভিনেগার,</p>
+                                                    <p> নিজস্ব ঘানি ভাংগা সরিষার তৈল,</p>
+                                                    <p>আচার বাড়ি”র স্পেশাল মসলা।</p>
                                                 @endif
 
                                             </div>
@@ -315,9 +316,23 @@
                                 <div class="product_meta">
                                     <span class="sku_wrapper">SKU: <span class="sku">Combo1</span></span>
                                     <span class="posted_in">Category: <a
-                                            href="{{ asset('version1/') }}/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/{{route('/')}}"
+                                            href="{{ asset('version1/') }}/product-category/%e0%a6%86%e0%a6%9a%e0%a6%be%e0%a6%b0/{{ route('/') }}"
                                             rel="tag">আচার</a></span>
                                 </div>
+
+                                <div class="details container">
+                                    <div class="title" >
+                                        <h4 style="border-bottom: 2px solid green;"> <span
+                                                style="background: #168d44;
+                                                        color: #fff;
+                                                        font-size: large;
+                                                        padding: 5px;">Description</span>
+                                        </h4>
+                                    </div>
+                                    <article style="font-size: 17px">{!! $product->description !!}</article>
+
+                                </div>
+
                                 <div class="container">
                                     <div class="related-products">
                                         <div class="related   ">
@@ -425,7 +440,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <meta content="{{route('/')}}" />
+                                <meta content="{{ route('/') }}" />
                             </div>
                         </div>
                     </div>
@@ -478,13 +493,14 @@
                         <span class="txt" data-hover>
                         </span>
                     </a>
-                    <a href="{{ asset('version1/') }}/cart/{{route('/')}}" class="added_to_cart wc-forward hide"></a>
+                    <a href="{{ asset('version1/') }}/cart/{{ route('/') }}"
+                        class="added_to_cart wc-forward hide"></a>
                 </div>
             </div>
             <div id="customer_login" class="hide-login ">
                 <h2>Login</h2>
                 <a class="register-link"
-                    href="{{ asset('version1/') }}/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/{{route('/')}}">Create
+                    href="{{ asset('version1/') }}/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/{{ route('/') }}">Create
                     an account</a>
                 <form class="woocommerce-form woocommerce-form-login login" method="post">
                     <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
@@ -569,7 +585,7 @@
                         </label>
                         <span class="woocommerce-LostPassword lost_password">
                             <a
-                                href="{{ asset('version1/') }}/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/lost-password/{{route('/')}}">Lost
+                                href="{{ asset('version1/') }}/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/lost-password/{{ route('/') }}">Lost
                                 your password?</a>
                         </span>
                     </p>
@@ -598,7 +614,7 @@
 	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
 
 </script>
-@include('website.version1.componant.quick-view')
+            @include('website.version1.componant.quick-view')
 
             @include('website.version1.layouts.include.footer-script')
             @include('website.version1.custom-js')
