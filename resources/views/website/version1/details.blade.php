@@ -67,21 +67,21 @@
                                     <div class="container">
                                         <span class="product-line hidden-phone hidden-v-tablet"></span>
                                         <span id="next-product" class="hidden-phone"><a
-                                                href="../nutmeg-whole-%e0%a6%96%e0%a7%8b%e0%a6%b8%e0%a6%be-%e0%a6%9b%e0%a6%be%e0%a6%a1%e0%a6%bc%e0%a6%be-%e0%a7%ab%e0%a7%a6-%e0%a6%97%e0%a7%8d%e0%a6%b0%e0%a6%be%e0%a6%ae/{{ route('/') }}"
+                                                href="{{ route('single.product',$product->id+1) }}"
                                                 rel="prev"><span></span><img fetchpriority="high" width="800"
                                                     height="800"
                                                     src="{{ asset('version1/') }}/wp-content/uploads/2023/06/Nutmegh-pelled.jpg"
                                                     class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image"
                                                     alt="চেলা জয়ফল" decoding="async"
-                                                    srcset="https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled.jpg 800w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-300x300.jpg 300w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-100x100.jpg 100w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-600x600.jpg 600w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-768x768.jpg 768w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-340x340.jpg 340w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-680x680.jpg 680w, https://chuijhal.com/wp-content/uploads/2023/06/Nutmegh-pelled-400x400.jpg 400w"
+                                                    srcset="{{ asset($product->image) }}"
                                                     sizes="(max-width: 800px) 100vw, 800px" /></a></span><span
                                             id="prev-product" class="hidden-phone"><a
-                                                href="../spice-combo1/{{ route('/') }}"
+                                                href="{{ route('single.product',$product->id-1) }}"
                                                 rel="next"><span></span><img width="1080" height="1080"
                                                     src="{{ asset('version1/') }}/wp-content/uploads/2023/08/4.png"
                                                     class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image"
                                                     alt="হলুদের গুড়া, মরিচের গুড়া ধনিয়ার গুড়া" decoding="async"
-                                                    srcset="https://chuijhal.com/wp-content/uploads/2023/08/4.png 1080w, https://chuijhal.com/wp-content/uploads/2023/08/4-300x300.png 300w, https://chuijhal.com/wp-content/uploads/2023/08/4-100x100.png 100w, https://chuijhal.com/wp-content/uploads/2023/08/4-600x600.png 600w, https://chuijhal.com/wp-content/uploads/2023/08/4-768x768.png 768w, https://chuijhal.com/wp-content/uploads/2023/08/4-340x340.png 340w, https://chuijhal.com/wp-content/uploads/2023/08/4-680x680.png 680w, https://chuijhal.com/wp-content/uploads/2023/08/4-400x400.png 400w"
+                                                    srcset="{{ asset($product->image) }}"
                                                     sizes="(max-width: 1080px) 100vw, 1080px" /></a></span>
                                         <span
                                             class="onsale percentage-sale offer">-{{ $product->sizePrice[0]->offer }}%</span>
