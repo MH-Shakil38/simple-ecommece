@@ -57,15 +57,17 @@
                                     <td>{{ $item->category->name ?? '--' }}</td>
 
                                     <td class="">
-                                        <table class="table-bordered border-2 m-0 p-0" >
+                                        <table class="table-bordered border-2 m-0 p-0">
 
                                             @forelse ($item->sizePrice as $info)
-                                                <tr class="border-2" style="border: 2px solid rgb(30, 5, 131);min-width:500px">
+                                                <tr class="border-2"
+                                                    style="border: 2px solid rgb(30, 5, 131);min-width:500px">
                                                     <td class="border-2">{{ $info->size }}</td>
                                                     <td>{{ $info->price }}-tk</td>
                                                     <td>{{ $info->offer }}%</td>
-                                                    <td> <span class="badge {{ $info->in_stock == 1 ? 'badge-success' : 'badge-danger' }} ">{{ $info->in_stock == 1 ? 'In-stock' : 'Out of stock' }}</span>
-                                                </td>
+                                                    <td> <span
+                                                            class="badge {{ $info->in_stock == 1 ? 'badge-success' : 'badge-danger' }} ">{{ $info->in_stock == 1 ? 'In-stock' : 'Out of stock' }}</span>
+                                                    </td>
                                                 </tr>
                                             @empty
                                             @endforelse
@@ -75,12 +77,23 @@
                                     <td class="d-flex">
                                         <a href="{{ route('products.edit', [$item->id]) }}"
                                             class="btn btn-sm btn-primary mr-1"><i class="fas fa-edit"></i></a>
-                                        <form action="{{ route('products.destroy', [$item->id]) }}" class="mr-1"
+                                        {{-- <form action="{{ route('products.destroy', [$item->id]) }}" class="mr-1"
                                             method="POST">
                                             @method('DELETE')
                                             @csrf
                                             <button class="btn btn-sm btn-danger "><i class="fas fa-trash"></i></button>
+                                        </form> --}}
+                                        <form id="delete-form-{{ $item->id }}"
+                                            action="{{ route('products.destroy', [$item->id]) }}" method="POST"
+                                            class="mr-1">
+                                            @method('DELETE')
+                                            @csrf
+                                            <button type="button" class="btn btn-sm btn-danger"
+                                                onclick="confirmDelete({{ $item->id }})">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
                                         </form>
+
                                     </td>
                                 </tr>
                             @empty
@@ -96,5 +109,34 @@
     </div>
     <!-- /.card -->
     </div>
-    <div>
-    @endsection
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function confirmDelete(itemId) {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You Delete this item!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    document.getElementById('delete-form-' + itemId).submit();
+                }
+            });
+        }
+
+        // Show a success alert after deletion
+        @if (session('success'))
+            Swal.fire({
+                title: 'Deleted!',
+                text: "{{ session('success') }}",
+                icon: 'success',
+                confirmButtonText: 'OK'
+            });
+        @endif
+    </script>
+
+
+@endsection
