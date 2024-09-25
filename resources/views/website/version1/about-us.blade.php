@@ -1773,38 +1773,7 @@
                                                             <div class="wpb_text_column wpb_content_element  shortcodeAnimation no-responsive-animation"
                                                                 data-delay="250" data-animation="fade-in-bottom">
                                                                 <div class="wpb_wrapper">
-                                                                    <div class="wpb_text_column wpb_content_element ">
-                                                                        <div class="wpb_wrapper">
-                                                                            <p><span
-                                                                                    style="font-size: 14px; color: #787878;">আমরা
-                                                                                    বিভিন্ন দেশ থেকে সরাসরি অর্গানিক
-                                                                                    পন্য সংগ্রহ করে আপনার রান্নাঘরে
-                                                                                    পৌঁছে দিচ্ছি।</span></p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="wpb_text_column wpb_content_element ">
-                                                                        <div class="wpb_wrapper"><span
-                                                                                style="font-size: 14px; color: #787878;">আমারা
-                                                                                কোন ধরনের গুড়া মসলা বিক্রি করিনা। আমাদের
-                                                                                রেসিপি পোর্টালে নিয়মিত লিখছেন ১০০+ রন্ধন
-                                                                                শিল্পী। Exoticagroে যুক্ত হয়েছে ৭৫টি গরুর
-                                                                                একটি খামার। কিছুদিনের মধ্যে খামারের
-                                                                                উৎপাদিত নানা পন্য আপনাদের রান্না ঘরে
-                                                                                পৌঁছে যাবে।</span></div>
-                                                                        <div></div>
-                                                                        <div>এছাড়া আমরা ম্যাজিক রুটি মেকারের একটি সহযোগী
-                                                                            প্রতিষ্ঠান। এটি এখন দেশের বাজার ছাড়িয়ে
-                                                                            বিদেশের বাজারে বেশ জনপ্রিয়তা পেয়েছে।</div>
-                                                                    </div>
-                                                                    <div class="vc_empty_space"><span
-                                                                            style="font-size: 14px; color: #787878;">
-                                                                        </span></div>
-                                                                    <div class="wpb_text_column wpb_content_element ">
-                                                                        <div class="wpb_wrapper"><span
-                                                                                style="font-size: 14px; color: #787878;">আমরা
-                                                                                স্বপ্ন দেখি নির্ভেজাল বাংলাদেশ গড়ার।
-                                                                            </span></div>
-                                                                    </div>
+                                                                    {!! about_us()->details ?? '--' !!}
                                                                 </div>
                                                             </div>
                                                             <div id="vc_empty_space_1" class="vc_empty_space"
