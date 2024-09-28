@@ -1,6 +1,16 @@
 @include('website.version1.componant.show-cart')
 @include('website.version1.componant.sidebar-category')
 @include('website.version1.componant.search-popup')
+<style>
+    @media (min-width: 1024px) {
+        header .logo img {
+            width: 150px;
+            display: block;
+            max-height: 110px;
+            margin-top: -31px;
+        }
+    }
+</style>
 <header id="epHeader" data-fixed="fixed-menu"
     class=" hastogglesidebar  hasDropDownCart   fillhover    type1 fixed-menu   ">
     <div class="wrap headerWrap">
@@ -49,11 +59,13 @@
                                         class="menu_title"><span>প্রচ্ছদ</span></span></span></a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page"><span
-                                class="spanHover"></span><a href="{{ route('product.category',0) }}"><span class="menu_title_wrap"><span
-                                        class="menu_title"><span>শপ</span></span></span></a></li>
+                                class="spanHover"></span><a href="{{ route('product.category', 0) }}"><span
+                                    class="menu_title_wrap"><span class="menu_title"><span>শপ</span></span></span></a>
+                        </li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom"><span
-                                class="spanHover"></span><a href="{{ route('product.category',2) }}"><span class="menu_title_wrap"><span
-                                        class="menu_title"><span>আচার</span></span></span></a></li>
+                                class="spanHover"></span><a href="{{ route('product.category', 2) }}"><span
+                                    class="menu_title_wrap"><span class="menu_title"><span>আচার</span></span></span></a>
+                        </li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
                             <span class="spanHover"></span><a href="#"><span class="menu_title_wrap"><span
                                         class="menu_title"><span>ব্লগ</span></span></span></a>
@@ -70,8 +82,8 @@
                             </ul>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                            <span class="spanHover"></span><a href="{{ url('/about') }}"><span class="menu_title_wrap"><span
-                                        class="menu_title"><span>আমাদের
+                            <span class="spanHover"></span><a href="{{ url('/about') }}"><span
+                                    class="menu_title_wrap"><span class="menu_title"><span>আমাদের
                                             সম্পর্কে</span></span></span></a>
                             <ul class="sub-menu">
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
@@ -129,12 +141,12 @@
                         <span class="toggle_submneu"><span class="toggle_icon"></span></span>
                         <ul class="sub-menu">
                             @forelse (blog_categories() as $info)
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
-                                    href="#"><span class="menu_title_wrap"><span
-                                            class="menu_title"><span>{{ $info->name }}</span></span></span></a>
-                            </li>
-                        @empty
-                        @endforelse
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a
+                                        href="#"><span class="menu_title_wrap"><span
+                                                class="menu_title"><span>{{ $info->name }}</span></span></span></a>
+                                </li>
+                            @empty
+                            @endforelse
                         </ul>
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
