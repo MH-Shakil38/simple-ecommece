@@ -439,7 +439,7 @@
                                                 style="padding: 20px; border: 1px solid #9ec79e; background:#d8e7d8">
                                                 <div class="col-md-4">
                                                     <div class="form-group">
-                                                        <label for="name">Name</label>
+                                                        <label for="name">Your Name</label>
                                                         <input type="text" name="name"
                                                             class="form-control input-text">
                                                     </div>
