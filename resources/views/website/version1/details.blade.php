@@ -380,7 +380,8 @@
                                         <div class="tab">
                                             <button class="tablinks active"
                                                 onclick="openCity(event, 'description')">Description</button>
-                                            <button class="tablinks" onclick="openCity(event, 'review')">Review</button>
+                                            <button class="tablinks"
+                                                onclick="openCity(event, 'review')">Review</button>
                                         </div>
                                         {{-- <h4 style="border-bottom: 2px solid green;"> <button
                                                 style="background: #168d44;
@@ -395,8 +396,68 @@
                                     </div>
 
                                     <div id="review" class="tabcontent">
-                                        <h3>review</h3>
-                                        <p>review is the capital of France.</p>
+                                        <h5 style="padding: 10px">Reviews of {{ $product->name }}</h5>
+                                        <style>
+                                            .avatar {
+                                                vertical-align: middle;
+                                                width: 30px;
+                                                height: 50px;
+                                                border-radius: 50%;
+                                            }
+                                        </style>
+                                        <div class="view-review">
+                                            <div class="review">
+                                                <h6>
+                                                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar"
+                                                class="avatar">
+                                                  <span>Maynuddin</span>
+                                                </h6>
+                                                <p style="margin-left: 30px;border-bottom: 0.01px solid #9ec79e;" >hello</p>
+                                            </div>
+
+                                            <div class="review">
+                                                <h6>
+                                                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar"
+                                                class="avatar">
+                                                  <span>Maynuddin</span>
+                                                </h6>
+                                                <p style="margin-left: 30px;border-bottom: 0.01px solid #9ec79e;" >hello</p>
+                                            </div>
+
+                                            <div class="review">
+                                                <h6>
+                                                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar"
+                                                class="avatar">
+                                                  <span>Maynuddin</span>
+                                                </h6>
+                                                <p style="margin-left: 30px;border-bottom: 0.01px solid #9ec79e;" >hello</p>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <br>
+
+                                        <form action="">
+                                            <div class="row" style="padding: 20px;border: 1px solid #9ec79e;background:#d8e7d8">
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="rating">Name</label>
+                                                        <input type="text" name="name"
+                                                            class="form-control input-text">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="rating">Review</label>
+                                                        <input type="text" name="review"
+                                                            class="form-control input-text">
+                                                    </div>
+                                                </div>
+                                            <button type="text" style="margin-top:10px;padding:5px 33px 5px 31px;background:green; font-weght:bold;color:#fff;border:none;font-size:20px" type="submit" >Submit</button>
+
+                                            </div>
+
+
+                                        </form>
                                     </div>
 
 
