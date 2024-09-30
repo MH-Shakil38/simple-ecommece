@@ -45,6 +45,9 @@ Route::post('/contact-store',[WebsiteController::class,'contactStore'])->name('c
 Route::get('/about',[WebsiteController::class,'aboutUs'])->name('about.us');
 Route::get('/privacy-policy',[WebsiteController::class,'policy'])->name('policy');
 Route::get('/tearms-condition',[WebsiteController::class,'tearms'])->name('tearms');
+Route::post('/review',[WebsiteController::class,'review'])->name('review');
+
+
 
 Auth::routes();
 

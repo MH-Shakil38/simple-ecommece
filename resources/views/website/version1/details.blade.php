@@ -406,60 +406,95 @@
                                             }
                                         </style>
                                         <div class="view-review">
-                                            <div class="review">
-                                                <h6>
-                                                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar"
-                                                class="avatar">
-                                                  <span>Maynuddin</span>
-                                                </h6>
-                                                <p style="margin-left: 30px;border-bottom: 0.01px solid #9ec79e;" >hello</p>
-                                            </div>
 
+                                            @php
+                                                $reviews = App\Models\Review::where('product_id', $product->id)->get();
+                                            @endphp
+                                            @forelse ($reviews as $info)
                                             <div class="review">
                                                 <h6>
-                                                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar"
-                                                class="avatar">
-                                                  <span>Maynuddin</span>
+                                                    <img src="https://www.w3schools.com/howto/img_avatar.png"
+                                                        alt="Avatar" class="avatar">
+                                                    <span style="font-weight: bold">{{ $info->name ??'--' }}</span>
                                                 </h6>
-                                                <p style="margin-left: 30px;border-bottom: 0.01px solid #9ec79e;" >hello</p>
+                                                <p style="margin-left: 30px;border-bottom: 0.01px solid #bbc2bb4c; font-size:20px">{{ $info->details ?? ''}}
+                                                </p>
                                             </div>
+                                            @empty
 
-                                            <div class="review">
-                                                <h6>
-                                                    <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar"
-                                                class="avatar">
-                                                  <span>Maynuddin</span>
-                                                </h6>
-                                                <p style="margin-left: 30px;border-bottom: 0.01px solid #9ec79e;" >hello</p>
-                                            </div>
+                                            @endforelse
+
+
+
+
+
                                         </div>
                                         <br>
                                         <br>
 
-                                        <form action="">
-                                            <div class="row" style="padding: 20px;border: 1px solid #9ec79e;background:#d8e7d8">
+                                        <form id="reviewForm" action="{{ route('review') }}" method="POST">
+                                            @csrf
+                                            <input type="hidden" name="product_id" value="{{ $product->id }}">
+                                            <div class="row"
+                                                style="padding: 20px; border: 1px solid #9ec79e; background:#d8e7d8">
                                                 <div class="col-md-4">
                                                     <div class="form-group">
-                                                        <label for="rating">Name</label>
+                                                        <label for="name">Name</label>
                                                         <input type="text" name="name"
                                                             class="form-control input-text">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <label for="rating">Review</label>
-                                                        <input type="text" name="review"
+                                                        <label for="details">Review</label>
+                                                        <input type="text" name="details"
                                                             class="form-control input-text">
                                                     </div>
                                                 </div>
-                                            <button type="text" style="margin-top:10px;padding:5px 33px 5px 31px;background:green; font-weght:bold;color:#fff;border:none;font-size:20px" type="submit" >Submit</button>
-
+                                                <button
+                                                    class=" button alt "
+                                                    style="margin-top:10px; padding:5px 33px 5px 31px; background:green; color:#fff; border:none; font-size:20px"
+                                                    type="submit">
+                                                    Submit
+                                                </button>
                                             </div>
-
-
                                         </form>
+                                        <div id="successMessage"
+                                            style="display: none; color: green; margin-top: 10px;">
+                                            Your review has been submitted successfully!
+                                        </div>
+
                                     </div>
 
+                                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                                    <script>
+                                        $(document).ready(function() {
+                                            $('#reviewForm').on('submit', function(event) {
+                                                event.preventDefault(); // Prevent form from submitting normally
+
+                                                // Clear any previous success message
+                                                $('#successMessage').hide();
+
+                                                $.ajax({
+                                                    url: $(this).attr('action'), // Form action URL
+                                                    method: $(this).attr('method'), // Form method (POST)
+                                                    data: $(this).serialize(), // Serialize form data
+                                                    success: function(response) {
+                                                        // Show success message
+                                                        $('.view-review').html(response.review)
+                                                        $('#successMessage').show();
+
+                                                        // Optionally, clear the form fields
+                                                        $('#reviewForm')[0].reset();
+                                                    },
+                                                    error: function(response) {
+                                                        // Handle any errors here
+                                                        alert('There was an error submitting your review.');
+                                                    }
+                                                });
+                                            });
+                                        });
+                                    </script>
 
 
 
