@@ -113,16 +113,20 @@
 </style>
 @if (count(slider()) > 0)
     <div class="mr-1 ml-1">
-        <div class="slider">
-            @forelse (slider() as  $slider)
+        <div class="">
+            {{-- <div class="slider"> --}} 
+            {{-- @forelse (slider() as  $slider) --}}
+            @php
+                $slider = \App\Models\SliderImage::query()->where('status',1)->latest()->first();
+            @endphp
                 <div class="slide desktop" style="background-image: url('{{ $slider->image }}');">
                 </div>
 
                 <div class="slide mobile" style="background-image: url('{{ $slider->mobile_slider }}');">
                 </div>
 
-            @empty
-            @endforelse
+            {{-- @empty --}}
+            {{-- @endforelse --}}
         </div>
 
         <div class="banner-content">
