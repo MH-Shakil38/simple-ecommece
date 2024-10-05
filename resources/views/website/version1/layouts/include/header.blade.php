@@ -51,22 +51,22 @@
                     <ul id="menu-%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a7%e0%a6%be%e0%a6%a8-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be"
                         class="clearfix">
                         <li
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-14742 current_page_item">
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-14742 {{ Request::is('/') ? 'current_page_item' : '' }}">
                             <span class="spanHover"></span><a class="locallink home" data-hash="home"
                                 href="{{ route('/') }}"><span class="menu_title_wrap"><span
                                         class="menu_title"><span>প্রচ্ছদ</span></span></span></a><a class="externalLink"
                                 href="{{ route('/') }}"><span class="menu_title_wrap"><span
                                         class="menu_title"><span>প্রচ্ছদ</span></span></span></a>
                         </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page"><span
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page {{ Request::is('product-category/0') ? 'current_page_item' : '' }}"><span
                                 class="spanHover"></span><a href="{{ route('product.category', 0) }}"><span
                                     class="menu_title_wrap"><span class="menu_title"><span>শপ</span></span></span></a>
                         </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom"><span
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom {{ Route::is('product.category')  && Request::is('product-category/0') != Route::is('product.category') ? 'current_page_item' : '' }}"><span
                                 class="spanHover"></span><a href="{{ route('product.category', 2) }}"><span
                                     class="menu_title_wrap"><span class="menu_title"><span>আচার</span></span></span></a>
                         </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children ">
                             <span class="spanHover"></span><a href="#"><span class="menu_title_wrap"><span
                                         class="menu_title"><span>ব্লগ</span></span></span></a>
                             <ul class="sub-menu">
@@ -81,7 +81,7 @@
 
                             </ul>
                         </li>
-                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children {{ Route::is('about') || Route::is('contact') || Route::is('policy') || Route::is('tearms') ? 'current_page_item' : '' }}">
                             <span class="spanHover"></span><a href="{{ url('/about') }}"><span
                                     class="menu_title_wrap"><span class="menu_title"><span>আমাদের
                                             সম্পর্কে</span></span></span></a>
