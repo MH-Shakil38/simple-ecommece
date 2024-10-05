@@ -1937,12 +1937,15 @@
                             background-color: #ffffff;
                         }
                     </style>
+                    @php
+                        $slider = slider()->first();
+                    @endphp
                     <div id="header" class="hasbg"
-                        style="background-image:url(https://scontent.fdac99-1.fna.fbcdn.net/v/t39.30808-6/367437126_825783365915662_8146240499128889808_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=86c6b0&_nc_eui2=AeGZvhFUieMRzJ7VWlf8USmAbzsDr92i4rVvOwOv3aLitbFdA1Idu6B3j2hL04oqy1bGgsXoXU6_mqVojnTUwbjN&_nc_ohc=RcwAklB29kAQ7kNvgE18Vnz&_nc_ht=scontent.fdac99-1.fna&oh=00_AYDtiy2wsWGma3fqu8ZTbxQq9ubu_7AG7vaY9IZmEvPdgw&oe=66DA3971)">
+                        style="background-image:url({{ asset($slider->image) }}">
                         <div id="header-content">
                             <div class="page-breadcrumb">
                                 <nav class="woocommerce-breadcrumb" aria-label="Breadcrumb"><a
-                                        href="{{ asset('version1/') }}//index.html">Home</a><span
+                                        href="{{ route('/') }}/">Home</a><span
                                         class="delimiter">/</span>শপ</nav>
                                 </nav>
                             </div>

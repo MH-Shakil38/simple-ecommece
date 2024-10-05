@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Artisan;
 Route::get('/', function () {
     session()->put('theme','version1');
     $data['products'] = Product::query()->paginate(15);
-    return view('website.'.session('theme').'.home')->with($data);
+    return view('website.version1.home')->with($data);
 })->name('/');
 Route::get('/product-category/{id}',[\App\Http\Controllers\WebsiteController::class,'category_ways_product'])->name('product.category');
 Route::get('/all-hot-deal',[\App\Http\Controllers\WebsiteController::class,'all_hot_deal'])->name('all.hot.deal');
