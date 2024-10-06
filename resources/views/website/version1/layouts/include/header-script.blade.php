@@ -14,7 +14,7 @@
         content="Exotic Taste House Agro " />
     <meta property="og:url" content="{{route('/')}}" />
     <meta property="og:site_name" content="আচার" />
-    <meta property="article:publisher" content="https://www.facebook.com/Achar.BariETHA99" />
+    <meta property="article:publisher" content="https://www.facebook.com/agrobdhouse" />
     <meta property="article:modified_time" content="2024-05-09T09:10:58+00:00" />
     <meta property="og:image" content="{{ asset(setting()->logo) }}" />
     <meta property="og:image:width" content="1081" />
@@ -1429,67 +1429,10 @@
         <link rel="stylesheet" id="mediaelement-css"
             href="{{asset('version1/')}}/wp-includes/js/mediaelement/mediaelementplayer-legacy.min1f61.css?ver=4.2.17" type="text/css"
             media="all" />
-    <script type="text/javascript" src="{{asset('version1/')}}/wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
-     <script type="text/javascript" src="{{asset('version1/')}}/wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js">
-    </script>
-     <script type="text/javascript"
-        src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min4ebd.js?ver=2.7.0-wc.9.0.2"
-        id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
-     <script type="text/javascript" id="wc-add-to-cart-js-extra">
-        /* <![CDATA[ */
-        // var wc_add_to_cart_params = {
-        //     "ajax_url": "\/wp-admin\/admin-ajax.php",
-        //     "wc_ajax_url": "\/?aaaaaaaaaaaaaaaawc-ajax=%%endpoint%%",
-        //     "i18n_view_cart": "View cart",
-        //     "cart_url": "https:\/\/chuijhal.com\/cart\/",
-        //     "is_cart": "",
-        //     "cart_redirect_after_add": "no"
-        // };
-        // /* ]]> */
-    </script>
-     <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min9e2b.js?ver=9.0.2"
-        id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
-    <script type="text/javascript"
-        src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.minf01e.js?ver=2.1.4-wc.9.0.2" id="js-cookie-js"
-        defer="defer" data-wp-strategy="defer"></script>
-    <script type="text/javascript" id="woocommerce-js-extra">
-         /* <![CDATA[ */
-        // var woocommerce_params = {
-        //     "ajax_url": "\/wp-admin\/admin-ajax.php",
-        //     "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
-        // };
-        /* ]]> */
-    </script>
-     <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min9e2b.js?ver=9.0.2"
-        id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
-     <script type="text/javascript" id="ajax-script-js-extra">
-        /* <![CDATA[ */
-        // var ajax_object = {
-        //     "ajaxurl": "https:\/\/chuijhal.com\/wp-json\/wpsms\/v1\/newsletter"
-        // };
-        /* ]]> */
-    </script>
-    <script type="text/javascript" src="{{asset('version1/')}}/wp-content/plugins/greenwebsms/assets/js/scriptdbc1.js?ver=75.0.0"
-        id="ajax-script-js"></script>
-    <link rel="https://api.w.org/" href="wp-json/{{route('/')}}" />
-    <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/14742.json" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
-    <link rel="alternate" type="application/json+oembed"
-        href="wp-json/oembed/1.0/embede4b9.json?url=https%3A%2F%2Fchuijhal.com%2F" />
-    <link rel="alternate" type="text/xml+oembed"
-        href="wp-json/oembed/1.0/embeda1ba?url=https%3A%2F%2Fchuijhal.com%2F&amp;format=xml" />
-    <noscript>
-        <style>
-            .woocommerce-product-gallery {
-                opacity: 1 !important;
-            }
-        </style>
-    </noscript>
-    <meta name="generator"
-        content="Elementor 3.22.3; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 
-    <script type="application/ld+json" class="saswp-schema-markup-output">
-</script>
+
+
+
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
     <link rel="icon" href="{{ asset(setting()->logo) }}" sizes="32x32" />
     <link rel="icon" href="{{ asset(setting()->logo) }}" sizes="192x192" />
