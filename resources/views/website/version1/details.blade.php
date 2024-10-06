@@ -19,21 +19,47 @@
     <meta property="og:description" content="{{ $product->name }}" />
     <meta property="og:url" content="{{ route('/') }}" />
     <meta property="og:site_name" content="আচার" />
-    <meta property="article:publisher" content="https://www.facebook.com/Achar.BariETHA99" />
+    <meta property="article:publisher" content="https://www.facebook.com/agrobdhouse" />
     <meta property="article:modified_time" content="2024-08-10T05:16:50+00:00" />
     <meta property="og:image" content="{{ asset(setting()->logo) }}" />
     <meta property="og:image:width" content="1080" />
     <meta property="og:image:height" content="1080" />
     <meta property="og:image:type" content="image/png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@chuijhal" />
+    <meta name="twitter:site" content="Exotic Taste House Agro" />
     <meta name="twitter:label1" content="Est. reading time" />
     <meta name="twitter:data1" content="1 minute" />
 
     @include('website.version1.css.details-header-script')
 
 
-    <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" />
+    {{-- <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" /> --}}
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2048006798962306');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=2048006798962306&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body data-rsssl="1"
@@ -411,17 +437,19 @@
                                                 $reviews = App\Models\Review::where('product_id', $product->id)->get();
                                             @endphp
                                             @forelse ($reviews as $info)
-                                            <div class="review">
-                                                <h6>
-                                                    <img src="https://www.w3schools.com/howto/img_avatar.png"
-                                                        alt="Avatar" class="avatar">
-                                                    <span style="font-weight: bold">{{ $info->name ??'--' }}</span>
-                                                </h6>
-                                                <p style="margin-left: 30px;border-bottom: 0.01px solid #bbc2bb4c; font-size:20px">{{ $info->details ?? ''}}
-                                                </p>
-                                            </div>
+                                                <div class="review">
+                                                    <h6>
+                                                        <img src="https://www.w3schools.com/howto/img_avatar.png"
+                                                            alt="Avatar" class="avatar">
+                                                        <span
+                                                            style="font-weight: bold">{{ $info->name ?? '--' }}</span>
+                                                    </h6>
+                                                    <p
+                                                        style="margin-left: 30px;border-bottom: 0.01px solid #bbc2bb4c; font-size:20px">
+                                                        {{ $info->details ?? '' }}
+                                                    </p>
+                                                </div>
                                             @empty
-
                                             @endforelse
 
 
@@ -451,8 +479,7 @@
                                                             class="form-control input-text">
                                                     </div>
                                                 </div>
-                                                <button
-                                                    class=" button alt "
+                                                <button class=" button alt "
                                                     style="margin-top:10px; padding:5px 33px 5px 31px; background:green; color:#fff; border:none; font-size:20px"
                                                     type="submit">
                                                     Submit

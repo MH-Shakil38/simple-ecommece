@@ -1446,4 +1446,4 @@
             }
         </style>
     </noscript>
-    <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" />
+    {{-- <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" /> --}}
