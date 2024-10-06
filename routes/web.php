@@ -18,6 +18,12 @@ use Illuminate\Support\Facades\Artisan;
 |
 */
 
+Route::get('/optimize', function () {
+    Artisan::call('optimize');
+    return 'optimize complete!';
+});
+
+
 Route::get('/', function () {
     session()->put('theme','version1');
     $data['products'] = Product::query()->paginate(15);
