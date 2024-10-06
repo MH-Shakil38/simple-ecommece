@@ -64,13 +64,7 @@
         href="{{ asset('version1/') }}/wp-json/oembed/1.0/embed0ff3.json?url=https%3A%2F%2Fchuijhal.com%2Fproduct%2Fpickle-combo-offer-01%2F" />
     <link rel="alternate" type="text/xml+oembed"
         href="{{ asset('version1/') }}/wp-json/oembed/1.0/embedf0a8?url=https%3A%2F%2Fchuijhal.com%2Fproduct%2Fpickle-combo-offer-01%2F&amp;format=xml" />
-    <noscript>
-        <style>
-            .woocommerce-product-gallery {
-                opacity: 1 !important;
-            }
-        </style>
-    </noscript>
+
     <meta name="generator"
         content="Elementor 3.22.3; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 
@@ -86,10 +80,4 @@
         href="{{asset(setting()->logo)}}" />
     <meta name="msapplication-TileImage"
         content="{{ asset($product->image) }}" />
-    <noscript>
-        <style>
-            .wpb_animate_when_almost_visible {
-                opacity: 1;
-            }
-        </style>
-    </noscript>
+
