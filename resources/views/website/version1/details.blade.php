@@ -17,7 +17,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Exotic Taste House Agro" />
     <meta property="og:description" content="{{ $product->name }}" />
-    <meta property="og:url" content="{{ route('/') }}" />
+    <meta property="og:url" content="{{ route('single.product',$product->id) }}" />
     <meta property="og:site_name" content="আচার" />
     <meta property="article:publisher" content="https://www.facebook.com/agrobdhouse" />
     <meta property="article:modified_time" content="2024-08-10T05:16:50+00:00" />
