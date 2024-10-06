@@ -1439,11 +1439,4 @@
     <link rel="apple-touch-icon" href="{{ asset(setting()->logo) }}" />
     <meta name="msapplication-TileImage"
         content="{{ asset(setting()->logo) }}" />
-    <noscript>
-        <style>
-            .wpb_animate_when_almost_visible {
-                opacity: 1;
-            }
-        </style>
-    </noscript>
     {{-- <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" /> --}}
