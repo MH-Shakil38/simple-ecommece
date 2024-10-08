@@ -114,7 +114,7 @@
 @if (count(slider()) > 0)
     <div class="mr-1 ml-1">
         <div class="">
-            {{-- <div class="slider"> --}} 
+            {{-- <div class="slider"> --}}
             {{-- @forelse (slider() as  $slider) --}}
             @php
                 $slider = \App\Models\SliderImage::query()->where('status',1)->latest()->first();
@@ -160,7 +160,7 @@
 
     .slide {
         min-width: 100%;
-        height: 380px;
+        height: 470px;
         background-position: center;
         background-size: cover;
         position: relative;
