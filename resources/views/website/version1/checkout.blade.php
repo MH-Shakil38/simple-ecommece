@@ -2007,42 +2007,7 @@
                                                                                                     delivery.</p>
                                                                                             </div>
                                                                                         </li>
-                                                                                        <li
-                                                                                            class="wc_payment_method payment_method_sslcommerz">
-                                                                                            <input
-                                                                                                id="payment_method_sslcommerz"
-                                                                                                type="radio"
-                                                                                                class="input-radio"
-                                                                                                name="payment_method"
-                                                                                                value="sslcommerz"
-                                                                                                data-order_button_text />
-                                                                                            <label
-                                                                                                for="payment_method_sslcommerz">
-                                                                                                Mobile Banking and
-                                                                                                Debit/Credit Cards
-                                                                                            </label>
-                                                                                            <div class="payment_box payment_method_sslcommerz"
-                                                                                                style="display:none;">
-                                                                                                <p>Pay securely by
-                                                                                                    Credit or Debit card
-                                                                                                    or mobile banking.
-                                                                                                    You can shop using
-                                                                                                    local credit/debit
-                                                                                                    cards like VISA,
-                                                                                                    MasterCard, DBBL
-                                                                                                    Nexus Card and any
-                                                                                                    kind of credit card
-                                                                                                    or bank accounts
-                                                                                                    right from your
-                                                                                                    home.<br />
-                                                                                                    <a><img decoding="async"
-                                                                                                            style="width:400px;height:auto"
-                                                                                                            src="https://chuijhal.com/wp-content/uploads/2019/03/Chuijhal-Pay-With-logo-All-Size-1.png" /></a>banking
-                                                                                                    through SSLCommerz
-                                                                                                    Secure Servers.
-                                                                                                </p>
-                                                                                            </div>
-                                                                                        </li>
+                                                                                        
                                                                                     </ul>
                                                                                     <div class="form-row place-order">
                                                                                         <noscript>
@@ -2104,7 +2069,7 @@
             </div>
         </div>
         @include('website.version1.layouts.include.footer')
-     
+
 
     </div>
     <div id="ep_wc_notices">
