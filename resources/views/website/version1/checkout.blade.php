@@ -1603,7 +1603,7 @@
         <span id="sidebar-open-overlay"></span>
         <div id="search-form">
             <div class="search-form searchContainer">
-                <form role="search" method="get" class="searchform popUp" action="https://chuijhal.com/">
+                <form role="search" method="get" class="searchform popUp" action="{{ route('place.order') }}">
                     <label class="screen-reader-text" for="s"></label>
                     <div class="searchWrapper">
                         <input type="text" placeholder="Search" value name="s" class="searchInput"
@@ -1919,7 +1919,7 @@
                                                                                                             for="shipping_method_0_flat_rate8">ঢাকার
                                                                                                             মধ্যে: <span
                                                                                                                 class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                        class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>75.00</bdi></span></label>
+                                                                                                                        class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ delivery_policy()->inside_dhaka ?? 0 }}.00</bdi></span></label>
                                                                                                     </li>
                                                                                                     <li>
                                                                                                         <input
@@ -1932,7 +1932,7 @@
                                                                                                             for="shipping_method_0_flat_rate9 ">ঢাকার
                                                                                                             বাইরে: <span
                                                                                                                 class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                        class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>120.00</bdi></span></label>
+                                                                                                                        class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ delivery_policy()->outside_dhaka ?? 0 }}.00</bdi></span></label>
                                                                                                     </li>
                                                                                                     <li>
                                                                                                         <input
@@ -2007,7 +2007,7 @@
                                                                                                     delivery.</p>
                                                                                             </div>
                                                                                         </li>
-                                                                                        
+
                                                                                     </ul>
                                                                                     <div class="form-row place-order">
                                                                                         <noscript>
