@@ -55,7 +55,8 @@ class DeliveryPolicyController extends Controller
      */
     public function update(Request $request, DeliveryPolicy $deliveryPolicy)
     {
-        DeliveryPolicy::query()->create($request->all());
+
+        $deliveryPolicy->update($request->all());
         return redirect()->route('delivery-policy.index')->with('success','Delivery Policy Added');
     }
 
