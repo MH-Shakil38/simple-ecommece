@@ -1,4 +1,8 @@
 <style>
+    .banner-content .btn {
+        background: rgb(0 139 17 / 59%);
+    }
+
     .banner-content {
         position: absolute;
         left: 0;
@@ -69,7 +73,7 @@
         border: none;
         letter-spacing: 0.35px;
         font-weight: 600;
-        padding: 20px 35px 22px;
+        padding: 12px 17px 14px;
         border-radius: 36px;
         font-size: 16px;
         cursor: pointer;
@@ -83,6 +87,7 @@
         position: relative;
         z-index: 1;
         overflow: hidden;
+        box-shadow: 1px 1px 11px 5px #c3bfbf;
     }
 
     .heading1 {
@@ -154,53 +159,53 @@
 
 
 
-    .slider-container {
-        position: relative;
-        width: 100%;
-        max-width: 100%;
-        margin: auto;
-        overflow: hidden;
-    }
+        .slider-container {
+            position: relative;
+            width: 100%;
+            max-width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
 
-    .slider {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
 
-    .slide {
-        min-width: 100%;
-        height: 470px;
-        background-position: center;
-        background-size: cover;
-        position: relative;
-    }
+        .slide {
+            min-width: 100%;
+            height: 470px;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
 
-    .slider-caption {
-        position: absolute;
-        bottom: 50px;
-        left: 50px;
-        color: white;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    }
+        .slider-caption {
+            position: absolute;
+            bottom: 50px;
+            left: 50px;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
 
-    .slider-controls {
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        transform: translateY(-50%);
-    }
+        .slider-controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
 
-    .prev,
-    .next {
-        cursor: pointer;
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        padding: 10px;
-        border: none;
-        font-size: 18px;
-    }
+        .prev,
+        .next {
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            border: none;
+            font-size: 18px;
+        }
 </style>
 <script>
     let currentSlide = 0;
