@@ -3,7 +3,7 @@
         position: absolute;
         left: 0;
         width: 100%;
-        top: 65%;
+        top: 50%;
         transform: translateY(-50%);
         text-align: center;
         z-index: 9;
