@@ -10,10 +10,10 @@
                     <!-- /.card-header -->
                     <div class="card-header">
                         <h3 class="float-right">Order Details</h3>
-                        @if($_GET['receive'] == true)
-                            Delivered
+                        @if ($order->status == 1)
+                            <a href="{{ route('store.order', $order->id) }}" class="btn btn-success">Receive</a>
                         @else
-                            <a href="{{route('store.order',$customer->id)}}" class="btn btn-success">Receive</a>
+                            Delivered
                         @endif
                     </div>
                     <div class="card-body">
@@ -28,25 +28,26 @@
                                 <th>Quantity</th>
                                 <th>Total</th>
                             </tr>
-                            @forelse($orders as $info)
+                            @forelse($order->orders as $info)
                                 <tr>
-                                    <td>{{$loop->iteration}}</td>
-                                    <td>{{$info->product->name}}</td>
-                                    <td><img src="{{asset($info->product->image)}}" height="80px" width="80px" alt=""></td>
-                                    <td class="">{{$info->selling_price}}</td>
-                                    <td class="">{{$info->stock->size}}</td>
-                                    <td class="">{{$info->qty}}</td>
-                                    <td class="">{{$info->qty * $info->selling_price}}</td>
+                                    <td>{{ $loop->iteration }}</td>
+                                    <td>{{ $info->product->name }}</td>
+                                    <td><img src="{{ asset($info->product->image) }}" height="80px" width="80px"
+                                            alt=""></td>
+                                    <td class="">{{ $info->selling_price }}</td>
+                                    <td class="">{{ $info->stock->size }}</td>
+                                    <td class="">{{ $info->qty }}</td>
+                                    <td class="">{{ $info->qty * $info->selling_price }}</td>
                                 </tr>
                             @empty
                             @endforelse
                             <tr>
                                 <td colspan="6" class="text-right">Shipping Cost:</td>
-                                <td class="">{{ $customer->delivery_cost}}</td>
+                                <td class="">{{ $order->delivery_cost }}</td>
                             </tr>
                             <tr>
                                 <td colspan="6" class="text-right">Total:</td>
-                                <td class="">{{$total ?? 0}}</td>
+                                <td class="">{{ $info->sum('total') + $order->delivery_cost ?? 0 }}</td>
                             </tr>
 
                         </table>

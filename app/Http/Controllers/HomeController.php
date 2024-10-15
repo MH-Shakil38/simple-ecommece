@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Customer;
+use App\Models\Order;
 use App\Models\TmpOrder;
 use Illuminate\Http\Request;
 
@@ -25,7 +26,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $data['orders'] = TmpOrder::query()->with('customer')->latest()->get()->unique('customer_id');
+        $data['orders'] = Order::query()->with('customer')->latest()->where('status',1)->get();
         return view('admin.dashboard')->with($data);
     }
 }

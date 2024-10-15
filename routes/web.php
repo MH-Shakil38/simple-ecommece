@@ -52,6 +52,8 @@ Route::get('/about',[WebsiteController::class,'aboutUs'])->name('about.us');
 Route::get('/privacy-policy',[WebsiteController::class,'policy'])->name('policy');
 Route::get('/tearms-condition',[WebsiteController::class,'tearms'])->name('tearms');
 Route::post('/review',[WebsiteController::class,'review'])->name('review');
+Route::get('/blog-post',[WebsiteController::class,'blog'])->name('blog.post');
+Route::get('/blog/details/{id}',[WebsiteController::class,'blogDetails'])->name('blog.details');
 
 
 
@@ -66,13 +68,17 @@ Route::resource('delivery-policy',\App\Http\Controllers\DeliveryPolicyController
 Route::resource('return-policy',\App\Http\Controllers\ReturnPolicyController::class);
 Route::resource('about-us',\App\Http\Controllers\AboutUsController::class);
 Route::resource('blog-categories',\App\Http\Controllers\BlogCategoryController::class);
+Route::resource('blogs',\App\Http\Controllers\BlogController::class);
 
 /*Order Route*/
 Route::get('pending-order',[\App\Http\Controllers\OrderController::class,'pending_order'])->name('pending.order');
 Route::get('received-order',[\App\Http\Controllers\OrderController::class,'received_order'])->name('received.order');
 Route::get('store-order/{id}',[\App\Http\Controllers\OrderController::class,'store_order'])->name('store.order');
-Route::get('order-details',[\App\Http\Controllers\OrderController::class,'details_order'])->name('order.details');
+Route::get('order-details/{id}',[\App\Http\Controllers\OrderController::class,'details_order'])->name('order.details');
 Route::get('delete-order/{id}',[\App\Http\Controllers\OrderController::class,'delete_order'])->name('delete.order');
+
+Route::get('order-page/{id}',[\App\Http\Controllers\OrderController::class,'orderPage'])->name('order.page');
+Route::get('chagne-order-status/{status}',[\App\Http\Controllers\OrderController::class,'chagneStatus'])->name('change.order.status');
 
 Route::get('/migrate', function () {
     Artisan::call('migrate');

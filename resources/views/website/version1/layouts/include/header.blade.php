@@ -66,8 +66,8 @@
                                 class="spanHover"></span><a href="{{ route('product.category', 2) }}"><span
                                     class="menu_title_wrap"><span class="menu_title"><span>আচার</span></span></span></a>
                         </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children ">
-                            <span class="spanHover"></span><a href="#"><span class="menu_title_wrap"><span
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom {{ Route::is('blog.post') ? 'current_page_item' : '' }} menu-item-has-children ">
+                            <span class="spanHover"></span><a href="{{ route('blog.post') }}"><span class="menu_title_wrap"><span
                                         class="menu_title"><span>ব্লগ</span></span></span></a>
                             <ul class="sub-menu">
                                 @forelse (blog_categories() as $info)

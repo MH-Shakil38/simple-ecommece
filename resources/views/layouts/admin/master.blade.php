@@ -94,7 +94,11 @@
                 <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
-                <a href="index3.html" class="nav-link">Home</a>
+                <a href="/home" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item d-none d-sm-inline-block">
+                <a href="/" class="nav-link btn btn-sm btn-outline-info " target="_blank">Website</a>
             </li>
             {{-- <li class="nav-item d-none d-sm-inline-block">
                 <a href="#" class="nav-link">Contact</a>
@@ -401,16 +405,31 @@
                         </a>
                         <ul class="nav nav-treeview" style="display: none;">
                             <li class="nav-item">
-                                <a href="{{route('pending.order')}}" class="nav-link">
+                                <a href="{{route('order.page',1)}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Pending Order</p>
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="{{route('received.order')}}" class="nav-link">
+                                <a href="{{route('order.page',2)}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Received Order</p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="{{route('order.page',3)}}" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Deliverd Order</p>
+                                </a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a href="{{route('order.page',0)}}" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Cancel Order</p>
                                 </a>
                             </li>
 
@@ -476,14 +495,14 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="{{route('products.create')}}" class="nav-link">
+                                <a href="{{route('blogs.index')}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Blog List</p>
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="{{route('settings.index')}}" class="nav-link">
+                                <a href="{{route('blogs.create')}}" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Create Blog</p>
                                 </a>

@@ -7,7 +7,7 @@
                 <div class="info-box-content">
                     <span class="info-box-text">Pending Order</span>
                     <span class="info-box-number">
-                                {{\App\Models\TmpOrder::query()->get()->unique('customer_id')->count()}}
+                                {{\App\Models\Order::query()->get()->where('status',1)->count()}}
                         <small></small>
                     </span>
                 </div>
@@ -21,7 +21,7 @@
                 <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-thumbs-up"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">Received Order</span>
-                    <span class="info-box-number">{{\App\Models\Order::query()->get()->unique('cutomer_id')->count()}}
+                    <span class="info-box-number">{{\App\Models\Order::query()->get()->where('status',2)->count()}}
                     </span>
                 </div>
 
@@ -36,7 +36,7 @@
                 <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">Sales</span>
-                    <span class="info-box-number">{{\App\Models\Order::query()->get()->sum('total')}}
+                    <span class="info-box-number">{{\App\Models\Order::query()->where('status',2)->get()->sum('total')}}
                     </span>
                 </div>
 
@@ -73,6 +73,8 @@
                             <th>Phone</th>
                             <th>Address</th>
                             <th>Order Date</th>
+                            <th>QTY</th>
+                            <th>Status</th>
                             <th>Action</th>
                         </tr>
                         @forelse($orders as $info)
@@ -82,10 +84,12 @@
                                 <td>{{$info->customer->customer_phone}}</td>
                                 <td>{{$info->customer->customer_address}}</td>
                                 <td>{{Carbon\Carbon::parse($info->created_at)->format('d M y')}}</td>
+                                <td>{{ $info->orders->sum('qty') }}</td>
+                                <td> <span class="badge bg-primary">Pending</span> </td>
                                 <td>
-                                    <a class="btn btn-info"  href="{{route('order.details',['receive'=>false,'id'=>$info->customer->id])}}">Details</a>
-                                    <a class="btn btn-success" href="{{route('store.order',$info->customer->id)}}">Received</a>
-                                    <a class="btn btn-danger" href="{{route('delete.order',$info->customer->id)}}">Cancel</a>
+                                    <a class="btn btn-info"  href="{{route('order.details',$info->id)}}">Details</a>
+                                    <a class="btn btn-success" href="{{route('store.order',$info->id)}}">Received</a>
+                                    <a class="btn btn-danger" href="{{route('delete.order',$info->id)}}">Cancel</a>
                                 </td>
                             </tr>
                         @empty

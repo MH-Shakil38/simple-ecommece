@@ -278,7 +278,7 @@
                                                                                                     for="shipping_method_0_flat_rate8">ঢাকার
                                                                                                     মধ্যে: <span
                                                                                                         class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span>75.00</bdi></span></label>
+                                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span>{{ delivery_policy()->inside_dhaka ?? 0 }}.00</bdi></span></label>
                                                                                             </li>
                                                                                             <li>
                                                                                                 <input type="radio"
@@ -290,7 +290,7 @@
                                                                                                     for="shipping_method_0_flat_rate9">ঢাকার
                                                                                                     বাইরে: <span
                                                                                                         class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span>120.00</bdi></span></label>
+                                                                                                                class="woocommerce-Price-currencySymbol">৳&nbsp;</span>{{ delivery_policy()->outside_dhaka ?? 0 }}.00</bdi></span></label>
                                                                                             </li>
                                                                                             <li>
                                                                                                 <input type="radio"
@@ -305,9 +305,7 @@
                                                                                         </ul>
                                                                                         <p
                                                                                             class="woocommerce-shipping-destination">
-                                                                                            Estimate for <strong>91
-                                                                                                Green First
-                                                                                                Road</strong>. </p>
+                                                                                            Estimate for <strong> {{setting()->address ?? ''}}</strong>. </p>
 
 
                                                                                         <!-- EpicoMedia code -->

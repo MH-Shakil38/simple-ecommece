@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
+use App\Models\BlogCategory;
 use App\Models\Category;
 use App\Models\Product;
 use App\Models\Review;
@@ -99,5 +101,21 @@ class WebsiteController extends Controller
             'message' => 'Review submitted successfully!',
             'review' =>  $html,
         ], 200);
+    }
+
+    public function blog(){
+        $data['blogs'] = Blog::query()->latest()->get();
+        $data['categories'] = BlogCategory::query()->get();
+        $data['products'] = Product::query()->inRandomOrder()->take(5)->get();
+        return view('website.version1.blog.all-blog')->with($data);
+    }
+
+    public function blogDetails($id){
+        $data['blog'] = Blog::query()->findOrFail($id);
+        $data['next'] = Blog::where('id', '>', $id)->orderBy('id', 'asc')->first();
+        $data['prev'] = Blog::where('id', '<', $id)->orderBy('id', 'asc')->first();
+        $data['categories'] = BlogCategory::query()->get();
+        $data['products'] = Product::query()->inRandomOrder()->take(5)->get();
+        return view('website.version1.blog.details')->with($data);
     }
 }
