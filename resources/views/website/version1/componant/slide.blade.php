@@ -102,6 +102,11 @@
     /* Mobile styles */
     @media (max-width: 768px) {
         .mobile {
+            min-width: 100%;
+            height: 280px !important;
+            background-position: center;
+            background-size: cover;
+            position: relative;
             display: block;
             background-color: lightgreen;
         }
@@ -117,13 +122,13 @@
             {{-- <div class="slider"> --}}
             {{-- @forelse (slider() as  $slider) --}}
             @php
-                $slider = \App\Models\SliderImage::query()->where('status',1)->latest()->first();
+                $slider = \App\Models\SliderImage::query()->where('status', 1)->latest()->first();
             @endphp
-                <div class="slide desktop" style="background-image: url('{{ $slider->image }}');">
-                </div>
+            <div class="slide desktop" style="background-image: url('{{ $slider->image }}');">
+            </div>
 
-                <div class="slide mobile" style="background-image: url('{{ $slider->mobile_slider }}');">
-                </div>
+            <div class="slide mobile" style="background-image: url('{{ $slider->mobile_slider }}');">
+            </div>
 
             {{-- @empty --}}
             {{-- @endforelse --}}
@@ -145,6 +150,10 @@
 
 <script src="script.js"></script>
 <style>
+    @media only screen and (min-width: 980px) {
+
+
+
     .slider-container {
         position: relative;
         width: 100%;
