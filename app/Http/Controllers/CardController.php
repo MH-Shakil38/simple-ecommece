@@ -23,7 +23,7 @@ class CardController extends Controller
         if($request->ajax()){
             return response()->json(['success' => 'Product Added into Cart','cart'=>$cart,'html_cart'=>$html_cart,'view'=>$view,'name'=>$name]);
         }else{
-            return redirect()->route('checkout')->with('success', 'Product added to cart successfully!');
+            return redirect()->route('cart')->with('success', 'Product added to cart successfully!');
         }
     }
 
