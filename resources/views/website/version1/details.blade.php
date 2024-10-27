@@ -194,7 +194,9 @@
                                             @endif
                                             {{-- <p class="stock in-stock">963 in stock</p> --}}
                                             <br>
-                                            <form class="cart" method="post" enctype="multipart/form-data">
+                                            <form class="cart" action="{{ route('order') }}" method="post" enctype="multipart/form-data">
+                                                @csrf
+                                                @method('GET')
                                                 <div class="quantity">
                                                     <input type="number" step="1" min="1" max
                                                         name="quantity" value="1" title="Qty"
@@ -209,13 +211,14 @@
                                                     <div class="plus quantity-button"></div>
                                                     <div class="minus quantity-button"></div>
                                                 </div>
-                                                <a class="single_add_to_cart_button button alt product_type_simple add_to_cart_button ajax_add_to_cart "
+                                                <button class="single_add_to_cart_button button alt product_type_simple"
+                                                {{-- <button class="single_add_to_cart_button button alt product_type_simple add_to_cart_button ajax_add_to_cart " --}}
                                                     data-product_id="{{ $product->id }}" data-quantity="1"
                                                     href="#" title="Add to cart">
                                                     <span class="icon"></span>
                                                     <span class="txt" data-hover="Add to cart">
                                                         Add to cart </span>
-                                                </a>
+                                                </button>
 
                                             </form>
                                             <div class="socialShareContainer">
@@ -671,11 +674,10 @@
             </div>
             <div class="cart fixed-add-to-cart-container">
                 <div class="fixed-add-to-cart">
-                    <a class="single_add_to_cart_button button alt product_type_simple add_to_cart_button"
+                    <a class="single_add_to_cart_button button alt product_type_simple add_to_cart_button visible"
                         href="#" title>
                         <span class="icon"></span>
-                        <span class="txt" data-hover>
-                        </span>
+                        
                     </a>
                     <a href="{{ asset('version1/') }}/cart/{{ route('/') }}"
                         class="added_to_cart wc-forward hide"></a>

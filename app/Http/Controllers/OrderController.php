@@ -23,18 +23,12 @@ class OrderController extends Controller
         ]);
 
 
-
         try {
             DB::beginTransaction();
 
-            $data['delivery_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
-            $data['shipping_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
-            $data['shipping_type'] = ($request->delivery_cost == 75 ? 1 : ($request->delivery_cost == 120 ? 2 : 0));
+
             $data['message'] = $request->message;
-
-
             $customer = Customer::query()->create($data);
-
             $order['invoice_id'] = Carbon::parse(now())->format('dmy') . '#' . $customer->id + 1;
             $order['delivery_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
             $order['shipping_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
