@@ -26,7 +26,6 @@ class OrderController extends Controller
         try {
             DB::beginTransaction();
 
-
             $data['message'] = $request->message;
             $customer = Customer::query()->create($data);
             $order['invoice_id'] = Carbon::parse(now())->format('dmy') . '#' . $customer->id + 1;
