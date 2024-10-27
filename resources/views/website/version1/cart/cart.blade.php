@@ -272,7 +272,7 @@
                                                                                                     name="shipping_method[0]"
                                                                                                     data-index="0"
                                                                                                     id="shipping_method_0_flat_rate8"
-                                                                                                    value="75"
+                                                                                                    value="{{ delivery_policy()->inside_dhaka ?? 0 }}"
                                                                                                     class="shipping_method"
                                                                                                     checked="checked"><label
                                                                                                     for="shipping_method_0_flat_rate8">ঢাকার
@@ -285,7 +285,7 @@
                                                                                                     name="shipping_method[0]"
                                                                                                     data-index="0"
                                                                                                     id="shipping_method_0_flat_rate9"
-                                                                                                    value="120"
+                                                                                                    value="{{ delivery_policy()->outside_dhaka ?? 0 }}"
                                                                                                     class="shipping_method"><label
                                                                                                     for="shipping_method_0_flat_rate9">ঢাকার
                                                                                                     বাইরে: <span
@@ -341,7 +341,7 @@
                                                                                                                     $details['qty'] * $details['price'];
                                                                                                             @endphp
                                                                                                         @endforeach
-                                                                                                        {{ $net_total }}
+                                                                                                        {{ $net_total + delivery_policy()->inside_dhaka  }}
                                                                                                     @endif
                                                                                                 </span>
                                                                                                     </bdi></span></strong>
