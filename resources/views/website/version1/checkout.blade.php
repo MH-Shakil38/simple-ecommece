@@ -1974,7 +1974,7 @@
                                                                                                                                 ];
                                                                                                                     @endphp
                                                                                                                 @endforeach
-                                                                                                                <span class="total-amount">c</span>
+                                                                                                                <span class="total-amount"> {{ $net_total + delivery_policy()->inside_dhaka ?? 0  }}</span>
 
                                                                                                                 <input type="hidden" class="total-amount-input" value="{{ $net_total }}">
                                                                                                             @endif

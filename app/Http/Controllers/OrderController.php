@@ -31,7 +31,7 @@ class OrderController extends Controller
             $order['invoice_id'] = Carbon::parse(now())->format('dmy') . '#' . $customer->id + 1;
             $order['delivery_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
             $order['shipping_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
-            $order['shipping_type'] = ($request->delivery_cost == 75 ? 1 : ($request->delivery_cost == 120 ? 2 : 0));
+            $order['shipping_type'] = ($request->delivery_cost == delivery_policy()->inside_dhaka ? 1 : ($request->delivery_cost == delivery_policy()->outside_dhaka ? 2 : 0));
             $order['message'] = $request->message;
             $order['customer_id'] = $customer->id;
             $store_order = Order::query()->create($order);
@@ -49,7 +49,7 @@ class OrderController extends Controller
             }
             session()->forget('cart');
             DB::commit();
-            return redirect()->route('order.received', $customer->id);
+            return redirect()->route('order.received', $store_order->id);
         } catch (\Throwable $e) {
             DB::rollBack();
             dd(
@@ -121,8 +121,11 @@ class OrderController extends Controller
 
     public function order_recived($id)
     {
-        $customer = Customer::query()->findOrFail($id);
-        return view('website.version1.order-received-page.order-received', compact('customer'));
+        $order = Order::query()->with('orders')->findOrFail($id);
+        $order->orders->map(function($data){
+            return $data->sum = $data->selling_price * $data->qty;
+        });
+        return view('website.version1.order-received-page.order-received', compact('order'));
     }
 
     public function cart()

@@ -837,7 +837,7 @@
         .open .dropdown-togglea.dokan-btn-theme,
         .open .dropdown-toggle.dokan-btn-theme,
         .widget-area .product-categories li.cat-item.current-cat>a:before,
-        #ep-modal .woocommerce #customer_login a.register-link:before,
+        #ep-modal .woocommerce #order_login a.register-link:before,
         .galleryexternallink,
         .page-load-status .view-more-button:hover,
         .ep-popup-newsletter-shortcode .widget_wysija_cont .wysija-submit {
@@ -2108,18 +2108,18 @@
                                                                             <li
                                                                                 class="woocommerce-order-overview__order order">
                                                                                 Order number:
-                                                                                <strong>{{ $customer->order_number }}</strong>
+                                                                                <strong>{{ $order->order_number }}</strong>
                                                                             </li>
                                                                             <li
                                                                                 class="woocommerce-order-overview__date date">
                                                                                 Date:
-                                                                                <strong>{{ Carbon\Carbon::parse($customer->created_at)->format('M d, Y') }}</strong>
+                                                                                <strong>{{ Carbon\Carbon::parse($order->created_at)->format('M d, Y') }}</strong>
                                                                             </li>
                                                                             <li
                                                                                 class="woocommerce-order-overview__total total">
                                                                                 Total: <strong><span
                                                                                         class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $customer->tmp_orders->sum('total') + $customer->shipping_cost }}</bdi></span></strong>
+                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $order->orders->sum('sum') + $order->shipping_cost }}</bdi></span></strong>
                                                                             </li>
                                                                             <li
                                                                                 class="woocommerce-order-overview__payment-method method">
@@ -2178,7 +2178,7 @@
                                                                                                             </tr>
                                                                                                         </thead>
                                                                                                         <tbody>
-                                                                                                            @forelse ($customer->tmp_orders as $info)
+                                                                                                            @forelse ($order->orders as $info)
                                                                                                                 <tr
                                                                                                                     class="cart_item">
 
@@ -2233,16 +2233,16 @@
                                                                                                     </table>
                                                                                                     <hr />
                                                                                                     <section
-                                                                                                        class="woocommerce-customer-details">
+                                                                                                        class="woocommerce-order-details">
                                                                                                         <h2
                                                                                                             class="woocommerce-column__title">
                                                                                                             Billing
                                                                                                             address</h2>
                                                                                                         <address>
-                                                                                                            Address<br />{{ $customer->customer_address }}
+                                                                                                            Address<br />{{ $order->order_address }}
                                                                                                             <p
-                                                                                                                class="woocommerce-customer-details--phone">
-                                                                                                                {{ $customer->customer_phone }}
+                                                                                                                class="woocommerce-order-details--phone">
+                                                                                                                {{ $order->order_phone }}
                                                                                                             </p>
 
                                                                                                         </address>
@@ -2287,7 +2287,7 @@
                                                                                                                                     <span
                                                                                                                                         class="grand_total">
 
-                                                                                                                                        {{ $customer->shipping_cost == 70 ? 'ঢাকার মধ্যে' : ($customer->shipping_cost == 120 ? 'ঢাকার বাইরে' : 'Pickup From Store') }}
+                                                                                                                                        {{ $order->shipping_cost == delivery_policy()->inside_dhaka ? 'ঢাকার মধ্যে' : ($order->shipping_cost == delivery_policy()->outside_dhaka ? 'ঢাকার বাইরে' : 'Pickup From Store') }}
                                                                                                                                     </span>
                                                                                                                                 </bdi></span></strong>
                                                                                                                     </td>
@@ -2324,7 +2324,7 @@
                                                                                                                                 <span
                                                                                                                                     class="net_total">
 
-                                                                                                                                    {{ $customer->tmp_orders->sum('total') }}
+                                                                                                                                    {{ $order->orders->sum('sum') }}
                                                                                                                                 </span>
                                                                                                                             </bdi></span>
                                                                                                                     </td>
@@ -2342,7 +2342,7 @@
                                                                                                                                     class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
                                                                                                                                 <span
                                                                                                                                     class="net_total">
-                                                                                                                                    {{ $customer->shipping_cost }}
+                                                                                                                                    {{ $order->shipping_cost }}
                                                                                                                                 </span>
                                                                                                                             </bdi></span>
                                                                                                                     </td>
@@ -2364,12 +2364,12 @@
                                                                                                                                             $net_total = 0;
                                                                                                                                         @endphp
 
-                                                                                                                                        @foreach ($customer->tmp_orders as $id => $details)
+                                                                                                                                        @foreach ($order->orders as $id => $details)
                                                                                                                                             @php
                                                                                                                                                 $net_total =  $net_total + ($details->selling_price *  $details->qty);
                                                                                                                                             @endphp
                                                                                                                                         @endforeach
-                                                                                                                                        {{ $net_total + $customer->shii }}
+                                                                                                                                        {{ $net_total + $order->shipping_cost }}
                                                                                                                                     </span>
                                                                                                                                 </bdi></span></strong>
                                                                                                                     </td>
@@ -2418,174 +2418,10 @@
                 </div>
             </div>
         </div>
-        <footer class="footer-bottom dark">
-            <div class="wrap">
-
-                <div class="footer_content ">
-                    <div class="footer_content_left">
-                        <div class="copyright_logo">
-
-                            <div class="copyright">
-                                Copyright 2016 - 2024 Chuijhal.com , All Right Reserved </div>
-                        </div>
-                    </div>
-                    <div class="footer_content_right">
-
-                        <ul class="social-icons">
-                            <li class="socialLinkShortcode textstyle facebook">
-                                <a href="https://www.facebook.com/chuijhal.cooking/" target="_blank">
-                                    <span>Facebook</span>
-                                </a>
-                            </li>
-                            <li class="socialLinkShortcode textstyle youtube">
-                                <a href="https://www.youtube.com/channel/UChjwisbZJ9Yz-JRCR9NGqyg" target="_blank">
-                                    <span>YouTube</span>
-                                </a>
-                            </li>
-                            <li class="socialLinkShortcode textstyle pinterest">
-                                <a href="https://www.pinterest.com/chuijhalbd/" target="_blank">
-                                    <span>Pinterest</span>
-                                </a>
-                            </li>
-                            <li class="socialLinkShortcode textstyle instagram">
-                                <a href="https://www.instagram.com/chuijhal.cooking/" target="_blank">
-                                    <span>Instagram</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
+      @include('website.version1.layouts.include.footer')
 
     </div>
-    <div id="ep_wc_notices">
-        <div class="wc-notice-content"></div>
-    </div>
-    <div id="ep-modal">
-        <a href="#" rel="prev">
-            <span></span>
-        </a>
-        <a href="#" rel="next">
-            <span></span>
-        </a>
-        <span class="wc-loading"></span>
-        <div class="modal-content-wrapper">
-            <div class="modal-main">
-                <div class="modal-head">
-                    <a href="#" id="modal-close"></a>
-                </div>
-                <div id="modal-content" class="woocommerce single-product"></div>
-            </div>
-        </div>
-    </div>
-    <div class="cart fixed-add-to-cart-container">
-        <div class="fixed-add-to-cart">
-            <a class="single_add_to_cart_button button alt product_type_simple add_to_cart_button" href="#"
-                title>
-                <span class="icon"></span>
-                <span class="txt" data-hover>
-                </span>
-            </a>
-            <a href="https://chuijhal.com/cart/" class="added_to_cart wc-forward hide"></a>
-        </div>
-    </div>
-    <div id="customer_login" class="hide-login ">
-        <h2>Login</h2>
-        <a class="register-link"
-            href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/">Create
-            an account</a>
-        <form class="woocommerce-form woocommerce-form-login login" method="post">
-            <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                <label for="username">Username or email address <span class="required">*</span></label>
-                <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username"
-                    id="username" value />
-            </p>
-            <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                <label for="password">Password <span class="required">*</span></label>
-                <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password"
-                    id="password" />
-            </p>
-            <div class="g-recaptcha" id="g-recaptcha" data-sitekey="6LcqYfMkAAAAAHfV7_4lM45iYaeFXMMKmyckF1Fs"
-                data-callback="submitEnable" data-expired-callback="submitDisable"></div>
-            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-            <script>
-                function submitEnable() {
-                    var button = document.getElementById('wp-submit');
-                    if (button === null) {
-                        button = document.getElementById('submit');
-                    }
-                    if (button !== null) {
-                        button.removeAttribute('disabled');
-                    }
-                    var woo_buttons = [".woocommerce-form-login button", ".woocommerce-form-register button",
-                        ".woocommerce-ResetPassword button"
-                    ];
-                    if (typeof jQuery != 'undefined') {
-                        jQuery.each(woo_buttons, function(i, btn) {
-                            jQuery(btn).removeAttr('disabled');
-                        });
-                    }
-                }
 
-                function submitDisable() {
-                    var button = document.getElementById('wp-submit');
-                    if (button === null) {
-                        button = document.getElementById('submit');
-                    }
-                    if (button !== null) {
-                        button.setAttribute('disabled', 'disabled');
-                    }
-                    var woo_buttons = [".woocommerce-form-login button", ".woocommerce-form-register button",
-                        ".woocommerce-ResetPassword button"
-                    ];
-                    if (typeof jQuery != 'undefined') {
-                        jQuery.each(woo_buttons, function(i, btn) {
-                            jQuery(btn).attr('disabled', 'disabled');
-                        });
-                    }
-                }
-            </script>
-            <noscript>
-                <div style="width: 100%; height: 473px;">
-                    <div style="width: 100%; height: 422px; position: relative;">
-                        <div style="width: 302px; height: 422px; position: relative;">
-                            <iframe
-                                src="https://www.google.com/recaptcha/api/fallback?k=6LcqYfMkAAAAAHfV7_4lM45iYaeFXMMKmyckF1Fs"
-                                frameborder="0" title="captcha" scrolling="no"
-                                style="width: 302px; height:422px; border-style: none;">
-                            </iframe>
-                        </div>
-                        <div
-                            style="width: 100%; height: 60px; border-style: none;
-              bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
-                            <textarea id="g-recaptcha-response" name="g-recaptcha-response" title="response" class="g-recaptcha-response"
-                                style="width: 250px; height: 40px; border: 1px solid #c1c1c1;
-                  margin: 10px 25px; padding: 0px; resize: none;"
-                                value="">
-              </textarea>
-                        </div>
-                    </div>
-                </div><br>
-            </noscript>
-            <p class="form-row">
-                <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce"
-                    value="3d5b1ccbfb" /><input type="hidden" name="_wp_http_referer"
-                    value="/checkout/order-received/37078/?key=wc_order_h61YySUWGpFq0" /> <input type="submit"
-                    class="woocommerce-Button button" name="login" value="Login" />
-                <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
-                    <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme"
-                        type="checkbox" id="rememberme" value="forever" /> <span>Remember me</span>
-                </label>
-                <span class="woocommerce-LostPassword lost_password">
-                    <a
-                        href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/lost-password/">Lost
-                        your password?</a>
-                </span>
-            </p>
-        </form>
-    </div>
-    <div id="pys_ajax_events"></div>
     <script>
         var node = document.getElementsByClassName('woocommerce-message')[0];
         if (node && document.getElementById('pys_late_event')) {
