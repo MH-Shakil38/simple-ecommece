@@ -92,4 +92,5 @@
         @include('website.version1.custom-js')
         @include('website.componant.size-js')
     </div>
+ @include('website.version1.componant.order-confirm-btn')
 @endsection

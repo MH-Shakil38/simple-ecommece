@@ -130,14 +130,14 @@
                     class="menu">
                     <li
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-14742 current_page_item">
-                        <a class="locallink home" data-hash="home" href="#">প্রচ্ছদ</a><a class="externalLink"
-                            href="#">প্রচ্ছদ</a>
+                        <a class="locallink home" data-hash="home" href="{{ url('/') }}">প্রচ্ছদ</a><a class="externalLink"
+                            href="{{ url('/') }}">প্রচ্ছদ</a>
                     </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">শপ</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">আচার</a>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ route('product.category', 0) }}">শপ</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="{{ route('product.category', 2) }}">আচার</a>
                     </li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
-                        <a href="#">ব্লগ</a>
+                        <a href="{{ route('blog.post') }}">ব্লগ</a>
                         <span class="toggle_submneu"><span class="toggle_icon"></span></span>
                         <ul class="sub-menu">
                             @forelse (blog_categories() as $info)

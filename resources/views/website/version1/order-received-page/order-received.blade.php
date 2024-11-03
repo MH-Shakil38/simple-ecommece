@@ -1816,7 +1816,7 @@
             },
             "debug": "",
             "siteUrl": "https:\/\/chuijhal.com",
-            "ajaxUrl": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
+            #
             "ajax_event": "1e14e0c322",
             "enable_remove_download_url_param": "1",
             "cookie_duration": "7",
@@ -2182,7 +2182,7 @@
                                                                                                                 <tr
                                                                                                                     class="cart_item">
 
-                                                                                                                   
+
 
                                                                                                                     <td class="product-name"
                                                                                                                         data-title="Product">
@@ -2661,7 +2661,7 @@
                 "lifetime": 1.0e-5,
                 "session": 30,
                 "base64": false,
-                "ajaxurl": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
+                #
                 "prefix": "wc_order_attribution_",
                 "allowTracking": true
             },

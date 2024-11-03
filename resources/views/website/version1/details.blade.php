@@ -632,6 +632,7 @@
                         </div>
                     </div>
                 </div>
+                @include('website.version1.componant.order-confirm-btn')
                 @include('website.version1.layouts.include.footer')
 
             </div>
@@ -677,7 +678,7 @@
                     <a class="single_add_to_cart_button button alt product_type_simple add_to_cart_button visible"
                         href="#" title>
                         <span class="icon"></span>
-                        
+
                     </a>
                     <a href="{{ asset('version1/') }}/cart/{{ route('/') }}"
                         class="added_to_cart wc-forward hide"></a>

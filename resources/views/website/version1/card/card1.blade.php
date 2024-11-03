@@ -37,9 +37,9 @@
                         line-height: 26px !important;
                     }
                 </style>
-                <h3 style="font-size: 18px">{{ $info->name }} <br> </h3>
+                <h3 style="font-size: 18px" title="View More details">{{ $info->name }} <br> </h3>
 
-            </a> <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span
+             <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span
                             class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ discount_calculate($info->sizePrice[0]->price, $info->sizePrice[0]->offer) }}</bdi></span></span>
             @if ($info->short_description != null)
                 <p style="font-size: 12px; line-height: normal; margin:0px" class="short_des">{!! strip_tags($info->short_description) !!}
@@ -50,6 +50,7 @@
                 <p> নিজস্ব ঘানি ভাংগা সরিষার তৈল,</p>
                 <p>আচার বাড়ি”র স্পেশাল মসলা।</p>
             @endif
+        </a>
         </div>
     </div>
 </li>

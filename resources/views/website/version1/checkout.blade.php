@@ -1589,7 +1589,7 @@
                         <p class="buttons">
                             <a href="{{route('cart')}}" class="button wc-forward">
                                 <span data-hover="View Cart">View Cart</span>
-                            </a><a href="https://chuijhal.com/checkout/" class="button checkout wc-forward">
+                            </a><a href="#" class="button checkout wc-forward">
                                 <span data-hover="Checkout">Checkout</span>
                             </a>
                         </p>
@@ -1974,7 +1974,7 @@
                                                                                                                                 ];
                                                                                                                     @endphp
                                                                                                                 @endforeach
-                                                                                                                <span class="total-amount">{{ $net_total }}</span>
+                                                                                                                <span class="total-amount">c</span>
 
                                                                                                                 <input type="hidden" class="total-amount-input" value="{{ $net_total }}">
                                                                                                             @endif
@@ -2272,7 +2272,7 @@
                 "lifetime": 1.0e-5,
                 "session": 30,
                 "base64": false,
-                "ajaxurl": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
+                #
                 "prefix": "wc_order_attribution_",
                 "allowTracking": true
             },
