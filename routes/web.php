@@ -55,6 +55,7 @@ Route::get('/tearms-condition',[WebsiteController::class,'tearms'])->name('tearm
 Route::post('/review',[WebsiteController::class,'review'])->name('review');
 Route::get('/blog-post',[WebsiteController::class,'blog'])->name('blog.post');
 Route::get('/blog/details/{id}',[WebsiteController::class,'blogDetails'])->name('blog.details');
+Route::get('order-print/{id}',[\App\Http\Controllers\OrderController::class,'orderPrint'])->name('print.order');
 
 
 

@@ -8,6 +8,7 @@ use App\Models\Order;
 use App\Models\OrderDetails;
 use App\Models\Product;
 use App\Models\TmpOrder;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
@@ -156,4 +157,15 @@ class OrderController extends Controller
         Order::query()->findOrFail($id)->update(['status'=>0]);
         return redirect()->back()->with('success', 'Order Cancel');
     }
+
+    public function orderPrint($id)
+    {
+        $order = Order::query()->findOrFail($id);
+        // return view('website.componant.print-order', ['order' => $order]);
+        $pdf = Pdf::loadView('website.componant.print-order', ['order' => $order]);
+        $pdf->setPaper([0, 0, 297.64, 840.72], 'portrait'); // Half A4 Portrait
+        // Download the generated PDF
+        return $pdf->download('order-invoice.pdf');
+    }
+
 }

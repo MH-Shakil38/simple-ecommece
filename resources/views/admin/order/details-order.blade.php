@@ -15,6 +15,7 @@
                         @else
                             Delivered
                         @endif
+                        <a href="{{ route('print.order', $order->id) }}" class="btn btn-primary">Print</a>
                     </div>
                     <div class="card-body">
                         <table class="table" class="cat-table">
@@ -47,7 +48,7 @@
                             </tr>
                             <tr>
                                 <td colspan="6" class="text-right">Total:</td>
-                                <td class="">{{ $info->sum('total') + $order->delivery_cost ?? 0 }}</td>
+                                <td class="">{{ $order->orders->sum('total') + $order->delivery_cost ?? 0 }}</td>
                             </tr>
 
                         </table>
@@ -59,4 +60,5 @@
         </div>
     </div>
     <!-- /.card -->
+
 @endsection
