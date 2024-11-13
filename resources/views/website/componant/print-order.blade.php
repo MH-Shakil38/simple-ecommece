@@ -4,27 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invoice</title>
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/solaimanlipi" type="text/css" />
-    <link href="https://fonts.cdnfonts.com/css/solaimanlipi" rel="stylesheet">
+    <title>Exoticagro</title>
 
     <style>
-        @font-face {
-            font-family: 'SolaimanLipi';
-              /* src: url('fonts/SolaimanLipi.ttf') format('woff'); */
+        /* @font-face {
+            font-family: 'Nikosh';
+            src: url('{{ public_path('fonts/Nikosh.ttf') }}') format('truetype');
+            font-weight: normal;
+            font-style: normal;
         }
 
         body {
-            font-family: 'SolaimanLipi' !important;
-            margin: 0;
-            padding: 0;
+            font-family: 'Nikosh', sans-serif;
+        } */
+
+
+
+        .invoice-container {
+            font-family: 'SolaimanLipi', sans-serif;
+            font-size: 14px;
+            /* Make sure the font size is readable */
         }
+
+
 
         .invoice-container {
             width: 100%;
             max-width: 100%;
             margin: 0 auto;
-            background: #f9f9f9;
         }
 
         .header,
@@ -39,7 +46,7 @@
 
         .company-details,
         .customer-details {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         .company-details p,
@@ -89,18 +96,17 @@
             <div class="logo">
                 <img src="{{ public_path(setting()->logo) }}" style="margin: -20px;widht:100px;height:70px">
             </div>
-            <div class="company-details">
+            <div class="company-details" style="border-bottom: 1px solid #6d6d6d;">
                 <p><strong>{{ setting()->name }}</strong></p>
                 <p>Email: {{ setting()->email }}</p>
                 <p>Phone: {{ setting()->phone1 }}</p>
                 <p>Address: {{ setting()->email }}</p>
             </div>
         </div>
-        <hr>
 
         <!-- Customer Details -->
-        <div class="customer-details" style="margin: 0px">
-            <h3 style="margin: 0px">Customer Details</h3>
+        <div class="customer-details" style="margin: 0px;font-size:14px;line-height:0.8rem;margin-bottom:10px">
+            <strong style="margin: 0px">Customer Details</strong>
             <p><strong>Name:</strong> {{ $order->customer->customer_name }}</p>
             <p><strong>Phone:</strong> {{ $order->customer->customer_phone }}</p>
             <p><strong>Address:</strong> {{ $order->customer->customer_address }}</p>
@@ -120,7 +126,7 @@
             <tbody>
                 @foreach ($order->orders as $info)
                     <tr>
-                        <td>{{ $info->product->name }}</td>
+                        <td>{{ mb_convert_encoding($info->product->name, 'UTF-8', 'auto') }}</td>
                         <td>{{ $info->selling_price }}</td>
                         <td>{{ $info->stock->size }}</td>
                         <td>{{ $info->qty }}</td>
@@ -153,9 +159,12 @@
     </div> --}}
 
         <!-- Footer -->
-        <div class="footer">
+
+        <div class="footer" style="border-top: 1px solid #6d6d6d">
             <p style="font-size: 11px">Thank you for your purchase! If you have any questions, feel free to contact us
                 at {{ setting()->email }} or {{ setting()->phone1 }}.</p>
+            <p style="font-size: 11px; color: #555; margin-top: 5px;">&copy; {{ date('Y') }}
+                {{ setting()->name }}. All rights reserved.</p>
         </div>
     </div>
 

@@ -178,7 +178,20 @@ return [
          *
          * @var string
          */
-        'default_font' => 'SolaimanLipi',
+        'default_font' => 'Nikosh',
+        'font_data' => [
+            'SolaimanLipi' => [
+                'normal' =>public_path('fonts/Nikosh.ttf'), // Regular font
+                'B' => 'Nikosh.ttf', // Bold font, if available
+                'I' => 'Nikosh.ttf', // Italic font, if available
+                'BI' => 'Nikosh.ttf' // Bold Italic font, if available
+            ]
+        ],
+        'fonts' => [
+            'Nikosh' => [
+                'normal' => public_path('fonts/Nikosh.ttf'), // Path to Nikosh font
+            ],
+        ],
 
         /**
          * Image DPI setting

@@ -161,11 +161,20 @@ class OrderController extends Controller
     public function orderPrint($id)
     {
         $order = Order::query()->findOrFail($id);
-        // return view('website.componant.print-order', ['order' => $order]);
+
+        // Load the view with the order data
         $pdf = Pdf::loadView('website.componant.print-order', ['order' => $order]);
-        $pdf->setPaper([0, 0, 297.64, 840.72], 'portrait'); // Half A4 Portrait
-        // Download the generated PDF
-        return $pdf->download('order-invoice.pdf');
+
+        // Embed fonts to support Bangla characters
+        $pdf->getDomPDF()->set_option('isHtml5ParserEnabled', true);
+        $pdf->getDomPDF()->set_option('isFontSubsettingEnabled', true);
+
+        // Set custom paper size (Half A4 Portrait)
+        $pdf->setPaper([0, 0, 297.64, 840.72], 'portrait');
+
+
+        // Stream the PDF in the browser with a Bangla file name
+        return $pdf->stream($order->customer->customer_name . '.pdf');
     }
 
 }
