@@ -104,11 +104,11 @@
             <div class="logo">
                 <img src="{{ public_path(setting()->logo) }}" style="margin: -20px;widht:100px;height:70px">
             </div>
-            <div class="company-details" style="border-bottom: 1px solid #6d6d6d;">
+            <div class="company-details" style="border-bottom: 1px solid #6d6d6d;line-height:0.8rem;">
                 <p><strong>{{ setting()->name }}</strong></p>
                 <p>Email: {{ setting()->email }}</p>
                 <p>Phone: {{ setting()->phone1 }}</p>
-                <p>Address: {{ setting()->email }}</p>
+                <p>Address: {{ setting()->address }}</p>
             </div>
         </div>
 
