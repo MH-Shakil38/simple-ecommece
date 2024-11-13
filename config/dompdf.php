@@ -178,13 +178,13 @@ return [
          *
          * @var string
          */
-        'default_font' => 'Nikosh',
+        'default_font' => 'SolaimanLipi',
         'font_data' => [
             'SolaimanLipi' => [
-                'normal' =>public_path('fonts/Nikosh.ttf'), // Regular font
-                'B' => 'Nikosh.ttf', // Bold font, if available
-                'I' => 'Nikosh.ttf', // Italic font, if available
-                'BI' => 'Nikosh.ttf' // Bold Italic font, if available
+                'R' => 'SolaimanLipi.ttf', // Regular font
+                'B' => 'SolaimanLipi-Bold.ttf', // Bold font, if available
+                'I' => 'SolaimanLipi-Italic.ttf', // Italic font, if available
+                'BI' => 'SolaimanLipi-BoldItalic.ttf' // Bold Italic font, if available
             ]
         ],
         'fonts' => [

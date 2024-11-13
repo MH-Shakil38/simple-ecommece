@@ -64,22 +64,22 @@ class OrderController extends Controller
 
     public function pending_order()
     {
-        $data['orders'] = Order::query()->where('status',1)->latest()->get();
+        $data['orders'] = Order::query()->where('status', 1)->latest()->get();
         return view('admin.order.pending-order')->with($data);
     }
 
 
     public function chagneStatus(Request $request)
     {
-        $data['orders'] = Order::query()->findOrFail($request->id)->update(['status'=>$request->status]);
-        return redirect()->back()->with('success','Successfully Order Changes');
+        $data['orders'] = Order::query()->findOrFail($request->id)->update(['status' => $request->status]);
+        return redirect()->back()->with('success', 'Successfully Order Changes');
     }
 
     public function orderPage($status)
     {
         $data['status'] = $status;
         $data['status_name'] = $status == 1 ? 'Pending' : ($status == 2 ? 'Recived' : ($status == 3 ? 'Delivered' : 'Cancel'));
-        $data['orders'] = Order::query()->where('status',$status)->latest()->get();
+        $data['orders'] = Order::query()->where('status', $status)->latest()->get();
         return view('admin.order.order-page')->with($data);
     }
 
@@ -123,7 +123,7 @@ class OrderController extends Controller
     public function order_recived($id)
     {
         $order = Order::query()->with('orders')->findOrFail($id);
-        $order->orders->map(function($data){
+        $order->orders->map(function ($data) {
             return $data->sum = $data->selling_price * $data->qty;
         });
         return view('website.version1.order-received-page.order-received', compact('order'));
@@ -154,7 +154,7 @@ class OrderController extends Controller
 
     public function delete_order($id)
     {
-        Order::query()->findOrFail($id)->update(['status'=>0]);
+        Order::query()->findOrFail($id)->update(['status' => 0]);
         return redirect()->back()->with('success', 'Order Cancel');
     }
 
@@ -165,16 +165,13 @@ class OrderController extends Controller
         // Load the view with the order data
         $pdf = Pdf::loadView('website.componant.print-order', ['order' => $order]);
 
-        // Embed fonts to support Bangla characters
-        $pdf->getDomPDF()->set_option('isHtml5ParserEnabled', true);
-        $pdf->getDomPDF()->set_option('isFontSubsettingEnabled', true);
-
         // Set custom paper size (Half A4 Portrait)
         $pdf->setPaper([0, 0, 297.64, 840.72], 'portrait');
 
+        // Set the custom font family to 'Nikosh'
+        $pdf->setOption('font', 'Nikosh');  // Use the custom font family name
 
         // Stream the PDF in the browser with a Bangla file name
         return $pdf->stream($order->customer->customer_name . '.pdf');
     }
-
 }

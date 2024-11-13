@@ -7,18 +7,18 @@
     <title>Exoticagro</title>
 
     <style>
-        /* @font-face {
-            font-family: 'Nikosh';
-            src: url('{{ public_path('fonts/Nikosh.ttf') }}') format('truetype');
+        @font-face {
+            font-family: 'SolaimanLipi';
+            src: url('{{ public_path('fonts/SolaimanLipi.ttf') }}') format('truetype');
             font-weight: normal;
             font-style: normal;
         }
 
         body {
-            font-family: 'Nikosh', sans-serif;
-        } */
-
-
+            font-family: 'SolaimanLipi', sans-serif;
+            font-size: 16px;
+            /* Adjust the font size if needed */
+        }
 
         .invoice-container {
             font-family: 'SolaimanLipi', sans-serif;
@@ -26,7 +26,15 @@
             /* Make sure the font size is readable */
         }
 
+        @font-face {
+            font-family: 'SolaimanLipi';
+            src: url('storage/fonts/SolaimanLipi.ttf') format('truetype');
+        }
 
+        body {
+            font-family: 'SolaimanLipi', sans-serif;
+            /* background: #f9f9f9; */
+        }
 
         .invoice-container {
             width: 100%;
