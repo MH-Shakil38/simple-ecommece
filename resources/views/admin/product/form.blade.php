@@ -43,7 +43,7 @@
                         @endif
                         <div class="row">
 
-                            <div class="col-md-9">
+                            <div class="col-md-12">
                                 {{ Form::label('Name', null, ['class' => 'form-label']) }}
                                 {{ Form::text('name', null, ['class' => 'form-control', 'required']) }}
                             </div>
@@ -74,15 +74,15 @@
                                 {{ Form::number('offer_price', null, ['class' => 'form-control']) }}
                             </div> --}}
 
-                            <div class="col-md-3">
+                            <div class="col-md-2">
                                 {{ Form::label('Quantity', null, ['class' => 'form-label']) }}
                                 {{ Form::text('quantity', null, ['class' => 'form-control', 'required']) }}
                             </div>
 
 
-                            <div class="col-md-3">
-                                {{ Form::label('Show Hot Deal', null, ['class' => 'form-label']) }}
-                                {{ Form::select('show_hot_deal', [1 => 'show', 0 => 'hide'], null, ['class' => 'form-control']) }}
+                            <div class="col-md-2">
+                                {{ Form::label('Is Campain', null, ['class' => 'form-label']) }}
+                                {{ Form::select('show_hot_deal', [ 0 => 'No',1 => 'Yes'], null, ['class' => 'form-control']) }}
                             </div>
 
 
@@ -90,11 +90,10 @@
                                 {{ Form::label('Image', null, ['class' => 'form-label']) }}
                                 {{ Form::file('image', ['class' => 'form-control']) }}
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-2">
                                 {{ Form::label('Status', null, ['class' => 'form-label']) }}
                                 {{ Form::select('status', [1 => 'Active', 0 => 'inActive'], null, ['class' => 'form-control']) }}
                             </div>
-
 
 
                             <div class="col-md-12">

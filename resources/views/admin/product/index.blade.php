@@ -30,6 +30,7 @@
                             <tr>
                                 <th>Sl</th>
                                 <th>Status</th>
+                                <th>Campain</th>
                                 <th>image</th>
                                 <th>Name</th>
                                 <th>Category</th>
@@ -50,6 +51,9 @@
                                     <td>{{ $loop->iteration }}</td>
                                     <td> <span
                                             class="badge {{ $item->status == 1 ? 'badge-success' : 'badge-danger' }} ">{{ $item->status == 1 ? 'ON' : 'OFF' }}</span>
+                                    </td>
+                                    <td> <span
+                                            class="badge {{ $item->show_hot_deal == 1 ? 'badge-success' : 'badge-danger' }} ">{{ $item->show_hot_deal == 1 ? 'ON' : 'OFF' }}</span>
                                     </td>
                                     <td><img src="{{ asset($item->image) }}" alt="" height="80px" width="80px">
                                     </td>
@@ -130,7 +134,7 @@
         // Show a success alert after deletion
         @if (session('success'))
             Swal.fire({
-                title: 'Deleted!',
+                title: 'Message!',
                 text: "{{ session('success') }}",
                 icon: 'success',
                 confirmButtonText: 'OK'

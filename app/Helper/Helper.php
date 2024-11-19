@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\BlogCategory;
+use App\Models\Product;
 use App\Models\Setting;
 
 if (!function_exists('siteInfo')){
@@ -94,6 +95,15 @@ if (!function_exists('setting')){
        return Setting::query()->first();
     }
 }
+
+
+
+if (!function_exists('campaine')){
+    function campaine(){
+       return Product::query()->where('show_hot_deal',1)->latest()->get();
+    }
+}
+
 
 
 if (!function_exists('blog_categories')){

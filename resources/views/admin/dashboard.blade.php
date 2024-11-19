@@ -72,7 +72,8 @@
                             <th>Name</th>
                             <th>Phone</th>
                             <th>Address</th>
-                            <th>Order Date</th>
+                            <th>Date</th>
+                            <th>Amount</th>
                             <th>QTY</th>
                             <th>Status</th>
                             <th>Action</th>
@@ -84,14 +85,16 @@
                                 <td>{{$info->customer->customer_phone}}</td>
                                 <td>{{$info->customer->customer_address}}</td>
                                 <td>{{Carbon\Carbon::parse($info->created_at)->format('d M y')}}</td>
+                                <td>{{ $info->orders->sum('total') }}</td>
                                 <td>{{ $info->orders->sum('qty') }}</td>
                                 <td> <span class="badge bg-primary">Pending</span> </td>
                                 <td>
-                                    <a class="btn btn-info"  href="{{route('order.details',$info->id)}}">Details</a>
-                                    <a class="btn btn-success" href="{{ route('change.order.status', ['id' => $info->id, 'status' => 2]) }}"
-                                        onclick="return confirm('Are you sure you want to Receive this order?')">Reveived</a>
-                                    <a class="btn btn-danger" href="{{ route('change.order.status', ['id' => $info->id, 'status' => 0]) }}"
-                                        onclick="return confirm('Are you sure you want to cancel this order?')">Cancel</a>
+                                    <a title="Details Order" class="btn btn-info"  href="{{route('order.details',$info->id)}}"><i class="fa fa-info"></i></a>
+                                    <a title="Invoice Print" target="_blank" class="btn btn-info"  href="{{route('print.order',$info->id)}}"> <i class="fa fa-print"></i> </a>
+                                    <a title="Order Accept" class="btn btn-success" href="{{ route('change.order.status', ['id' => $info->id, 'status' => 2]) }}"
+                                        onclick="return confirm('Are you sure you want to Receive this order?')"> <i class="fa fa-check"></i> </a>
+                                    <a title="Order Cancel" class="btn btn-danger" href="{{ route('change.order.status', ['id' => $info->id, 'status' => 0]) }}"
+                                        onclick="return confirm('Are you sure you want to cancel this order?')"> <i class="fa fa-trash"></i> </a>
 
                                 </td>
                             </tr>

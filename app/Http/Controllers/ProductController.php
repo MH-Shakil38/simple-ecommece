@@ -17,6 +17,7 @@ class ProductController extends Controller
      */
     public function index()
     {
+        // Product::query()->update(['show_hot_deal'=>0]);
         $data['products'] = Product::query()->with('category')->latest()->get();
         return view('admin.product.index')->with($data);
     }
