@@ -60,13 +60,16 @@
         $('.loader').removeClass('wc-loading')
         console.log('Total:', net_total);
         console.log('shipping cost:', shipping_cost);
+        location.reload();
     }
 
     function netTotal() {
         var net_total = 0;
+        var offer = 0;
         $('.subtotalsum').each(function() {
             net_total += parseFloat($(this).text());
         });
+
         return net_total;
     }
 
@@ -93,6 +96,8 @@
     $('.shipping_method').click(function(){
         var shipping_cost = $('.shipping_method:checked').val();
         var total = netTotal();
-        $('.grand_total').html(parseFloat(total) + parseFloat(shipping_cost));
+        var offer = 0;
+        offer =  $('.offer').val();
+        $('.grand_total').html(parseFloat(total) + parseFloat(shipping_cost) - offer);
     })
 </script>

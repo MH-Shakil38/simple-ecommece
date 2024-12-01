@@ -2126,6 +2126,8 @@
                                                                                 Payment method: <strong>Cash on
                                                                                     delivery</strong>
                                                                             </li>
+
+
                                                                         </ul>
                                                                         <p>Pay with cash upon delivery.</p>
                                                                         <section class="woocommerce-order-details">
@@ -2249,8 +2251,8 @@
                                                                                                     </section>
                                                                                                     <p
                                                                                                         class="order-print">
-                                                                                                        <a href="https://chuijhal.com/%e0%a6%85%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%89%e0%a6%a8%e0%a7%8d%e0%a6%9f/print-order/37078/?print-order-email=pawosawuv@mailinator.com"
-                                                                                                            class="button print">Print</a>
+                                                                                                        <a href="{{route('print.order',$order->id)}}" target="_blank"
+                                                                                                            class="button">Print</a>
                                                                                                     </p>
                                                                                                 </form>
 
@@ -2287,7 +2289,7 @@
                                                                                                                                     <span
                                                                                                                                         class="grand_total">
 
-                                                                                                                                        {{ $order->shipping_cost == delivery_policy()->inside_dhaka ? 'ঢাকার মধ্যে' : ($order->shipping_cost == delivery_policy()->outside_dhaka ? 'ঢাকার বাইরে' : 'Pickup From Store') }}
+                                                                                                                                        {{ $order->shipping_cost == delivery_policy()->inside_dhaka ? 'ঢাকার মধ্যে' : ($order->shipping_cost == delivery_policy()->outside_dhaka ? 'ঢাকার বাইরে' : '') }}
                                                                                                                                     </span>
                                                                                                                                 </bdi></span></strong>
                                                                                                                     </td>
@@ -2312,6 +2314,9 @@
                                                                                                                                 </bdi></span></strong>
                                                                                                                     </td>
                                                                                                                 </tr>
+
+
+
                                                                                                                 <tr
                                                                                                                     class="cart-subtotal">
                                                                                                                     <th>Subtotal
@@ -2325,6 +2330,24 @@
                                                                                                                                     class="net_total">
 
                                                                                                                                     {{ $order->orders->sum('sum') }}
+                                                                                                                                </span>
+                                                                                                                            </bdi></span>
+                                                                                                                    </td>
+                                                                                                                </tr>
+
+                                                                                                                <tr
+                                                                                                                    class="cart-subtotal">
+                                                                                                                    <th>Offer
+                                                                                                                    </th>
+                                                                                                                    <td
+                                                                                                                        data-title="Subtotal">
+                                                                                                                        <span
+                                                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                                    class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
+                                                                                                                                <span
+                                                                                                                                    class="net_total">
+
+                                                                                                                                    {{ $order->offer_amount ?? 0 }}
                                                                                                                                 </span>
                                                                                                                             </bdi></span>
                                                                                                                     </td>
@@ -2360,16 +2383,7 @@
                                                                                                                                         class="woocommerce-Price-currencySymbol">৳&nbsp;</span>
                                                                                                                                     <span
                                                                                                                                         class="grand_total">
-                                                                                                                                        @php
-                                                                                                                                            $net_total = 0;
-                                                                                                                                        @endphp
-
-                                                                                                                                        @foreach ($order->orders as $id => $details)
-                                                                                                                                            @php
-                                                                                                                                                $net_total =  $net_total + ($details->selling_price *  $details->qty);
-                                                                                                                                            @endphp
-                                                                                                                                        @endforeach
-                                                                                                                                        {{ $net_total + $order->shipping_cost }}
+                                                                                                                                        {{ $order->payable_amount + $order->shipping_cost }}
                                                                                                                                     </span>
                                                                                                                                 </bdi></span></strong>
                                                                                                                     </td>

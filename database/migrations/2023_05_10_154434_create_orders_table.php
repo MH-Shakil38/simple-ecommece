@@ -19,7 +19,10 @@ return new class extends Migration
             $table->integer('total')->nullable();
             $table->integer('delivery_cost')->nullable();
             $table->integer('shipping_cost');
-            $table->integer('shipping_type');
+            $table->integer('offer_type');
+            $table->integer('offer_amount');
+            $table->integer('net_total');
+            $table->integer('payable_amount');
             $table->string('message')->nullable();
             $table->string('invoice_id');
             $table->integer('status')->default(1)->comment('0=cancel,1=pending,2=recived,3=delivered');

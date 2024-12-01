@@ -142,12 +142,20 @@
                     </tr>
                 @endforeach
                 <tr>
+                    <td colspan="4" style="text-align: right"><strong>Subtotal:</strong></td>
+                    <td>{{ $order->net_total }}</td>
+                </tr>
+                <tr>
                     <td colspan="4" style="text-align: right"><strong>Shipping Cost:</strong></td>
                     <td>{{ $order->delivery_cost }}</td>
                 </tr>
                 <tr>
+                    <td colspan="4" style="text-align: right"><strong>Offer:</strong></td>
+                    <td>{{ $order->offer_amount }}</td>
+                </tr>
+                <tr>
                     <td colspan="4" style="text-align: right"><strong>Total:</strong></td>
-                    <td>{{ $order->orders->sum('total') + $order->delivery_cost ?? 0 }}</td>
+                    <td>{{ ($order->orders->sum('total') - $order->offer_amount ?? 0) + $order->delivery_cost ?? 0  }}</td>
                 </tr>
             </tbody>
         </table>

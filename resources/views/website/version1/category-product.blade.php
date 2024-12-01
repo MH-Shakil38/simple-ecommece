@@ -1566,7 +1566,6 @@
     <script type="text/javascript" id="wc-add-to-cart-js-extra">
         /* <![CDATA[ */
         var wc_add_to_cart_params = {
-            "ajax_url": "\/wp-admin\/admin-ajax.php",
             "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
             "i18n_view_cart": "View cart",
             "cart_url": "https:\/\/chuijhal.com\/cart\/",
@@ -1684,7 +1683,7 @@
             },
             "debug": "",
             "siteUrl": "https:\/\/chuijhal.com",
-            "ajaxUrl": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
+            #
             "ajax_event": "d881dcb20a",
             "enable_remove_download_url_param": "1",
             "cookie_duration": "7",
@@ -2107,6 +2106,7 @@
                 </div>
             </div>
         </div>
+        @include('website.version1.componant.order-confirm-btn')
         @include('website.version1.layouts.include.footer')
 
     </div>
@@ -2303,7 +2303,7 @@
                 "lifetime": 1.0e-5,
                 "session": 30,
                 "base64": false,
-                "ajaxurl": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
+                #
                 "prefix": "wc_order_attribution_",
                 "allowTracking": true
             },
@@ -2444,7 +2444,6 @@
             "url": "https:\/\/chuijhal.com",
             "home_url": "https:\/\/chuijhal.com\/",
             "img": "https:\/\/chuijhal.com\/wp-content\/themes\/vitrine\/assets\/img",
-            "ajax_url": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
             "nonce": "918b92cef4",
             "zoomLevel": "",
             "iconMap": "https:\/\/chuijhal.com\/wp-content\/themes\/vitrine\/assets\/img\/marker.png",

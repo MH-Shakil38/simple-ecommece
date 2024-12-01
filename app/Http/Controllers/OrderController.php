@@ -33,9 +33,14 @@ class OrderController extends Controller
             $order['delivery_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
             $order['shipping_cost'] = $request->shipping_method ?? $request->delivery_cost ?? 0;
             $order['shipping_type'] = ($request->delivery_cost == delivery_policy()->inside_dhaka ? 1 : ($request->delivery_cost == delivery_policy()->outside_dhaka ? 2 : 0));
+            $order['offer_type'] = $request->offer_type;
+            $order['offer_amount'] = $request->offer_amount ?? 0;
+            $order['net_total'] = $request->net_total;
+            $order['payable_amount'] = $request->payable_amount;
             $order['message'] = $request->message;
             $order['customer_id'] = $customer->id;
             $store_order = Order::query()->create($order);
+
 
 
             foreach (session('cart') as $id => $details) {

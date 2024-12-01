@@ -20,19 +20,24 @@
                                 <th>Phone</th>
                                 <th>Address</th>
                                 <th>Date</th>
+                                <th>Amount</th>
+                                <th>QTY</th>
                                 <th>Action</th>
                             </tr>
                             @forelse($orders as $info)
+
                                 <tr>
                                     <td>{{$loop->iteration}}</td>
                                     <td>{{$info->customer->customer_name}}</td>
                                     <td>{{$info->customer->customer_phone}}</td>
                                     <td>{{$info->customer->customer_address}}</td>
-                                    <td>{{$info->created_at}}</td>
+                                    <td>{{Carbon\Carbon::parse($info->created_at)->format('d M y')}}</td>
+                                    <td>{{ $info->payable_amount != null ? $info->payable_amount + $info->shipping_cost : $info->orders->sum('total') + $info->shipping_cost }}</td>
+                                    <td>{{ $info->orders->sum('qty') }}</td>
                                     <td>
                                         @if ($status == 0)
                                         <a class="btn btn-info"  href="{{route('order.details',$info->id)}}">Details</a>
-                                        
+
                                         <a class="btn btn-danger" href="{{ route('change.order.status', ['id' => $info->id, 'status' => 0]) }}"
                                             onclick="return confirm('Are you sure you want to cancel this order?')">Cancel</a>
                                         @endif
@@ -62,6 +67,7 @@
                             @endforelse
 
                         </table>
+
                     </div>
                     <!-- /.card-body -->
                 </div>

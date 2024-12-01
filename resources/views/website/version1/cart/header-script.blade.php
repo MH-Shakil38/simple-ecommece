@@ -2169,7 +2169,7 @@
         },
         "debug": "",
         "siteUrl": "https:\/\/chuijhal.com",
-        "ajaxUrl": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
+        #
         "ajax_event": "de9d169d9b",
         "enable_remove_download_url_param": "1",
         "cookie_duration": "7",

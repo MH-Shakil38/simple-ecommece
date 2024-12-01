@@ -1454,13 +1454,13 @@
                     <ul class="cart_list product_list_widget ">
                         <li class="mini_cart_item">
 
-                            <a href="{{route('cart')}}?remove_item=32c92c5a9c391d8a2a2a05770f1a3395&#038;_wpnonce=61822a9bf3"
+                            <a href="{{ route('cart') }}?remove_item=32c92c5a9c391d8a2a2a05770f1a3395&#038;_wpnonce=61822a9bf3"
                                 class="remove" aria-label="Remove this item" data-product_id="32614"
                                 data-product_sku="Combo1" data-item-key="32c92c5a9c391d8a2a2a05770f1a3395"></a>
 
                             <div class="wc- hide"></div>
 
-                            <a href="{{route('cart')}}?undo_item=32c92c5a9c391d8a2a2a05770f1a3395&#038;_wpnonce=61822a9bf3"
+                            <a href="{{ route('cart') }}?undo_item=32c92c5a9c391d8a2a2a05770f1a3395&#038;_wpnonce=61822a9bf3"
                                 class="icon icon-undo undo" title="Undo this item" data-product_id="32614"
                                 data-product_sku="Combo1"
                                 data-item-key="32c92c5a9c391d8a2a2a05770f1a3395"><span></span></a>
@@ -1480,13 +1480,13 @@
                         </li>
                         <li class="mini_cart_item">
 
-                            <a href="{{route('cart')}}?remove_item=32bb9f32e97807c36a1b1a881b31d33b&#038;_wpnonce=61822a9bf3"
+                            <a href="{{ route('cart') }}?remove_item=32bb9f32e97807c36a1b1a881b31d33b&#038;_wpnonce=61822a9bf3"
                                 class="remove" aria-label="Remove this item" data-product_id="33077"
                                 data-product_sku="Chilli Combo" data-item-key="32bb9f32e97807c36a1b1a881b31d33b"></a>
 
                             <div class="wc- hide"></div>
 
-                            <a href="{{route('cart')}}?undo_item=32bb9f32e97807c36a1b1a881b31d33b&#038;_wpnonce=61822a9bf3"
+                            <a href="{{ route('cart') }}?undo_item=32bb9f32e97807c36a1b1a881b31d33b&#038;_wpnonce=61822a9bf3"
                                 class="icon icon-undo undo" title="Undo this item" data-product_id="33077"
                                 data-product_sku="Chilli Combo"
                                 data-item-key="32bb9f32e97807c36a1b1a881b31d33b"><span></span></a>
@@ -1506,13 +1506,13 @@
                         </li>
                         <li class="mini_cart_item">
 
-                            <a href="{{route('cart')}}?remove_item=23c7963ec66989c155759d1ed3a6cbea&#038;_wpnonce=61822a9bf3"
+                            <a href="{{ route('cart') }}?remove_item=23c7963ec66989c155759d1ed3a6cbea&#038;_wpnonce=61822a9bf3"
                                 class="remove" aria-label="Remove this item" data-product_id="36170" data-product_sku
                                 data-item-key="23c7963ec66989c155759d1ed3a6cbea"></a>
 
                             <div class="wc- hide"></div>
 
-                            <a href="{{route('cart')}}?undo_item=23c7963ec66989c155759d1ed3a6cbea&#038;_wpnonce=61822a9bf3"
+                            <a href="{{ route('cart') }}?undo_item=23c7963ec66989c155759d1ed3a6cbea&#038;_wpnonce=61822a9bf3"
                                 class="icon icon-undo undo" title="Undo this item" data-product_id="36170"
                                 data-product_sku data-item-key="23c7963ec66989c155759d1ed3a6cbea"><span></span></a>
 
@@ -1531,13 +1531,13 @@
                         </li>
                         <li class="mini_cart_item">
 
-                            <a href="{{route('cart')}}?remove_item=bfdbc88767ec7e391c7ceb9dd747f440&#038;_wpnonce=61822a9bf3"
+                            <a href="{{ route('cart') }}?remove_item=bfdbc88767ec7e391c7ceb9dd747f440&#038;_wpnonce=61822a9bf3"
                                 class="remove" aria-label="Remove this item" data-product_id="15026" data-product_sku
                                 data-item-key="bfdbc88767ec7e391c7ceb9dd747f440"></a>
 
                             <div class="wc- hide"></div>
 
-                            <a href="{{route('cart')}}?undo_item=bfdbc88767ec7e391c7ceb9dd747f440&#038;_wpnonce=61822a9bf3"
+                            <a href="{{ route('cart') }}?undo_item=bfdbc88767ec7e391c7ceb9dd747f440&#038;_wpnonce=61822a9bf3"
                                 class="icon icon-undo undo" title="Undo this item" data-product_id="15026"
                                 data-product_sku data-item-key="bfdbc88767ec7e391c7ceb9dd747f440"><span></span></a>
 
@@ -1557,13 +1557,13 @@
                         </li>
                         <li class="mini_cart_item">
 
-                            <a href="{{route('cart')}}?remove_item=596676c0468e1aa77be2d247aa42455e&#038;_wpnonce=61822a9bf3"
+                            <a href="{{ route('cart') }}?remove_item=596676c0468e1aa77be2d247aa42455e&#038;_wpnonce=61822a9bf3"
                                 class="remove" aria-label="Remove this item" data-product_id="25254" data-product_sku
                                 data-item-key="596676c0468e1aa77be2d247aa42455e"></a>
 
                             <div class="wc- hide"></div>
 
-                            <a href="{{route('cart')}}?undo_item=596676c0468e1aa77be2d247aa42455e&#038;_wpnonce=61822a9bf3"
+                            <a href="{{ route('cart') }}?undo_item=596676c0468e1aa77be2d247aa42455e&#038;_wpnonce=61822a9bf3"
                                 class="icon icon-undo undo" title="Undo this item" data-product_id="25254"
                                 data-product_sku data-item-key="596676c0468e1aa77be2d247aa42455e"><span></span></a>
 
@@ -1584,10 +1584,10 @@
                     <div class="cart-bottom-box">
                         <p class="total"><strong>Subtotal:</strong> <span
                                 class="woocommerce-Price-amount amount"><bdi><span
-                                        class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>25,990.00</bdi></span>
+                                        class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>#</bdi></span>
                         </p>
                         <p class="buttons">
-                            <a href="{{route('cart')}}" class="button wc-forward">
+                            <a href="{{ route('cart') }}" class="button wc-forward">
                                 <span data-hover="View Cart">View Cart</span>
                             </a><a href="#" class="button checkout wc-forward">
                                 <span data-hover="Checkout">Checkout</span>
@@ -1868,120 +1868,113 @@
                                                                                         @endforelse
 
                                                                                     </tbody>
-                                                                                    <tfoot>
-                                                                                        <tr class="cart-subtotal">
-                                                                                            <th>Subtotal</th>
-                                                                                            <td><span
-                                                                                                    class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                            class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>
-                                                                                                            @if (session('cart'))
-                                                                                                            @php
-                                                                                                                $net_total = 0;
-                                                                                                            @endphp
+                                                                                    @php
+                                                                                        $offer = offers() ?? null;
+                                                                                        if (session('cart')) {
+                                                                                            $net_total = 0;
 
-                                                                                                            @foreach (session('cart') as $id => $details)
-                                                                                                                @php
-                                                                                                                    $net_total =
-                                                                                                                        $net_total +
-                                                                                                                        $details[
-                                                                                                                            'qty'
-                                                                                                                        ] *
-                                                                                                                            $details[
-                                                                                                                                'price'
-                                                                                                                            ];
-                                                                                                                @endphp
-                                                                                                            @endforeach
-                                                                                                            {{ $net_total }}
-                                                                                                        @endif
-                                                                                                        </bdi></span>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                        <tr
-                                                                                            class="woocommerce-shipping-totals shipping">
-                                                                                            <th colspan="2">Shipping
-                                                                                            </th>
-                                                                                        </tr>
-                                                                                        <tr
-                                                                                            class="woocommerce-shipping-totals shipping">
-                                                                                            <td colspan="2"
-                                                                                                data-title="Shipping">
-                                                                                                <ul id="shipping_method"
-                                                                                                    class="woocommerce-shipping-methods">
-                                                                                                    <li>
-                                                                                                        <input
-                                                                                                            type="radio"
-                                                                                                            name="delivery_cost"
-                                                                                                            data-index="0"
-                                                                                                            id="shipping_method_0_flat_rate8"
-                                                                                                            value="{{ delivery_policy()->inside_dhaka ?? 0 }}"
-                                                                                                           checked="checked"
-                                                                                                            class="shipping_method" /><label
-                                                                                                            for="shipping_method_0_flat_rate8">ঢাকার
-                                                                                                            মধ্যে: <span
-                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                        class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ delivery_policy()->inside_dhaka ?? 0 }}.00</bdi></span></label>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <input
-                                                                                                            type="radio"
-                                                                                                            name="delivery_cost"
-                                                                                                            data-index="0"
-                                                                                                            id="shipping_method_0_flat_rate9"
-                                                                                                            value="{{ delivery_policy()->outside_dhaka ?? 0 }}"
-                                                                                                            class="shipping_method" /><label
-                                                                                                            for="shipping_method_0_flat_rate9 ">ঢাকার
-                                                                                                            বাইরে: <span
-                                                                                                                class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                        class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ delivery_policy()->outside_dhaka ?? 0 }}.00</bdi></span></label>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <input
-                                                                                                            type="radio"
-                                                                                                            name="delivery_cost"
-                                                                                                            data-index="0"
-                                                                                                            id="shipping_method_0_local_pickup10"
-                                                                                                            value="0"
-                                                                                                            class="shipping_method"
-                                                                                                             /><label
-                                                                                                            for="shipping_method_0_local_pickup10">Pickup
-                                                                                                            From
-                                                                                                            Store</label>
-                                                                                                    </li>
-                                                                                                </ul>
-
-                                                                                            </td>
-                                                                                        </tr>
-
-                                                                                        <tr class="order-total">
-                                                                                            <th>Total</th>
-                                                                                            <td><strong>৳<span
-                                                                                                        class="woocommerce-Price-amount"><bdi><span
+                                                                                            foreach (
+                                                                                                session('cart')
+                                                                                                as $id => $details
+                                                                                            ) {
+                                                                                                $net_total =
+                                                                                                    $net_total +
+                                                                                                    $details['qty'] *
+                                                                                                        $details[
+                                                                                                            'price'
+                                                                                                        ];
+                                                                                            }
+                                                                                        }
+                                                                                        if ($offer != null) {
+                                                                                            if ($offer->offer_type == 1) {
+                                                                                                $discount = discount_calculate( $net_total, $offer->total_discount, );
+                                                                                                $offer_amount = $net_total - $discount;
+                                                                                            } elseif ( $offer->offer_type == 2 ) {
+                                                                                                $discount = $net_total -  $offer->total_discount;
+                                                                                                $offer_amount = $offer->total_discount;
+                                                                                            } else {
+                                                                                                $offer_amount = 0;
+                                                                                            }
+                                                                                        }
+                                                                                    @endphp
+                                                                                    {{-- {{ $offer->total_discount }} --}}
+                                                                                    @if (offers() != null && $net_total > $offer->min_price)
+                                                                                        <input type="hidden"
+                                                                                            name="offer_type"
+                                                                                            value=" {{ $offer->offer_type }}">
+                                                                                        <input type="hidden"
+                                                                                            name="offer_amount"
+                                                                                            value=" {{ $offer_amount }}">
+                                                                                        <input type="hidden"
+                                                                                            name="net_total"
+                                                                                            value=" {{ $net_total }}">
+                                                                                        <input type="hidden"
+                                                                                            name="payable_amount"
+                                                                                            value=" {{ $net_total - $offer_amount }}">
+                                                                                        @if ($offer->offer_type == 1)
+                                                                                            <tr class="cart-subtotal">
+                                                                                                <th>Offer</th>
+                                                                                                <td><span
+                                                                                                        style="color: red !important"
+                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                style="color: green !important"
                                                                                                                 class="woocommerce-Price-currencySymbol"></span>
-                                                                                                            @if (session('cart'))
-                                                                                                                @php
-                                                                                                                    $net_total = 0;
-                                                                                                                @endphp
+                                                                                                            Free
+                                                                                                            Delivery
+                                                                                                        </bdi></span>
+                                                                                                </td>
+                                                                                            </tr>
 
-                                                                                                                @foreach (session('cart') as $id => $details)
-                                                                                                                    @php
-                                                                                                                        $net_total =
-                                                                                                                            $net_total +
-                                                                                                                            $details[
-                                                                                                                                'qty'
-                                                                                                                            ] *
-                                                                                                                                $details[
-                                                                                                                                    'price'
-                                                                                                                                ];
-                                                                                                                    @endphp
-                                                                                                                @endforeach
-                                                                                                                <span class="total-amount"> {{ $net_total + delivery_policy()->inside_dhaka ?? 0  }}</span>
+                                                                                            <tr class="cart-subtotal">
+                                                                                                <th>Subtotal</th>
+                                                                                                <td><span
+                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>
+                                                                                                            <input
+                                                                                                                type="hidden"
+                                                                                                                name="payable_amount"
+                                                                                                                class="total-amount-input"
+                                                                                                                value="{{ $net_total }}">
+                                                                                                            {{ $net_total }}
 
-                                                                                                                <input type="hidden" class="total-amount-input" value="{{ $net_total }}">
-                                                                                                            @endif
-                                                                                                        </bdi></span></strong>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                    </tfoot>
+                                                                                                        </bdi></span>
+                                                                                                </td>
+                                                                                            </tr>
+
+                                                                                            <tr class="order-total">
+                                                                                                <th>Total</th>
+                                                                                                <td><strong>৳<span
+                                                                                                            class="woocommerce-Price-amount"><bdi><span
+                                                                                                                    class="woocommerce-Price-currencySymbol"></span>
+                                                                                                                @if (session('cart'))
+                                                                                                                    <span
+                                                                                                                        class="total-amount">
+                                                                                                                        {{ $net_total }}</span>
+                                                                                                                    <input
+                                                                                                                        type="hidden"
+                                                                                                                        class="total-amount-input"
+                                                                                                                        value="{{ $net_total }}">
+                                                                                                                @endif
+                                                                                                            </bdi></span></strong>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        @else
+                                                                                            @include(
+                                                                                                'website.version1.offer.offer',
+                                                                                                [
+                                                                                                    'offer' => $offer,
+                                                                                                    'discount_amount' => $discount,
+                                                                                                    'net_total' => $net_total,
+                                                                                                ]
+                                                                                            )
+                                                                                        @endif
+                                                                                    @else
+                                                                                        @include(
+                                                                                            'website.version1.offer.non-offer',
+                                                                                            ['offer' => $offer]
+                                                                                        )
+
+                                                                                    @endif
                                                                                 </table>
                                                                                 <div id="payment"
                                                                                     class="woocommerce-checkout-payment">
@@ -2100,7 +2093,7 @@
                 <span class="txt" data-hover>
                 </span>
             </a>
-            <a href="{{route('cart')}}" class="added_to_cart wc-forward hide"></a>
+            <a href="{{ route('cart') }}" class="added_to_cart wc-forward hide"></a>
         </div>
     </div>
     <div id="customer_login" class="hide-login ">
@@ -2272,8 +2265,7 @@
                 "lifetime": 1.0e-5,
                 "session": 30,
                 "base64": false,
-                #
-                "prefix": "wc_order_attribution_",
+                # "prefix": "wc_order_attribution_",
                 "allowTracking": true
             },
             "fields": {
@@ -2487,28 +2479,29 @@
     <script type="text/javascript"
         src="https://chuijhal.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=9.0.2"
         id="wc-add-to-cart-variation-js" defer="defer" data-wp-strategy="defer"></script>
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-        <script>
-           $(document).ready(function() {
-        // When any radio button is clicked
-        $('input[name="delivery_cost"]').on('click', function() {
-            // Get the checked value
-              // Get the checked value and total amount
-        var checkedValue = parseFloat($('input[name="delivery_cost"]:checked').val());
-        var totalAmount = parseFloat($('.total-amount-input').val());
+    <script>
+        $(document).ready(function() {
+            // When any radio button is clicked
+            $('input[name="delivery_cost"]').on('click', function() {
+                // Get the checked value
+                // Get the checked value and total amount
+                var checkedValue = parseFloat($('input[name="delivery_cost"]:checked').val());
 
-        // Calculate the sum
-        var sum = totalAmount + checkedValue;
-        $('.total-amount').text(sum)
-        // Log the results
-        console.log('Total Amount:', totalAmount);
-        console.log('Checked Value:', checkedValue);
-        console.log('Sum:', sum);
-            // You can also perform any other actions here
+                var totalAmount = parseFloat($('.total-amount-input').val());
+
+                // Calculate the sum
+                var sum = totalAmount + checkedValue;
+                $('.total-amount').text(sum)
+                // Log the results
+                console.log('Total Amount:', totalAmount);
+                console.log('Checked Value:', checkedValue);
+                console.log('Sum:', sum);
+                // You can also perform any other actions here
+            });
         });
-    });
-        </script>
+    </script>
 
 </body>
 

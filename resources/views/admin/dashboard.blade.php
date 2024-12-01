@@ -79,13 +79,14 @@
                             <th>Action</th>
                         </tr>
                         @forelse($orders as $info)
+
                             <tr>
                                 <td>{{$loop->iteration}}</td>
                                 <td>{{$info->customer->customer_name}}</td>
                                 <td>{{$info->customer->customer_phone}}</td>
                                 <td>{{$info->customer->customer_address}}</td>
                                 <td>{{Carbon\Carbon::parse($info->created_at)->format('d M y')}}</td>
-                                <td>{{ $info->orders->sum('total') }}</td>
+                                <td>{{ $info->payable_amount != null ? $info->payable_amount + $info->shipping_cost : $info->orders->sum('total') + $info->shipping_cost }}</td>
                                 <td>{{ $info->orders->sum('qty') }}</td>
                                 <td> <span class="badge bg-primary">Pending</span> </td>
                                 <td>

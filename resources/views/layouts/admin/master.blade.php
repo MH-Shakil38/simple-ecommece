@@ -520,6 +520,13 @@
                     </li>
 
                     <li class="nav-item">
+                        <a href="{{route('offers.index')}}" class="nav-link">
+                            <i class="nav-icon fas fa-copy"></i>
+                            <p>Offer's</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="{{route('about-us.index')}}" class="nav-link">
                             <i class="nav-icon fas fa-copy"></i>
                             <p>About Us</p>

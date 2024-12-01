@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\OfferController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\WebsiteController;
@@ -71,6 +72,7 @@ Route::resource('return-policy',\App\Http\Controllers\ReturnPolicyController::cl
 Route::resource('about-us',\App\Http\Controllers\AboutUsController::class);
 Route::resource('blog-categories',\App\Http\Controllers\BlogCategoryController::class);
 Route::resource('blogs',\App\Http\Controllers\BlogController::class);
+Route::resource('offers',OfferController::class);
 
 /*Order Route*/
 Route::get('pending-order',[\App\Http\Controllers\OrderController::class,'pending_order'])->name('pending.order');

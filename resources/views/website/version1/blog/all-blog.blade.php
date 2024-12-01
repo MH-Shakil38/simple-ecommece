@@ -1679,7 +1679,7 @@
             },
             "debug": "",
             "siteUrl": "https:\/\/chuijhal.com",
-            "ajaxUrl": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
+            #
             "ajax_event": "b09ca697b1",
             "enable_remove_download_url_param": "1",
             "cookie_duration": "7",
@@ -2262,7 +2262,7 @@
                 "lifetime": 1.0e-5,
                 "session": 30,
                 "base64": false,
-                "ajaxurl": "https:\/\/chuijhal.com\/wp-admin\/admin-ajax.php",
+                #
                 "prefix": "wc_order_attribution_",
                 "allowTracking": true
             },

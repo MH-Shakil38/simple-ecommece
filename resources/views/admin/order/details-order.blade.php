@@ -43,12 +43,22 @@
                             @empty
                             @endforelse
                             <tr>
+                                <td colspan="6" class="text-right">Sub Total:</td>
+                                <td class="">{{ $order->net_total }}</td>
+                            </tr>
+                            <tr>
                                 <td colspan="6" class="text-right">Shipping Cost:</td>
                                 <td class="">{{ $order->delivery_cost }}</td>
                             </tr>
+
+                            <tr>
+                                <td colspan="6" class="text-right">Offer:</td>
+                                <td class="">{{ $order->offer_amount }}</td>
+                            </tr>
+
                             <tr>
                                 <td colspan="6" class="text-right">Total:</td>
-                                <td class="">{{ $order->orders->sum('total') + $order->delivery_cost ?? 0 }}</td>
+                                <td class="">{{ $order->payable_amount != null ? $order->payable_amount + $order->shipping_cost : $order->orders->sum('total') + $order->shipping_cost }}</td>
                             </tr>
 
                         </table>
