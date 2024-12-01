@@ -1905,7 +1905,7 @@
                                                                                             ) {
                                                                                                 if (
                                                                                                     $offer->offer_type ==
-                                                                                                    1
+                                                                                                    3
                                                                                                 ) {
                                                                                                     $discount = discount_calculate(
                                                                                                         $net_total,
