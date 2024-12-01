@@ -1649,24 +1649,24 @@
                             <h1>চেকআউট</h1>
                         </div>
                     </div>
+                    @if (session('cart'))
+                        <div class="wrap" id="pageHeight">
+                            <div class="container">
 
-                    <div class="wrap" id="pageHeight">
-                        <div class="container">
-
-                            <div id="post-557" class="post-557 page type-page status-publish hentry">
-                                <div id="vc_row_1" class="ep-section background_cover row_section  section ">
-                                    <div class="section-container">
-                                        <div class="clearfix"></div>
-                                        <div class="section-content-container" style="padding-bottom:100px;">
-                                            <div class="container">
-                                                <div
-                                                    class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
-                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                        <div class="  vc_column-inner ">
-                                                            <div class="wpb_wrapper">
-                                                                <div class="woocommerce">
-                                                                    {{-- <div class="woocommerce-notices-wrapper"></div> --}}
-                                                                    {{-- <div class="woocommerce-form-coupon-toggle">
+                                <div id="post-557" class="post-557 page type-page status-publish hentry">
+                                    <div id="vc_row_1" class="ep-section background_cover row_section  section ">
+                                        <div class="section-container">
+                                            <div class="clearfix"></div>
+                                            <div class="section-content-container" style="padding-bottom:100px;">
+                                                <div class="container">
+                                                    <div
+                                                        class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
+                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                            <div class="  vc_column-inner ">
+                                                                <div class="wpb_wrapper">
+                                                                    <div class="woocommerce">
+                                                                        {{-- <div class="woocommerce-notices-wrapper"></div> --}}
+                                                                        {{-- <div class="woocommerce-form-coupon-toggle">
                                                                         <div class="woocommerce-info">
                                                                             Have a coupon? <a href="#"
                                                                                 class="showcoupon">Click here to enter
@@ -1693,358 +1693,403 @@
                                                                         </p>
                                                                         <div class="clear"></div>
                                                                     </form> --}}
-                                                                    <div class="woocommerce-notices-wrapper"></div>
-                                                                    <form name="checkout" method="post"
-                                                                        class="checkout woocommerce-checkout"
-                                                                        action="{{ route('place.order') }}"
-                                                                        enctype="multipart/form-data">
-                                                                        @csrf
-                                                                        <div class="span8" id="customer_details">
-                                                                            <wc-order-attribution-inputs></wc-order-attribution-inputs>
-                                                                            <div class="woocommerce-billing-fields">
-                                                                                <div class="row">
-                                                                                    <div class="span4">
-                                                                                        <h3>বিলিং এবং শিপিং</h3>
+                                                                        <div class="woocommerce-notices-wrapper"></div>
+                                                                        <form name="checkout" method="post"
+                                                                            class="checkout woocommerce-checkout"
+                                                                            action="{{ route('place.order') }}"
+                                                                            enctype="multipart/form-data">
+                                                                            @csrf
+                                                                            <div class="span8" id="customer_details">
+                                                                                <wc-order-attribution-inputs></wc-order-attribution-inputs>
+                                                                                <div
+                                                                                    class="woocommerce-billing-fields">
+                                                                                    <div class="row">
+                                                                                        <div class="span4">
+                                                                                            <h3>বিলিং এবং শিপিং</h3>
+                                                                                        </div>
+                                                                                        <div class="span8">
+                                                                                            <div
+                                                                                                class="woocommerce-billing-fields__field-wrapper">
+                                                                                                <p class="form-row form-row-first thwcfd-required thwcfd-field-wrapper thwcfd-field-text validate-required"
+                                                                                                    id="billing_first_name_field"
+                                                                                                    data-priority="10">
+                                                                                                    <label
+                                                                                                        for="billing_first_name"
+                                                                                                        class>আপনার
+                                                                                                        পূর্ণ
+                                                                                                        নাম &nbsp;<abbr
+                                                                                                            class="required"
+                                                                                                            title="required">*</abbr></label><span
+                                                                                                        class="woocommerce-input-wrapper"><input
+                                                                                                            type="text"
+                                                                                                            class="input-text "
+                                                                                                            name="customer_name"
+                                                                                                            id="billing_first_name"
+                                                                                                            placeholder="নাম লিখুন"
+                                                                                                            value
+                                                                                                            autocomplete="given-name" /></span>
+                                                                                                </p>
+                                                                                                <p class="form-row form-row-wide address-field update_totals_on_change thwcfd-required thwcfd-field-wrapper thwcfd-field-country validate-required"
+                                                                                                    id="billing_country_field"
+                                                                                                    data-priority="30">
+                                                                                                    <label
+                                                                                                        for="billing_country"
+                                                                                                        class>Country /
+                                                                                                        Region&nbsp;<abbr
+                                                                                                            class="required"
+                                                                                                            title="required">*</abbr></label><span
+                                                                                                        class="woocommerce-input-wrapper"><strong>Bangladesh</strong><input
+                                                                                                            type="hidden"
+                                                                                                            name="billing_country"
+                                                                                                            id="billing_country"
+                                                                                                            value="BD"
+                                                                                                            autocomplete="country"
+                                                                                                            class="country_to_state"
+                                                                                                            readonly="readonly" /></span>
+                                                                                                </p>
+                                                                                                <p class="form-row form-row-wide address-field thwcfd-required thwcfd-field-wrapper thwcfd-field-text validate-required"
+                                                                                                    id="billing_address_1_field"
+                                                                                                    data-priority="40">
+                                                                                                    <label
+                                                                                                        for="billing_address_1"
+                                                                                                        class>আপনার
+                                                                                                        ঠিকানা
+                                                                                                        &nbsp;<abbr
+                                                                                                            class="required"
+                                                                                                            title="required">*</abbr></label><span
+                                                                                                        class="woocommerce-input-wrapper"><input
+                                                                                                            type="text"
+                                                                                                            class="input-text "
+                                                                                                            name="customer_address"
+                                                                                                            id="billing_address_1"
+                                                                                                            placeholder="বাড়ি, রোড, ব্লক, এরিয়া, থানা, জেলা"
+                                                                                                            value
+                                                                                                            autocomplete="address-line1" /></span>
+                                                                                                </p>
+                                                                                                <p class="form-row form-row-wide thwcfd-required thwcfd-field-wrapper thwcfd-field-tel validate-required"
+                                                                                                    id="billing_phone_field"
+                                                                                                    data-priority="80">
+                                                                                                    <label
+                                                                                                        for="billing_phone"
+                                                                                                        class>মোবাইল
+                                                                                                        &nbsp;<abbr
+                                                                                                            class="required"
+                                                                                                            title="required">*</abbr></label><span
+                                                                                                        class="woocommerce-input-wrapper"><input
+                                                                                                            type="tel"
+                                                                                                            class="input-text "
+                                                                                                            name="customer_phone"
+                                                                                                            id="billing_phone"
+                                                                                                            placeholder="আপনার ১১ ডিজিটের মোবাইল নম্বর ইংরেজিতে"
+                                                                                                            value
+                                                                                                            autocomplete="tel" /></span>
+                                                                                                </p>
+                                                                                                <p class="form-row form-row-wide thwcfd-optional thwcfd-field-wrapper thwcfd-field-email validate-email"
+                                                                                                    id="billing_email_field"
+                                                                                                    data-priority="90">
+                                                                                                    <label
+                                                                                                        for="billing_email"
+                                                                                                        class>আপনার
+                                                                                                        ইমেইল
+                                                                                                        এড্রেস
+                                                                                                        &nbsp;<span
+                                                                                                            class="optional">(optional)</span></label><span
+                                                                                                        class="woocommerce-input-wrapper"><input
+                                                                                                            type="email"
+                                                                                                            class="input-text "
+                                                                                                            name="billing_email"
+                                                                                                            id="billing_email"
+                                                                                                            placeholder="আপনার ইমেইল"
+                                                                                                            value
+                                                                                                            autocomplete="email username" /></span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
                                                                                     </div>
-                                                                                    <div class="span8">
-                                                                                        <div
-                                                                                            class="woocommerce-billing-fields__field-wrapper">
-                                                                                            <p class="form-row form-row-first thwcfd-required thwcfd-field-wrapper thwcfd-field-text validate-required"
-                                                                                                id="billing_first_name_field"
+                                                                                </div>
+                                                                                <div
+                                                                                    class="woocommerce-shipping-fields">
+                                                                                    <div class="row">
+                                                                                        <div class="span3">
+                                                                                            <h3>Additional Information
+                                                                                            </h3>
+                                                                                        </div>
+                                                                                        <div class="span8">
+                                                                                            <p class="form-row notes thwcfd-field-wrapper thwcfd-field-textarea"
+                                                                                                id="order_comments_field"
                                                                                                 data-priority="10">
                                                                                                 <label
-                                                                                                    for="billing_first_name"
-                                                                                                    class>আপনার পূর্ণ
-                                                                                                    নাম &nbsp;<abbr
-                                                                                                        class="required"
-                                                                                                        title="required">*</abbr></label><span
-                                                                                                    class="woocommerce-input-wrapper"><input
-                                                                                                        type="text"
-                                                                                                        class="input-text "
-                                                                                                        name="customer_name"
-                                                                                                        id="billing_first_name"
-                                                                                                        placeholder="নাম লিখুন"
-                                                                                                        value
-                                                                                                        autocomplete="given-name" /></span>
-                                                                                            </p>
-                                                                                            <p class="form-row form-row-wide address-field update_totals_on_change thwcfd-required thwcfd-field-wrapper thwcfd-field-country validate-required"
-                                                                                                id="billing_country_field"
-                                                                                                data-priority="30">
-                                                                                                <label
-                                                                                                    for="billing_country"
-                                                                                                    class>Country /
-                                                                                                    Region&nbsp;<abbr
-                                                                                                        class="required"
-                                                                                                        title="required">*</abbr></label><span
-                                                                                                    class="woocommerce-input-wrapper"><strong>Bangladesh</strong><input
-                                                                                                        type="hidden"
-                                                                                                        name="billing_country"
-                                                                                                        id="billing_country"
-                                                                                                        value="BD"
-                                                                                                        autocomplete="country"
-                                                                                                        class="country_to_state"
-                                                                                                        readonly="readonly" /></span>
-                                                                                            </p>
-                                                                                            <p class="form-row form-row-wide address-field thwcfd-required thwcfd-field-wrapper thwcfd-field-text validate-required"
-                                                                                                id="billing_address_1_field"
-                                                                                                data-priority="40">
-                                                                                                <label
-                                                                                                    for="billing_address_1"
-                                                                                                    class>আপনার ঠিকানা
-                                                                                                    &nbsp;<abbr
-                                                                                                        class="required"
-                                                                                                        title="required">*</abbr></label><span
-                                                                                                    class="woocommerce-input-wrapper"><input
-                                                                                                        type="text"
-                                                                                                        class="input-text "
-                                                                                                        name="customer_address"
-                                                                                                        id="billing_address_1"
-                                                                                                        placeholder="বাড়ি, রোড, ব্লক, এরিয়া, থানা, জেলা"
-                                                                                                        value
-                                                                                                        autocomplete="address-line1" /></span>
-                                                                                            </p>
-                                                                                            <p class="form-row form-row-wide thwcfd-required thwcfd-field-wrapper thwcfd-field-tel validate-required"
-                                                                                                id="billing_phone_field"
-                                                                                                data-priority="80">
-                                                                                                <label
-                                                                                                    for="billing_phone"
-                                                                                                    class>মোবাইল
-                                                                                                    &nbsp;<abbr
-                                                                                                        class="required"
-                                                                                                        title="required">*</abbr></label><span
-                                                                                                    class="woocommerce-input-wrapper"><input
-                                                                                                        type="tel"
-                                                                                                        class="input-text "
-                                                                                                        name="customer_phone"
-                                                                                                        id="billing_phone"
-                                                                                                        placeholder="আপনার ১১ ডিজিটের মোবাইল নম্বর ইংরেজিতে"
-                                                                                                        value
-                                                                                                        autocomplete="tel" /></span>
-                                                                                            </p>
-                                                                                            <p class="form-row form-row-wide thwcfd-optional thwcfd-field-wrapper thwcfd-field-email validate-email"
-                                                                                                id="billing_email_field"
-                                                                                                data-priority="90">
-                                                                                                <label
-                                                                                                    for="billing_email"
-                                                                                                    class>আপনার ইমেইল
-                                                                                                    এড্রেস &nbsp;<span
+                                                                                                    for="order_comments"
+                                                                                                    class>অর্ডারের
+                                                                                                    নির্দেশনা
+                                                                                                    &nbsp;<span
                                                                                                         class="optional">(optional)</span></label><span
-                                                                                                    class="woocommerce-input-wrapper"><input
-                                                                                                        type="email"
-                                                                                                        class="input-text "
-                                                                                                        name="billing_email"
-                                                                                                        id="billing_email"
-                                                                                                        placeholder="আপনার ইমেইল"
-                                                                                                        value
-                                                                                                        autocomplete="email username" /></span>
-                                                                                            </p>
+                                                                                                    class="woocommerce-input-wrapper">
+                                                                                                    <textarea name="message" class="input-text " id="order_comments"
+                                                                                                        placeholder="আপনি কম্বো নিজের মনের মত তৈরি করতে কি কি আচার নিতে চান লিখুন" rows="2" cols="5"></textarea>
+                                                                                                </span></p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                            <div class="woocommerce-shipping-fields">
-                                                                                <div class="row">
-                                                                                    <div class="span3">
-                                                                                        <h3>Additional Information</h3>
-                                                                                    </div>
-                                                                                    <div class="span8">
-                                                                                        <p class="form-row notes thwcfd-field-wrapper thwcfd-field-textarea"
-                                                                                            id="order_comments_field"
-                                                                                            data-priority="10"><label
-                                                                                                for="order_comments"
-                                                                                                class>অর্ডারের নির্দেশনা
-                                                                                                &nbsp;<span
-                                                                                                    class="optional">(optional)</span></label><span
-                                                                                                class="woocommerce-input-wrapper">
-                                                                                                <textarea name="message" class="input-text " id="order_comments"
-                                                                                                    placeholder="আপনি কম্বো নিজের মনের মত তৈরি করতে কি কি আচার নিতে চান লিখুন" rows="2" cols="5"></textarea>
-                                                                                            </span></p>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="span4 order-review-container">
-                                                                            <h3 id="order_review_heading">আপনার অর্ডার
-                                                                            </h3>
-                                                                            <div id="order_review"
-                                                                                class="woocommerce-checkout-review-order">
-                                                                                <table
-                                                                                    class="shop_table woocommerce-checkout-review-order-table">
-                                                                                    <thead>
-                                                                                        <tr>
-                                                                                            <th class="product-name">
-                                                                                                Product</th>
-                                                                                            <th class="product-total">
-                                                                                                Subtotal</th>
-                                                                                        </tr>
-                                                                                    </thead>
-                                                                                    <tbody>
-                                                                                        @php
-                                                                                            $carts = session()->get(
-                                                                                                'cart',
-                                                                                            );
-                                                                                        @endphp
-
-                                                                                        @forelse ($carts ?? [] as $info)
-                                                                                            <tr class="cart_item">
-                                                                                                <td
+                                                                            <div class="span4 order-review-container">
+                                                                                <h3 id="order_review_heading">আপনার
+                                                                                    অর্ডার
+                                                                                </h3>
+                                                                                <div id="order_review"
+                                                                                    class="woocommerce-checkout-review-order">
+                                                                                    <table
+                                                                                        class="shop_table woocommerce-checkout-review-order-table">
+                                                                                        <thead>
+                                                                                            <tr>
+                                                                                                <th
                                                                                                     class="product-name">
-                                                                                                    {{ $info['name'] }}
-                                                                                                    ({{ $info['size'] ?? '' }})
-                                                                                                    (
-                                                                                                    {{ $info['qty'] }}&nbsp;
-                                                                                                    <strong
-                                                                                                        class="product-quantity">&times;&nbsp;৳{{ $info['price'] }}</strong>)
-                                                                                                </td>
-                                                                                                <td
+                                                                                                    Product</th>
+                                                                                                <th
                                                                                                     class="product-total">
-                                                                                                    <span
-                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $info['price'] * $info['qty'] }}</bdi></span>
-                                                                                                </td>
+                                                                                                    Subtotal</th>
                                                                                             </tr>
+                                                                                        </thead>
+                                                                                        <tbody>
+                                                                                            @php
+                                                                                                $carts = session()->get(
+                                                                                                    'cart',
+                                                                                                );
+                                                                                            @endphp
 
-                                                                                        @empty
-                                                                                        @endforelse
+                                                                                            @forelse ($carts ?? [] as $info)
+                                                                                                <tr class="cart_item">
+                                                                                                    <td
+                                                                                                        class="product-name">
+                                                                                                        {{ $info['name'] }}
+                                                                                                        ({{ $info['size'] ?? '' }})
+                                                                                                        (
+                                                                                                        {{ $info['qty'] }}&nbsp;
+                                                                                                        <strong
+                                                                                                            class="product-quantity">&times;&nbsp;৳{{ $info['price'] }}</strong>)
+                                                                                                    </td>
+                                                                                                    <td
+                                                                                                        class="product-total">
+                                                                                                        <span
+                                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                    class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>{{ $info['price'] * $info['qty'] }}</bdi></span>
+                                                                                                    </td>
+                                                                                                </tr>
 
-                                                                                    </tbody>
-                                                                                    @php
-                                                                                        $offer = offers() ?? null;
-                                                                                        if (session('cart')) {
-                                                                                            $net_total = 0;
+                                                                                            @empty
+                                                                                            @endforelse
 
-                                                                                            foreach (
-                                                                                                session('cart')
-                                                                                                as $id => $details
-                                                                                            ) {
-                                                                                                $net_total =
-                                                                                                    $net_total +
-                                                                                                    $details['qty'] *
+                                                                                        </tbody>
+                                                                                        @php
+                                                                                            $offer = offers() ?? null;
+                                                                                            if (session('cart')) {
+                                                                                                $net_total = 0;
+
+                                                                                                foreach (
+                                                                                                    session('cart')
+                                                                                                    as $id => $details
+                                                                                                ) {
+                                                                                                    $net_total =
+                                                                                                        $net_total +
                                                                                                         $details[
-                                                                                                            'price'
-                                                                                                        ];
+                                                                                                            'qty'
+                                                                                                        ] *
+                                                                                                            $details[
+                                                                                                                'price'
+                                                                                                            ];
+                                                                                                }
                                                                                             }
-                                                                                        }
-                                                                                        if ($offer != null) {
-                                                                                            if ($offer->offer_type == 1) {
-                                                                                                $discount = discount_calculate( $net_total, $offer->total_discount, );
-                                                                                                $offer_amount = $net_total - $discount;
-                                                                                            } elseif ( $offer->offer_type == 2 ) {
-                                                                                                $discount = $net_total -  $offer->total_discount;
-                                                                                                $offer_amount = $offer->total_discount;
-                                                                                            } else {
-                                                                                                $offer_amount = 0;
+                                                                                            if (
+                                                                                                $offer != null &&
+                                                                                                session('cart')
+                                                                                            ) {
+                                                                                                if (
+                                                                                                    $offer->offer_type ==
+                                                                                                    1
+                                                                                                ) {
+                                                                                                    $discount = discount_calculate(
+                                                                                                        $net_total,
+                                                                                                        $offer->total_discount,
+                                                                                                    );
+                                                                                                    $offer_amount =
+                                                                                                        $net_total -
+                                                                                                        $discount;
+                                                                                                } elseif (
+                                                                                                    $offer->offer_type ==
+                                                                                                    2
+                                                                                                ) {
+                                                                                                    $discount =
+                                                                                                        $net_total -
+                                                                                                        $offer->total_discount;
+                                                                                                    $offer_amount =
+                                                                                                        $offer->total_discount;
+                                                                                                } else {
+                                                                                                    $offer_amount = 0;
+                                                                                                }
                                                                                             }
-                                                                                        }
-                                                                                    @endphp
-                                                                                    {{-- {{ $offer->total_discount }} --}}
-                                                                                    @if (offers() != null && $net_total > $offer->min_price)
-                                                                                        <input type="hidden"
-                                                                                            name="offer_type"
-                                                                                            value=" {{ $offer->offer_type }}">
-                                                                                        <input type="hidden"
-                                                                                            name="offer_amount"
-                                                                                            value=" {{ $offer_amount }}">
-                                                                                        <input type="hidden"
-                                                                                            name="net_total"
-                                                                                            value=" {{ $net_total }}">
-                                                                                        <input type="hidden"
-                                                                                            name="payable_amount"
-                                                                                            value=" {{ $net_total - $offer_amount }}">
-                                                                                        @if ($offer->offer_type == 1)
-                                                                                            <tr class="cart-subtotal">
-                                                                                                <th>Offer</th>
-                                                                                                <td><span
-                                                                                                        style="color: red !important"
-                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                style="color: green !important"
-                                                                                                                class="woocommerce-Price-currencySymbol"></span>
-                                                                                                            Free
-                                                                                                            Delivery
-                                                                                                        </bdi></span>
-                                                                                                </td>
-                                                                                            </tr>
-
-                                                                                            <tr class="cart-subtotal">
-                                                                                                <th>Subtotal</th>
-                                                                                                <td><span
-                                                                                                        class="woocommerce-Price-amount amount"><bdi><span
-                                                                                                                class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>
-                                                                                                            <input
-                                                                                                                type="hidden"
-                                                                                                                name="payable_amount"
-                                                                                                                class="total-amount-input"
-                                                                                                                value="{{ $net_total }}">
-                                                                                                            {{ $net_total }}
-
-                                                                                                        </bdi></span>
-                                                                                                </td>
-                                                                                            </tr>
-
-                                                                                            <tr class="order-total">
-                                                                                                <th>Total</th>
-                                                                                                <td><strong>৳<span
-                                                                                                            class="woocommerce-Price-amount"><bdi><span
+                                                                                        @endphp
+                                                                                        {{-- {{ $offer->total_discount }} --}}
+                                                                                        @if (offers() != null && $net_total > $offer->min_price && session('cart') != null)
+                                                                                            <input type="hidden"
+                                                                                                name="offer_type"
+                                                                                                value=" {{ $offer->offer_type }}">
+                                                                                            <input type="hidden"
+                                                                                                name="offer_amount"
+                                                                                                value=" {{ $offer_amount }}">
+                                                                                            <input type="hidden"
+                                                                                                name="net_total"
+                                                                                                value=" {{ $net_total }}">
+                                                                                            <input type="hidden"
+                                                                                                name="payable_amount"
+                                                                                                value=" {{ $net_total - $offer_amount }}">
+                                                                                            @if ($offer->offer_type == 1)
+                                                                                                <tr
+                                                                                                    class="cart-subtotal">
+                                                                                                    <th>Offer</th>
+                                                                                                    <td><span
+                                                                                                            style="color: red !important"
+                                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                    style="color: green !important"
                                                                                                                     class="woocommerce-Price-currencySymbol"></span>
-                                                                                                                @if (session('cart'))
-                                                                                                                    <span
-                                                                                                                        class="total-amount">
-                                                                                                                        {{ $net_total }}</span>
-                                                                                                                    <input
-                                                                                                                        type="hidden"
-                                                                                                                        class="total-amount-input"
-                                                                                                                        value="{{ $net_total }}">
-                                                                                                                @endif
-                                                                                                            </bdi></span></strong>
-                                                                                                </td>
-                                                                                            </tr>
+                                                                                                                Free
+                                                                                                                Delivery
+                                                                                                            </bdi></span>
+                                                                                                    </td>
+                                                                                                </tr>
+
+                                                                                                <tr
+                                                                                                    class="cart-subtotal">
+                                                                                                    <th>Subtotal</th>
+                                                                                                    <td><span
+                                                                                                            class="woocommerce-Price-amount amount"><bdi><span
+                                                                                                                    class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>
+                                                                                                                <input
+                                                                                                                    type="hidden"
+                                                                                                                    name="payable_amount"
+                                                                                                                    class="total-amount-input"
+                                                                                                                    value="{{ $net_total }}">
+                                                                                                                {{ $net_total }}
+
+                                                                                                            </bdi></span>
+                                                                                                    </td>
+                                                                                                </tr>
+
+                                                                                                <tr
+                                                                                                    class="order-total">
+                                                                                                    <th>Total</th>
+                                                                                                    <td><strong>৳<span
+                                                                                                                class="woocommerce-Price-amount"><bdi><span
+                                                                                                                        class="woocommerce-Price-currencySymbol"></span>
+                                                                                                                    @if (session('cart'))
+                                                                                                                        <span
+                                                                                                                            class="total-amount">
+                                                                                                                            {{ $net_total }}</span>
+                                                                                                                        <input
+                                                                                                                            type="hidden"
+                                                                                                                            class="total-amount-input"
+                                                                                                                            value="{{ $net_total }}">
+                                                                                                                    @endif
+                                                                                                                </bdi></span></strong>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            @else
+                                                                                                @include(
+                                                                                                    'website.version1.offer.offer',
+                                                                                                    [
+                                                                                                        'offer' => $offer,
+                                                                                                        'discount_amount' => $discount,
+                                                                                                        'net_total' => $net_total,
+                                                                                                    ]
+                                                                                                )
+                                                                                            @endif
                                                                                         @else
                                                                                             @include(
-                                                                                                'website.version1.offer.offer',
+                                                                                                'website.version1.offer.non-offer',
                                                                                                 [
                                                                                                     'offer' => $offer,
-                                                                                                    'discount_amount' => $discount,
-                                                                                                    'net_total' => $net_total,
                                                                                                 ]
                                                                                             )
+
                                                                                         @endif
-                                                                                    @else
-                                                                                        @include(
-                                                                                            'website.version1.offer.non-offer',
-                                                                                            ['offer' => $offer]
-                                                                                        )
+                                                                                    </table>
+                                                                                    <div id="payment"
+                                                                                        class="woocommerce-checkout-payment">
+                                                                                        <ul
+                                                                                            class="wc_payment_methods payment_methods methods">
+                                                                                            <li
+                                                                                                class="wc_payment_method payment_method_cod">
+                                                                                                <input
+                                                                                                    id="payment_method_cod"
+                                                                                                    type="radio"
+                                                                                                    class="input-radio"
+                                                                                                    name="payment_method"
+                                                                                                    value="cod"
+                                                                                                    checked="checked"
+                                                                                                    data-order_button_text />
+                                                                                                <label
+                                                                                                    for="payment_method_cod">
+                                                                                                    Cash on delivery
+                                                                                                </label>
+                                                                                                <div
+                                                                                                    class="payment_box payment_method_cod">
+                                                                                                    <p>Pay with cash
+                                                                                                        upon
+                                                                                                        delivery.</p>
+                                                                                                </div>
+                                                                                            </li>
 
-                                                                                    @endif
-                                                                                </table>
-                                                                                <div id="payment"
-                                                                                    class="woocommerce-checkout-payment">
-                                                                                    <ul
-                                                                                        class="wc_payment_methods payment_methods methods">
-                                                                                        <li
-                                                                                            class="wc_payment_method payment_method_cod">
-                                                                                            <input
-                                                                                                id="payment_method_cod"
-                                                                                                type="radio"
-                                                                                                class="input-radio"
-                                                                                                name="payment_method"
-                                                                                                value="cod"
-                                                                                                checked="checked"
-                                                                                                data-order_button_text />
-                                                                                            <label
-                                                                                                for="payment_method_cod">
-                                                                                                Cash on delivery
-                                                                                            </label>
-                                                                                            <div
-                                                                                                class="payment_box payment_method_cod">
-                                                                                                <p>Pay with cash upon
-                                                                                                    delivery.</p>
-                                                                                            </div>
-                                                                                        </li>
-
-                                                                                    </ul>
-                                                                                    <div class="form-row place-order">
-                                                                                        <noscript>
-                                                                                            Since your browser does not
-                                                                                            support JavaScript, or it is
-                                                                                            disabled, please ensure you
-                                                                                            click the <em>Update
-                                                                                                Totals</em> button
-                                                                                            before placing your order.
-                                                                                            You may be charged more than
-                                                                                            the amount stated above if
-                                                                                            you fail to do so.
-                                                                                            <br /><button
-                                                                                                type="submit"
-                                                                                                class="button alt"
-                                                                                                name="woocommerce_checkout_update_totals"
-                                                                                                value="Update totals">Update
-                                                                                                totals</button>
-                                                                                        </noscript>
+                                                                                        </ul>
                                                                                         <div
-                                                                                            class="woocommerce-terms-and-conditions-wrapper">
+                                                                                            class="form-row place-order">
+                                                                                            <noscript>
+                                                                                                Since your browser does
+                                                                                                not
+                                                                                                support JavaScript, or
+                                                                                                it is
+                                                                                                disabled, please ensure
+                                                                                                you
+                                                                                                click the <em>Update
+                                                                                                    Totals</em> button
+                                                                                                before placing your
+                                                                                                order.
+                                                                                                You may be charged more
+                                                                                                than
+                                                                                                the amount stated above
+                                                                                                if
+                                                                                                you fail to do so.
+                                                                                                <br /><button
+                                                                                                    type="submit"
+                                                                                                    class="button alt"
+                                                                                                    name="woocommerce_checkout_update_totals"
+                                                                                                    value="Update totals">Update
+                                                                                                    totals</button>
+                                                                                            </noscript>
                                                                                             <div
-                                                                                                class="woocommerce-privacy-policy-text">
+                                                                                                class="woocommerce-terms-and-conditions-wrapper">
+                                                                                                <div
+                                                                                                    class="woocommerce-privacy-policy-text">
+                                                                                                </div>
                                                                                             </div>
+                                                                                            <button type="submit"
+                                                                                                class="button alt"
+                                                                                                name="woocommerce_checkout_place_order"
+                                                                                                id="place_order"
+                                                                                                value="Place order"
+                                                                                                data-value="Place order">Place
+                                                                                                order</button>
+                                                                                            <input type="hidden"
+                                                                                                id="woocommerce-process-checkout-nonce"
+                                                                                                name="woocommerce-process-checkout-nonce"
+                                                                                                value="1e5f3ce801" /><input
+                                                                                                type="hidden"
+                                                                                                name="_wp_http_referer"
+                                                                                                value="/checkout/" />
                                                                                         </div>
-                                                                                        <button type="submit"
-                                                                                            class="button alt"
-                                                                                            name="woocommerce_checkout_place_order"
-                                                                                            id="place_order"
-                                                                                            value="Place order"
-                                                                                            data-value="Place order">Place
-                                                                                            order</button>
-                                                                                        <input type="hidden"
-                                                                                            id="woocommerce-process-checkout-nonce"
-                                                                                            name="woocommerce-process-checkout-nonce"
-                                                                                            value="1e5f3ce801" /><input
-                                                                                            type="hidden"
-                                                                                            name="_wp_http_referer"
-                                                                                            value="/checkout/" />
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                    </form>
+                                                                        </form>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2056,7 +2101,41 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    @else
+                        <div class="container">
+                            <div class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="  vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="woocommerce">
+                                                <div class="container cartEmpty clearfix">
+                                                    <!-- widgetized Area -->
+                                                    <div class="wpb_row vc_row-fluid">
+                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                            <div class="vc_column-inner">
+
+                                                                <div class="woocommerce-notices-wrapper"></div>
+                                                                <div class="wc-empty-cart-message">
+                                                                    <div class="cart-empty woocommerce-info">
+                                                                        Your cart is currently empty. </div>
+                                                                </div>
+                                                                <p class="return-to-shop"><a
+                                                                        class="button wc-backward"
+                                                                        href="{{ url('/') }}">Return to Shop</a>
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endif
+
 
                 </div>
             </div>
