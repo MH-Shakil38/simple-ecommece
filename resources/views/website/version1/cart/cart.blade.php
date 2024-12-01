@@ -237,12 +237,13 @@
                                                                                 $net_total = $net_total + $details['qty'] * $details['price'];
                                                                             }
                                                                         }
-
+                                                                        if ( $offer != null && $net_total >  $offer->min_price){
                                                                         if (isset($offer) && $offer->offer_type == 2) {
                                                                             $discount = $net_total - $offer->total_discount;
                                                                         } else {
                                                                             $discount = discount_calculate($net_total, $offer->total_discount);
                                                                         }
+                                                                    }
                                                                     @endphp
                                                                          @if ( $offer != null && $net_total >  $offer->min_price)
                                                                          @include('website.version1.cart.offer',[
