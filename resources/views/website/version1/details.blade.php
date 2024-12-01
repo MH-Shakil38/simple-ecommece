@@ -32,7 +32,14 @@
 
     @include('website.version1.css.details-header-script')
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCYQQHDQNT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-KCYQQHDQNT');
+    </script>   
     {{-- <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" /> --}}
     <script>
         !function(f,b,e,v,n,t,s)

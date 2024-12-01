@@ -1515,3 +1515,13 @@
 
 <script type="application/ld+json" class="saswp-schema-markup-output">
 </script>
+<meta name="google-site-verification" content="SO01paSHN5OQZZIINywVUhf2NhWUNVs6K7f9ptngpt0" />
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KCYQQHDQNT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KCYQQHDQNT');
+</script>
