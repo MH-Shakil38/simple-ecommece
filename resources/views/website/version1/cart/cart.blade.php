@@ -98,6 +98,7 @@
 
 
                         <!-- custom section  -->
+                        @if (session('cart'))
                         <div id="post-554" class="post-554 page type-page status-publish hentry">
                             <div id="vc_row_1" class="ep-section background_cover row_section  section ">
                                 <div class="section-container">
@@ -276,10 +277,40 @@
                                 </div>
                             </div>
                         </div>
+                        @else
+                        <div class="container">
+                            <div class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="  vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="woocommerce">
+                                                <div class="container cartEmpty clearfix">
+                                                    <!-- widgetized Area -->
+                                                    <div class="wpb_row vc_row-fluid">
+                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                            <div class="vc_column-inner">
 
+                                                                <div class="woocommerce-notices-wrapper"></div>
+                                                                <div class="wc-empty-cart-message">
+                                                                    <div class="cart-empty woocommerce-info">
+                                                                        Your cart is currently empty. </div>
+                                                                </div>
+                                                                <p class="return-to-shop"><a
+                                                                        class="button wc-backward"
+                                                                        href="{{ url('/') }}">Return to Shop</a>
+                                                                </p>
 
-
-
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @endif
                     </div>
 
                     <!-- Page Content End -->
