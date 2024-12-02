@@ -1517,6 +1517,9 @@
 </script>
 <meta name="google-site-verification" content="SO01paSHN5OQZZIINywVUhf2NhWUNVs6K7f9ptngpt0" />
 <!-- Google Analytics -->
+<meta name="google-site-verification" content="GsCwMwPQZfUHc_SXFjPI5mA0R9Ng7-Jur0VD62cu2nU">
+<meta name="google-site-verification" content="{{ $googleSiteVerification ?? '' }}">
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCYQQHDQNT"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

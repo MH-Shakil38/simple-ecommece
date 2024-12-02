@@ -31,6 +31,9 @@
     <meta name="twitter:data1" content="1 minute" />
 
     @include('website.version1.css.details-header-script')
+    <meta name="google-site-verification" content="{{ $googleSiteVerification ?? '' }}">
+
+    <meta name="google-site-verification" content="GsCwMwPQZfUHc_SXFjPI5mA0R9Ng7-Jur0VD62cu2nU">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCYQQHDQNT"></script>
     <script>
@@ -39,7 +42,7 @@
       gtag('js', new Date());
 
       gtag('config', 'G-KCYQQHDQNT');
-    </script>   
+    </script>
     {{-- <meta name="facebook-domain-verification" content="r2a6d7bfatqpc6bo6j8w3pwh96ozkb" /> --}}
     <script>
         !function(f,b,e,v,n,t,s)
