@@ -1687,48 +1687,8 @@
                     </style>
                     <div class="wrap" id="pageHeight">
                         <div id="post-16264" class="post-16264 page type-page status-publish hentry">
-                            <div id="vc_row_1" class="ep-section parallax sectionOverlay section   texture1"
-                                data-speed="25" style=" min-height:400px;">
-                                <div class="section-container">
-                                    <div class="parallax-img"
-                                        style=" background-image:url(''); background-position:center top;"></div>
-                                    <div class="section-content-container">
-                                        <div class="container">
-                                            <div
-                                                class="wpb_row vc_row-fluid parallax_content  vc_row vc_column-gap vc_column-gap-30">
-                                                <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                    <div
-                                                        class="  col_custom_classes vc_column-inner vc_custom_1460550359379">
-                                                        <div class="wpb_wrapper">
-                                                            <div id="vc_empty_space_1" class="vc_empty_space"
-                                                                style="height: 50px"><span
-                                                                    class="vc_empty_space_inner"></span></div>
-                                                            <style type="text/css" media="all"></style>
-                                                            <div id="textbox_1"
-                                                                class="textBox    nosubtitle    fontSize60 textBoxleft textBoxUnderleft textBoxNoStyle shortcodeAnimation no-responsive-animation"
-                                                                data-delay="200" data-animation="fade-in">
-                                                                <div class="clearfix">
-                                                                    <div class="title clearfix"
-                                                                        style="color:#000000;">
-                                                                        Terms and Conditions</div>
-                                                                </div>
-                                                            </div>
-                                                            <div id="vc_empty_space_2" class="vc_empty_space"
-                                                                style="height: 32px"><span
-                                                                    class="vc_empty_space_inner"></span></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                    <div class="  vc_column-inner ">
-                                                        <div class="wpb_wrapper"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                           <br>
+                           <br>
                             <div id="vc_row_2" class="ep-section background_cover row_section  section ">
                                 <div class="section-container">
                                     <div class="clearfix"></div>
@@ -2269,7 +2229,7 @@
                                                                         directed to our support staff by emailing us at:
                                                                         <a href="/cdn-cgi/l/email-protection"
                                                                             class="__cf_email__"
-                                                                            data-cfemail="8cede8e1e5e2ccefe4f9e5e6e4ede0a2efe3e1">[email&#160;protected]</a>.
+                                                                            data-cfemail="8cede8e1e5e2ccefe4f9e5e6e4ede0a2efe3e1">{{ setting()->email ?? '' }}</a>.
                                                                     </p>
                                                                 </div>
                                                             </div>
@@ -2289,6 +2249,7 @@
                 </div>
             </div>
         </div>
+        @include('website.version1.layouts.include.update-footer')
         @include('website.version1.layouts.include.footer')
     </div>
     <div id="ep_wc_notices">

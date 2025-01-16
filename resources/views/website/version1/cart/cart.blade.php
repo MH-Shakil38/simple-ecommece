@@ -323,6 +323,7 @@
         </div>
 
         @include('website.version1.componant.order-confirm-btn')
+        @include('website.version1.layouts.include.update-footer')
         @include('website.version1.layouts.include.footer')
         <!-- end of wrap element -->
 

@@ -2140,6 +2140,7 @@
                 </div>
             </div>
         </div>
+        @include('website.version1.layouts.include.update-footer')
         @include('website.version1.layouts.include.footer')
 
 
