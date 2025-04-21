@@ -12,7 +12,6 @@
 <meta property="og:description" content="Exotic Taste House Agro " />
 <meta property="og:url" content="{{ route('/') }}" />
 <meta property="og:site_name" content="আচার" />
-<meta property="article:publisher" content="https://www.facebook.com/agrobdhouse" />
 <meta property="article:modified_time" content="2024-05-09T09:10:58+00:00" />
 <meta property="og:image" content="{{ asset(setting()->logo) }}" />
 <meta property="og:image:width" content="1081" />
