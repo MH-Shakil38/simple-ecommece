@@ -1528,3 +1528,4 @@
 
   gtag('config', 'G-KCYQQHDQNT');
 </script>
+@include('website.version1.seo.google-code')
