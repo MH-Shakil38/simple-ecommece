@@ -14,7 +14,6 @@
     <meta property="og:title" content="চেকআউট - আচার" />
     <meta property="og:url" content="https://chuijhal.com/checkout/" />
     <meta property="og:site_name" content="আচার" />
-    <meta property="article:publisher" content="https://www.facebook.com/chuijhal.cooking/" />
     <meta property="article:modified_time" content="2019-02-28T07:58:49+00:00" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@chuijhal" />
@@ -1371,6 +1370,7 @@
     </style>
 
     @include('website.version1.layouts.include.header-script')
+    @include('website.version1.seo.google-code')
 </head>
 
 <body data-rsssl="1"
@@ -2279,12 +2279,6 @@
             }
         }
     </script>
-    <script type="text/html" id="wpb-modifications"></script><noscript><img height="1" width="1" style="display: none;"
-            src="https://www.facebook.com/tr?id=427272935467605&ev=InitiateCheckout&noscript=1&cd%5Bcontent_type%5D=product&cd%5Bcontent_ids%5D=%5B%2232614%22%2C%2233077%22%2C%2236170%22%2C%2215026%22%2C%2225254%22%5D&cd%5Bcontent_name%5D=Pickle+Combo+Offer+01%2C+Combo+%E0%A7%A9+%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%B0+%E0%A7%A9+%E0%A6%9F%E0%A6%BE+%E0%A6%9D%E0%A6%BE%E0%A6%B2+%E0%A6%AE%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A7%87%E0%A6%B0+%E0%A6%85%E0%A6%AB%E0%A6%BE%E0%A6%B0%2C+%E0%A6%9F%E0%A6%95+%E0%A6%9D%E0%A6%BE%E0%A6%B2+%E0%A6%AE%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF+%E0%A6%86%E0%A6%9A%E0%A6%BE%E0%A6%B0++%E0%A6%A4%E0%A7%87%E0%A6%81%E0%A6%A4%E0%A7%81%E0%A6%B2%2C++%E0%A6%B0%E0%A6%B8%E0%A7%81%E0%A6%A8%2C+%E0%A6%86%E0%A6%B2%E0%A7%81%E0%A6%AC%E0%A7%8B%E0%A6%96%E0%A6%BE%E0%A6%B0%E0%A6%BE%2C+Chuijhal+%28%E0%A6%9A%E0%A7%81%E0%A6%87%E0%A6%9D%E0%A6%BE%E0%A6%B2%29+1+%E0%A6%95%E0%A7%87%E0%A6%9C%E0%A6%BF%2C+%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF+%E0%A6%B0%E0%A6%B8%E0%A7%81%E0%A6%A8+%E0%A6%8F%E0%A6%B0+%E0%A6%86%E0%A6%9A%E0%A6%BE%E0%A6%B0++%E0%A7%AA%E0%A7%A8%E0%A7%A6+%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE&cd%5Bcategory_name%5D=%E0%A6%86%E0%A6%9A%E0%A6%BE%E0%A6%B0%2C+%E0%A6%86%E0%A6%9A%E0%A6%BE%E0%A6%B0%2C+%E0%A6%86%E0%A6%9A%E0%A6%BE%E0%A6%B0%2C+%E0%A6%AE%E0%A6%B8%E0%A6%B2%E0%A6%BE%2C+%E0%A6%86%E0%A6%9A%E0%A6%BE%E0%A6%B0&cd%5Bcontents%5D=%5B%7B%22id%22%3A%2232614%22%2C%22quantity%22%3A16%7D%2C%7B%22id%22%3A%2233077%22%2C%22quantity%22%3A1%7D%2C%7B%22id%22%3A%2236170%22%2C%22quantity%22%3A1%7D%2C%7B%22id%22%3A%2215026%22%2C%22quantity%22%3A1%7D%2C%7B%22id%22%3A%2225254%22%2C%22quantity%22%3A1%7D%5D&cd%5Btags%5D=%E0%A6%8F%E0%A6%95+%E0%A6%95%E0%A7%8B%E0%A7%9F%E0%A6%BE+%E0%A6%B0%E0%A6%B8%E0%A7%81%E0%A6%A8&cd%5Bnum_items%5D=20&cd%5Bsubtotal%5D=25990&cd%5Bvalue%5D=25990&cd%5Bcurrency%5D=BDT&cd%5Bpage_title%5D=%E0%A6%9A%E0%A7%87%E0%A6%95%E0%A6%86%E0%A6%89%E0%A6%9F&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=557&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chuijhal.com%2Fcheckout%2F"
-            alt=""></noscript>
-    <noscript><img height="1" width="1" style="display: none;"
-            src="https://www.facebook.com/tr?id=427272935467605&ev=PageView&noscript=1&cd%5Bpage_title%5D=%E0%A6%9A%E0%A7%87%E0%A6%95%E0%A6%86%E0%A6%89%E0%A6%9F&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=557&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=chuijhal.com%2Fcheckout%2F"
-            alt=""></noscript>
     <noscript><img height="1" width="1" style="display: none;"
             src="https://www.google-analytics.com/collect?v=1&tid=G-Q4NWW12SW2&t=event&ec=ecommerce&pr0id=32614&pr0nm=Pickle+Combo+Offer+01&pr0pr=1350&pr0qt=16&pr1id=33077&pr1nm=Combo+%E0%A7%A9+%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%B0+%E0%A7%A9+%E0%A6%9F%E0%A6%BE+%E0%A6%9D%E0%A6%BE%E0%A6%B2+%E0%A6%AE%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A7%87%E0%A6%B0+%E0%A6%85%E0%A6%AB%E0%A6%BE%E0%A6%B0&pr1pr=1350&pr1qt=1&pr2id=36170&pr2nm=%E0%A6%9F%E0%A6%95+%E0%A6%9D%E0%A6%BE%E0%A6%B2+%E0%A6%AE%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF+%E0%A6%86%E0%A6%9A%E0%A6%BE%E0%A6%B0++%E0%A6%A4%E0%A7%87%E0%A6%81%E0%A6%A4%E0%A7%81%E0%A6%B2%2C++%E0%A6%B0%E0%A6%B8%E0%A7%81%E0%A6%A8%2C+%E0%A6%86%E0%A6%B2%E0%A7%81%E0%A6%AC%E0%A7%8B%E0%A6%96%E0%A6%BE%E0%A6%B0%E0%A6%BE&pr2pr=1350&pr2qt=1&pr3id=15026&pr3nm=Chuijhal+%28%E0%A6%9A%E0%A7%81%E0%A6%87%E0%A6%9D%E0%A6%BE%E0%A6%B2%29+1+%E0%A6%95%E0%A7%87%E0%A6%9C%E0%A6%BF&pr3pr=1200&pr3qt=1&pr4id=25254&pr4nm=%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF+%E0%A6%B0%E0%A6%B8%E0%A7%81%E0%A6%A8+%E0%A6%8F%E0%A6%B0+%E0%A6%86%E0%A6%9A%E0%A6%BE%E0%A6%B0++%E0%A7%AA%E0%A7%A8%E0%A7%A6+%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE&pr4pr=490&pr4qt=1&pa=detail"
             alt="google_analytics"></noscript>
