@@ -9,7 +9,7 @@
     @include('website.version1.layouts.include.header-script')
     <!-- Meta Pixel Code -->
 
-
+    @include('website.version1.seo.google-code')
 </head>
 
 <body data-rsssl="1"
